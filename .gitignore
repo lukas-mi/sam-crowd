@@ -1,0 +1,9 @@
+.idea
+__pycache__
+
+config.txt
+.psiturk_history
+server.log
+participants.db
+
+*.pyc
