@@ -4,5 +4,8 @@ __pycache__
 .psiturk_history
 server.log
 participants.db
+eventdata.csv
+questiondata.csv
+trialdata.csv
 
 *.pyc
