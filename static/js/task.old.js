@@ -42,9 +42,9 @@ var instructionPages = [ // add as a list as many pages as you like
 /********************
 * HTML manipulation
 *
-* All HTML files in the templates directory are requested
+* All HTML files in the templates directory are requested 
 * from the server when the PsiTurk object is created above. We
-* need code to get those pages from the PsiTurk object and
+* need code to get those pages from the PsiTurk object and 
 * insert them into the document.
 *
 ********************/
@@ -52,118 +52,111 @@ var instructionPages = [ // add as a list as many pages as you like
 /********************
 * STROOP TEST       *
 ********************/
-const majorClaim = 'MajorClaim';
-const claimFor = 'ClaimFor';
-const claimAgainst = 'ClaimAgainst';
-const premise = 'Premise';
-
-
 var StroopExperiment = function() {
-    // Load the stage.html snippet into the body of the page
+
+	var wordon, // time word is presented
+	    listening = false;
+
+	// Stimuli for a basic Stroop experiment
+	var stims = [
+			["SHIP", "red", "unrelated"],
+			["MONKEY", "green", "unrelated"],
+			["ZAMBONI", "blue", "unrelated"],
+			["RED", "red", "congruent"],
+			["GREEN", "green", "congruent"],
+			["BLUE", "blue", "congruent"],
+			["GREEN", "red", "incongruent"],
+			["BLUE", "green", "incongruent"],
+			["RED", "blue", "incongruent"]
+		];
+
+	stims = _.shuffle(stims);
+
+	var next = function() {
+		if (stims.length===0) {
+			finish();
+		}
+		else {
+			stim = stims.shift();
+			show_word( stim[0], stim[1] );
+			wordon = new Date().getTime();
+			listening = true;
+			d3.select("#query").html('<p id="prompt">Type "R" for Red, "B" for blue, "G" for green.</p>');
+		}
+	};
+	
+	var response_handler = function(e) {
+		if (!listening) return;
+
+		var keyCode = e.keyCode,
+			response;
+
+		switch (keyCode) {
+			case 82:
+				// "R"
+				response="red";
+				break;
+			case 71:
+				// "G"
+				response="green";
+				break;
+			case 66:
+				// "B"
+				response="blue";
+				break;
+			default:
+				response = "";
+				break;
+		}
+		if (response.length>0) {
+			listening = false;
+			var hit = response == stim[1];
+			var rt = new Date().getTime() - wordon;
+
+			psiTurk.recordTrialData({'phase':"TEST",
+                                     'word':stim[0],
+                                     'color':stim[1],
+                                     'relation':stim[2],
+                                     'response':response,
+                                     'hit':hit,
+                                     'rt':rt}
+                                   );
+			remove_word();
+			next();
+		}
+	};
+
+	var finish = function() {
+	    $("body").unbind("keydown", response_handler); // Unbind keys
+	    currentview = new Questionnaire();
+	};
+	
+	var show_word = function(text, color) {
+		d3.select("#stim")
+			.append("div")
+			.attr("id","word")
+			.style("color",color)
+			.style("text-align","center")
+			.style("font-size","150px")
+			.style("font-weight","400")
+			.style("margin","20px")
+			.text(text);
+	};
+
+	var remove_word = function() {
+		d3.select("#word").remove();
+	};
+
+	
+	// Load the stage.html snippet into the body of the page
 	psiTurk.showPage('stage.html');
 
-    // const TestFormatter = function(annotation) {
-    //     const body = annotation.bodies.find(function(b) {
-    //       return b.purpose === 'tagging'
-    //     });
-    //
-    //     let highlightClass = '';
-    //     if (body !== undefined) {
-    //         if (body.value === majorClaim) {
-    //         highlightClass = 'major-claim';
-    //       } else if (body.value === claimFor) {
-    //           highlightClass = 'claim-for';
-    //       } else if (body.value === claimAgainst) {
-    //           highlightClass = 'claim-against';
-    //       } else if (body.value === premise) {
-    //           highlightClass = 'premise';
-    //       }
-    //     }
-    //
-    //     console.log('TestFormatter')
-    //     console.log(annotation)
-    //     // console.log(annotation.bodies)
-    //     // console.log(highlightClass)
-    //     return highlightClass
-    // }
+	// Register the response handler that is defined above to handle any
+	// key down events.
+	$("body").focus().keydown(response_handler); 
 
-    (function() {
-  // Intialize Recogito
-  var r = Recogito.init({
-        content: 'outer-container', // Element id or DOM node to attach to
-        locale: 'auto',
-        allowEmpty: true,
-        widgets: [
-          // { widget: 'COMMENT' },
-          { widget: 'TAG', vocabulary: [ 'MajorClaim', 'ClaimFor', 'ClaimAgainst', 'Premise' ] }
-        ],
-        relationVocabulary: [ 'Support', 'Attack' ],
-        // formatter: TestFormatter
-      });
-
-      r.loadAnnotations('annotations.w3c.json')
-        .then(() => console.log('loaded'));
-
-      r.on('selectAnnotation', function(a) {
-        console.log('selected', a);
-      });
-
-      r.on('createAnnotation', function(a) {
-        console.log('created', a);
-        console.log(a.bodies);
-        // TODO: need to tune recogito to be able to access relations
-        if (a.motivation === 'linking') {
-          // const rel = a.body[0].value
-          // if (rel !== 'Support' || rel !== 'Attack') {
-          //   const found = r.getAnnotations().find(function(ann) {
-          //     return ann.id === a.id;
-          //   });
-          //   console.log('found', found);
-          //   console.log('remove', r.removeAnnotation(found))
-          // }
-          // console.log('remove', r.removeRelation(a))
-          // console.log("linking", a.id, a.body[0].value)
-            console.log(r)
-        }
-      });
-
-      r.on('updateAnnotation', function(annotation, previous) {
-        console.log('updated', previous, 'with', annotation);
-      });
-
-      r.on('cancelSelected', function(annotation) {
-        console.log('cancel', annotation);
-      });
-
-      document.getElementById('get-annotations').addEventListener('click', function() {
-        console.log('annotations', r.getAnnotations());
-      });
-
-      // Switch annotation mode (annotation/relationships)
-      var annotationMode = 'ANNOTATION'; // or 'RELATIONS'
-
-      var toggleModeBtn = document.getElementById('toggle-mode');
-      toggleModeBtn.addEventListener('click', function() {
-        if (annotationMode === 'ANNOTATION') {
-          toggleModeBtn.innerHTML = 'MODE: RELATIONS';
-          annotationMode = 'RELATIONS';
-        } else  {
-          toggleModeBtn.innerHTML = 'MODE: ANNOTATION';
-          annotationMode = 'ANNOTATION';
-        }
-
-        r.setMode(annotationMode);
-      });
-    })();
-
-    $("#submit-sam").click(function() {
-      console.log('changing!!!')
-      currentview = new Questionnaire();
-    });
-
-    // document.getElementById('submit-sam').addEventListener('click', function() {
-    //     console.log('changing!!!');
-    // });
+	// Start the test
+	next();
 };
 
 
@@ -183,7 +176,7 @@ var Questionnaire = function() {
 			psiTurk.recordUnstructuredData(this.id, this.value);
 		});
 		$('select').each( function(i, val) {
-			psiTurk.recordUnstructuredData(this.id, this.value);
+			psiTurk.recordUnstructuredData(this.id, this.value);		
 		});
 
 	};
@@ -196,36 +189,36 @@ var Questionnaire = function() {
 	resubmit = function() {
 		document.body.innerHTML = "<h1>Trying to resubmit...</h1>";
 		reprompt = setTimeout(prompt_resubmit, 10000);
-
+		
 		psiTurk.saveData({
 			success: function() {
-			    clearInterval(reprompt);
+			    clearInterval(reprompt); 
                 psiTurk.computeBonus('compute_bonus', function(){
                 	psiTurk.completeHIT(); // when finished saving compute bonus, the quit
-                });
+                }); 
 
 
-			},
+			}, 
 			error: prompt_resubmit
 		});
 	};
 
-	// Load the questionnaire snippet
+	// Load the questionnaire snippet 
 	psiTurk.showPage('postquestionnaire.html');
 	psiTurk.recordTrialData({'phase':'postquestionnaire', 'status':'begin'});
-
+	
 	$("#next").click(function () {
 	    record_responses();
 	    psiTurk.saveData({
             success: function(){
-                psiTurk.computeBonus('compute_bonus', function() {
+                psiTurk.computeBonus('compute_bonus', function() { 
                 	psiTurk.completeHIT(); // when finished saving compute bonus, the quit
-                });
-            },
+                }); 
+            }, 
             error: prompt_resubmit});
 	});
-
-
+    
+	
 };
 
 // Task object to keep track of the current phase
