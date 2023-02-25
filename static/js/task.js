@@ -66,10 +66,6 @@ function getLabels(ann) {
   return ann.body.filter(b => b.purpose === 'tagging').map(b => b.value);
 }
 
-function getComponents(recogito) {
-    return recogito.getAnnotations().filter(ann => ann.motivation !== 'linking')
-}
-
 function formatAnn(ann) {
   const label = getLabels(ann)[0]
 
@@ -87,47 +83,98 @@ function formatAnn(ann) {
   return highlightClass
 }
 
-function checkComponentLabel(ann, recogito) {
-  const labels = getLabels(ann)
-
-  if (labels.length === 0) {
-      window.alert(`Tag must be selected for the highlighted text area.`)
-      recogito.removeAnnotation(ann)
-  } else if (labels.length > 1) {
-      window.alert(`Only one tag is allowed per highlighted text area.`)
-      recogito.removeAnnotation(ann)
-  } else if (!componentLabels.includes(labels[0])) {
-      window.alert(`Tag '${labels[0]}' is invalid, please add one the following: ${componentLabels.join(', ')}.`)
-      recogito.removeAnnotation(ann)
+function checkComponent(ann, recogito) {
+  let isValid = isComponentLabelValid(ann) && isComponentSpanValid(ann, recogito.getAnnotationsOnly());
+  if (!isValid) {
+      recogito.removeAnnotation(ann);
   }
-
 }
 
-function checkComponentSpan(ann, recogito) {
+function isComponentLabelValid(ann) {
+  const labels = getLabels(ann)
+
+  let isValid = false
+  if (labels.length === 0) {
+    window.alert(`A tag must be added for the highlighted text area.`);
+  } else if (labels.length > 1) {
+    window.alert(`Only one tag is allowed per highlighted text area.`);
+  } else if (!componentLabels.includes(labels[0])) {
+    window.alert(`Tag '${labels[0]}' is invalid, please add one the following: ${componentLabels.join(', ')}.`);
+  } else {
+    isValid = true;
+  }
+
+  return isValid
+}
+
+function isComponentSpanValid(ann, others) {
   const annId = ann.id;
   const annPosSelector = ann.target.selector.find(s => s.type === 'TextPositionSelector');
   const annStart = annPosSelector.start;
   const annEnd = annPosSelector.end;
 
-  const others = getComponents(recogito);
   const overlapping = others.filter(other => {
-    let result = false;
+      let result = false;
 
-    if (annId !== other.id) {
-      const otherPosSelector = other.target.selector.find(s => s.type === 'TextPositionSelector');
-      const otherStart = otherPosSelector.start;
-      const otherEnd = otherPosSelector.end;
-      const noOverlap = otherEnd < annStart || otherStart > annEnd;
-      result = !noOverlap;
-    }
+      if (annId !== other.id) {
+        const otherPosSelector = other.target.selector.find(s => s.type === 'TextPositionSelector');
+        const otherStart = otherPosSelector.start;
+        const otherEnd = otherPosSelector.end;
+        const noOverlap = otherEnd < annStart || otherStart > annEnd;
+        result = !noOverlap;
+      }
 
-    return result;
+      return result;
   });
 
+  let isValid = true;
   if (overlapping.length > 0) {
-    window.alert('Highlighted text areas must not overlap.')
-    recogito.removeAnnotation(ann)
+    isValid = false;
+    window.alert('Highlighted text areas must not overlap.');
   }
+
+  return isValid
+}
+
+function checkRelation(ann, recogito) {
+  let isValid = isRelationLabelValid(ann, recogito) && isRelationLinkValid(
+      ann,
+      recogito.getAnnotationById(ann.target[0].id),
+      recogito.getAnnotationById(ann.target[1].id),
+  );
+  if (!isValid) {
+      recogito.removeRelation(ann);
+  }
+}
+
+function isRelationLabelValid(ann) {
+  const labels = getLabels(ann);
+
+  let isValid = false;
+  if (labels.length === 0) {
+    window.alert(`A tag must be added to the relation.`);
+  } else if (labels.length > 1) {
+    window.alert(`Only one tag is allowed per relation.`);
+  } else if (!relationLabels.includes(labels[0])) {
+    window.alert(`Tag '${labels[0]}' is invalid, please add one the following: ${relationLabels.join(', ')}.`);
+  } else {
+    isValid = true;
+  }
+
+  return isValid;
+}
+
+// TODO: disallow multiple relation from Premise
+function isRelationLinkValid(ann, fromAnn, toAnn) {
+  const fromLabel = fromAnn.body[0].value;
+  const toLabel = toAnn.body[0].value;
+  const isValid = fromLabel === premise && (toLabel === claimFor || toLabel === claimAgainst);
+
+  if (!isValid) {
+    window.alert(`Component of type ${fromLabel} cannot be linked to ${toLabel}`);
+  }
+
+  return isValid;
 }
 
 function initRecogito() {
@@ -148,25 +195,11 @@ function initRecogito() {
   });
 
   recogito.on('createAnnotation', function(ann) {
-    // TODO: need to tune recogito to be able to access relations
-    // if (a.motivation === 'linking') {
-      // const rel = a.body[0].value
-      // if (rel !== 'Support' || rel !== 'Attack') {
-      //   const found = r.getAnnotations().find(function(ann) {
-      //     return ann.id === a.id;
-      //   });
-      //   console.log('found', found);
-      //   console.log('remove', r.removeAnnotation(found))
-      // }
-      // console.log('remove', r.removeRelation(a))
-      // console.log("linking", a.id, a.body[0].value)
-      //  console.log(recogito)
-    // }
-    // console.log('created')
-
-    if (ann.motivation !== 'linking') {
-      checkComponentLabel(ann, recogito)
-      checkComponentSpan(ann, recogito)
+    // TODO: when Premise is created automatically switch to relation annotation? What about error handling (i.e. ESC key pressed)?
+    if (ann.motivation === 'linking') {
+      checkRelation(ann, recogito);
+    } else {
+      checkComponent(ann, recogito);
     }
   });
 
