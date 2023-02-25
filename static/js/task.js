@@ -56,114 +56,159 @@ const majorClaim = 'MajorClaim';
 const claimFor = 'ClaimFor';
 const claimAgainst = 'ClaimAgainst';
 const premise = 'Premise';
+const componentLabels = [majorClaim, claimFor, claimAgainst, premise]
 
+const support = 'S'
+const attack = 'A'
+const relationLabels = [support, attack]
 
-var StroopExperiment = function() {
-    // Load the stage.html snippet into the body of the page
-	psiTurk.showPage('stage.html');
+function getLabels(ann) {
+  return ann.body.filter(b => b.purpose === 'tagging').map(b => b.value);
+}
 
-    // const TestFormatter = function(annotation) {
-    //     const body = annotation.bodies.find(function(b) {
-    //       return b.purpose === 'tagging'
-    //     });
-    //
-    //     let highlightClass = '';
-    //     if (body !== undefined) {
-    //         if (body.value === majorClaim) {
-    //         highlightClass = 'major-claim';
-    //       } else if (body.value === claimFor) {
-    //           highlightClass = 'claim-for';
-    //       } else if (body.value === claimAgainst) {
-    //           highlightClass = 'claim-against';
-    //       } else if (body.value === premise) {
-    //           highlightClass = 'premise';
-    //       }
-    //     }
-    //
-    //     console.log('TestFormatter')
-    //     console.log(annotation)
-    //     // console.log(annotation.bodies)
-    //     // console.log(highlightClass)
-    //     return highlightClass
-    // }
+function getComponents(recogito) {
+    return recogito.getAnnotations().filter(ann => ann.motivation !== 'linking')
+}
 
-    (function() {
+function formatAnn(ann) {
+  const label = getLabels(ann)[0]
+
+  let highlightClass = '';
+  if (label === majorClaim) {
+    highlightClass = 'major-claim';
+  } else if (label === claimFor) {
+      highlightClass = 'claim-for';
+  } else if (label === claimAgainst) {
+      highlightClass = 'claim-against';
+  } else if (label === premise) {
+      highlightClass = 'premise';
+  }
+
+  return highlightClass
+}
+
+function checkComponentLabel(ann, recogito) {
+  const labels = getLabels(ann)
+
+  if (labels.length === 0) {
+      window.alert(`Tag must be selected for the highlighted text area.`)
+      recogito.removeAnnotation(ann)
+  } else if (labels.length > 1) {
+      window.alert(`Only one tag is allowed per highlighted text area.`)
+      recogito.removeAnnotation(ann)
+  } else if (!componentLabels.includes(labels[0])) {
+      window.alert(`Tag '${labels[0]}' is invalid, please add one the following: ${componentLabels.join(', ')}.`)
+      recogito.removeAnnotation(ann)
+  }
+
+}
+
+function checkComponentSpan(ann, recogito) {
+  const annId = ann.id;
+  const annPosSelector = ann.target.selector.find(s => s.type === 'TextPositionSelector');
+  const annStart = annPosSelector.start;
+  const annEnd = annPosSelector.end;
+
+  const others = getComponents(recogito);
+  const overlapping = others.filter(other => {
+    let result = false;
+
+    if (annId !== other.id) {
+      const otherPosSelector = other.target.selector.find(s => s.type === 'TextPositionSelector');
+      const otherStart = otherPosSelector.start;
+      const otherEnd = otherPosSelector.end;
+      const noOverlap = otherEnd < annStart || otherStart > annEnd;
+      result = !noOverlap;
+    }
+
+    return result;
+  });
+
+  if (overlapping.length > 0) {
+    window.alert('Highlighted text areas must not overlap.')
+    recogito.removeAnnotation(ann)
+  }
+}
+
+function initRecogito() {
   // Intialize Recogito
-  var r = Recogito.init({
-        content: 'outer-container', // Element id or DOM node to attach to
-        locale: 'auto',
-        allowEmpty: true,
-        widgets: [
-          // { widget: 'COMMENT' },
-          { widget: 'TAG', vocabulary: [ 'MajorClaim', 'ClaimFor', 'ClaimAgainst', 'Premise' ] }
-        ],
-        relationVocabulary: [ 'Support', 'Attack' ],
-        // formatter: TestFormatter
-      });
+  const recogito = Recogito.init({
+    content: 'content', // Element id or DOM node to attach to
+    locale: 'auto',
+    allowEmpty: true,
+    widgets: [
+      { widget: 'TAG', vocabulary: [ 'MajorClaim', 'ClaimFor', 'ClaimAgainst', 'Premise' ] }
+    ],
+    relationVocabulary: [ 'Support', 'Attack' ],
+    formatter: formatAnn
+  });
 
-      r.loadAnnotations('annotations.w3c.json')
-        .then(() => console.log('loaded'));
+  recogito.on('selectAnnotation', function(a) {
+    console.log('selected', a);
+  });
 
-      r.on('selectAnnotation', function(a) {
-        console.log('selected', a);
-      });
+  recogito.on('createAnnotation', function(ann) {
+    // TODO: need to tune recogito to be able to access relations
+    // if (a.motivation === 'linking') {
+      // const rel = a.body[0].value
+      // if (rel !== 'Support' || rel !== 'Attack') {
+      //   const found = r.getAnnotations().find(function(ann) {
+      //     return ann.id === a.id;
+      //   });
+      //   console.log('found', found);
+      //   console.log('remove', r.removeAnnotation(found))
+      // }
+      // console.log('remove', r.removeRelation(a))
+      // console.log("linking", a.id, a.body[0].value)
+      //  console.log(recogito)
+    // }
+    // console.log('created')
 
-      r.on('createAnnotation', function(a) {
-        console.log('created', a);
-        console.log(a.bodies);
-        // TODO: need to tune recogito to be able to access relations
-        if (a.motivation === 'linking') {
-          // const rel = a.body[0].value
-          // if (rel !== 'Support' || rel !== 'Attack') {
-          //   const found = r.getAnnotations().find(function(ann) {
-          //     return ann.id === a.id;
-          //   });
-          //   console.log('found', found);
-          //   console.log('remove', r.removeAnnotation(found))
-          // }
-          // console.log('remove', r.removeRelation(a))
-          // console.log("linking", a.id, a.body[0].value)
-            console.log(r)
-        }
-      });
+    if (ann.motivation !== 'linking') {
+      checkComponentLabel(ann, recogito)
+      checkComponentSpan(ann, recogito)
+    }
+  });
 
-      r.on('updateAnnotation', function(annotation, previous) {
-        console.log('updated', previous, 'with', annotation);
-      });
+  recogito.on('updateAnnotation', function(annotation, previous) {
+    console.log('updated', previous, 'with', annotation);
+  });
 
-      r.on('cancelSelected', function(annotation) {
-        console.log('cancel', annotation);
-      });
+  recogito.on('cancelSelected', function(annotation) {
+    console.log('cancel', annotation);
+  });
 
-      document.getElementById('get-annotations').addEventListener('click', function() {
-        console.log('annotations', r.getAnnotations());
-      });
+  document.getElementById('get-annotations').addEventListener('click', function() {
+    console.log('annotations', recogito.getAnnotations());
+  });
 
-      // Switch annotation mode (annotation/relationships)
-      var annotationMode = 'ANNOTATION'; // or 'RELATIONS'
+  // Switch annotation mode (annotation/relationships)
+  let annotationMode = 'ANNOTATION'; // or 'RELATIONS'
 
-      var toggleModeBtn = document.getElementById('toggle-mode');
-      toggleModeBtn.addEventListener('click', function() {
-        if (annotationMode === 'ANNOTATION') {
-          toggleModeBtn.innerHTML = 'MODE: RELATIONS';
-          annotationMode = 'RELATIONS';
-        } else  {
-          toggleModeBtn.innerHTML = 'MODE: ANNOTATION';
-          annotationMode = 'ANNOTATION';
-        }
+  let toggleModeBtn = document.getElementById('toggle-mode');
+  toggleModeBtn.addEventListener('click', function() {
+    if (annotationMode === 'ANNOTATION') {
+      toggleModeBtn.innerHTML = 'MODE: RELATIONS';
+      annotationMode = 'RELATIONS';
+    } else  {
+      toggleModeBtn.innerHTML = 'MODE: ANNOTATION';
+      annotationMode = 'ANNOTATION';
+    }
 
-        r.setMode(annotationMode);
-      });
-    })();
+    recogito.setMode(annotationMode);
+  });
+}
 
-    $("#submit-sam").click(function() {
-      console.log('changing!!!')
+
+const StroopExperiment = function () {
+  // Load the stage.html snippet into the body of the page
+  psiTurk.showPage('stage.html');
+
+  initRecogito()
+
+  $("#submit-sam").click(function () {
       currentview = new Questionnaire();
-    });
-
-    // document.getElementById('submit-sam').addEventListener('click', function() {
-    //     console.log('changing!!!');
-    // });
+  });
 };
 
 
