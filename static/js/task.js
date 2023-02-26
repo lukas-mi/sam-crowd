@@ -53,137 +53,182 @@ var instructionPages = [ // add as a list as many pages as you like
 * STROOP TEST       *
 ********************/
 const majorClaim = 'MajorClaim';
-const claimFor = 'ClaimFor';
-const claimAgainst = 'ClaimAgainst';
-const premise = 'Premise';
-const componentLabels = [majorClaim, claimFor, claimAgainst, premise]
+          const claimFor = 'ClaimFor';
+          const claimAgainst = 'ClaimAgainst';
+          const premise = 'Premise';
+          const componentLabels = [majorClaim, claimFor, claimAgainst, premise]
 
-const support = 'S'
-const attack = 'A'
-const relationLabels = [support, attack]
+          const support = 'S'
+          const attack = 'A'
+          const relationLabels = [support, attack]
 
-function getLabels(ann) {
-  return ann.body.filter(b => b.purpose === 'tagging').map(b => b.value);
-}
+          function getLabels(ann) {
+            return ann.body.filter(b => b.purpose === 'tagging').map(b => b.value);
+          }
 
-function formatAnn(ann) {
-  const label = getLabels(ann)[0]
+          function formatAnn(ann) {
+            const label = getLabels(ann)[0]
 
-  let highlightClass = '';
-  if (label === majorClaim) {
-    highlightClass = 'major-claim';
-  } else if (label === claimFor) {
-      highlightClass = 'claim-for';
-  } else if (label === claimAgainst) {
-      highlightClass = 'claim-against';
-  } else if (label === premise) {
-      highlightClass = 'premise';
-  }
+            let highlightClass = '';
+            if (label === majorClaim) {
+              highlightClass = 'major-claim';
+            } else if (label === claimFor) {
+                highlightClass = 'claim-for';
+            } else if (label === claimAgainst) {
+                highlightClass = 'claim-against';
+            } else if (label === premise) {
+                highlightClass = 'premise';
+            }
 
-  return highlightClass
-}
+            return highlightClass
+          }
 
-function checkComponent(ann, recogito) {
-  let isValid = isComponentLabelValid(ann) && isComponentSpanValid(ann, recogito.getAnnotationsOnly());
-  if (!isValid) {
-      recogito.removeAnnotation(ann);
-  }
-}
+          function isComponentValid(comp, recogito) {
+            return isComponentLabelValid(comp) && isComponentSpanValid(comp, recogito.getAnnotationsOnly());
+          }
 
-function isComponentLabelValid(ann) {
-  const labels = getLabels(ann)
+          function isComponentLabelValid(comp) {
+            const labels = getLabels(comp)
 
-  let isValid = false
-  if (labels.length === 0) {
-    window.alert(`A tag must be added for the highlighted text area.`);
-  } else if (labels.length > 1) {
-    window.alert(`Only one tag is allowed per highlighted text area.`);
-  } else if (!componentLabels.includes(labels[0])) {
-    window.alert(`Tag '${labels[0]}' is invalid, please add one the following: ${componentLabels.join(', ')}.`);
-  } else {
-    isValid = true;
-  }
+            let isValid = false
+            if (labels.length === 0) {
+              window.alert(`A tag must be added for the highlighted text area.`);
+            } else if (labels.length > 1) {
+              window.alert(`Only one tag is allowed per highlighted text area.`);
+            } else if (!componentLabels.includes(labels[0])) {
+              window.alert(`Tag '${labels[0]}' is invalid, please add one the following: ${componentLabels.join(', ')}.`);
+            } else {
+              isValid = true;
+            }
 
-  return isValid
-}
+            return isValid
+          }
 
-function isComponentSpanValid(ann, others) {
-  const annId = ann.id;
-  const annPosSelector = ann.target.selector.find(s => s.type === 'TextPositionSelector');
-  const annStart = annPosSelector.start;
-  const annEnd = annPosSelector.end;
+          function isComponentSpanValid(comp, others) {
+            const compId = comp.id;
+            const compPosSelector = comp.target.selector.find(s => s.type === 'TextPositionSelector');
+            const compStart = compPosSelector.start;
+            const compEnd = compPosSelector.end;
 
-  const overlapping = others.filter(other => {
-      let result = false;
+            const overlapping = others.filter(other => {
+              let result = false;
 
-      if (annId !== other.id) {
-        const otherPosSelector = other.target.selector.find(s => s.type === 'TextPositionSelector');
-        const otherStart = otherPosSelector.start;
-        const otherEnd = otherPosSelector.end;
-        const noOverlap = otherEnd < annStart || otherStart > annEnd;
-        result = !noOverlap;
-      }
+              if (compId !== other.id) {
+                const otherPosSelector = other.target.selector.find(s => s.type === 'TextPositionSelector');
+                const otherStart = otherPosSelector.start;
+                const otherEnd = otherPosSelector.end;
+                const noOverlap = otherEnd < compStart || otherStart > compEnd;
+                result = !noOverlap;
+              }
 
-      return result;
-  });
+              return result;
+            });
 
-  let isValid = true;
-  if (overlapping.length > 0) {
-    isValid = false;
-    window.alert('Highlighted text areas must not overlap.');
-  }
+            let isValid = true;
+            if (overlapping.length > 0) {
+              isValid = false;
+              window.alert('Highlighted text areas must not overlap.');
+            }
 
-  return isValid
-}
+            return isValid
+          }
 
-function checkRelation(ann, recogito) {
-  let isValid = isRelationLabelValid(ann, recogito) && isRelationLinkValid(
-      ann,
-      recogito.getAnnotationById(ann.target[0].id),
-      recogito.getAnnotationById(ann.target[1].id),
-  );
-  if (!isValid) {
-      recogito.removeRelation(ann);
-  }
-}
+          function isRelationValid(rel, recogito) {
+            const fromComp = recogito.getAnnotationById(rel.target[0].id);
+            const toComp = recogito.getAnnotationById(rel.target[1].id);
+            const relations = recogito.getRelationsOnly();
+            return isRelationLabelValid(rel, recogito) &&
+                isRelationLinkValid(fromComp, toComp) &&
+                isSingleLink(rel, relations, fromComp) &&
+                noCycles(rel, relations);
+          }
 
-function isRelationLabelValid(ann) {
-  const labels = getLabels(ann);
+          function isRelationLabelValid(ann) {
+            const labels = getLabels(ann);
 
-  let isValid = false;
-  if (labels.length === 0) {
-    window.alert(`A tag must be added to the relation.`);
-  } else if (labels.length > 1) {
-    window.alert(`Only one tag is allowed per relation.`);
-  } else if (!relationLabels.includes(labels[0])) {
-    window.alert(`Tag '${labels[0]}' is invalid, please add one the following: ${relationLabels.join(', ')}.`);
-  } else {
-    isValid = true;
-  }
+            let isValid = false;
+            if (labels.length === 0) {
+              window.alert(`A tag must be added to the relation.`);
+            } else if (labels.length > 1) {
+              window.alert(`Only one tag is allowed per relation.`);
+            } else if (!relationLabels.includes(labels[0])) {
+              window.alert(`Tag '${labels[0]}' is invalid, please add one the following: ${relationLabels.join(', ')}.`);
+            } else {
+              isValid = true;
+            }
 
-  return isValid;
-}
+            return isValid;
+          }
 
-// TODO: disallow multiple relation from Premise
-function isRelationLinkValid(ann, fromAnn, toAnn) {
-  const fromLabel = fromAnn.body[0].value;
-  const toLabel = toAnn.body[0].value;
-  const isValid = fromLabel === premise && (toLabel === claimFor || toLabel === claimAgainst);
+          function isRelationLinkValid(fromAnn, toAnn) {
+            const fromLabel = fromAnn.body[0].value;
+            const toLabel = toAnn.body[0].value;
+            const isValid = fromLabel === premise && (toLabel === claimFor || toLabel === claimAgainst || toLabel === premise);
 
-  if (!isValid) {
-    window.alert(`Component of type ${fromLabel} cannot be linked to ${toLabel}`);
-  }
+            if (!isValid) {
+              window.alert(`Component of type ${fromLabel} cannot be linked to ${toLabel}`);
+            }
 
-  return isValid;
-}
+            return isValid;
+          }
+
+          function isSingleLink(rel, others, fromComp) {
+            const otherLinks = others.filter(other => {
+                let result = false;
+
+                if (rel.id !== other.id) {
+                  const otherFromId = other.target[0].id;
+                  result = fromComp.id === otherFromId;
+                }
+
+                return result;
+            });
+
+            let isValid = true;
+            if (otherLinks.length > 0) {
+                isValid = false;
+                const fromCompLabel = fromComp.body[0].value;
+                window.alert(`Component of type ${fromCompLabel} cannot be linked to multiple other components.`);
+            }
+
+            return isValid;
+          }
+
+          function noCycles(rel, relations) {
+              const others = relations.filter(other => other.id !== rel.id);
+
+              let lastNode = rel.target[1].id;
+              const visitedNodes = [rel.target[0].id, lastNode];
+
+              let noCycles = true;
+              while (noCycles) {
+                  let other = others.find(other => lastNode === other.target[0].id);
+                  if (other) {
+                      lastNode = other.target[1].id;
+                      if (visitedNodes.includes(lastNode)) {
+                          noCycles = false;
+                      } else {
+                          visitedNodes.push(lastNode);
+                      }
+                  } else {
+                      break;
+                  }
+              }
+
+              if (!noCycles) {
+                  window.alert(`Components relations cannot form a cycle.`);
+              }
+
+              return noCycles;
+          }
 
 function initRecogito() {
-  // Intialize Recogito
   const recogito = Recogito.init({
     content: 'content', // Element id or DOM node to attach to
     locale: 'auto',
     allowEmpty: true,
     widgets: [
+
       { widget: 'TAG', vocabulary: [ 'MajorClaim', 'ClaimFor', 'ClaimAgainst', 'Premise' ] }
     ],
     relationVocabulary: [ 'Support', 'Attack' ],
@@ -195,11 +240,20 @@ function initRecogito() {
   });
 
   recogito.on('createAnnotation', function(ann) {
-    // TODO: when Premise is created automatically switch to relation annotation? What about error handling (i.e. ESC key pressed)?
     if (ann.motivation === 'linking') {
-      checkRelation(ann, recogito);
+      if (!isRelationValid(ann, recogito)) {
+        recogito.removeRelation(ann);
+      } else {
+        toggleModeBtn.click();
+      }
     } else {
-      checkComponent(ann, recogito);
+      if (!isComponentValid(ann, recogito)) {
+        recogito.removeAnnotation(ann);
+      } else {
+        if (getLabels(ann)[0] === premise) {
+          toggleModeBtn.click();
+        }
+      }
     }
   });
 
@@ -231,7 +285,6 @@ function initRecogito() {
     recogito.setMode(annotationMode);
   });
 }
-
 
 const StroopExperiment = function () {
   // Load the stage.html snippet into the body of the page
