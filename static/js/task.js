@@ -53,174 +53,207 @@ var instructionPages = [ // add as a list as many pages as you like
 * STROOP TEST       *
 ********************/
 const majorClaim = 'MajorClaim';
-          const claimFor = 'ClaimFor';
-          const claimAgainst = 'ClaimAgainst';
-          const premise = 'Premise';
-          const componentLabels = [majorClaim, claimFor, claimAgainst, premise]
+const claimFor = 'ClaimFor';
+const claimAgainst = 'ClaimAgainst';
+const premise = 'Premise';
+const componentLabels = [majorClaim, claimFor, claimAgainst, premise];
+const regularClaimLabels = [claimFor, claimAgainst];
+const claimLabels = [majorClaim, claimFor, claimAgainst];
 
-          const support = 'S'
-          const attack = 'A'
-          const relationLabels = [support, attack]
+const support = 'Support';
+const attack = 'Attack';
+const relationLabels = [support, attack];
 
-          function getLabels(ann) {
-            return ann.body.filter(b => b.purpose === 'tagging').map(b => b.value);
-          }
+function getLabels(ann) {
+  return ann.body.filter(b => b.purpose === 'tagging').map(b => b.value);
+}
 
-          function formatAnn(ann) {
-            const label = getLabels(ann)[0]
+function formatAnn(ann) {
+  const label = getLabels(ann)[0]
 
-            let highlightClass = '';
-            if (label === majorClaim) {
-              highlightClass = 'major-claim';
-            } else if (label === claimFor) {
-                highlightClass = 'claim-for';
-            } else if (label === claimAgainst) {
-                highlightClass = 'claim-against';
-            } else if (label === premise) {
-                highlightClass = 'premise';
-            }
+  let highlightClass = '';
+  if (label === majorClaim) {
+    highlightClass = 'major-claim';
+  } else if (label === claimFor) {
+      highlightClass = 'claim-for';
+  } else if (label === claimAgainst) {
+      highlightClass = 'claim-against';
+  } else if (label === premise) {
+      highlightClass = 'premise';
+  }
 
-            return highlightClass
-          }
+  return highlightClass
+}
 
-          function isComponentValid(comp, recogito) {
-            return isComponentLabelValid(comp) && isComponentSpanValid(comp, recogito.getAnnotationsOnly());
-          }
+function isComponentValid(comp, recogito) {
+  return isComponentLabelValid(comp) && isComponentSpanValid(comp, recogito.getAnnotationsOnly());
+}
 
-          function isComponentLabelValid(comp) {
-            const labels = getLabels(comp)
+function isComponentLabelValid(comp) {
+  const labels = getLabels(comp)
 
-            let isValid = false
-            if (labels.length === 0) {
-              window.alert(`A tag must be added for the highlighted text area.`);
-            } else if (labels.length > 1) {
-              window.alert(`Only one tag is allowed per highlighted text area.`);
-            } else if (!componentLabels.includes(labels[0])) {
-              window.alert(`Tag '${labels[0]}' is invalid, please add one the following: ${componentLabels.join(', ')}.`);
+  let isValid = false
+  if (labels.length === 0) {
+    window.alert(`A tag must be added for the highlighted text area.`);
+  } else if (labels.length > 1) {
+    window.alert(`Only one tag is allowed per highlighted text area.`);
+  } else if (!componentLabels.includes(labels[0])) {
+    window.alert(`Tag '${labels[0]}' is invalid, please add one the following: ${componentLabels.join(', ')}.`);
+  } else {
+    isValid = true;
+  }
+
+  return isValid
+}
+
+function isComponentSpanValid(comp, others) {
+  const compId = comp.id;
+  const compPosSelector = comp.target.selector.find(s => s.type === 'TextPositionSelector');
+  const compStart = compPosSelector.start;
+  const compEnd = compPosSelector.end;
+
+  const overlapping = others.filter(other => {
+    let result = false;
+
+    if (compId !== other.id) {
+      const otherPosSelector = other.target.selector.find(s => s.type === 'TextPositionSelector');
+      const otherStart = otherPosSelector.start;
+      const otherEnd = otherPosSelector.end;
+      const noOverlap = otherEnd < compStart || otherStart > compEnd;
+      result = !noOverlap;
+    }
+
+    return result;
+  });
+
+  let isValid = true;
+  if (overlapping.length > 0) {
+    isValid = false;
+    window.alert('Highlighted text areas must not overlap.');
+  }
+
+  return isValid
+}
+
+function propagateComponentUpdate(prevComp, curComp, recogito) {
+  const relations = recogito.getRelationsOnly();
+  const prevLabel = getLabels(prevComp)[0];
+  const curLabel = getLabels(curComp)[0];
+
+  let relationsToRemove = [];
+  let errMsg = '';
+
+  if (prevLabel === premise && regularClaimLabels.includes(curLabel)) { // premise to regular claim => remove outgoing connection
+    const outRelation = relations.find(rel => rel.target[0].id === curComp.id);
+    relationsToRemove = outRelation ? [outRelation] : [];
+    errMsg = `Outgoing connection was removed for the component due to tag change: ${prevLabel} -> ${curLabel}.`;
+  } else if (prevLabel === premise && curLabel === majorClaim) { // premise to major claim => remove all connections
+    relationsToRemove = relations.filter(rel => rel.target[0].id === curComp.id || rel.target[1].id === curComp.id);
+    if (relationsToRemove)
+    errMsg = `All connection were removed for the component due to tag change: ${prevLabel} -> ${curLabel}.`;
+  } else if (regularClaimLabels.includes(prevLabel) && prevLabel === majorClaim) { // regular claim to major claim => remove all incoming connections
+    relationsToRemove = relations.filter(rel => rel.target[1].id === curComp.id);
+    errMsg = `All incoming connection were removed for the component due to tag change: ${prevLabel} -> ${curLabel}.`;
+  }
+
+  relationsToRemove.forEach(rel => {
+    console.log('removing relation', rel);
+    recogito.removeRelation(rel);
+  });
+  if (relationsToRemove.length > 0) {
+    alert(errMsg);
+  }
+}
+
+function isRelationValid(rel, recogito) {
+  const fromComp = recogito.getAnnotationById(rel.target[0].id);
+  const toComp = recogito.getAnnotationById(rel.target[1].id);
+  const relations = recogito.getRelationsOnly();
+  return isRelationLabelValid(rel, recogito) &&
+      isRelationLinkValid(fromComp, toComp) &&
+      isSingleLink(rel, relations, fromComp) &&
+      noCycles(rel, relations);
+}
+
+function isRelationLabelValid(ann) {
+  const labels = getLabels(ann);
+
+  let isValid = false;
+  if (labels.length === 0) {
+    window.alert(`A tag must be added to the relation.`);
+  } else if (labels.length > 1) {
+    window.alert(`Only one tag is allowed per relation.`);
+  } else if (!relationLabels.includes(labels[0])) {
+    window.alert(`Tag '${labels[0]}' is invalid, please add one the following: ${relationLabels.join(', ')}.`);
+  } else {
+    isValid = true;
+  }
+
+  return isValid;
+}
+
+function isRelationLinkValid(fromAnn, toAnn) {
+  const fromLabel = fromAnn.body[0].value;
+  const toLabel = toAnn.body[0].value;
+  const isValid = fromLabel === premise && (toLabel === claimFor || toLabel === claimAgainst || toLabel === premise);
+
+  if (!isValid) {
+    window.alert(`Component of type ${fromLabel} cannot be linked to ${toLabel}.`);
+  }
+
+  return isValid;
+}
+
+function isSingleLink(rel, others, fromComp) {
+  const otherLinks = others.filter(other => {
+      let result = false;
+
+      if (rel.id !== other.id) {
+        const otherFromId = other.target[0].id;
+        result = fromComp.id === otherFromId;
+      }
+
+      return result;
+  });
+
+  let isValid = true;
+  if (otherLinks.length > 0) {
+      isValid = false;
+      const fromCompLabel = fromComp.body[0].value;
+      window.alert(`Component of type ${fromCompLabel} cannot be linked to multiple other components.`);
+  }
+
+  return isValid;
+}
+
+function noCycles(rel, relations) {
+    // const others = relations.filter(other => other.id !== rel.id);
+    const others = relations;
+
+    let lastNode = rel.target[1].id;
+    const visitedNodes = [rel.target[0].id, lastNode];
+
+    let noCycles = true;
+    while (noCycles) {
+        let other = others.find(other => lastNode === other.target[0].id);
+        if (other) {
+            lastNode = other.target[1].id;
+            if (visitedNodes.includes(lastNode)) {
+                noCycles = false;
             } else {
-              isValid = true;
+                visitedNodes.push(lastNode);
             }
+        } else {
+            break;
+        }
+    }
 
-            return isValid
-          }
+    if (!noCycles) {
+        window.alert(`Component cannot be connected to itself or form cyclic relations with other components.`);
+    }
 
-          function isComponentSpanValid(comp, others) {
-            const compId = comp.id;
-            const compPosSelector = comp.target.selector.find(s => s.type === 'TextPositionSelector');
-            const compStart = compPosSelector.start;
-            const compEnd = compPosSelector.end;
-
-            const overlapping = others.filter(other => {
-              let result = false;
-
-              if (compId !== other.id) {
-                const otherPosSelector = other.target.selector.find(s => s.type === 'TextPositionSelector');
-                const otherStart = otherPosSelector.start;
-                const otherEnd = otherPosSelector.end;
-                const noOverlap = otherEnd < compStart || otherStart > compEnd;
-                result = !noOverlap;
-              }
-
-              return result;
-            });
-
-            let isValid = true;
-            if (overlapping.length > 0) {
-              isValid = false;
-              window.alert('Highlighted text areas must not overlap.');
-            }
-
-            return isValid
-          }
-
-          function isRelationValid(rel, recogito) {
-            const fromComp = recogito.getAnnotationById(rel.target[0].id);
-            const toComp = recogito.getAnnotationById(rel.target[1].id);
-            const relations = recogito.getRelationsOnly();
-            return isRelationLabelValid(rel, recogito) &&
-                isRelationLinkValid(fromComp, toComp) &&
-                isSingleLink(rel, relations, fromComp) &&
-                noCycles(rel, relations);
-          }
-
-          function isRelationLabelValid(ann) {
-            const labels = getLabels(ann);
-
-            let isValid = false;
-            if (labels.length === 0) {
-              window.alert(`A tag must be added to the relation.`);
-            } else if (labels.length > 1) {
-              window.alert(`Only one tag is allowed per relation.`);
-            } else if (!relationLabels.includes(labels[0])) {
-              window.alert(`Tag '${labels[0]}' is invalid, please add one the following: ${relationLabels.join(', ')}.`);
-            } else {
-              isValid = true;
-            }
-
-            return isValid;
-          }
-
-          function isRelationLinkValid(fromAnn, toAnn) {
-            const fromLabel = fromAnn.body[0].value;
-            const toLabel = toAnn.body[0].value;
-            const isValid = fromLabel === premise && (toLabel === claimFor || toLabel === claimAgainst || toLabel === premise);
-
-            if (!isValid) {
-              window.alert(`Component of type ${fromLabel} cannot be linked to ${toLabel}`);
-            }
-
-            return isValid;
-          }
-
-          function isSingleLink(rel, others, fromComp) {
-            const otherLinks = others.filter(other => {
-                let result = false;
-
-                if (rel.id !== other.id) {
-                  const otherFromId = other.target[0].id;
-                  result = fromComp.id === otherFromId;
-                }
-
-                return result;
-            });
-
-            let isValid = true;
-            if (otherLinks.length > 0) {
-                isValid = false;
-                const fromCompLabel = fromComp.body[0].value;
-                window.alert(`Component of type ${fromCompLabel} cannot be linked to multiple other components.`);
-            }
-
-            return isValid;
-          }
-
-          function noCycles(rel, relations) {
-              const others = relations.filter(other => other.id !== rel.id);
-
-              let lastNode = rel.target[1].id;
-              const visitedNodes = [rel.target[0].id, lastNode];
-
-              let noCycles = true;
-              while (noCycles) {
-                  let other = others.find(other => lastNode === other.target[0].id);
-                  if (other) {
-                      lastNode = other.target[1].id;
-                      if (visitedNodes.includes(lastNode)) {
-                          noCycles = false;
-                      } else {
-                          visitedNodes.push(lastNode);
-                      }
-                  } else {
-                      break;
-                  }
-              }
-
-              if (!noCycles) {
-                  window.alert(`Components relations cannot form a cycle.`);
-              }
-
-              return noCycles;
-          }
+    return noCycles;
+}
 
 function initRecogito() {
   const recogito = Recogito.init({
@@ -228,10 +261,9 @@ function initRecogito() {
     locale: 'auto',
     allowEmpty: true,
     widgets: [
-
-      { widget: 'TAG', vocabulary: [ 'MajorClaim', 'ClaimFor', 'ClaimAgainst', 'Premise' ] }
+      { widget: 'TAG', vocabulary: componentLabels }
     ],
-    relationVocabulary: [ 'Support', 'Attack' ],
+    relationVocabulary: relationLabels,
     formatter: formatAnn
   });
 
@@ -257,8 +289,24 @@ function initRecogito() {
     }
   });
 
-  recogito.on('updateAnnotation', function(annotation, previous) {
-    console.log('updated', previous, 'with', annotation);
+  // if premise is changed to a claim all
+  // if component is removed due to 'incorrect name' when renaming
+  // if something is wrong delete new and keep old
+  // what if regular claim is changed to major claim? relations to it has to be removed!
+  // what if premise that supports something gets changed to claim!
+  recogito.on('updateAnnotation', function(curAnn, prevAnn) {
+    if (curAnn.motivation === 'linking') {
+      if (!isRelationValid(curAnn, recogito)) {
+        recogito.removeRelation(curAnn);
+      }
+    } else {
+      if (!isComponentValid(curAnn, recogito)) {
+        recogito.removeAnnotation(curAnn);
+        recogito.addAnnotation(prevAnn);
+      } else {
+        propagateComponentUpdate(prevAnn, curAnn, recogito);
+      }
+    }
   });
 
   recogito.on('cancelSelected', function(annotation) {
