@@ -1,16 +1,30 @@
-<div id="container-exp">
-  <div>
-    <button id="get-annotations">Get Annotation</button>
-    <button id="toggle-mode">MODE: ANNOTATION</button>
-    <button id="submit-sam">Submit</button>
+<div id="container-exp" class="container">
+<nav class="navbar sticky-top navbar-light bg-light">
+  <p>
+    <button id="show-instructions" class="btn btn-info" type="button" data-toggle="collapse" data-target="#instructions" aria-expanded="false" aria-controls="instructions">Show Instructions</button>
+    <button id="get-annotations" class="btn btn-primary" hidden>Get Annotation</button>
+    <!-- https://gitbrent.github.io/bootstrap4-toggle -->
+    <input id="mode-toggle" type="checkbox" checked data-toggle="toggle" data-on="<i class='fa fa-play'></i>" data-off="<i class='fa fa-pause'></i>" data-onstyle="dark" data-offstyle="light">
+  </p>
+</nav>
+<div id="instructions" class="collapse">
+  <div class="card card-body">
+    <h3>Annotation instructions</h3>
+    <hr>
+    <p>This is the instructions...</p>
   </div>
-  <div id="outer-container">
-    <div id="content" class="plaintext">
-      <p>The rise of vegan alternatives</p>
-      <p>The one category that has had the most success is the plant milk sector, with 15 percent marketshare and 50 percent household penetration. The industry is projected to be worth $42.86 billion by 2029.</p>
-      <p>So why are almond, oat, and soy milks ubiquitous and fully accepted into the fabric of our society? Is it simply because they’ve been around longer? (That argument is specious, because veggie burgers have been around a long time, too.)</p>
-      <p>Could it perhaps be because they aren’t trying to be cow’s milk? Could it be because some people actually prefer the taste of almond milk to cow’s milk? Maybe people just want “milky” things, the experience of cookies and milk, without some of the taste qualities of cow’s milk.</p>
-      <p>When I first emigrated to the United States and had to start drinking cow’s milk in school, I found it to be disgusting. I grew up eating tofu and natto, and simply preferred the flavor that some would call “beany.” I had to mask my milk with Nestle Quick to make it palatable.</p>
-    </div>
+</div>
+<div id="outer-container">
+  <div id="content" class="plaintext card card-body">
+    <p>The rise of vegan alternatives</p>
+    <p>The one category that has had the most success is the plant milk sector, with 15 percent marketshare and 50 percent household penetration. The industry is projected to be worth $42.86 billion by 2029.</p>
+    <p>So why are almond, oat, and soy milks ubiquitous and fully accepted into the fabric of our society? Is it simply because they’ve been around longer? (That argument is specious, because veggie burgers have been around a long time, too.)</p>
+    <p>Could it perhaps be because they aren’t trying to be cow’s milk? Could it be because some people actually prefer the taste of almond milk to cow’s milk? Maybe people just want “milky” things, the experience of cookies and milk, without some of the taste qualities of cow’s milk.</p>
+    <p>When I first emigrated to the United States and had to start drinking cow’s milk in school, I found it to be disgusting. I grew up eating tofu and natto, and simply preferred the flavor that some would call “beany.” I had to mask my milk with Nestle Quick to make it palatable.</p>
   </div>
+</div>
+<nav class="navbar bottom navbar-light bg-light">
+  <a class="navbar-brand" href="#"></a>
+  <button id="submit-sam" class="btn btn-success">Submit</button>
+</nav>
 </div>

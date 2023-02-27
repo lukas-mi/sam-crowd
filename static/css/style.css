@@ -97,3 +97,9 @@ h1 {
     background-color: #FFD50033;
     border-bottom: 2px solid gold;
 }
+
+
+.card{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
