@@ -14,7 +14,7 @@ var mycounterbalance = counterbalance;  // they tell you which condition you hav
 // All pages to be loaded
 const pages = [
 	"stage.html",
-	"postquestionnaire.html"
+	"questionnaire.html"
 ];
 
 // In javascript, defining a function as `async` makes it return  a `Promise`
@@ -302,47 +302,95 @@ const SAMExperiment = function () {
 
   const recogito = initRecogito();
 
-  recogito.on('selectAnnotation', function(a) {
-  });
+  recogito.on('selectAnnotation', function(ann) {});
 
   recogito.on('createAnnotation', function(ann) {
-      if (ann.motivation === 'linking') {
-          if (!isRelationValid(ann, recogito)) {
-              recogito.removeRelation(ann);
-          } else {
+      let ann_type = ann.motivation ? ann.motivation : 'highlighting';
+      let isValid;
+
+      if (ann_type === 'linking') {
+        isValid = isRelationValid(ann, recogito);
+        if (!isValid) {
+          recogito.removeRelation(ann);
+        } else {
+          modeToggle.bootstrapToggle('toggle');
+        }
+      } else {
+        isValid = isComponentValid(ann, recogito);
+        if (!isValid) {
+          recogito.removeAnnotation(ann);
+        } else {
+            if (getLabels(ann)[0] === premise) {
               modeToggle.bootstrapToggle('toggle');
           }
-      } else {
-          if (!isComponentValid(ann, recogito)) {
-              recogito.removeAnnotation(ann);
-          } else {
-              if (getLabels(ann)[0] === premise) {
-                  modeToggle.bootstrapToggle('toggle');
-              }
-          }
+        }
       }
+
+      // TODO: when invalid, log reason
+      psiTurk.recordTrialData({
+        'phase':'survey',
+        'event': 'create_annotation',
+        'valid': isValid,
+        'annotation': ann,
+        'type': ann_type,
+        'components': recogito.getAnnotationsOnly(),
+        'relations': recogito.getRelationsOnly()
+      });
   });
 
   recogito.on('updateAnnotation', function(curAnn, prevAnn) {
-      if (curAnn.motivation === 'linking') {
-          if (!isRelationValid(curAnn, recogito)) {
-              recogito.removeRelation(curAnn);
-          }
+      let ann_type = curAnn.motivation ? curAnn.motivation : 'highlighting';
+      let isValid;
+
+      if (ann_type === 'linking') {
+        isValid = isRelationValid(curAnn, recogito);
+        if (!isValid) {
+          recogito.removeRelation(curAnn);
+        } else {
+          modeToggle.bootstrapToggle('toggle');
+        }
       } else {
-          if (!isComponentValid(curAnn, recogito)) {
-              recogito.removeAnnotation(curAnn);
-              recogito.addAnnotation(prevAnn);
-          } else {
-              propagateComponentUpdate(prevAnn, curAnn, recogito);
+        isValid = isComponentValid(curAnn, recogito);
+        if (!isValid) {
+          recogito.removeAnnotation(curAnn);
+          recogito.addAnnotation(prevAnn);
+        } else {
+          propagateComponentUpdate(prevAnn, curAnn, recogito);
+          if (getLabels(curAnn)[0] === premise) {
+            modeToggle.bootstrapToggle('toggle');
           }
+        }
       }
+
+      // TODO: when invalid, log reason
+      psiTurk.recordTrialData({
+        'phase':'survey',
+        'event': 'update_annotation',
+        'valid': isValid,
+        'cur_annotation': curAnn,
+        'prev_annotation': prevAnn,
+        'type': ann_type,
+        'components': recogito.getAnnotationsOnly(),
+        'relations': recogito.getRelationsOnly()
+      });
   });
 
-  recogito.on('cancelSelected', function(annotation) {
+  recogito.on('deleteAnnotation', function(ann) {
+    let ann_type = ann.motivation ? ann.motivation : 'highlighting';
+    psiTurk.recordTrialData({
+      'phase':'survey',
+      'event': 'delete_annotation',
+      'annotation': curAnn,
+      'type': ann_type,
+      'components': recogito.getAnnotationsOnly(),
+      'relations': recogito.getRelationsOnly()
+    });
   });
 
-  document.getElementById('get-annotations').addEventListener('click', function() {
-      console.log('annotations', recogito.getAnnotations());
+  recogito.on('cancelSelected', function(annotation) {});
+
+  $('#get-annotations').click(function () {
+    console.log('annotations', recogito.getAnnotations());
   });
 
   const modeToggle = $('#mode-toggle')
@@ -370,10 +418,14 @@ const SAMExperiment = function () {
   });
 
   $("#submit-sam").click(function () {
-      if (validatePremises(recogito)) {
-        psiTurk.recordTrialData()
-        currentview = new Questionnaire();
-      }
+    if (validatePremises(recogito)) {
+      psiTurk.recordTrialData({
+        'event': 'submit',
+        'components': recogito.getAnnotationsOnly(),
+        'relations': recogito.getRelationsOnly()
+      });
+      currentview = new Questionnaire();
+    }
   });
 };
 
@@ -386,7 +438,7 @@ const Questionnaire = function() {
 	const error_message = "<h1>Oops!</h1><p>Something went wrong submitting your HIT. This might happen if you lose your internet connection. Press the button to resubmit.</p><button id='resubmit'>Resubmit</button>";
 
 	record_responses = function() {
-		psiTurk.recordTrialData({'phase':'postquestionnaire', 'status':'submit'});
+		psiTurk.recordTrialData({'phase':'questionnaire', 'status':'submit'});
 
 		$('textarea').each( function(i, val) {
 			psiTurk.recordUnstructuredData(this.id, this.value);
@@ -416,8 +468,8 @@ const Questionnaire = function() {
 	};
 
 	// Load the questionnaire snippet
-	psiTurk.showPage('postquestionnaire.html');
-	psiTurk.recordTrialData({'phase':'postquestionnaire', 'status':'begin'});
+	psiTurk.showPage('questionnaire.html');
+	psiTurk.recordTrialData({'phase':'questionnaire', 'status':'begin'});
 
 	$("#next").click(function () {
 	    record_responses();
