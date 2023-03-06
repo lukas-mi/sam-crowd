@@ -383,7 +383,8 @@ const StroopExperiment = function () {
     window.open(
       'guidelines',
       'Guidelines',
-      'Popup', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=no,width='+1024+',height='+768+''
+      'Popup',
+      'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=no,width='+1024+',height='+768+''
     )
   });
 

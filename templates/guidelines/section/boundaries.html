@@ -1,0 +1,63 @@
+<div class="card my-2">
+  <div class="card-header" id="heading-boundaries">
+    <h4 class="mb-0">
+      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-boundaries" aria-expanded="false" aria-controls="collapse-boundaries">
+        Determining component boundaries
+      </button>
+    </h4>
+  </div>
+
+  <div id="collapse-boundaries" class="collapse" aria-labelledby="heading-boundaries">
+    <div class="card-body">
+      <p>Before marking and identifying argument components as well as the relations between them, it is important to understand the boundaries of each individual component.</p>
+
+      <h4>Guidelines:</h4>
+      <ol>
+        <li><p>Indicator words or phrases such as “because”, “therefore”, “for example” or “even though” can signal the presence of an argument as in examples <span style="font-weight: bold"><a href='#example1'>E1</a></span>, <span style="font-weight: bold"><a href='#example2'>E2</a></span> and <span style="font-weight: bold"><a href='#example4'>E4</a></span>.</p></li>
+        <li><p>Arguments may not always include indicator words, requiring more in depth comprehension of what was intended by the author. In the example <span style="font-weight: bold"><a href='#example3'>E3</a></span> the first sentence is the claim, which is explained/supported by the premise in the second sentence.</p></li>
+        <li><p>Components may or may not cover the entire sentence as shown in the example <span style="font-weight: bold"><a href='#example2'>E2</a></span> where the first full sentence is annotated as one component (a premise), while in example <span style="font-weight: bold"><a href='#example1'>E1</a></span> the first sentence contains two components (a claim followed by a supporting premise).</p></li>
+        <li><p>Components cannot span multiple sentences, meaning they always start and end in the same sentence.</li>
+        <li><p>Component text is always continuous, that is, it cannot start at some point, be interrupted by a non-component text or a completely different component, and continue afterward.</p></li>
+        <li>
+          <p>Annotating several premises in one sentence:</p>
+          <ol>
+            <li><p>If premises serve different purposes, they should be annotated separately. This is illustrated in example <span style="font-weight: bold"><a href='#example4'>E4</a></span> where none of the premises in the second sentence have the same exact function (see <span style="font-weight: bold"><a href='#example4'>E4</a></span> description).</p></li>
+            <li><p>If premises serve the same purpose, they should be annotated as one component. In example <span style="font-weight: bold"><a href='#example5'>E5</a></span> both premises in the second sentence directly support the same claim, thus, they are annotated as one premise.</p></li>
+          </ol>
+        </li>
+        <li>
+          <p>Parts of a sentence that should not be annotated:</p>
+          <ol>
+            <li><p>Punctuations at the end of an argument component.</p></li>
+            <li><p>Indicator words or phrases such as “because”, “therefore”, “for example” or “even though” (examples <span style="font-weight: bold"><a href='#example1'>E1</a></span>, <span style="font-weight: bold"><a href='#example2'>E2</a></span> and <span style="font-weight: bold"><a href='#example4'>E4</a></span>).</p></li>
+            <li><p>Unnecessary phrases like “I believe that”, “according to the previous fact” at the start of a component should not be included in the components (see example <span style="font-weight: bold"><a href='#example2'>E2</a></span>), unless they contain negations, which change the meaning of an argument, for instance, the claim in the first sentence of example <span style="font-weight: bold"><a href='#example4'>E4</a></span>.</p></li>
+            <li><p>When in doubt on what not to include in a component, a good rule of thumb is to try to exclude the phrase/words and see if the remaining content still holds the same meaning and can form a valid sentence on its own. Some phrases, for instance, time indicators: “In ancient times” or “currently” are necessary as they add important detail to the argument, without which the meaning of an argument is different.</p></li>
+          </ol>
+        </li>
+      </ol>
+
+{#      <h4>Examples:</h4>#}
+{#      <dl>#}
+{#    <!--        <dt><span style="font-weight: bold" id="example1">E1</span>: <span class="claim-for">Vegetarian diet is unhealthy</span> because <span class="premise">plant-based products naturally lack necessary nutrients like vitamin B12 or D</span>.</dt>-->#}
+{#        <dt><span style="font-weight: bold" id="example1">E1</span>: <img style="width: 600px" src="/static/images/ann_example_1.png"></dt>#}
+{#        <dd>Explanation: a claim is supported by a premise, both components are in the same sentence, indicator word “because” is excluded.</dd>#}
+{##}
+{#    <!--        <dt><span style="font-weight: bold" id="example2">E2</span>: <span class="premise">Animal agriculture is extremely taxing on the environment due to pollution that the farms are responsible for</span>. Therefore, I firmly believe that <span class="claim-for">we should not continue eating animal based products</span>.</dt>-->#}
+{#        <dt><span style="font-weight: bold" id="example2">E2</span>: <img style="width: 600px" src="/static/images/ann_example_2.png"></dt>#}
+{#        <dd>Explanation: a claim is supported by a premise, components are in separate sentences, indicator word “Therefore” and the unnecessary phrase “I firmly believe that” are excluded.</dd>#}
+{##}
+{#    <!--        <dt><span style="font-weight: bold" id="example3">E3</span>: <span class="claim-for">A saturated market is a dangerous space to play in</span>. <span class="premise">Generally, there are only two ways to compete – grow the market itself, or steal market share from others</span>.</dt>-->#}
+{#        <dt><span style="font-weight: bold" id="example3">E3</span>:<img style="width: 600px" src="/static/images/ann_example_3.png"></dt>#}
+{#        <dd>Explanation: a claim is supported by a premise, components are in separate sentences, and no indicator words are used.</dd>#}
+{##}
+{#    <!--        <dt><span style="font-weight: bold" id="example4">E4</span>: <span class="claim-for">I disagree with the view that plant-based products will dominate in the future</span>. Even though <span class="premise">their popularity is rising</span>, <span class="premise">there are strong traditions surrounding meat eating</span>, for example, <span class="premise">turkeys are still served in most households in the US during Thanksgiving</span>.</dt>-->#}
+{#        <dt><span style="font-weight: bold" id="example4">E4</span>: <img style="width: 780px" src="/static/images/ann_example_4.png"></dt>#}
+{#        <dd>Explanation: the first sentence contains one claim, while the second sentence has three premise components. Notice how indicator phrases “for example” and “even though” are excluded. Premise #1 attacks the claim: the claim states a doubt that plant-based products will dominate in the future, however, premise #1 indicates that the popularity of such products is rising, thus, contradicting the view expressed in the claim. Premise #2 attacks premise #1: premise #2 explains that meat eating traditions are strong, implying that the rise in popularity of plant-based products will not change that. Lastly, premise #3 supports premise #2 by giving an example of a tradition where meat eating is important.</dd>#}
+{##}
+{#    <!--        <dt><span style="font-weight: bold" id="example5">E5</span>: <span class="claim-for">Currently we are not doing enough to set the youth for a more sustainable future</span>. <span class="premise">Dietary education at schools is inadequate and the variety as well as the quality of plant-based dishes, served in their canteens, are poor</span>.</dt>-->#}
+{#        <dt><span style="font-weight: bold" id="example5">E5</span>:<img style="width: 600px" src="/static/images/ann_example_5.png"></dt>#}
+{#        <dd>Explanation: a claim is supported by a premise, and the components are in separate sentences.</dd>#}
+{#      </dl>#}
+    </div>
+  </div>
+</div>
