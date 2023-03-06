@@ -1,6 +1,26 @@
 <div id="accordion" class="container">
   <h1 class="page-header">Annotation guidelines</h1>
   <hr>
+
+  <p>In this task you will need to highlight text based on 3 component types as well as draw links based on 2 types of relations between the components.</p>
+
+  <p>Components:</p>
+  <ul>
+    <li>
+      <p><strong>MajorClaim</strong>: <span class="major-claim">highlighting example</span>.</p>
+      <p>
+        You should not use this type for annotations.
+        However, the given piece of article may contain such component already pre-annotated, in this case you should not modify them.
+        Additionally, just above the annotation section, you are given all major claim paraphrases present in the article.
+        You should consider these major claim paraphrases when annotating other components.
+      </p>
+    </li>
+    <li><p><strong>ClaimFor</strong>: <span class="claim-for">highlighting example</span>.</p></li>
+    <li><p><strong>ClaimAgainst</strong>: <span class="claim-against">highlighting example</span>.</p></li>
+    <li><p><strong>Premise</strong>: <span class="premise">highlighting example</span>.</p></li>
+  </ul>
+  <p>Relations: <strong>Support</strong>, <strong>Attack</strong>.</p>
+
   <p>Click on section titles to expand the information.</p>
   {% include 'guidelines/section/annotation_ui.html' %}
   {% include 'guidelines/section/high_level.html' %}
