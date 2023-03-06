@@ -1,61 +1,97 @@
 <div id="container-questionnaire">
     <h1>Task Complete</h1>
 
-    <hr />
+    <hr>
 
     <p>You are finished!  Thank you for your contributions to science. You will be eligible for full payment once you answer the following questions.</p>
 
     <div class="instructions well">
-
         <form id="postquiz" action="debrief" method="post">
-
-
-            <!-- beginning of a question -->
-            <div class="row question">
-                <div class="col-md-8">
-                    On a scale of 1-10 (where 10 is the most engaged), please rate how <b>ENGAGING</b> you found the learning task:
-                </div>
-                <div class="col-md-4">
-                    <select id="engagement" name="engagement">
-                        <option value="10">10 - Very engaging</option>
-                        <option value="9">9</option>
-                        <option value="8">8</option>
-                        <option value="7">7</option>
-                        <option value="6">6</option>
-                        <option value="5" SELECTED>5 - Moderately</option>
-                        <option value="4">4</option>
-                        <option value="3">3</option>
-                        <option value="2">2</option>
-                        <option value="1">1</option>
-                        <option value="0">0 - Not engaged</option>
-                    </select>
-                </div>
+          <div class="row question">
+            <div class="col-md-8">
+              On a scale of 1-10 (where 10 is the most difficult), please rate how <b>difficult</b> you found the task:
             </div>
-            <!-- end of a question -->
-
-
-            <!-- beginning of a question -->
-            <div class="row question">
-                <div class="col-md-8">
-                    On a scale of 1-10 (where 10 is the most difficult), please rate how <b>DIFFICULT</b> you found the learning task:
-                </div>
-                <div class="col-md-4">
-                    <select id="difficulty" name="difficulty">
-                        <option value="10">10 - Very difficult</option>
-                        <option value="9">9</option>
-                        <option value="8">8</option>
-                        <option value="7">7</option>
-                        <option value="6">6</option>
-                        <option value="5" SELECTED>5 - Moderately difficult</option>
-                        <option value="4">4</option>
-                        <option value="3">3</option>
-                        <option value="2">2</option>
-                        <option value="1">1</option>
-                        <option value="0">0 - Not difficult at all</option>
-                    </select>
-                </div>
+            <div class="col-md-4">
+              <select id="difficulty" name="difficulty">
+                  <option value="10">10 - Very difficult</option>
+                  <option value="9">9</option>
+                  <option value="8">8</option>
+                  <option value="7">7</option>
+                  <option value="6">6</option>
+                  <option value="5" selected>5 - Moderately difficult</option>
+                  <option value="4">4</option>
+                  <option value="3">3</option>
+                  <option value="2">2</option>
+                  <option value="1">1 - Very easy</option>
+              </select>
             </div>
-            <!-- end of a question -->
+          </div>
+
+          <div class="row question">
+            <div class="col-md-8">
+              On a scale of 1-10 (where 10 is the most interesting), please rate how <b>interesting</b> you found the task:
+            </div>
+            <div class="col-md-4">
+              <select id="guidelines" name="guidelines">
+                <option value="10">10 - Very Interesting</option>
+                <option value="9">9</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5" SELECTED>5 - Moderately interesting</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1 - Very boring</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row question">
+            <div class="col-md-8">
+              On a scale of 1-10 (where 10 is the most intuitive), please rate how <b>intuitive</b> you found the annotation user interface:
+            </div>
+            <div class="col-md-4">
+              <select id="intuitive" name="intuitive">
+                  <option value="10">10 - Very intuitive</option>
+                  <option value="9">9</option>
+                  <option value="8">8</option>
+                  <option value="7">7</option>
+                  <option value="6">6</option>
+                  <option value="5" selected>5 - Reasonably intuitive</option>
+                  <option value="4">4</option>
+                  <option value="3">3</option>
+                  <option value="2">2</option>
+                  <option value="1">1 - Very difficult to use</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row question">
+            <div class="col-md-8">
+              On a scale of 1-10 (where 10 is the most clear), please rate how <b>clear</b> you found the annotation guidelines:
+            </div>
+            <div class="col-md-4">
+              <select id="guidelines" name="guidelines">
+                  <option value="10">10 - Very clear</option>
+                  <option value="9">9</option>
+                  <option value="8">8</option>
+                  <option value="7">7</option>
+                  <option value="6">6</option>
+                  <option value="5" SELECTED>5 - Reasonably clear</option>
+                  <option value="4">4</option>
+                  <option value="3">3</option>
+                  <option value="2">2</option>
+                  <option value="1">1 - Very unclear</option>
+              </select>
+            </div>
+          </div>
+
+        <label for="feedback">Other feedback:</label>
+        <textarea id="feedback" name="feedback" rows="5" cols="33">
+          It was a dark and stormy night...
+        </textarea>
+
         </form>
     </div>
 
