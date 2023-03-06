@@ -378,9 +378,10 @@ const StroopExperiment = function () {
     }
   });
 
+
   $('#open-guidelines').click(function () {
     window.open(
-      'guidelines.html',
+      'guidelines',
       'Guidelines',
       'Popup', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=no,width='+1024+',height='+768+''
     )
