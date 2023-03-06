@@ -336,6 +336,7 @@ const SAMExperiment = function () {
         'components': recogito.getAnnotationsOnly(),
         'relations': recogito.getRelationsOnly()
       });
+      psiTurk.saveData({});
   });
 
   recogito.on('updateAnnotation', function(curAnn, prevAnn) {
@@ -373,6 +374,7 @@ const SAMExperiment = function () {
         'components': recogito.getAnnotationsOnly(),
         'relations': recogito.getRelationsOnly()
       });
+      psiTurk.saveData({});
   });
 
   recogito.on('deleteAnnotation', function(ann) {
@@ -380,11 +382,12 @@ const SAMExperiment = function () {
     psiTurk.recordTrialData({
       'phase':'survey',
       'event': 'delete_annotation',
-      'annotation': curAnn,
+      'annotation': ann,
       'type': ann_type,
       'components': recogito.getAnnotationsOnly(),
       'relations': recogito.getRelationsOnly()
     });
+    psiTurk.saveData({});
   });
 
   recogito.on('cancelSelected', function(annotation) {});
@@ -407,7 +410,6 @@ const SAMExperiment = function () {
     }
   });
 
-
   $('#open-guidelines').click(function () {
     window.open(
       'guidelines',
@@ -420,11 +422,19 @@ const SAMExperiment = function () {
   $("#submit-sam").click(function () {
     if (validatePremises(recogito)) {
       psiTurk.recordTrialData({
-        'event': 'submit',
+        'event': 'submit_annotations',
         'components': recogito.getAnnotationsOnly(),
         'relations': recogito.getRelationsOnly()
       });
+      psiTurk.saveData({});
       currentview = new Questionnaire();
+    } else {
+      psiTurk.recordTrialData({
+        'event': 'premise_validation_failure',
+        'components': recogito.getAnnotationsOnly(),
+        'relations': recogito.getRelationsOnly()
+      });
+      psiTurk.saveData({});
     }
   });
 };
