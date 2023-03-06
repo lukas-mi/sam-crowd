@@ -4,102 +4,66 @@
 {% endblock %}
 
 {% block body %}
-
-
-
-<!--
-	The ad.html has a very specific format.
-
-	Really there are two "ads" contained within this file.
-
-	The first ad displays to participants who are browsing
-	the Amazon Mechanical Turk site but have not yet accepted
-	your hit.
-
-	The second part of the ad display after the person selected
-	"Accept HIT" on the Amazon website.  This will reload the
-	ad and will display a button which, when clicked, will pop
-	open a new browser window pointed at your local psiTurk
-	server (assuming it is running and accessible to the Internet).
-
-	See comments throughout for hints
-
--->
-
 		<div id="container-not-an-ad" class="media">
-{#			<div class="media-left pull-left" href="#">#}
-{#						<!-- REPLACE THE LOGO HERE WITH YOUR  UNIVERSITY, LAB, or COMPANY -->#}
-{#						<img id="adlogo" src="{{ server_location }}/static/images/university.png" alt="Lab Logo" />#}
-{#			</div>#}
 			<div class="media-body">
+        <h1>Before accepting the HIT</h1>
+        <p>This task should only be carried out on a larger display device (i.e. laptop but not smartphone) that has mouse and keyboard connected.</p>
+        <p>
+          The task is more challenging than the majority of other tasks available at MTurk and the quality of work is highly important.
+          For these reasons you're given a considerable amount of time to complete it.
+          We hope that the compensation is fair and adequate for your effort.
+        </p>
 
-							<!--
-								If assignmentid is "ASSIGNMENT_ID_NOT_AVAILABLE"
-								it means the participant has NOT accepted your hit.
-								This should display the typical advertisement about
-								your experiment: who can participate, what the
-								payment is, the time, etc...
+        <div class="alert alert-warning">
+          <b>Warning</b>: If you have any pop-up blockers active, please disable them before continuing, otherwise you won't be able to proceed.
+        </div>
 
-							-->
-							{% if assignmentid == "ASSIGNMENT_ID_NOT_AVAILABLE" %}
+        <div class="alert alert-danger">
+          <strong>This task can only be completed once.</strong>
+          If you have already completed this task before the system will not
+          allow you to run again. If this looks familiar please return the
+          HIT so someone else can participate.
+        </div>
 
-							    <h1>Call for participants</h1>
-							    <p>
-									The XXX Lab at XXXXX University is looking for online participants
-									for a brief psychology experiment. The only requirements
-									are that you are at least 18 years old and are a fluent English
-									speaker.  The task will take XXXXX minutes and will pay XXXXX.
-							    </p>
-							    <div class="alert alert-danger">
-									<strong>This task can only be completed once.</strong>
-									If you have already completed this task before the system will not
-									allow you to run again. If this looks familiar please return the
-									HIT so someone else can participate.
-							    </div>
-							    <p>
-								    Otherwise, please click the "Accept HIT" button on the Amazon site
-								    above to begin the task.
-								</p>
+        <h1>Introduction</h1>
+        <p>In this task you will be provided with a section from an article on the topics of sustainable diets, veganism, meat alternatives, effects of food production on the environment, and others.</p>
+        <p>Your task is to identify argument components present in the text and determine how they are related to each other as well as the main view of the article's author.</p>
+        <p>
+          Likely, you will have your own opinions and may agree or disagree with the contents of the articles, finding some statements to be untrue or even offensive.
+          However, in order to correctly complete the task, it is crucial that you stay objective and follow the described guidelines to the best of your ability.
+        </p>
 
+        <h1>Motivation</h1>
+        <p>Your work may eventually be used in developing Artificial Intelligence (AI) that is capable of automatically extracting arguments and their relations from the text.</p>
+        <p>
+          Extracted arguments can then be used for various applications.
+          For instance, identifying main arguments that people use for switching/not switching to sustainable diets.
+          Such information could then be used for improving communication between governments and citizens to encourage more sustainable dietary choices.
+          Alternatively, food industry may leverage this information in order to develop new and attractive plant-based products or improve qualities of the existing ones.
+        </p>
 
-							{% else %}
+        <h1>The HIT</h1>
 
-								<!--
-									OTHERWISE
-									If assignmentid is NOT "ASSIGNMENT_ID_NOT_AVAILABLE"
-									it means the participant has accepted your hit.
-									You should thus show them instructions to begin the
-									experiment ... usually a button to launch a new browser
-									window pointed at your server.
+        {% if assignmentid == "ASSIGNMENT_ID_NOT_AVAILABLE" %}
+          <p>
+            If, after reading the information above, you're still interested in working on this task, please click the "Accept HIT" button on the Amazon site.
+            After accepting, you will see a button below that will take you to the experiment.
+          </p>
+        {% else %}
+          <p>By clicking the button below, you will be taken to the experiment including the complete instructions.</p>
 
-									It is important you do not change the code for the
-									openwindow() function below if you want you experiment
-									to work.
-								-->
-							    <h1>Thank you for accepting this HIT!</h1>
-							    <p>
-							    	By clicking the following URL link, you will be taken to the experiment,
-							        including complete instructions and an informed consent agreement.
-							    </p>
-							    <script type="text/javascript">
-									function openwindow() {
-{#                    popup = window.open('{{ server_location }}/consent?hitId={{ hitid }}&assignmentId={{ assignmentid }}&workerId={{ workerid }}','Popup','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=no,width='+1024+',height='+768+'');#}
-                    popup = window.open('{{ server_location }}/exp?hitId={{ hitid }}&assignmentId={{ assignmentid }}&workerId={{ workerid }}','Popup','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=no,width='+1024+',height='+768+'');
-                  }
-							    </script>
-							    <div class="alert alert-warning">
-							    	<b>Warning</b>: Please disable pop-up blockers before continuing.
-							    </div>
+          <p>To carry out the task correctly, be sure to carefully read the annotation guidelines.</p>
 
-						    	<button type="button" class="btn btn-primary btn-lg" onClick="openwindow();">
-								  Begin Experiment
-								</button>
+          <script type="text/javascript">
+            function openWindow() {
+              window.open('{{ server_location }}/exp?hitId={{ hitid }}&assignmentId={{ assignmentid }}&workerId={{ workerid }}','Popup','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=no,width='+1024+',height='+768+'');
+            }
+          </script>
 
-
-							{% endif %}
-							<!--
-								endif
-							-->
+          <button type="button" class="btn btn-primary btn-lg" onClick="openWindow();">
+            Begin Experiment
+          </button>
+        {% endif %}
 			</div>
 		</div>
 {% endblock %}
