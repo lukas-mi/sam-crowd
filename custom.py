@@ -18,7 +18,7 @@ from json import dumps, loads
 config = PsiturkConfig()
 config.load_config()
 # if you want to add a password protect route, uncomment and use this
-#myauth = PsiTurkAuthorization(config)
+# myauth = PsiTurkAuthorization(config)
 
 # explore the Blueprint
 custom_code = Blueprint('custom_code', __name__,
@@ -42,12 +42,13 @@ def my_custom_view():
     except TemplateNotFound:
         abort(404)
 
+
 # ----------------------------------------------
 # example using HTTP authentication
 # ----------------------------------------------
-#@custom_code.route('/my_password_protected_route')
-#@myauth.requires_auth
-#def my_password_protected_route():
+# @custom_code.route('/my_password_protected_route')
+# @myauth.requires_auth
+# def my_password_protected_route():
 #    try:
 #        return render_template('custom.html')
 #    except TemplateNotFound:
@@ -56,9 +57,9 @@ def my_custom_view():
 # ----------------------------------------------
 # example accessing data
 # ----------------------------------------------
-#@custom_code.route('/view_data')
-#@myauth.requires_auth
-#def list_my_data():
+# @custom_code.route('/view_data')
+# @myauth.requires_auth
+# def list_my_data():
 #    users = Participant.query.all()
 #    try:
 #        return render_template('list.html', participants=users)
@@ -66,10 +67,20 @@ def my_custom_view():
 #        abort(404)
 
 # ----------------------------------------------
+# accessing guidelines
+# ----------------------------------------------
+@custom_code.route('/guidelines')
+def guidelines():
+    try:
+        return render_template('guidelines.html', stage_mode=config.get('Custom Parameters', 'stage_mode'))
+        # return render_template('guidelines.html')
+    except TemplateNotFound:
+        abort(404)
+
+
+# ----------------------------------------------
 # example computing bonus
 # ----------------------------------------------
-
-
 @custom_code.route('/compute_bonus', methods=['GET'])
 def compute_bonus():
     # check that user provided the correct keys
@@ -82,8 +93,8 @@ def compute_bonus():
 
     try:
         # lookup user in database
-        user = Participant.query.\
-            filter(Participant.uniqueid == uniqueId).\
+        user = Participant.query. \
+            filter(Participant.uniqueid == uniqueId). \
             one()
         user_data = loads(user.datastring)  # load datastring from JSON
         bonus = 0

@@ -76,30 +76,34 @@ h1 {
   padding-top: 15px;
 }
 
-
-.r6o-annotation.major-claim {
-    /*background-color: rgba(255, 30, 0, 0.2);*/
-    background-color: #50505033;
-    border-bottom: 2px solid grey;
+.major-claim {
+  background-color: #50505033;
+  border-bottom: 2px solid grey;
 }
 
-.r6o-annotation.claim-for {
-    background-color: #00FF5133;
-    border-bottom: 2px solid limegreen;
+.claim-for {
+  background-color: #00FF5133;
+  border-bottom: 2px solid limegreen;
 }
 
-.r6o-annotation.claim-against {
-    background-color: #FF000033;
-    border-bottom: 2px solid red;
+.claim-against {
+  background-color: #FF000033;
+  border-bottom: 2px solid red;
 }
 
-.r6o-annotation.premise {
-    background-color: #FFD50033;
-    border-bottom: 2px solid gold;
+.premise {
+  background-color: #FFD50033;
+  border-bottom: 2px solid gold;
 }
 
+dt {
+  font-weight: lighter;
+}
 
-.card{
-    margin-bottom: 10px;
-    margin-top: 10px;
+dt:not(:first-child) {
+  margin-top: 20px;
+}
+
+a {
+  text-decoration-line: underline;
 }

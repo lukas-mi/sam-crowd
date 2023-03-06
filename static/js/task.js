@@ -151,15 +151,12 @@ function propagateComponentUpdate(prevComp, curComp, recogito) {
     relationsToRemove = relations.filter(rel => rel.target[0].id === curComp.id || rel.target[1].id === curComp.id);
     if (relationsToRemove)
     errMsg = `All connection were removed for the component due to tag change: ${prevLabel} -> ${curLabel}.`;
-  } else if (regularClaimLabels.includes(prevLabel) && prevLabel === majorClaim) { // regular claim to major claim => remove all incoming connections
+  } else if (regularClaimLabels.includes(prevLabel) && curLabel === majorClaim) { // regular claim to major claim => remove all incoming connections
     relationsToRemove = relations.filter(rel => rel.target[1].id === curComp.id);
     errMsg = `All incoming connection were removed for the component due to tag change: ${prevLabel} -> ${curLabel}.`;
   }
 
-  relationsToRemove.forEach(rel => {
-    console.log('removing relation', rel);
-    recogito.removeRelation(rel);
-  });
+  relationsToRemove.forEach(rel => recogito.removeRelation(rel));
   if (relationsToRemove.length > 0) {
     alert(errMsg);
   }
@@ -184,8 +181,8 @@ function validatePremises(recogito) {
     const errP2 = $(`<p>To address this you can do one of the following (please refer to the guidelines when making the decision):</p>`);
     const suggestionList = $(`<ul></ul>`);
     suggestionList.append(`<li>Link a ${premise} to ${claimFor}/${claimAgainst} component via ${support}/${attack} relation.</li>`);
-    suggestionList.append(`<li>Change component's tag to ${claimFor}/${claimAgainst}.</li>`);
-    suggestionList.append(`<li>Remove the component.</li>`);
+    suggestionList.append(`<li>Change ${premise} component's tag to ${claimFor}/${claimAgainst}.</li>`);
+    suggestionList.append(`<li>Remove ${premise} component.</li>`);
 
     const itemsP = $(`<p>Following ${premise} components do not adhere to the rule described above:</p>`)
     const itemList = $(`<ul></ul>`);
@@ -197,7 +194,7 @@ function validatePremises(recogito) {
     alertDiv.append(generalMsg, $(`<hr>`), errP1, errP2, suggestionList, itemsP, itemList);
     $("#outer-container").append(alertDiv);
 
-//    alert("Cannot submit due to incomplete annotation, please see reasons at the bottom of the page and address them.");
+    // alert("Cannot submit due to incomplete annotation, please see reasons at the bottom of the page and address them.");
     $("#errors-container").get(0).scrollIntoView({behavior: 'smooth'});
   }
 
@@ -311,7 +308,16 @@ const StroopExperiment = function () {
   // Load the stage.html snippet into the body of the page
   psiTurk.showPage('stage.html');
 
-  const recogito = initRecogito();
+  const recogito = Recogito.init({
+      content: 'content', // Element id or DOM node to attach to
+      locale: 'auto',
+      allowEmpty: true,
+      widgets: [
+          { widget: 'TAG', vocabulary: componentLabels }
+      ],
+      relationVocabulary: relationLabels,
+      formatter: formatAnn
+  });
 
   recogito.on('selectAnnotation', function(a) {
       console.log('selected', a);
@@ -372,13 +378,20 @@ const StroopExperiment = function () {
     }
   });
 
+  $('#open-guidelines').click(function () {
+    window.open(
+      'guidelines.html',
+      'Guidelines',
+      'Popup', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=no,width='+1024+',height='+768+''
+    )
+  });
+
   $("#submit-sam").click(function () {
       if (validatePremises(recogito)) {
         currentview = new Questionnaire();
       }
   });
 };
-
 
 /****************
 * Questionnaire *

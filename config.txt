@@ -319,7 +319,10 @@ database_url = $DATABASE_URL
 
 # Dashboard
 # enable_dashboard = true
-# login_username =
-# login_pw =
+# login_username = admin
+# login_pw = password
 
-# do_scheduler = true
+################################## Custom Parameters ############################
+[Custom Parameters]
+# Stage mode: {article, section}
+stage_mode = section
