@@ -4,17 +4,15 @@
  *     utils.js
  */
 
-// Initalize psiturk object
-var psiTurk = new PsiTurk(uniqueId, adServerLoc, mode);
+// Initialize psiturk object
+const psiTurk = new PsiTurk(uniqueId, adServerLoc, mode);
 
 var mycondition = condition;  // these two variables are passed by the psiturk server process
 var mycounterbalance = counterbalance;  // they tell you which condition you have been assigned to
 // they are not used in the stroop code but may be useful to you
 
 // All pages to be loaded
-var pages = [
-	"instructions/instruct-1.html",
-	"instructions/instruct-ready.html",
+const pages = [
 	"stage.html",
 	"postquestionnaire.html"
 ];
@@ -33,12 +31,6 @@ const init = (async () => {
     await psiTurk.preloadPages(pages);
 })()
 
-var instructionPages = [ // add as a list as many pages as you like
-	"instructions/instruct-1.html",
-	"instructions/instruct-ready.html"
-];
-
-
 /********************
 * HTML manipulation
 *
@@ -49,9 +41,9 @@ var instructionPages = [ // add as a list as many pages as you like
 *
 ********************/
 
-/********************
-* STROOP TEST       *
-********************/
+/**********************************************
+* Structured Argument Mining (SAM) Experiment *
+**********************************************/
 const majorClaim = 'MajorClaim';
 const claimFor = 'ClaimFor';
 const claimAgainst = 'ClaimAgainst';
@@ -304,23 +296,13 @@ function initRecogito() {
   });
 }
 
-const StroopExperiment = function () {
+const SAMExperiment = function () {
   // Load the stage.html snippet into the body of the page
   psiTurk.showPage('stage.html');
 
-  const recogito = Recogito.init({
-      content: 'content', // Element id or DOM node to attach to
-      locale: 'auto',
-      allowEmpty: true,
-      widgets: [
-          { widget: 'TAG', vocabulary: componentLabels }
-      ],
-      relationVocabulary: relationLabels,
-      formatter: formatAnn
-  });
+  const recogito = initRecogito();
 
   recogito.on('selectAnnotation', function(a) {
-      console.log('selected', a);
   });
 
   recogito.on('createAnnotation', function(ann) {
@@ -357,7 +339,6 @@ const StroopExperiment = function () {
   });
 
   recogito.on('cancelSelected', function(annotation) {
-      console.log('cancel', annotation);
   });
 
   document.getElementById('get-annotations').addEventListener('click', function() {
@@ -390,6 +371,7 @@ const StroopExperiment = function () {
 
   $("#submit-sam").click(function () {
       if (validatePremises(recogito)) {
+        psiTurk.recordTrialData()
         currentview = new Questionnaire();
       }
   });
@@ -399,12 +381,11 @@ const StroopExperiment = function () {
 * Questionnaire *
 ****************/
 
-var Questionnaire = function() {
+const Questionnaire = function() {
 
-	var error_message = "<h1>Oops!</h1><p>Something went wrong submitting your HIT. This might happen if you lose your internet connection. Press the button to resubmit.</p><button id='resubmit'>Resubmit</button>";
+	const error_message = "<h1>Oops!</h1><p>Something went wrong submitting your HIT. This might happen if you lose your internet connection. Press the button to resubmit.</p><button id='resubmit'>Resubmit</button>";
 
 	record_responses = function() {
-
 		psiTurk.recordTrialData({'phase':'postquestionnaire', 'status':'submit'});
 
 		$('textarea').each( function(i, val) {
@@ -428,11 +409,7 @@ var Questionnaire = function() {
 		psiTurk.saveData({
 			success: function() {
 			    clearInterval(reprompt);
-                psiTurk.computeBonus('compute_bonus', function(){
-                	psiTurk.completeHIT(); // when finished saving compute bonus, the quit
-                });
-
-
+          psiTurk.completeHIT();
 			},
 			error: prompt_resubmit
 		});
@@ -445,12 +422,9 @@ var Questionnaire = function() {
 	$("#next").click(function () {
 	    record_responses();
 	    psiTurk.saveData({
-            success: function(){
-                psiTurk.computeBonus('compute_bonus', function() {
-                	psiTurk.completeHIT(); // when finished saving compute bonus, the quit
-                });
-            },
-            error: prompt_resubmit});
+        success: psiTurk.completeHIT,
+        error: prompt_resubmit
+      });
 	});
 
 
@@ -472,8 +446,5 @@ var currentview;
  // would not begin to preload until the window had finished loading -- an unnecessary delay.
 $(window).on('load', async () => {
     await init;
-    psiTurk.doInstructions(
-    	instructionPages, // a list of pages you want to display in sequence
-    	function() { currentview = new StroopExperiment(); } // what you want to do when you are done with instructions
-    );
+    currentview = new SAMExperiment();
 });
