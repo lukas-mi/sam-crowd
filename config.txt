@@ -203,7 +203,7 @@ database_url = $DATABASE_URL
 ;loglevel = 2
 
 # Controls whether the dashboard is enabled
-;enable_dashboard = false
+enable_dashboard = true
 
 # Controls whether the scheduler will run. If true, then num_threads must be 1
 # Be very careful to only have one scheduler run for a given study in any
@@ -213,10 +213,10 @@ database_url = $DATABASE_URL
 ;do_scheduler = false
 
 # Login username for the dashboard
-;login_username =
+login_username = admin
 
 # Login password for the dashboard
-;login_pw =
+login_pw = password
 
 # Number of threads for the psiturk gunicorn server to use. Leave to 1 if using
 # the task runner! Otherwise, dynamically dependent on the number of cpus.
@@ -227,7 +227,7 @@ database_url = $DATABASE_URL
 # to set unless using a secure function.
 # e.g.,
 #     secret_key = 'this is my secret key which is hard to guess, i should change this'
-;secret_key =
+secret_key = secret
 
 # The psiturk (gunicorn) server can optionally serve traffic over https. This is
 # normally not necessary if the psiturk server is set up behind a reverse proxy
@@ -316,11 +316,6 @@ database_url = $DATABASE_URL
 # e.g.,
 #     bonus_message = "Thanks for participating!"
 ;bonus_message =
-
-# Dashboard
-# enable_dashboard = true
-# login_username = admin
-# login_pw = password
 
 ################################## Custom Parameters ############################
 [Custom Parameters]
