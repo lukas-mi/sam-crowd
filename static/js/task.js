@@ -300,25 +300,25 @@ const SAMExperiment = function () {
   // Load the stage.html snippet into the body of the page
   psiTurk.showPage('stage.html');
 
-  const recogito = initRecogito();
+  const r = initRecogito();
 
-  recogito.on('selectAnnotation', function(ann) {});
+  r.on('selectAnnotation', function(ann) {});
 
-  recogito.on('createAnnotation', function(ann) {
+  r.on('createAnnotation', function(ann) {
       let ann_type = ann.motivation ? ann.motivation : 'highlighting';
       let isValid;
 
       if (ann_type === 'linking') {
-        isValid = isRelationValid(ann, recogito);
+        isValid = isRelationValid(ann, r);
         if (!isValid) {
-          recogito.removeRelation(ann);
+          r.removeRelation(ann);
         } else {
           modeToggle.bootstrapToggle('toggle');
         }
       } else {
-        isValid = isComponentValid(ann, recogito);
+        isValid = isComponentValid(ann, r);
         if (!isValid) {
-          recogito.removeAnnotation(ann);
+          r.removeAnnotation(ann);
         } else {
             if (getLabels(ann)[0] === premise) {
               modeToggle.bootstrapToggle('toggle');
@@ -333,30 +333,30 @@ const SAMExperiment = function () {
         'valid': isValid,
         'annotation': ann,
         'type': ann_type,
-        'components': recogito.getAnnotationsOnly(),
-        'relations': recogito.getRelationsOnly()
+        'components': r.getAnnotationsOnly(),
+        'relations': r.getRelationsOnly()
       });
       psiTurk.saveData({});
   });
 
-  recogito.on('updateAnnotation', function(curAnn, prevAnn) {
+  r.on('updateAnnotation', function(curAnn, prevAnn) {
       let ann_type = curAnn.motivation ? curAnn.motivation : 'highlighting';
       let isValid;
 
       if (ann_type === 'linking') {
-        isValid = isRelationValid(curAnn, recogito);
+        isValid = isRelationValid(curAnn, r);
         if (!isValid) {
-          recogito.removeRelation(curAnn);
+          r.removeRelation(curAnn);
         } else {
           modeToggle.bootstrapToggle('toggle');
         }
       } else {
-        isValid = isComponentValid(curAnn, recogito);
+        isValid = isComponentValid(curAnn, r);
         if (!isValid) {
-          recogito.removeAnnotation(curAnn);
-          recogito.addAnnotation(prevAnn);
+          r.removeAnnotation(curAnn);
+          r.addAnnotation(prevAnn);
         } else {
-          propagateComponentUpdate(prevAnn, curAnn, recogito);
+          propagateComponentUpdate(prevAnn, curAnn, r);
           if (getLabels(curAnn)[0] === premise) {
             modeToggle.bootstrapToggle('toggle');
           }
@@ -371,32 +371,32 @@ const SAMExperiment = function () {
         'cur_annotation': curAnn,
         'prev_annotation': prevAnn,
         'type': ann_type,
-        'components': recogito.getAnnotationsOnly(),
-        'relations': recogito.getRelationsOnly()
+        'components': r.getAnnotationsOnly(),
+        'relations': r.getRelationsOnly()
       });
       psiTurk.saveData({});
   });
 
-  recogito.on('deleteAnnotation', function(ann) {
+  r.on('deleteAnnotation', function(ann) {
     let ann_type = ann.motivation ? ann.motivation : 'highlighting';
     psiTurk.recordTrialData({
       'phase':'survey',
       'event': 'delete_annotation',
       'annotation': ann,
       'type': ann_type,
-      'components': recogito.getAnnotationsOnly(),
-      'relations': recogito.getRelationsOnly()
+      'components': r.getAnnotationsOnly(),
+      'relations': r.getRelationsOnly()
     });
     psiTurk.saveData({});
   });
 
-  recogito.on('cancelSelected', function(annotation) {});
+  r.on('cancelSelected', function(annotation) {});
 
   const getAnnBtn = $('#log-annotations')
   if (mode === 'debug') {
     getAnnBtn.removeAttr('hidden');
     getAnnBtn.click(function () {
-      console.log('annotations', recogito.getAnnotations());
+      console.log('annotations', r.getAnnotations());
     });
   }
 
@@ -408,13 +408,18 @@ const SAMExperiment = function () {
 
   modeToggle.change(function() {
     if($(this).is(':checked')){
-      recogito.setMode('ANNOTATION');
+      r.setMode('ANNOTATION');
     } else {
-      recogito.setMode('RELATIONS');
+      r.setMode('RELATIONS');
     }
   });
 
   $('#open-guidelines').click(function () {
+    psiTurk.recordTrialData({
+      'phase':'survey',
+      'event': 'open_guidelines'
+    });
+    psiTurk.saveData({});
     window.open(
       'guidelines',
       'Guidelines',
@@ -424,19 +429,21 @@ const SAMExperiment = function () {
   });
 
   $("#submit-sam").click(function () {
-    if (validatePremises(recogito)) {
+    if (validatePremises(r)) {
       psiTurk.recordTrialData({
+        'phase':'survey',
         'event': 'submit_annotations',
-        'components': recogito.getAnnotationsOnly(),
-        'relations': recogito.getRelationsOnly()
+        'components': r.getAnnotationsOnly(),
+        'relations': r.getRelationsOnly()
       });
       psiTurk.saveData({});
       currentview = new Questionnaire();
     } else {
       psiTurk.recordTrialData({
+        'phase':'survey',
         'event': 'premise_validation_failure',
-        'components': recogito.getAnnotationsOnly(),
-        'relations': recogito.getRelationsOnly()
+        'components': r.getAnnotationsOnly(),
+        'relations': r.getRelationsOnly()
       });
       psiTurk.saveData({});
     }
