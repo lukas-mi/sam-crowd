@@ -324,5 +324,5 @@ database_url = $DATABASE_URL
 
 ################################## Custom Parameters ############################
 [Custom Parameters]
-# Stage mode: {article, section}
-stage_mode = section
+# Annotation modes: {full, article, section, screening}
+annotation_mode = section

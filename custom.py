@@ -69,10 +69,10 @@ def my_custom_view():
 # ----------------------------------------------
 # accessing stage mode
 # ----------------------------------------------
-@custom_code.route('/stage_mode')
-def stage_mode():
+@custom_code.route('/annotation_mode')
+def annotation_mode():
     try:
-        return config.get('Custom Parameters', 'stage_mode')
+        return config.get('Custom Parameters', 'annotation_mode')
     except TemplateNotFound:
         abort(404)
 
@@ -82,7 +82,7 @@ def stage_mode():
 @custom_code.route('/guidelines')
 def guidelines():
     try:
-        return render_template('guidelines.html', stage_mode=config.get('Custom Parameters', 'stage_mode'))
+        return render_template('guidelines.html', annotation_mode=config.get('Custom Parameters', 'annotation_mode'))
         # return render_template('guidelines.html')
     except TemplateNotFound:
         abort(404)

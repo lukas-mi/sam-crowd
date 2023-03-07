@@ -27,13 +27,13 @@ const pages = [
 // calls `psiTurk.preloadPages()` -- which, as of psiTurk 3, itself returns a Promise.
 //
 // The anonymous function is defined using javascript "arrow function" syntax.
-let stageMode;
+let annotationMode;
 const init = (async () => {
   await psiTurk.preloadPages(pages);
-  await $.get('stage_mode').done(data => {
-    stageMode = data;
+  await $.get('annotation_mode').done(data => {
+    annotationMode = data;
   }).catch((jqXHR, textStatus, errorThrown) => {
-    console.log('got error on /stage_mode', jqXHR, textStatus, errorThrown)
+    console.log('got error on /annotation_mode', jqXHR, textStatus, errorThrown)
   });
 })();
 
@@ -50,17 +50,39 @@ const init = (async () => {
 /**********************************************
 * Structured Argument Mining (SAM) Experiment *
 **********************************************/
+const fullMode = 'full';
+const articleMode = 'article';
+const sectionMode = 'section';
+
 const majorClaim = 'MajorClaim';
 const claimFor = 'ClaimFor';
 const claimAgainst = 'ClaimAgainst';
 const premise = 'Premise';
-const componentLabels = [majorClaim, claimFor, claimAgainst, premise];
-const regularClaimLabels = [claimFor, claimAgainst];
-const claimLabels = [majorClaim, claimFor, claimAgainst];
+const fullComponentLabels = [majorClaim, claimFor, claimAgainst, premise];
+const articleComponentLabels = [majorClaim];
+const sectionComponentLabels = [claimFor, claimAgainst, premise];
 
 const support = 'Support';
 const attack = 'Attack';
 const relationLabels = [support, attack];
+
+function getAnnModeComponentLabels() {
+  if (annotationMode === articleMode) {
+    return articleComponentLabels;
+  } else if (annotationMode === sectionMode) {
+    return sectionComponentLabels;
+  } else {
+    return fullComponentLabels;
+  }
+}
+
+function getAnnModeRelationLabels() {
+  if (annotationMode === articleMode) {
+    return [];
+  } else {
+    return relationLabels;
+  }
+}
 
 function getLabels(ann) {
   return ann.body.filter(b => b.purpose === 'tagging').map(b => b.value);
@@ -89,14 +111,15 @@ function isComponentValid(comp, recogito) {
 
 function isComponentLabelValid(comp) {
   const labels = getLabels(comp)
+  const validLabels = getAnnModeComponentLabels();
 
   let isValid = false
   if (labels.length === 0) {
     window.alert(`A tag must be added for the highlighted text area.`);
   } else if (labels.length > 1) {
     window.alert(`Only one tag is allowed per highlighted text area.`);
-  } else if (!componentLabels.includes(labels[0])) {
-    window.alert(`Tag '${labels[0]}' is invalid, please add one the following: ${componentLabels.join(', ')}.`);
+  } else if (!validLabels.includes(labels[0])) {
+    window.alert(`Tag '${labels[0]}' is invalid, please add one the following: ${validLabels.join(', ')}.`);
   } else {
     isValid = true;
   }
@@ -141,7 +164,7 @@ function propagateComponentUpdate(prevComp, curComp, recogito) {
   let relationsToRemove = [];
   let errMsg = '';
 
-  if (prevLabel === premise && regularClaimLabels.includes(curLabel)) { // premise to regular claim => remove outgoing connection
+  if (prevLabel === premise && (curLabel === claimFor || curLabel === claimAgainst)) { // premise to regular claim => remove outgoing connection
     const outRelation = relations.find(rel => rel.target[0].id === curComp.id);
     relationsToRemove = outRelation ? [outRelation] : [];
     errMsg = `Outgoing connection was removed for the component due to tag change: ${prevLabel} -> ${curLabel}.`;
@@ -149,7 +172,7 @@ function propagateComponentUpdate(prevComp, curComp, recogito) {
     relationsToRemove = relations.filter(rel => rel.target[0].id === curComp.id || rel.target[1].id === curComp.id);
     if (relationsToRemove)
     errMsg = `All connection were removed for the component due to tag change: ${prevLabel} -> ${curLabel}.`;
-  } else if (regularClaimLabels.includes(prevLabel) && curLabel === majorClaim) { // regular claim to major claim => remove all incoming connections
+  } else if ((prevLabel === claimFor || prevLabel === claimAgainst) && curLabel === majorClaim) { // regular claim to major claim => remove all incoming connections
     relationsToRemove = relations.filter(rel => rel.target[1].id === curComp.id);
     errMsg = `All incoming connection were removed for the component due to tag change: ${prevLabel} -> ${curLabel}.`;
   }
@@ -295,9 +318,9 @@ function initRecogito() {
     locale: 'auto',
     allowEmpty: true,
     widgets: [
-      { widget: 'TAG', vocabulary: componentLabels }
+      { widget: 'TAG', vocabulary: getAnnModeComponentLabels() }
     ],
-    relationVocabulary: relationLabels,
+    relationVocabulary: getAnnModeRelationLabels(),
     formatter: formatAnn
   });
 }
@@ -306,7 +329,7 @@ const SAMExperiment = function () {
   // Load the stage.html snippet into the body of the page
   psiTurk.showPage('stage.html');
 
-  console.log(`stageMode=${stageMode}`);
+  console.log(`annotationMode=${annotationMode}`);
 
   const r = initRecogito();
 
@@ -408,19 +431,25 @@ const SAMExperiment = function () {
     });
   }
 
-  const modeToggle = $('#mode-toggle')
-  modeToggle.bootstrapToggle({
+  const modeToggle = $('#mode-toggle');
+  if (annotationMode === articleMode) {
+    modeToggle.bootstrapToggle('destroy');
+    r.setMode('ANNOTATION');
+  } else {
+    modeToggle.bootstrapToggle({
       on: 'Components',
       off: 'Relations'
-  });
+    });
 
-  modeToggle.change(function() {
-    if($(this).is(':checked')){
-      r.setMode('ANNOTATION');
-    } else {
-      r.setMode('RELATIONS');
-    }
-  });
+    modeToggle.change(function() {
+      if($(this).is(':checked')){
+        r.setMode('ANNOTATION');
+      } else {
+        r.setMode('RELATIONS');
+      }
+    });
+  }
+  console.log('modeToggle', modeToggle);
 
   $('#open-guidelines').click(function () {
     psiTurk.recordTrialData({
@@ -445,7 +474,7 @@ const SAMExperiment = function () {
         'relations': r.getRelationsOnly()
       });
       psiTurk.saveData({});
-      currentview = new Questionnaire();
+      currentView = new Questionnaire();
     } else {
       psiTurk.recordTrialData({
         'phase':'survey',
@@ -512,7 +541,7 @@ const Questionnaire = function() {
 };
 
 // Task object to keep track of the current phase
-var currentview;
+let currentView;
 
 /*******************
  * Run Task
@@ -526,6 +555,6 @@ var currentview;
  // function bound to `window.on('load')` is that this would mean that the pages
  // would not begin to preload until the window had finished loading -- an unnecessary delay.
 $(window).on('load', async () => {
-    await init;
-    currentview = new SAMExperiment();
+  await init;
+  currentView = new SAMExperiment();
 });
