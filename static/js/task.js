@@ -27,9 +27,15 @@ const pages = [
 // calls `psiTurk.preloadPages()` -- which, as of psiTurk 3, itself returns a Promise.
 //
 // The anonymous function is defined using javascript "arrow function" syntax.
+let stageMode;
 const init = (async () => {
-    await psiTurk.preloadPages(pages);
-})()
+  await psiTurk.preloadPages(pages);
+  await $.get('stage_mode').done(data => {
+    stageMode = data;
+  }).catch((jqXHR, textStatus, errorThrown) => {
+    console.log('got error on /stage_mode', jqXHR, textStatus, errorThrown)
+  });
+})();
 
 /********************
 * HTML manipulation
@@ -299,6 +305,8 @@ function initRecogito() {
 const SAMExperiment = function () {
   // Load the stage.html snippet into the body of the page
   psiTurk.showPage('stage.html');
+
+  console.log(`stageMode=${stageMode}`);
 
   const r = initRecogito();
 

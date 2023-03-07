@@ -67,6 +67,16 @@ def my_custom_view():
 #        abort(404)
 
 # ----------------------------------------------
+# accessing stage mode
+# ----------------------------------------------
+@custom_code.route('/stage_mode')
+def stage_mode():
+    try:
+        return config.get('Custom Parameters', 'stage_mode')
+    except TemplateNotFound:
+        abort(404)
+
+# ----------------------------------------------
 # accessing guidelines
 # ----------------------------------------------
 @custom_code.route('/guidelines')
