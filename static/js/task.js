@@ -111,7 +111,7 @@ function isComponentSpanValid(comp, others) {
       const otherPosSelector = other.target.selector.find(s => s.type === 'TextPositionSelector');
       const otherStart = otherPosSelector.start;
       const otherEnd = otherPosSelector.end;
-      const noOverlap = otherEnd < compStart || otherStart > compEnd;
+      const noOverlap = otherEnd <= compStart || otherStart >= compEnd;
       result = !noOverlap;
     }
 
@@ -392,9 +392,13 @@ const SAMExperiment = function () {
 
   recogito.on('cancelSelected', function(annotation) {});
 
-  $('#get-annotations').click(function () {
-    console.log('annotations', recogito.getAnnotations());
-  });
+  const getAnnBtn = $('#log-annotations')
+  if (mode === 'debug') {
+    getAnnBtn.removeAttr('hidden');
+    getAnnBtn.click(function () {
+      console.log('annotations', recogito.getAnnotations());
+    });
+  }
 
   const modeToggle = $('#mode-toggle')
   modeToggle.bootstrapToggle({
