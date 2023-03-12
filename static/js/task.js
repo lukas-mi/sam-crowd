@@ -492,48 +492,48 @@ const SAMExperiment = function () {
 ****************/
 
 const Questionnaire = function() {
+  const resubmitDiv = $(`<div class="container"></div>`);
+  const alertDiv = $(`<div class="alert alert-danger" role="alert">`);
+  alertDiv.append(`<h1>Failed to resubmit</h1>`);
+  alertDiv.append(`<p>Something went wrong submitting your HIT. This might happen if you lose your internet connection. Press the button to resubmit.</p>`);
+  resubmitDiv.append(alertDiv);
+  resubmitDiv.append(`<button id="resubmit" class="btn btn-primary btn-lg">Resubmit</button>`);
 
-	const error_message = "<h1>Oops!</h1><p>Something went wrong submitting your HIT. This might happen if you lose your internet connection. Press the button to resubmit.</p><button id='resubmit'>Resubmit</button>";
+  const resubmittingDiv = $(`<div class="alert alert-secondary" role="alert"><h1>Trying to resubmit...</h1></div>`)
 
-	record_responses = function() {
+	function recordResponses() {
 		psiTurk.recordTrialData({'phase':'questionnaire', 'status':'submit'});
+		$('textarea').each(() => psiTurk.recordUnstructuredData(this.id, this.value));
+		$('select').each(() =>psiTurk.recordUnstructuredData(this.id, this.value));
+	}
 
-		$('textarea').each( function(i, val) {
-			psiTurk.recordUnstructuredData(this.id, this.value);
-		});
-		$('select').each( function(i, val) {
-			psiTurk.recordUnstructuredData(this.id, this.value);
-		});
-
-	};
-
-	prompt_resubmit = function() {
-		document.body.innerHTML = error_message;
+	function promptResubmit() {
+    $('body').html(resubmitDiv);
 		$("#resubmit").click(resubmit);
-	};
+	}
 
-	resubmit = function() {
-		document.body.innerHTML = "<h1>Trying to resubmit...</h1>";
-		reprompt = setTimeout(prompt_resubmit, 10000);
+	function resubmit() {
+    $('body').html(resubmittingDiv);
+    const rePrompt = setTimeout(promptResubmit, 10000);
 
 		psiTurk.saveData({
-			success: function() {
-			    clearInterval(reprompt);
+			success: () => {
+			    clearInterval(rePrompt);
           psiTurk.completeHIT();
 			},
-			error: prompt_resubmit
+			error: promptResubmit
 		});
-	};
+	}
 
 	// Load the questionnaire snippet
 	psiTurk.showPage('questionnaire.html');
 	psiTurk.recordTrialData({'phase':'questionnaire', 'status':'begin'});
 
-	$("#next").click(function () {
-	    record_responses();
+	$("#continue").click(() => {
+	    recordResponses();
 	    psiTurk.saveData({
         success: psiTurk.completeHIT,
-        error: prompt_resubmit
+        error: promptResubmit
       });
 	});
 
