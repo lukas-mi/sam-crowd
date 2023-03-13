@@ -326,7 +326,7 @@ function initRecogito() {
 }
 
 const SAMExperiment = function () {
-  // Load the stage.html snippet into the body of the page
+  psiTurk.startTask()
   psiTurk.showPage('stage.html');
 
   console.log(`annotationMode=${annotationMode}`);
@@ -504,7 +504,7 @@ const Questionnaire = function() {
 	function recordResponses() {
 		psiTurk.recordTrialData({'phase':'questionnaire', 'status':'submit'});
 		$('textarea').each(() => psiTurk.recordUnstructuredData(this.id, this.value));
-		$('select').each(() =>psiTurk.recordUnstructuredData(this.id, this.value));
+		$('select').each(() => psiTurk.recordUnstructuredData(this.id, this.value));
 	}
 
 	function promptResubmit() {
