@@ -502,14 +502,14 @@ const Questionnaire = function() {
   const resubmittingDiv = $(`<div class="alert alert-secondary" role="alert"><h1>Trying to resubmit...</h1></div>`)
 
 	function recordResponses() {
-		psiTurk.recordTrialData({'phase':'questionnaire', 'status':'submit'});
-		$('textarea').each(() => psiTurk.recordUnstructuredData(this.id, this.value));
-		$('select').each(() => psiTurk.recordUnstructuredData(this.id, this.value));
+    psiTurk.recordTrialData({'phase':'questionnaire', 'status':'submit'});
+    $('textarea').each((idx, elem) => psiTurk.recordUnstructuredData(elem.id, elem.value));
+    $('select').each((idx, elem) => psiTurk.recordUnstructuredData(elem.id, elem.value));
 	}
 
 	function promptResubmit() {
     $('body').html(resubmitDiv);
-		$("#resubmit").click(resubmit);
+    $("#resubmit").click(resubmit);
 	}
 
 	function resubmit() {
