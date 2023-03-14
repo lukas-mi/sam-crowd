@@ -1,6 +1,11 @@
 # this file imports custom routes into the experiment server
 from __future__ import generator_stop
-from flask import Blueprint, render_template, request, jsonify, Response, abort, current_app
+
+import json
+import os
+
+import flask
+from flask import Blueprint, render_template, request, jsonify, Response, abort, current_app, make_response
 from jinja2 import TemplateNotFound
 from functools import wraps
 from sqlalchemy import or_
@@ -29,6 +34,7 @@ custom_code = Blueprint('custom_code', __name__,
 #  serving warm, fresh, & sweet custom, user-provided routes
 #  add them here
 ###########################################################
+articles_path = config.get('Custom Parameters', 'articles_path')
 
 # ----------------------------------------------
 # example custom route
@@ -74,6 +80,45 @@ def annotation_mode():
     try:
         return config.get('Custom Parameters', 'annotation_mode')
     except TemplateNotFound:
+        abort(404)
+
+
+# ----------------------------------------------
+# accessing specific article
+# ----------------------------------------------
+@custom_code.route('/articles', methods=['GET'])
+def list_articles():
+    return jsonify(**{'articles': next(os.walk(articles_path))[1]})
+
+
+# ----------------------------------------------
+# accessing specific article
+# ----------------------------------------------
+@custom_code.route('/articles/<article>', methods=['GET'])
+def list_excerpts(article):
+    excerpts_path = f'{articles_path}/{article}'
+    if os.path.isdir(excerpts_path):
+        excerpts = [fn.replace('.txt', '') for fn in next(os.walk(excerpts_path))[2] if fn.endswith('txt')]
+        return jsonify(**{'excerpts': excerpts})
+    else:
+        abort(404)
+
+
+# ----------------------------------------------
+# accessing specific article
+# ----------------------------------------------
+@custom_code.route('/articles/<article>/<excerpt>', methods=['GET'])
+def get_excerpt(article, excerpt):
+    file_path = f'{articles_path}/{article}/{excerpt}.txt'
+    meta_path = f'{articles_path}/{article}/meta.json'
+
+    if os.path.isfile(file_path) and os.path.isfile(meta_path):
+        with open(file_path, 'r') as f:
+            lines = [line for line in f.read().splitlines()]
+        with open(meta_path, 'r') as f:
+            meta = json.loads(f.read())
+        return jsonify(**{'lines': lines, 'meta': meta})
+    else:
         abort(404)
 
 # ----------------------------------------------
