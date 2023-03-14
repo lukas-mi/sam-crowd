@@ -322,5 +322,5 @@ allow_repeats = true
 # Annotation modes: {full, article, section, screening}
 annotation_mode = section
 
-articles_path = data/articles
+articles_path = articles
 
