@@ -323,4 +323,4 @@ allow_repeats = true
 annotation_mode = section
 
 articles_path = articles
-
+hit_configs_table = hit_configs

@@ -35,6 +35,7 @@ custom_code = Blueprint('custom_code', __name__,
 #  add them here
 ###########################################################
 articles_path = config.get('Custom Parameters', 'articles_path')
+hit_configs_table = config.get('Custom Parameters', 'hit_configs_table')
 
 # ----------------------------------------------
 # example custom route
@@ -104,11 +105,7 @@ def list_excerpts(article):
         abort(404)
 
 
-# ----------------------------------------------
-# accessing specific article
-# ----------------------------------------------
-@custom_code.route('/articles/<article>/<excerpt>', methods=['GET'])
-def get_excerpt(article, excerpt):
+def get_excerpt_helper(article, excerpt):
     file_path = f'{articles_path}/{article}/{excerpt}.txt'
     meta_path = f'{articles_path}/{article}/meta.json'
 
@@ -117,9 +114,47 @@ def get_excerpt(article, excerpt):
             lines = [line for line in f.read().splitlines()]
         with open(meta_path, 'r') as f:
             meta = json.loads(f.read())
-        return jsonify(**{'lines': lines, 'meta': meta})
+        return {'lines': lines, 'meta': meta}
+    else:
+        return None
+
+
+# ----------------------------------------------
+# accessing specific article
+# ----------------------------------------------
+@custom_code.route('/articles/<article>/<excerpt>', methods=['GET'])
+def get_excerpt(article, excerpt):
+    excerpt_data = get_excerpt_helper(article, excerpt)
+    if excerpt_data:
+        return jsonify(**excerpt_data)
     else:
         abort(404)
+
+
+# ----------------------------------------------
+# accessing information on a hit
+# ----------------------------------------------
+@custom_code.route('/hit_info/<hitid>', methods=['GET'])
+def get_hit_info(hitid):
+    query = f"""
+        SELECT annotation_mode, article, excerpt
+        FROM {hit_configs_table}
+        WHERE hitid = :val
+    """
+    rows = db_session.execute(query, {'val': hitid}).fetchall()
+
+    if len(rows) == 0:
+        abort(404)
+    else:
+        annotation_mode, article, excerpt = rows[0]
+        excerpt_data = get_excerpt_helper(article, excerpt)
+
+        if excerpt_data:
+            excerpt_data['annotation_mode'] = annotation_mode
+            return jsonify(**excerpt_data)
+        else:
+            current_app.logger.warn(f"/hit_info/{hitid} no resources found for article={article}, excerpt{excerpt}")
+
 
 # ----------------------------------------------
 # accessing guidelines
