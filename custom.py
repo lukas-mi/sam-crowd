@@ -136,24 +136,37 @@ def get_excerpt(article, excerpt):
 # ----------------------------------------------
 @custom_code.route('/hit_info/<hitid>', methods=['GET'])
 def get_hit_info(hitid):
-    query = f"""
-        SELECT annotation_mode, article, excerpt
-        FROM {hit_configs_table}
-        WHERE hitid = :val
-    """
-    rows = db_session.execute(query, {'val': hitid}).fetchall()
-
-    if len(rows) == 0:
-        abort(404)
-    else:
-        annotation_mode, article, excerpt = rows[0]
+    if hitid.startswith('debug'):
+        article = 'should-vegans-stop-replicating-meat-cheese'
+        # excerpt = 'section_1'
+        excerpt = 'full'
         excerpt_data = get_excerpt_helper(article, excerpt)
+        # excerpt_data['annotation_mode'] = 'section'
+        excerpt_data['annotation_mode'] = 'article'
+        excerpt_data['article'] = article
+        excerpt_data['excerpt'] = excerpt
+        return jsonify(**excerpt_data)
+    else:
+        query = f"""
+            SELECT annotation_mode, article, excerpt
+            FROM {hit_configs_table}
+            WHERE hitid = :val
+        """
+        rows = db_session.execute(query, {'val': hitid}).fetchall()
 
-        if excerpt_data:
-            excerpt_data['annotation_mode'] = annotation_mode
-            return jsonify(**excerpt_data)
+        if len(rows) == 0:
+            abort(404)
         else:
-            current_app.logger.warn(f"/hit_info/{hitid} no resources found for article={article}, excerpt{excerpt}")
+            annotation_mode, article, excerpt = rows[0]
+            excerpt_data = get_excerpt_helper(article, excerpt)
+
+            if excerpt_data:
+                excerpt_data['annotation_mode'] = annotation_mode
+                excerpt_data['article'] = article
+                excerpt_data['excerpt'] = excerpt
+                return jsonify(**excerpt_data)
+            else:
+                current_app.logger.warn(f"/hit_info/{hitid} no resources found for article={article}, excerpt{excerpt}")
 
 
 # ----------------------------------------------
@@ -175,7 +188,7 @@ def guidelines():
 def compute_bonus():
     # check that user provided the correct keys
     # errors will not be that gracefull here if being
-    # accessed by the Javascrip client
+    # accessed by the Javascript client
     if not 'uniqueId' in request.args:
         # i don't like returning HTML to JSON requests...  maybe should change this
         raise ExperimentError('improper_inputs')

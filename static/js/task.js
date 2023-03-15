@@ -28,13 +28,24 @@ const pages = [
 //
 // The anonymous function is defined using javascript "arrow function" syntax.
 let annotationMode;
+let hitData;
 const init = (async () => {
   await psiTurk.preloadPages(pages);
-  await $.get('annotation_mode').done(data => {
-    annotationMode = data;
+//  await $.get('annotation_mode').done(data => {
+//    annotationMode = data;
+//  }).catch((jqXHR, textStatus, errorThrown) => {
+//    console.log('got error on /annotation_mode', jqXHR, textStatus, errorThrown)
+//  });
+
+  const hitId = (new URL(document.location)).searchParams.get('hitId');
+  const hitInfoURL = `hit_info/${hitId}`;
+  await $.get(hitInfoURL).done(data => {
+    hitData = data;
+    annotationMode = hitData.annotation_mode;
   }).catch((jqXHR, textStatus, errorThrown) => {
-    console.log('got error on /annotation_mode', jqXHR, textStatus, errorThrown)
+    console.log(`got error on ${hitInfoURL}`, jqXHR, textStatus, errorThrown)
   });
+
 })();
 
 /********************
@@ -325,13 +336,54 @@ function initRecogito() {
   });
 }
 
+function addContent() {
+  const metaDiv = $('#meta');
+  metaDiv.append(`<p>Title: "${hitData.meta.title}"</p>`)
+
+  if (annotationMode === sectionMode) {
+    metaDiv.append(`<p>Major claim paraphrases:</p>`);
+    const ul = $(`<ul>`);
+    hitData.meta.major_claim.forEach(val => ul.append(`<li><span class="major-claim">${val}</span></li>`));
+    metaDiv.append(ul);
+    metaDiv.append(`<p>Your task is to annotate components (${sectionComponentLabels.join('/')}) and relations (${relationLabels.join('/')}) in the text below.</p>`);
+  } else if (annotationMode === articleMode) {
+    metaDiv.append(`<p>Your task is to annotate ${majorClaim} occurances in the text below.</p>`);
+  }
+
+  metaDiv.append(`<p>Before starting the work read the instructions carefully (click <strong>Open Guidelines</strong> to open guidelines in a new window).</p>`)
+
+  const contentDiv = $('#content');
+  hitData.lines.forEach(val => contentDiv.append(`<p>${val}</p>`));
+}
+
 const SAMExperiment = function () {
   psiTurk.startTask()
   psiTurk.showPage('stage.html');
+  addContent()
 
   console.log(`annotationMode=${annotationMode}`);
 
   const r = initRecogito();
+
+  let modeToggle;
+  if (annotationMode === sectionMode) {
+    // https://gitbrent.github.io/bootstrap4-toggle
+    modeToggle = $(`<input id="mode-toggle" type="checkbox" checked data-toggle="toggle" data-on="<i class='fa fa-play'></i>" data-off="<i class='fa fa-pause'></i>" data-onstyle="dark" data-offstyle="light">`);
+    $('#top-navbar-row').append(modeToggle);
+
+    modeToggle.bootstrapToggle({
+      on: 'Components',
+      off: 'Relations'
+    });
+
+    modeToggle.change(function() {
+      if($(this).is(':checked')){
+        r.setMode('ANNOTATION');
+      } else {
+        r.setMode('RELATIONS');
+      }
+    });
+  }
 
   r.on('selectAnnotation', function(ann) {});
 
@@ -351,8 +403,8 @@ const SAMExperiment = function () {
         if (!isValid) {
           r.removeAnnotation(ann);
         } else {
-            if (getLabels(ann)[0] === premise) {
-              modeToggle.bootstrapToggle('toggle');
+          if (getLabels(ann)[0] === premise) {
+            modeToggle.bootstrapToggle('toggle');
           }
         }
       }
@@ -430,26 +482,6 @@ const SAMExperiment = function () {
       console.log('annotations', r.getAnnotations());
     });
   }
-
-  const modeToggle = $('#mode-toggle');
-  if (annotationMode === articleMode) {
-    modeToggle.bootstrapToggle('destroy');
-    r.setMode('ANNOTATION');
-  } else {
-    modeToggle.bootstrapToggle({
-      on: 'Components',
-      off: 'Relations'
-    });
-
-    modeToggle.change(function() {
-      if($(this).is(':checked')){
-        r.setMode('ANNOTATION');
-      } else {
-        r.setMode('RELATIONS');
-      }
-    });
-  }
-  console.log('modeToggle', modeToggle);
 
   $('#open-guidelines').click(function () {
     psiTurk.recordTrialData({
