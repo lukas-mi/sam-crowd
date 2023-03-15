@@ -351,8 +351,23 @@ function addContent() {
   hitData.lines.forEach(val => contentDiv.append(`<p>${val}</p>`));
 }
 
+//  TODO: log which major claim annotation was picked
+function logMetadata() {
+  psiTurk.recordTrialData({
+    'phase':'survey',
+    'event': 'log_metadata',
+    'annotation_mode': annotationMode,
+    'article': hitData.article,
+    'excerpt': hitData.excerpt,
+    'major_claim': {}
+  });
+  psiTurk.saveData({});
+}
+
 const SAMExperiment = function () {
-  psiTurk.startTask()
+  psiTurk.startTask();
+  logMetadata();
+
   psiTurk.showPage('stage.html');
   addContent()
 
