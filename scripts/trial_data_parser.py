@@ -6,7 +6,11 @@ import sys
 import pandas as pd
 
 
-def to_brat(ann):
+HITS_PATH = 'data/hits'
+ARTICLES_PATH = 'articles'
+
+
+def to_brat(ann, original_content):
     components = sorted(ann['components'], key=lambda item: item['target']['selector'][1]['start'])
     relations = ann['relations']
 
@@ -17,11 +21,19 @@ def to_brat(ann):
     for c in components:
         cid = f'T{component_counter}'
         label = c['body'][0]['value']
-        start = c['target']['selector'][1]['start']
-        end = c['target']['selector'][1]['end']
-        excerpt = c['target']['selector'][0]['exact']
+        start = c['target']['selector'][1]['start'] - 1
+        end = c['target']['selector'][1]['end'] - 1
+        ann_excerpt = c['target']['selector'][0]['exact']
 
-        lines.append(f'{cid}\t{label} {start} {end}\t{excerpt}')
+        original_excerpt = original_content[start:end]
+        if not original_excerpt == ann_excerpt:
+            raise Exception(
+                f"""Annotated excerpt does not match the original ({start}, {end}):
+                original: {original_excerpt}
+                annotated: {ann_excerpt}"""
+            )
+
+        lines.append(f'{cid}\t{label} {start} {end}\t{ann_excerpt}')
         id_mapping[c['id']] = cid
         component_counter += 1
 
@@ -61,22 +73,38 @@ def parse_trail_data(df, base_path):
             trial_data = data.pop('data')
             all_ann = [item['trialdata'] for item in trial_data if item.get('trialdata', None)]
             submitted_ann = [item for item in all_ann if item.get('event', None) == 'submit_annotations']
+            content_metadata = [item for item in all_ann if item.get('event', None) == 'log_metadata']
 
-            meta_data = entry.to_dict()
-            meta_data.pop('datastring')
-            meta_data['beginexp'] = None if isinstance(meta_data['beginexp'], float) and math.isnan(meta_data['beginexp']) else meta_data['beginexp']
-            meta_data['task_done'] = len(submitted_ann) >= 1
-            meta_data['quiz_done'] = sum(int(item.get('phase', None) == 'questionnaire' and item.get('status', None) == 'submit') for item in all_ann) >= 1
-            meta_data['guidelines_opened'] = sum(int(item.get('event', None) == 'open_guidelines') for item in all_ann)
-            meta_data['quiz'] = data['questiondata']
-            meta_data['events'] = data['eventdata']
+            metadata = entry.to_dict()
+            metadata.pop('datastring')
+            metadata['beginexp'] = None if isinstance(metadata['beginexp'], float) and math.isnan(metadata['beginexp']) else metadata['beginexp']
+            metadata['task_done'] = len(submitted_ann) >= 1
+            metadata['quiz_done'] = sum(int(item.get('phase', None) == 'questionnaire' and item.get('status', None) == 'submit') for item in all_ann) >= 1
+            metadata['guidelines_opened'] = sum(int(item.get('event', None) == 'open_guidelines') for item in all_ann)
+            metadata['quiz'] = data['questiondata']
+            metadata['events'] = data['eventdata']
+            metadata['content_metadata'] = content_metadata[-1]
+
+            content_path = f"{ARTICLES_PATH}/{content_metadata[-1]['article']}/{content_metadata[-1]['excerpt']}.txt"
+            if not os.path.isfile(content_path):
+                print(f'file under path {content_path} not found, ignoring entry {hit_id}:{assignment_id}')
+                continue
+
+            with open(content_path, 'r') as f:
+                content = f.read()
+
+            try:
+                brat_content = to_brat(submitted_ann[-1], content)
+            except Exception as ex:
+                print(ex)
+                continue
 
             with open(meta_fp, 'w') as f:
-                f.write(json.dumps(meta_data, indent=2))
+                f.write(json.dumps(metadata, indent=2))
 
             with open(brat_fp, 'w') as f:
-                if meta_data['task_done']:
-                    content = '\n'.join(to_brat(submitted_ann[-1]))
+                if metadata['task_done']:
+                    content = '\n'.join(brat_content)
                 else:
                     incomplete_assignments.append((hit_id, worker_id, assignment_id))
                     content = ''
@@ -84,20 +112,25 @@ def parse_trail_data(df, base_path):
         else:
             ignored_assignments.append((hit_id, worker_id, assignment_id))
 
-    print('ignored assignments')
-    for triple in ignored_assignments:
-        print('\t', triple)
+    if len(ignored_assignments) > 0:
+        print('ignored assignments')
+        for triple in ignored_assignments:
+            print('\t', triple)
 
-    print('incomplete assignments')
-    for triple in incomplete_assignments:
-        print('\t', triple)
+    if len(incomplete_assignments) > 0:
+        print('incomplete assignments')
+        for triple in incomplete_assignments:
+            print('\t', triple)
 
 
 if __name__ == '__main__':
     if len(sys.argv) != 1:
         exit('exactly one argument expected: db_export_path')
+    db_export_path = sys.argv[1]
 
-    db_export_fp = sys.argv[1]
-    # db_export_fp = '../data/db_exports/assignments_202303121718.csv'
+    # os.chdir('../')
+    # db_export_path = 'data/db_exports/assignments_202303152226.csv'
 
-    parse_trail_data(pd.read_csv(db_export_fp), '../data/hits')
+    dir_name = db_export_path.split('/')[-1].split('.')[0]
+    base_path = f"{HITS_PATH}/{dir_name}"
+    parse_trail_data(pd.read_csv(db_export_path), base_path)

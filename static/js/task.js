@@ -348,7 +348,9 @@ function addContent() {
   metaDiv.append(`<p>Before starting the work read the instructions carefully (click <strong>Open Guidelines</strong> to open guidelines in a new window).</p>`)
 
   const contentDiv = $('#content');
-  hitData.lines.forEach(val => contentDiv.append(`<p>${val}</p>`));
+  // Whitespace at the beginning of every line is necessary,
+  // otherwise, cross-line relation arrows will break when components start at the beginning of a line.
+  hitData.lines.forEach(val => contentDiv.append(`<p> ${val}</p>`));
 }
 
 //  TODO: log which major claim annotation was picked

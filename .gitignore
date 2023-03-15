@@ -1,6 +1,8 @@
 .idea
 __pycache__
 
+data
+
 .psiturk_history
 server.log
 participants.db
