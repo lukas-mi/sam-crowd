@@ -40,14 +40,14 @@ hit_configs_table = config.get('Custom Parameters', 'hit_configs_table')
 # ----------------------------------------------
 # example custom route
 # ----------------------------------------------
-@custom_code.route('/my_custom_view')
-def my_custom_view():
-    # Print message to server.log for debugging
-    current_app.logger.info("Reached /my_custom_view")
-    try:
-        return render_template('custom.html')
-    except TemplateNotFound:
-        abort(404)
+# @custom_code.route('/my_custom_view')
+# def my_custom_view():
+#     # Print message to server.log for debugging
+#     current_app.logger.info("Reached /my_custom_view")
+#     try:
+#         return render_template('custom.html')
+#     except TemplateNotFound:
+#         abort(404)
 
 
 # ----------------------------------------------
@@ -72,16 +72,6 @@ def my_custom_view():
 #        return render_template('list.html', participants=users)
 #    except TemplateNotFound:
 #        abort(404)
-
-# ----------------------------------------------
-# accessing stage mode
-# ----------------------------------------------
-@custom_code.route('/annotation_mode')
-def annotation_mode():
-    try:
-        return config.get('Custom Parameters', 'annotation_mode')
-    except TemplateNotFound:
-        abort(404)
 
 
 # ----------------------------------------------
@@ -170,13 +160,23 @@ def get_hit_info(hitid):
 
 
 # ----------------------------------------------
-# accessing guidelines
+# accessing article guidelines
 # ----------------------------------------------
-@custom_code.route('/guidelines')
-def guidelines():
+@custom_code.route('/guidelines/article')
+def article_guidelines():
     try:
-        return render_template('guidelines.html', annotation_mode=config.get('Custom Parameters', 'annotation_mode'))
-        # return render_template('guidelines.html')
+        return render_template('guidelines/article.html')
+    except TemplateNotFound:
+        abort(404)
+
+
+# ----------------------------------------------
+# accessing section guidelines
+# ----------------------------------------------
+@custom_code.route('/guidelines/section')
+def section_guidelines():
+    try:
+        return render_template('guidelines/section.html')
     except TemplateNotFound:
         abort(404)
 

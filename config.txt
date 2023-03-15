@@ -319,8 +319,5 @@ allow_repeats = true
 
 ################################## Custom Parameters ############################
 [Custom Parameters]
-# Annotation modes: {full, article, section, screening}
-annotation_mode = section
-
 articles_path = articles
 hit_configs_table = hit_configs

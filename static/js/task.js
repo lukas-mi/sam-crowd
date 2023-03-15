@@ -31,21 +31,16 @@ let annotationMode;
 let hitData;
 const init = (async () => {
   await psiTurk.preloadPages(pages);
-//  await $.get('annotation_mode').done(data => {
-//    annotationMode = data;
-//  }).catch((jqXHR, textStatus, errorThrown) => {
-//    console.log('got error on /annotation_mode', jqXHR, textStatus, errorThrown)
-//  });
 
   const hitId = (new URL(document.location)).searchParams.get('hitId');
   const hitInfoURL = `hit_info/${hitId}`;
+
   await $.get(hitInfoURL).done(data => {
     hitData = data;
     annotationMode = hitData.annotation_mode;
   }).catch((jqXHR, textStatus, errorThrown) => {
     console.log(`got error on ${hitInfoURL}`, jqXHR, textStatus, errorThrown)
   });
-
 })();
 
 /********************
@@ -385,8 +380,6 @@ const SAMExperiment = function () {
     });
   }
 
-  r.on('selectAnnotation', function(ann) {});
-
   r.on('createAnnotation', function(ann) {
       let ann_type = ann.motivation ? ann.motivation : 'highlighting';
       let isValid;
@@ -473,8 +466,6 @@ const SAMExperiment = function () {
     psiTurk.saveData({});
   });
 
-  r.on('cancelSelected', function(annotation) {});
-
   const getAnnBtn = $('#log-annotations')
   if (mode === 'debug') {
     getAnnBtn.removeAttr('hidden');
@@ -490,7 +481,7 @@ const SAMExperiment = function () {
     });
     psiTurk.saveData({});
     window.open(
-      'guidelines',
+      `guidelines/${annotationMode}`,
       'Guidelines',
       'Popup',
       'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=no,width='+1024+',height='+768+''
