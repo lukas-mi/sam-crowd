@@ -213,10 +213,10 @@ enable_dashboard = true
 ;do_scheduler = false
 
 # Login username for the dashboard
-login_username = admin
+login_username = $PSITURK_USERNAME
 
 # Login password for the dashboard
-login_pw = password
+login_pw = $PSITURK_PASSWORD
 
 # Number of threads for the psiturk gunicorn server to use. Leave to 1 if using
 # the task runner! Otherwise, dynamically dependent on the number of cpus.
@@ -227,7 +227,7 @@ login_pw = password
 # to set unless using a secure function.
 # e.g.,
 #     secret_key = 'this is my secret key which is hard to guess, i should change this'
-secret_key = secret
+secret_key = $SECRET_KEY
 
 # The psiturk (gunicorn) server can optionally serve traffic over https. This is
 # normally not necessary if the psiturk server is set up behind a reverse proxy
