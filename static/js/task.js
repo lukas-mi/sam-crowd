@@ -111,8 +111,8 @@ function formatAnn(ann) {
   return highlightClass
 }
 
-function isComponentValid(comp, recogito) {
-  return isComponentLabelValid(comp) && isComponentSpanValid(comp, recogito.getAnnotationsOnly());
+function isComponentValid(comp, recogito, preAnnMCExcerpts) {
+  return isComponentLabelValid(comp) && isComponentSpanValid(comp, recogito.getAnnotationsOnly(), preAnnMCExcerpts);
 }
 
 function isComponentLabelValid(comp) {
@@ -133,7 +133,7 @@ function isComponentLabelValid(comp) {
   return isValid
 }
 
-function isComponentSpanValid(comp, others) {
+function isComponentSpanValid(comp, others, preAnnMCExcerpts) {
   const compId = comp.id;
   const compPosSelector = comp.target.selector.find(s => s.type === 'TextPositionSelector');
   const compStart = compPosSelector.start;
@@ -159,7 +159,17 @@ function isComponentSpanValid(comp, others) {
     window.alert('Highlighted text areas must not overlap.');
   }
 
-  return isValid
+//  if (annotationMode === sectionMode) {
+//    console.log('preAnnMCExcerpts', preAnnMCExcerpts);
+//    console.log('recogito', compStart, compEnd);
+//    const overlappingWithMC = preAnnMCExcerpts.filter(excerpt => !(excerpt.end <= compStart || excerpt.start >= compEnd));
+//    if (overlappingWithMC.length > 0) {
+//      isValid = false;
+//      window.alert('Highlighted text areas must not overlap with pre-annotated major claim occurrences.');
+//    }
+//  }
+
+  return isValid;
 }
 
 function propagateComponentUpdate(prevComp, curComp, recogito) {
@@ -331,14 +341,33 @@ function initRecogito() {
   });
 }
 
-function addContent() {
+// https://stackoverflow.com/a/3410557/4505008
+function getIndicesOf(searchStr, str, caseSensitive) {
+  const searchStrLen = searchStr.length;
+  if (searchStrLen === 0) {
+      return [];
+  }
+
+  let startIndex = 0, index, indices = [];
+  if (!caseSensitive) {
+      str = str.toLowerCase();
+      searchStr = searchStr.toLowerCase();
+  }
+  while ((index = str.indexOf(searchStr, startIndex)) > -1) {
+      indices.push(index);
+      startIndex = index + searchStrLen;
+  }
+  return indices;
+}
+
+function prepareContent() {
   const metaDiv = $('#meta');
   metaDiv.append(`<p>Title: "${hitData.meta.title}"</p>`)
 
   if (annotationMode === sectionMode) {
-    metaDiv.append(`<p>Major claim paraphrases:</p>`);
+    metaDiv.append(`<p>Major claim occurrences:</p>`);
     const ul = $(`<ul>`);
-    hitData.meta.major_claim.forEach(val => ul.append(`<li><span class="major-claim">${val}</span></li>`));
+    hitData.meta.major_claim.occurrences.forEach(val => ul.append(`<li><span class="major-claim">${val}</span></li>`));
     metaDiv.append(ul);
     metaDiv.append(`<p>Your task is to annotate components (${sectionComponentLabels.join('/')}) and relations (${relationLabels.join('/')}) in the text below.</p>`);
   } else if (annotationMode === articleMode) {
@@ -347,13 +376,29 @@ function addContent() {
 
   metaDiv.append(`<p>Before starting the work read the instructions carefully (click <strong>Open Guidelines</strong> to open guidelines in a new window).</p>`)
 
+  // If it's section mode:
+  // 1. Collect (start, end) indices of all major claim occurrences in the section.
+  // 2. Pre-annotate major claim occurrences in the section.
+  // 3. Use (start, end) indices in component annotation validation step (disallow overlap with major claim occurrences).
+  let finalContent = hitData.content;
+  let mcExcerpts = [];
+//  if (annotationMode === sectionMode) {
+//    for (const mj of hitData.meta.major_claim.occurrences) {
+//      const startIndices = getIndicesOf(mj, hitData.content, true);
+//      const newExcerpts = startIndices.map(idx => ({start: idx, end: idx + mj.length}));
+//      mcExcerpts = mcExcerpts.concat(newExcerpts);
+//      finalContent = finalContent.replaceAll(mj, `<span class="major-claim">${mj}</span>`);
+//    }
+//  }
+
   const contentDiv = $('#content');
   // Whitespace at the beginning of every line is necessary,
   // otherwise, cross-line relation arrows will break when components start at the beginning of a line.
-  hitData.lines.forEach(val => contentDiv.append(`<p> ${val}</p>`));
+  finalContent.split('\n').forEach(val => contentDiv.append(`<p> ${val}</p>`));
+
+  return mcExcerpts;
 }
 
-//  TODO: log which major claim annotation was picked
 function logMetadata() {
   psiTurk.recordTrialData({
     'phase':'survey',
@@ -361,7 +406,7 @@ function logMetadata() {
     'annotation_mode': annotationMode,
     'article': hitData.article,
     'excerpt': hitData.excerpt,
-    'major_claim': {}
+    'major_claim': hitData.meta.major_claim
   });
   psiTurk.saveData({});
 }
@@ -371,7 +416,7 @@ const SAMExperiment = function () {
   logMetadata();
 
   psiTurk.showPage('stage.html');
-  addContent()
+  const preAnnMCExcerpts = prepareContent();
 
   console.log(`annotationMode=${annotationMode}`);
 
@@ -409,7 +454,7 @@ const SAMExperiment = function () {
           modeToggle.bootstrapToggle('toggle');
         }
       } else {
-        isValid = isComponentValid(ann, r);
+        isValid = isComponentValid(ann, r, preAnnMCExcerpts);
         if (!isValid) {
           r.removeAnnotation(ann);
         } else {
@@ -444,7 +489,7 @@ const SAMExperiment = function () {
           modeToggle.bootstrapToggle('toggle');
         }
       } else {
-        isValid = isComponentValid(curAnn, r);
+        isValid = isComponentValid(curAnn, r, preAnnMCExcerpts);
         if (!isValid) {
           r.removeAnnotation(curAnn);
           r.addAnnotation(prevAnn);

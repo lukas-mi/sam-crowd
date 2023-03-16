@@ -1,8 +1,11 @@
 {
   "url": "https://plantbasednews.org/opinion/opinion-piece/salmon-deaths-scotland-fish-farming/",
   "title": "As Salmon Deaths Double, Will Scotland Address Its Fish Farm Catastrophe?",
-  "major_claim": [
-    "The salmon deaths should serve as a reminder that the government must crack down on the unethical and environmentally disastrous salmon farming industry",
-    "salmon mortality rates must be curbed, for the sake of the animals and environment alike"
-  ]
+  "major_claim": {
+    "assignment_id": "screening",
+    "occurrences": [
+      "The salmon deaths should serve as a reminder that the government must crack down on the unethical and environmentally disastrous salmon farming industry",
+      "salmon mortality rates must be curbed, for the sake of the animals and environment alike"
+    ]
+  }
 }

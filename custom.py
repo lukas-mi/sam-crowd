@@ -101,10 +101,10 @@ def get_excerpt_helper(article, excerpt):
 
     if os.path.isfile(file_path) and os.path.isfile(meta_path):
         with open(file_path, 'r') as f:
-            lines = [line for line in f.read().splitlines()]
+            content = f.read()
         with open(meta_path, 'r') as f:
             meta = json.loads(f.read())
-        return {'lines': lines, 'meta': meta}
+        return {'content': content, 'meta': meta}
     else:
         return None
 
@@ -121,18 +121,22 @@ def get_excerpt(article, excerpt):
         abort(404)
 
 
+annotation_examples = [
+    ('salmon-deaths-scotland-fish-farming', 'section_2', 'section'),
+    ('should-vegans-stop-replicating-meat-cheese', 'full', 'article'),
+    ('should-vegans-stop-replicating-meat-cheese', 'section_1', 'section'),
+]
+
+
 # ----------------------------------------------
 # accessing information on a hit
 # ----------------------------------------------
 @custom_code.route('/hit_info/<hitid>', methods=['GET'])
 def get_hit_info(hitid):
     if hitid.startswith('debug'):
-        article = 'should-vegans-stop-replicating-meat-cheese'
-        excerpt = 'section_1'
-        # excerpt = 'full'
+        article, excerpt, annotation_mode = annotation_examples[0]
         excerpt_data = get_excerpt_helper(article, excerpt)
-        excerpt_data['annotation_mode'] = 'section'
-        # excerpt_data['annotation_mode'] = 'article'
+        excerpt_data['annotation_mode'] = annotation_mode
         excerpt_data['article'] = article
         excerpt_data['excerpt'] = excerpt
         return jsonify(**excerpt_data)
