@@ -8,7 +8,7 @@ psiturk_secret_key = os.environ['SECRET_KEY']
 with open('config.txt', 'r+') as f:
     content = f.read()\
         .replace('$PSITURK_USERNAME', psiturk_username)\
-        .replace('$PSITURK_PASSWORD', psiturk_username)\
+        .replace('$PSITURK_PASSWORD', psiturk_password)\
         .replace('$SECRET_KEY', psiturk_secret_key)
     f.seek(0)
     f.write(content)
