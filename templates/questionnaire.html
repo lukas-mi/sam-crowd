@@ -12,16 +12,12 @@
     <form id="questionnaire" action="" method="post">
       <div class="row question">
         <div class="col-md-6">
-          <label for="difficult">How <strong>difficult</strong> difficult was the task?</label>
+          <label for="task-difficulty">How <strong>difficult</strong> difficult was the task?</label>
         </div>
         <div class="col-md-6">
-          <select id="difficult" class="form-control" name="difficult">
-              <option value="10">10 (Very difficult)</option>
-              <option value="9">9</option>
-              <option value="8">8</option>
-              <option value="7">7</option>
-              <option value="6">6</option>
-              <option value="5" selected>5 (Moderately difficult)</option>
+          <select id="task-difficulty" class="form-control" name="task-difficulty">
+              <option value="" disabled selected hidden>Please Choose...</option>
+              <option value="5">5 (Very difficult)</option>
               <option value="4">4</option>
               <option value="3">3</option>
               <option value="2">2</option>
@@ -32,16 +28,12 @@
 
       <div class="row question">
         <div class="col-md-6">
-          <label for="interesting">How <strong>interesting</strong> was the task?</label>
+          <label for="task-interest">How <strong>interesting</strong> was the task?</label>
         </div>
         <div class="col-md-6">
-          <select id="interesting" class="form-control" name="interesting">
-            <option value="10">10 (Very Interesting)</option>
-            <option value="9">9</option>
-            <option value="8">8</option>
-            <option value="7">7</option>
-            <option value="6">6</option>
-            <option value="5" selected>5 (Moderately interesting)</option>
+          <select id="task-interest" class="form-control" name="task-interest">
+            <option value="" disabled selected hidden>Please Choose...</option>
+            <option value="5">5 (Very Interesting)</option>
             <option value="4">4</option>
             <option value="3">3</option>
             <option value="2">2</option>
@@ -52,16 +44,12 @@
 
       <div class="row question">
         <div class="col-md-6">
-          <label for="intuitive">How <strong>intuitive</strong> was the annotation user interface?</label>
+          <label for="ui-intuitiveness">How <strong>intuitive</strong> was the annotation user interface?</label>
         </div>
         <div class="col-md-6">
-          <select id="intuitive" class="form-control" name="intuitive">
-              <option value="10">10 (Very intuitive)</option>
-              <option value="9">9</option>
-              <option value="8">8</option>
-              <option value="7">7</option>
-              <option value="6">6</option>
-              <option value="5" selected>5 (Reasonably intuitive)</option>
+          <select id="ui-intuitiveness" class="form-control" name="ui-intuitiveness">
+              <option value="" disabled selected hidden>Please Choose...</option>
+              <option value="5">5 (Very intuitive)</option>
               <option value="4">4</option>
               <option value="3">3</option>
               <option value="2">2</option>
@@ -72,16 +60,12 @@
 
       <div class="row question">
         <div class="col-md-6">
-          <label for="guidelines">How <strong>clear</strong> was the annotation guidelines?</label>
+          <label for="guidelines-clarity">How <strong>clear</strong> was the annotation guidelines?</label>
         </div>
         <div class="col-md-6">
-          <select id="guidelines" class="form-control" name="guidelines">
-              <option value="10">10 (Very clear)</option>
-              <option value="9">9</option>
-              <option value="8">8</option>
-              <option value="7">7</option>
-              <option value="6">6</option>
-              <option value="5" selected>5 (Reasonably clear)</option>
+          <select id="guidelines-clarity" class="form-control" name="guidelines-clarity">
+              <option value="" disabled selected hidden>Please Choose...</option>
+              <option value="5">5 (Very clear)</option>
               <option value="4">4</option>
               <option value="3">3</option>
               <option value="2">2</option>
