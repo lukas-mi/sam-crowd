@@ -128,11 +128,11 @@ def get_excerpt(article, excerpt):
 def get_hit_info(hitid):
     if hitid.startswith('debug'):
         article = 'should-vegans-stop-replicating-meat-cheese'
-        # excerpt = 'section_1'
-        excerpt = 'full'
+        excerpt = 'section_1'
+        # excerpt = 'full'
         excerpt_data = get_excerpt_helper(article, excerpt)
-        # excerpt_data['annotation_mode'] = 'section'
-        excerpt_data['annotation_mode'] = 'article'
+        excerpt_data['annotation_mode'] = 'section'
+        # excerpt_data['annotation_mode'] = 'article'
         excerpt_data['article'] = article
         excerpt_data['excerpt'] = excerpt
         return jsonify(**excerpt_data)
