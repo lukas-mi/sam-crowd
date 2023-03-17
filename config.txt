@@ -9,34 +9,34 @@
 # Title that will be used for the HIT when posted to mturk
 # e.g.,
 #     title = Stroop task
-title = psiturk test title
+title = Argument mining in opinion online articles
 
 # Description that will be used for the HIT when posted to mturk
 # e.g.,
 #     description = Judge the color of a series of words.
-description = psiturk test description
+description = Annotate arguments in text
 
 # Keywords for the HIT on mturk
 # e.g.,
 #     keywords = Perception, Psychology
-keywords = keyword1, keyword2
+keywords = argument, mining, opinion, online, articles
 
 # How many hours a given HIT will last on mturk before becoming unavailable
 # for new assignments
-;lifetime = 24
+lifetime = 48
 
 # Whether the HIT will be restricted to US-located mturkers
-us_only = false
+us_only = true
 
 # Minimum approval percentage a worker must have to accept the HIT.
 # Note! Mturk defaults a worker's approval percentage to 100% until
 # they have completed at least 100 hits.
-;approve_requirement = 95
+approve_requirement = 99
 
 # Minimum number of HITs a worker must have had approved in order to take
 # this HIT. See notes for `approve_requirement` -- set this to 100 if an actual
 # `approve_requirement` percentage is wanted.
-;number_hits_approved = 0
+number_hits_approved = 1000
 
 # Whether a worker must have the master worker qualification to take this hit.
 # Note that there is a commission surcharge for using this qualification.
@@ -273,7 +273,7 @@ secret_key = $SECRET_KEY
 # to only modify `num_conds` above.
 ;num_counters = 1
 
-;contact_email_on_error = youremail@gmail.com
+contact_email_on_error = lukas.article.study@proton.me
 
 # A list of web browsers, delineated by commas, that mturkers may _not_ use to
 # perform the hit.
