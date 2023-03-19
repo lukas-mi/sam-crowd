@@ -111,8 +111,8 @@ function formatAnn(ann) {
   return highlightClass
 }
 
-function isComponentValid(comp, recogito, preAnnMCExcerpts) {
-  return isComponentLabelValid(comp) && isComponentSpanValid(comp, recogito.getAnnotationsOnly(), preAnnMCExcerpts);
+function isComponentValid(comp, recogito) {
+  return isComponentLabelValid(comp) && isComponentSpanValid(comp, recogito.getAnnotationsOnly());
 }
 
 function isComponentLabelValid(comp) {
@@ -133,7 +133,7 @@ function isComponentLabelValid(comp) {
   return isValid
 }
 
-function isComponentSpanValid(comp, others, preAnnMCExcerpts) {
+function isComponentSpanValid(comp, others) {
   const compId = comp.id;
   const compPosSelector = comp.target.selector.find(s => s.type === 'TextPositionSelector');
   const compStart = compPosSelector.start;
@@ -159,16 +159,15 @@ function isComponentSpanValid(comp, others, preAnnMCExcerpts) {
     window.alert('Highlighted text areas must not overlap.');
   }
 
-//  if (annotationMode === sectionMode) {
-//    console.log('preAnnMCExcerpts', preAnnMCExcerpts);
-//    console.log('recogito', compStart, compEnd);
-//    const overlappingWithMC = preAnnMCExcerpts.filter(excerpt => !(excerpt.end <= compStart || excerpt.start >= compEnd));
-//    if (overlappingWithMC.length > 0) {
-//      isValid = false;
-//      window.alert('Highlighted text areas must not overlap with pre-annotated major claim occurrences.');
-//    }
-//  }
+  return isValid;
+}
 
+function isComponentDeletionValid(comp) {
+  let isValid = true;
+  if (annotationMode === sectionMode && getLabels(comp)[0] === majorClaim) {
+    window.alert(`Cannot delete pre-annotated components of type ${majorClaim}.`);
+    isValid = false;
+  }
   return isValid;
 }
 
@@ -360,6 +359,29 @@ function getIndicesOf(searchStr, str, caseSensitive) {
   return indices;
 }
 
+function createAnnotation(text, start, end, label) {
+  return {
+    '@context': 'http://www.w3.org/ns/anno.jsonld',
+    'id': `#mc-${start}-${end}-${Date.now()}`,
+    'type': 'Annotation',
+    'body': [{
+      'type': 'TextualBody',
+      'purpose': 'tagging',
+      'value': label
+    }],
+    'target': {
+      'selector': [{
+        'type': 'TextQuoteSelector',
+        'exact': text
+      }, {
+        'type': 'TextPositionSelector',
+        'start': start + 1,
+        'end': end + 1
+      }]
+    }
+  };
+}
+
 function prepareContent() {
   const metaDiv = $('#meta');
   metaDiv.append(`<p>Title: "${hitData.meta.title}"</p>`)
@@ -376,27 +398,22 @@ function prepareContent() {
 
   metaDiv.append(`<p>Before starting the work read the instructions carefully (click <strong>Open Guidelines</strong> to open guidelines in a new window).</p>`)
 
-  // If it's section mode:
-  // 1. Collect (start, end) indices of all major claim occurrences in the section.
-  // 2. Pre-annotate major claim occurrences in the section.
-  // 3. Use (start, end) indices in component annotation validation step (disallow overlap with major claim occurrences).
-  let finalContent = hitData.content;
-  let mcExcerpts = [];
-//  if (annotationMode === sectionMode) {
-//    for (const mj of hitData.meta.major_claim.occurrences) {
-//      const startIndices = getIndicesOf(mj, hitData.content, true);
-//      const newExcerpts = startIndices.map(idx => ({start: idx, end: idx + mj.length}));
-//      mcExcerpts = mcExcerpts.concat(newExcerpts);
-//      finalContent = finalContent.replaceAll(mj, `<span class="major-claim">${mj}</span>`);
-//    }
-//  }
-
   const contentDiv = $('#content');
   // Whitespace at the beginning of every line is necessary,
   // otherwise, cross-line relation arrows will break when components start at the beginning of a line.
-  finalContent.split('\n').forEach(val => contentDiv.append(`<p> ${val}</p>`));
+  hitData.content.split('\n').forEach(val => contentDiv.append(`<p> ${val}</p>`));
+}
 
-  return mcExcerpts;
+function preAnnotate(recogito) {
+  if (annotationMode === sectionMode) {
+    hitData.meta.major_claim.occurrences.forEach(mc => {
+      const mcLength = mc.length;
+      getIndicesOf(mc, hitData.content, true).forEach(start => {
+        const newAnn = createAnnotation(mc, start, start + mcLength, majorClaim);
+        recogito.addAnnotation(newAnn);
+      });
+    });
+  }
 }
 
 function logMetadata() {
@@ -416,11 +433,12 @@ const SAMExperiment = function () {
   logMetadata();
 
   psiTurk.showPage('stage.html');
-  const preAnnMCExcerpts = prepareContent();
+  prepareContent();
 
   console.log(`annotationMode=${annotationMode}`);
 
   const r = initRecogito();
+  preAnnotate(r);
 
   let modeToggle;
   if (annotationMode === sectionMode) {
@@ -443,31 +461,55 @@ const SAMExperiment = function () {
   }
 
   r.on('createAnnotation', function(ann) {
-      let ann_type = ann.motivation ? ann.motivation : 'highlighting';
-      let isValid;
+    let ann_type = ann.motivation ? ann.motivation : 'highlighting';
+    let isValid;
 
-      if (ann_type === 'linking') {
-        isValid = isRelationValid(ann, r);
-        if (!isValid) {
-          r.removeRelation(ann);
-        } else {
+    if (ann_type === 'linking') {
+      isValid = isRelationValid(ann, r);
+      if (!isValid) {
+        r.removeRelation(ann);
+      } else {
+        modeToggle.bootstrapToggle('toggle');
+      }
+    } else {
+      isValid = isComponentValid(ann, r);
+      if (!isValid) {
+        r.removeAnnotation(ann);
+      } else {
+        if (getLabels(ann)[0] === premise) {
           modeToggle.bootstrapToggle('toggle');
         }
-      } else {
-        isValid = isComponentValid(ann, r, preAnnMCExcerpts);
-        if (!isValid) {
-          r.removeAnnotation(ann);
-        } else {
-          if (getLabels(ann)[0] === premise) {
-            modeToggle.bootstrapToggle('toggle');
-          }
-        }
       }
+    }
 
-      // TODO: when invalid, log reason
-      psiTurk.recordTrialData({
+    // TODO: when invalid, log reason
+    psiTurk.recordTrialData({
+      'phase':'survey',
+      'event': 'create_annotation',
+      'valid': isValid,
+      'annotation': ann,
+      'type': ann_type,
+      'components': r.getAnnotationsOnly(),
+      'relations': r.getRelationsOnly()
+    });
+    psiTurk.saveData({});
+  });
+
+  r.on('deleteAnnotation', function(ann) {
+    let ann_type = ann.motivation ? ann.motivation : 'highlighting';
+    let isValid = true;
+
+    if (ann_type === 'highlighting') {
+      isValid = isComponentDeletionValid(ann);
+      if (!isValid) {
+        r.addAnnotation(ann);
+      }
+    }
+
+    // TODO: when invalid, log reason
+    psiTurk.recordTrialData({
         'phase':'survey',
-        'event': 'create_annotation',
+        'event': 'delete_annotation',
         'valid': isValid,
         'annotation': ann,
         'type': ann_type,
@@ -478,49 +520,36 @@ const SAMExperiment = function () {
   });
 
   r.on('updateAnnotation', function(curAnn, prevAnn) {
-      let ann_type = curAnn.motivation ? curAnn.motivation : 'highlighting';
-      let isValid;
+    let ann_type = curAnn.motivation ? curAnn.motivation : 'highlighting';
+    let isValid;
 
-      if (ann_type === 'linking') {
-        isValid = isRelationValid(curAnn, r);
-        if (!isValid) {
-          r.removeRelation(curAnn);
-        } else {
+    if (ann_type === 'linking') {
+      isValid = isRelationValid(curAnn, r);
+      if (!isValid) {
+        r.removeRelation(curAnn);
+      } else {
+        modeToggle.bootstrapToggle('toggle');
+      }
+    } else {
+      isValid = isComponentValid(curAnn, r);
+      if (!isValid) {
+        r.removeAnnotation(curAnn);
+        r.addAnnotation(prevAnn);
+      } else {
+        propagateComponentUpdate(prevAnn, curAnn, r);
+        if (getLabels(curAnn)[0] === premise) {
           modeToggle.bootstrapToggle('toggle');
         }
-      } else {
-        isValid = isComponentValid(curAnn, r, preAnnMCExcerpts);
-        if (!isValid) {
-          r.removeAnnotation(curAnn);
-          r.addAnnotation(prevAnn);
-        } else {
-          propagateComponentUpdate(prevAnn, curAnn, r);
-          if (getLabels(curAnn)[0] === premise) {
-            modeToggle.bootstrapToggle('toggle');
-          }
-        }
       }
+    }
 
-      // TODO: when invalid, log reason
-      psiTurk.recordTrialData({
-        'phase':'survey',
-        'event': 'update_annotation',
-        'valid': isValid,
-        'cur_annotation': curAnn,
-        'prev_annotation': prevAnn,
-        'type': ann_type,
-        'components': r.getAnnotationsOnly(),
-        'relations': r.getRelationsOnly()
-      });
-      psiTurk.saveData({});
-  });
-
-  r.on('deleteAnnotation', function(ann) {
-    let ann_type = ann.motivation ? ann.motivation : 'highlighting';
+    // TODO: when invalid, log reason
     psiTurk.recordTrialData({
       'phase':'survey',
-      'event': 'delete_annotation',
-      'annotation': ann,
+      'event': 'update_annotation',
+      'valid': isValid,
+      'cur_annotation': curAnn,
+      'prev_annotation': prevAnn,
       'type': ann_type,
       'components': r.getAnnotationsOnly(),
       'relations': r.getRelationsOnly()
