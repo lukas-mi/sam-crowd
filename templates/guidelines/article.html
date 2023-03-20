@@ -1,1 +1,38 @@
-<p>Article mode guidelines will be implemented soon-ish</p>
+{% extends 'layouts/layout.html' %}
+{% block body %}
+
+<div id="accordion" class="container">
+  <h1 class="page-header">Annotation guidelines</h1>
+  <hr>
+
+  <p>In this task you will need to highlight major claim occurrences in the text.</p>
+
+  <p>Be sure to dedicate a good portion of the given time to carefully read all the sections below before you proceed with the annotation.</p>
+
+  <p>Leave a few minutes for a short feedback questionnaire after the main annotation task.</p>
+
+  <hr>
+  <p>Components:</p>
+  <ul>
+    <li><p><strong>MajorClaim</strong>: <span class="major-claim">highlighting example</span>.</p></li>
+    <li><p><strong>ClaimFor</strong>: <span class="claim-for">highlighting example</span>.</p></li>
+    <li><p><strong>ClaimAgainst</strong>: <span class="claim-against">highlighting example</span>.</p></li>
+    <li><p><strong>Premise</strong>: <span class="premise">highlighting example</span>.</p></li>
+  </ul>
+  <p>Relations: <strong>Support</strong>, <strong>Attack</strong>.</p>
+
+  <p>
+    The last 3 types of components as well as both types of relations are not part of this task, therefore, should <strong>not</strong> be annotated.
+    Only <strong>MajorClaim</strong> occurrences should be annotated.
+  </p>
+
+  <p>Click on section titles below to expand the information.</p>
+
+  {% include 'guidelines/article/annotation_ui.html' %}
+  {% include 'guidelines/common/high_level.html' %}
+  {% include 'guidelines/article/boundaries.html' %}
+  {% include 'guidelines/article/major_claim.html' %}
+  {% include 'guidelines/common/examples.html' %}
+</div>
+
+{% endblock %}
