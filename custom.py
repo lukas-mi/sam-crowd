@@ -123,8 +123,8 @@ def get_excerpt(article, excerpt):
 
 annotation_examples = [
     ('salmon-deaths-scotland-fish-farming', 'section_2', 'section'),
-    ('should-vegans-stop-replicating-meat-cheese', 'full', 'article'),
-    ('should-vegans-stop-replicating-meat-cheese', 'section_1', 'section'),
+    ('pbn/should-vegans-stop-replicating-meat-cheese', 'full', 'article'),
+    ('pbn/should-vegans-stop-replicating-meat-cheese', 'section_1', 'section'),
 ]
 
 

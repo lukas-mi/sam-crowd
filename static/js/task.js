@@ -72,6 +72,12 @@ const support = 'Support';
 const attack = 'Attack';
 const relationLabels = [support, attack];
 
+const labelsToCSS = {}
+labelsToCSS[majorClaim] = 'major-claim';
+labelsToCSS[claimFor] = 'claim-for';
+labelsToCSS[claimAgainst] = 'claim-against';
+labelsToCSS[premise] = 'premise';
+
 function getAnnModeComponentLabels() {
   if (annotationMode === articleMode) {
     return articleComponentLabels;
@@ -386,14 +392,17 @@ function prepareContent() {
   const metaDiv = $('#meta');
   metaDiv.append(`<p>Title of the article: "<strong>${hitData.meta.title}</strong>"</p>`)
 
+  const modeLabels = annotationMode === articleMode ? articleComponentLabels : sectionComponentLabels
+  const labelSpans = modeLabels.map(label => `<span class="${labelsToCSS[label]}"><strong>${label}</strong></span>`)
+
   if (annotationMode === sectionMode) {
     metaDiv.append(`<p>Major claim occurrences:</p>`);
     const ul = $(`<ul>`);
     hitData.meta.major_claim.occurrences.forEach(val => ul.append(`<li><span class="major-claim">${val}</span></li>`));
     metaDiv.append(ul);
-    metaDiv.append(`<p>Your task is to annotate components (<strong>${sectionComponentLabels.join('/')}</strong>) and relations (<strong>${relationLabels.join('/')}</strong>) in the text below.</p>`);
+    metaDiv.append(`<p>Your task is to annotate components (${labelSpans}) and relations (<strong>${relationLabels.join('/')}</strong>) in the text below.</p>`);
   } else if (annotationMode === articleMode) {
-    metaDiv.append(`<p>Your task is to annotate <strong>${majorClaim}</strong> occurances in the text below.</p>`);
+    metaDiv.append(`<p>Your task is to annotate ${labelSpans} occurances in the text below.</p>`);
   }
 
   metaDiv.append(`<p>Before starting the work read the instructions carefully (click <strong>Open Guidelines</strong> to open guidelines in a new window). You might have done similar task previously, however, this task may be <strong>different</strong> or/and instructions may have been updated.</p>`)
