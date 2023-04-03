@@ -13,7 +13,7 @@ HIT_CONFIGS_TABLE = 'hit_configs'
 
 
 def validate_wrapper_args(annotation_mode, article, excerpt):
-    if annotation_mode not in ['article', 'section']:
+    if annotation_mode not in ['full', 'article', 'section']:
         print(f'unsupported annotation_mode {annotation_mode}')
         exit(1)
 

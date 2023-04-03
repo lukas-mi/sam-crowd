@@ -392,8 +392,7 @@ function prepareContent() {
   const metaDiv = $('#meta');
   metaDiv.append(`<p>Title of the article: "<strong>${hitData.meta.title}</strong>"</p>`)
 
-  const modeLabels = annotationMode === articleMode ? articleComponentLabels : sectionComponentLabels
-  const labelSpans = modeLabels.map(label => `<span class="${labelsToCSS[label]}"><strong>${label}</strong></span>`)
+  const labelSpans = getAnnModeComponentLabels().map(label => `<span class="${labelsToCSS[label]}"><strong>${label}</strong></span>`)
 
   if (annotationMode === sectionMode) {
     metaDiv.append(`<p>Major claim occurrences:</p>`);
@@ -403,6 +402,8 @@ function prepareContent() {
     metaDiv.append(`<p>Your task is to annotate components (${labelSpans}) and relations (<strong>${relationLabels.join('/')}</strong>) in the text below.</p>`);
   } else if (annotationMode === articleMode) {
     metaDiv.append(`<p>Your task is to annotate ${labelSpans} occurances in the text below.</p>`);
+  } else {
+    metaDiv.append(`<p>Your task is to annotate components (${labelSpans}) and relations (<strong>${relationLabels.join('/')}</strong>) in the text below.</p>`);
   }
 
   metaDiv.append(`<p>Before starting the work read the instructions carefully (click <strong>Open Guidelines</strong> to open guidelines in a new window). You might have done similar task previously, however, this task may be <strong>different</strong> or/and instructions may have been updated.</p>`)

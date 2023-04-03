@@ -123,6 +123,7 @@ def get_excerpt(article, excerpt):
 
 annotation_examples = [
     ('salmon-deaths-scotland-fish-farming', 'section_2', 'section'),
+    ('salmon-deaths-scotland-fish-farming', 'full', 'full'),
     ('pbn/should-vegans-stop-replicating-meat-cheese', 'full', 'article'),
     ('pbn/should-vegans-stop-replicating-meat-cheese', 'section_1', 'section'),
 ]
@@ -134,7 +135,7 @@ annotation_examples = [
 @custom_code.route('/hit_info/<hitid>', methods=['GET'])
 def get_hit_info(hitid):
     if hitid.startswith('debug'):
-        article, excerpt, annotation_mode = annotation_examples[0]
+        article, excerpt, annotation_mode = annotation_examples[1]
         excerpt_data = get_excerpt_helper(article, excerpt)
         excerpt_data['annotation_mode'] = annotation_mode
         excerpt_data['article'] = article
