@@ -9,8 +9,18 @@ import pandas as pd
 HITS_PATH = 'data/hits'
 ARTICLES_PATH = 'articles'
 
+# component labels
+MAJOR_CLAIM = 'MajorClaim'
+CLAIM_FOR = 'ClaimFor'
+CLAIM_AGAINST = 'ClaimAgainst'
+PREMISE = 'PREMISE'
 
-def to_brat(ann, original_content):
+# relation labels
+SUPPORT = 'Support'
+ATTACK = 'Attack'
+
+
+def to_aaec_brat(ann, original_content):
     components = sorted(ann['components'], key=lambda item: item['target']['selector'][1]['start'])
     relations = ann['relations']
 
@@ -18,6 +28,7 @@ def to_brat(ann, original_content):
     id_mapping = {}
 
     component_counter = 1
+    attribute_counter = 1
     for c in components:
         cid = f'T{component_counter}'
         label = c['body'][0]['value']
@@ -33,7 +44,20 @@ def to_brat(ann, original_content):
                 annotated: {ann_excerpt}"""
             )
 
-        lines.append(f'{cid}\t{label} {start} {end}\t{ann_excerpt}')
+        if label.startswith('Claim'):  # case of ClaimFor/ClaimAgainst
+            lines.append(f'{cid}\tClaim {start} {end}\t{ann_excerpt}')
+
+            if label == CLAIM_FOR:
+                lines.append(f'A{attribute_counter}\tStance {cid} For')
+            elif label == CLAIM_AGAINST:
+                lines.append(f'A{attribute_counter}\tStance {cid} Against')
+            else:
+                raise Exception(f"Unsupported claim type {label}")
+
+            attribute_counter += 1
+        else:  # case of MajorClaim/Premise
+            lines.append(f'{cid}\t{label} {start} {end}\t{ann_excerpt}')
+
         id_mapping[c['id']] = cid
         component_counter += 1
 
@@ -43,6 +67,13 @@ def to_brat(ann, original_content):
         label = r['body'][0]['value']
         cid_from = id_mapping[r['target'][0]['id']]
         cid_to = id_mapping[r['target'][1]['id']]
+
+        if label == SUPPORT:
+            label = 'supports'
+        elif label == ATTACK:
+            label = 'attacks'
+        else:
+            raise Exception(f"Unsupported relation type {label}")
 
         lines.append(f"{rid}\t{label} Arg1:{cid_from} Arg2:{cid_to}\t")
         relation_counter += 1
@@ -94,9 +125,9 @@ def parse_trail_data(df, base_path):
                 content = f.read()
 
             try:
-                brat_content = to_brat(submitted_ann[-1], content)
+                brat_content = to_aaec_brat(submitted_ann[-1], content)
             except Exception as ex:
-                print(ex)
+                print(f'brat conversion failed for {hit_id}:{assignment_id}:', ex)
                 continue
 
             with open(meta_fp, 'w') as f:
@@ -129,7 +160,7 @@ if __name__ == '__main__':
     db_export_path = sys.argv[1]
 
     # os.chdir('../')
-    # db_export_path = 'data/db_exports/assignments_202303152226.csv'
+    # db_export_path = 'data/db_exports/assignments_202303181743.csv'
 
     dir_name = db_export_path.split('/')[-1].split('.')[0]
     base_path = f"{HITS_PATH}/{dir_name}"
