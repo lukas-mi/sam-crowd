@@ -1,4 +1,34 @@
 {% extends 'layouts/layout.html' %}
 {% block body %}
-  <h1>Guidelines for <strong>FULL</strong> mode are WIP</h1>
+<div id="accordion" class="container">
+  <h1 class="page-header">Annotation guidelines</h1>
+  <hr>
+
+  <p>In this task you will need to highlight text based on 4 argument component types as well as draw links based on 2 types of relations between the components.</p>
+
+  <p>Be sure to dedicate a good portion of the given time to carefully read all the sections below before you proceed with the annotation.</p>
+
+  <p>Leave a few minutes for a short feedback questionnaire after the main annotation task.</p>
+
+  <hr>
+  <p>Components:</p>
+  <ul>
+    <li><p><strong>MajorClaim</strong>: <span class="major-claim">highlighting example</span>.</p></li>
+    <li><p><strong>ClaimFor</strong>: <span class="claim-for">highlighting example</span>.</p></li>
+    <li><p><strong>ClaimAgainst</strong>: <span class="claim-against">highlighting example</span>.</p></li>
+    <li><p><strong>Premise</strong>: <span class="premise">highlighting example</span>.</p></li>
+  </ul>
+  <p>Relations: <strong>Support</strong>, <strong>Attack</strong>.</p>
+
+  <hr>
+
+  <p>Click on section titles below to expand the information.</p>
+
+  {% include 'guidelines/section/annotation_ui.html' %}
+  {% include 'guidelines/common/high_level.html' %}
+  {% include 'guidelines/section/boundaries.html' %}
+  {% include 'guidelines/full/components_relations.html' %}
+  {% include 'guidelines/full/annotation_steps.html' %}
+  {% include 'guidelines/common/examples.html' %}
+</div>
 {% endblock %}

@@ -187,6 +187,17 @@ def section_guidelines():
 
 
 # ----------------------------------------------
+# accessing full guidelines
+# ----------------------------------------------
+@custom_code.route('/guidelines/full')
+def full_guidelines():
+    try:
+        return render_template('guidelines/full.html')
+    except TemplateNotFound:
+        abort(404)
+
+
+# ----------------------------------------------
 # example computing bonus
 # ----------------------------------------------
 @custom_code.route('/compute_bonus', methods=['GET'])

@@ -390,7 +390,7 @@ function createAnnotation(text, start, end, label) {
 
 function prepareContent() {
   const metaDiv = $('#meta');
-  metaDiv.append(`<p>Title of the article: "<strong>${hitData.meta.title}</strong>"</p>`)
+  metaDiv.append(`<p>The article title: "<strong>${hitData.meta.title}</strong>"</p>`)
 
   const labelSpans = getAnnModeComponentLabels().map(label => `<span class="${labelsToCSS[label]}"><strong>${label}</strong></span>`)
 

@@ -1,0 +1,22 @@
+<div class="card my-2">
+  <div class="card-header" id="heading-steps">
+    <h4 class="mb-0">
+      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-steps" aria-expanded="false" aria-controls="collapse-steps">
+        Annotation steps
+      </button>
+    </h4>
+  </div>
+
+  <div id="collapse-steps" class="collapse" aria-labelledby="heading-steps">
+    <div class="card-body">
+      <p>The annotation task should be carried out in 5 steps one after the other:</p>
+      <ol>
+        <li><p>Briefly read the whole article to understand its general idea and at the same time work on identifying the MajorClaim occurrences.</p></li>
+        <li><p>Inspect parts of the article in more detail to annotate the regular claims (ClaimFor/ClaimAgainst) considering their stance toward the MajorClaim.</p></li>
+        <li><p>Look for statements that directly support or attack the regular claims. Mark such statements as Premise components and indicate the specific relations (Support/Attack) between each Premise and a regular claim.</p></li>
+        <li><p>Consider statements that express relations toward the premises annotated in the previous step. Similarly to the previous step, annotate each such statement as a Premise and note the relation (Support/Attack) between it and another premise.</p></li>
+        <li><p>Continue annotating and linking premises by performing step 4 until there is no statement that seems to be a premise that could be connected to some other premise.</p></li>
+      </ol>
+    </div>
+  </div>
+</div>
