@@ -498,9 +498,7 @@ const SAMExperiment = function () {
       'event': 'create_annotation',
       'valid': isValid,
       'annotation': ann,
-      'type': ann_type,
-      'components': r.getAnnotationsOnly(),
-      'relations': r.getRelationsOnly()
+      'type': ann_type
     });
     psiTurk.saveData({});
   });
@@ -522,9 +520,7 @@ const SAMExperiment = function () {
         'event': 'delete_annotation',
         'valid': isValid,
         'annotation': ann,
-        'type': ann_type,
-        'components': r.getAnnotationsOnly(),
-        'relations': r.getRelationsOnly()
+        'type': ann_type
       });
       psiTurk.saveData({});
   });
@@ -560,9 +556,7 @@ const SAMExperiment = function () {
       'valid': isValid,
       'cur_annotation': curAnn,
       'prev_annotation': prevAnn,
-      'type': ann_type,
-      'components': r.getAnnotationsOnly(),
-      'relations': r.getRelationsOnly()
+      'type': ann_type
     });
     psiTurk.saveData({});
   });
@@ -602,9 +596,7 @@ const SAMExperiment = function () {
     } else {
       psiTurk.recordTrialData({
         'phase':'survey',
-        'event': 'premise_validation_failure',
-        'components': r.getAnnotationsOnly(),
-        'relations': r.getRelationsOnly()
+        'event': 'premise_validation_failure'
       });
       psiTurk.saveData({});
     }
