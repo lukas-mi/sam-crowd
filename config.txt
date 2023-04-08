@@ -14,7 +14,7 @@ title = Argument mining in opinion online articles
 # Description that will be used for the HIT when posted to mturk
 # e.g.,
 #     description = Judge the color of a series of words.
-description = Annotate arguments in text
+description = Annotate arguments in text (~50 minutes)
 
 # Keywords for the HIT on mturk
 # e.g.,
@@ -302,7 +302,7 @@ allow_repeats = true
 # `hit create`, because a participant may not start the task immediately after
 # accepting it, while the hit `duration` starts ticking as soon as the hit is
 # accepted (some workers queue their accepted hits before starting it).
-cutoff_time = 45
+cutoff_time = 480
 
 ################################## Shell Parameters ############################
 [Shell Parameters]

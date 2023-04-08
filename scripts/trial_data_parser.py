@@ -36,7 +36,8 @@ def to_aaec_brat(ann, original_content):
         end = c['target']['selector'][1]['end'] - 1
         ann_excerpt = c['target']['selector'][0]['exact']
 
-        original_excerpt = original_content[start:end]
+        # recogito replaces new line with a space
+        original_excerpt = original_content[start:end].replace('\n', ' ')
         if not original_excerpt == ann_excerpt:
             raise Exception(
                 f"""Annotated excerpt does not match the original ({start}, {end}):
@@ -160,7 +161,7 @@ if __name__ == '__main__':
     db_export_path = sys.argv[1]
 
     # os.chdir('../')
-    # db_export_path = 'data/db_exports/assignments_202303181743.csv'
+    # db_export_path = 'data/db_exports/assignments_202304081829.csv'
 
     dir_name = db_export_path.split('/')[-1].split('.')[0]
     base_path = f"{HITS_PATH}/{dir_name}"
