@@ -23,10 +23,11 @@ keywords = argument, mining, opinion, online, articles
 
 # How many hours a given HIT will last on mturk before becoming unavailable
 # for new assignments
-lifetime = 48
+lifetime = 72
 
 # Whether the HIT will be restricted to US-located mturkers
-us_only = true
+;us_only = true
+us_only = false
 
 # Minimum approval percentage a worker must have to accept the HIT.
 # Note! Mturk defaults a worker's approval percentage to 100% until
@@ -36,7 +37,7 @@ approve_requirement = 99
 # Minimum number of HITs a worker must have had approved in order to take
 # this HIT. See notes for `approve_requirement` -- set this to 100 if an actual
 # `approve_requirement` percentage is wanted.
-number_hits_approved = 1000
+number_hits_approved = 2000
 
 # Whether a worker must have the master worker qualification to take this hit.
 # Note that there is a commission surcharge for using this qualification.
@@ -106,7 +107,7 @@ number_hits_approved = 1000
 #    ;advanced_quals_path = ./advanced_quals.json
 #
 # Will only be used during `live` mode. Is overridden by `advanced_quals_path`, if set.
-;advanced_quals_path_live =
+advanced_quals_path_live = ./custom_qualifications.json
 
 
 # A path to a custom JSON qualifications file, where you can define your own
@@ -115,7 +116,7 @@ number_hits_approved = 1000
 #    ;advanced_quals_path = ./advanced_quals.json
 #
 # Will only be used during `sandbox` mode. Is overridden by `advanced_quals_path`, if set.
-;advanced_quals_path_sandbox =
+;advanced_quals_path_sandbox = ./custom_qualifications.json
 
 
 ## Hit Configuration - Ad Url ##################################################
@@ -301,13 +302,14 @@ allow_repeats = true
 # `hit create`, because a participant may not start the task immediately after
 # accepting it, while the hit `duration` starts ticking as soon as the hit is
 # accepted (some workers queue their accepted hits before starting it).
-;cutoff_time = 30
+cutoff_time = 45
 
 ################################## Shell Parameters ############################
 [Shell Parameters]
 # the default `mode` into which the psiturk shell will be launched.
 # possible values : sandbox, live
-;launch_in_mode = sandbox
+launch_in_mode = sandbox
+;launch_in_mode = live
 
 # A file location for where to store a history of psiturk shell commands
 ;persistent_history_file = .psiturk_history
