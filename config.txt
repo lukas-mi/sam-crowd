@@ -14,7 +14,7 @@ title = Argument mining in opinion online articles
 # Description that will be used for the HIT when posted to mturk
 # e.g.,
 #     description = Judge the color of a series of words.
-description = Annotate arguments in text (~50 minutes)
+description = Annotate arguments in text (~25 minutes)
 
 # Keywords for the HIT on mturk
 # e.g.,

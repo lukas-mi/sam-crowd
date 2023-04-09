@@ -1,3 +1,4 @@
+import datetime
 import json
 import math
 import os
@@ -82,6 +83,17 @@ def to_aaec_brat(ann, original_content):
     return lines
 
 
+def add_ann_event_data(data, name, metadata):
+    annotations = sorted([item for item in data if item.get('trialdata', None) if item['trialdata'].get('event', None) == name], key=lambda item: item['dateTime'])
+
+    metadata[f'{name}_count'] = len(annotations)
+    metadata[f'{name}_first'] = str(datetime.datetime.utcfromtimestamp(annotations[0]['dateTime'] // 1000)) if len(annotations) > 0 else None
+    metadata[f'{name}_last'] = str(datetime.datetime.utcfromtimestamp(annotations[-1]['dateTime'] // 1000)) if len(annotations) > 0 else None
+    metadata[f'{name}_invalid'] = len([item for item in annotations if not item['trialdata']['valid']])
+
+    return metadata
+
+
 # TODO: log and extract exact annotation mistakes
 def parse_trail_data(df, base_path):
     ignored_assignments = []
@@ -113,6 +125,9 @@ def parse_trail_data(df, base_path):
             metadata['task_done'] = len(submitted_ann) >= 1
             metadata['quiz_done'] = sum(int(item.get('phase', None) == 'questionnaire' and item.get('status', None) == 'submit') for item in all_ann) >= 1
             metadata['guidelines_opened'] = sum(int(item.get('event', None) == 'open_guidelines') for item in all_ann)
+            metadata = add_ann_event_data(trial_data, 'create_annotation', metadata)
+            metadata = add_ann_event_data(trial_data, 'delete_annotation', metadata)
+            metadata = add_ann_event_data(trial_data, 'update_annotation', metadata)
             metadata['quiz'] = data['questiondata']
             metadata['events'] = data['eventdata']
             metadata['content_metadata'] = content_metadata[-1]
@@ -161,7 +176,7 @@ if __name__ == '__main__':
     db_export_path = sys.argv[1]
 
     # os.chdir('../')
-    # db_export_path = 'data/db_exports/assignments_202304081829.csv'
+    # db_export_path = 'data/db_exports/assignments_202304091009.csv'
 
     dir_name = db_export_path.split('/')[-1].split('.')[0]
     base_path = f"{HITS_PATH}/{dir_name}"
