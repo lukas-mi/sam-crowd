@@ -14,7 +14,7 @@ title = Argument mining in opinion online articles
 # Description that will be used for the HIT when posted to mturk
 # e.g.,
 #     description = Judge the color of a series of words.
-description = Annotate arguments in text (~25 minutes)
+description = Annotate arguments in text. Click 'Preview' to see more information.
 
 # Keywords for the HIT on mturk
 # e.g.,
@@ -37,7 +37,7 @@ approve_requirement = 99
 # Minimum number of HITs a worker must have had approved in order to take
 # this HIT. See notes for `approve_requirement` -- set this to 100 if an actual
 # `approve_requirement` percentage is wanted.
-number_hits_approved = 2000
+number_hits_approved = 5000
 
 # Whether a worker must have the master worker qualification to take this hit.
 # Note that there is a commission surcharge for using this qualification.
@@ -302,7 +302,7 @@ allow_repeats = true
 # `hit create`, because a participant may not start the task immediately after
 # accepting it, while the hit `duration` starts ticking as soon as the hit is
 # accepted (some workers queue their accepted hits before starting it).
-cutoff_time = 480
+cutoff_time = 25
 
 ################################## Shell Parameters ############################
 [Shell Parameters]
