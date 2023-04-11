@@ -6,6 +6,7 @@ import sys
 
 import pandas as pd
 
+from scripts import utils
 
 HITS_PATH = 'data/hits'
 ARTICLES_PATH = 'articles'
@@ -83,19 +84,41 @@ def to_aaec_brat(ann, original_content):
     return lines
 
 
-def add_ann_event_data(data, name, metadata):
+def add_ann_event_data(data, name, metadata, include_invalid=True):
     annotations = sorted([item for item in data if item.get('trialdata', None) if item['trialdata'].get('event', None) == name], key=lambda item: item['dateTime'])
 
     metadata[f'{name}_count'] = len(annotations)
     metadata[f'{name}_first'] = str(datetime.datetime.utcfromtimestamp(annotations[0]['dateTime'] // 1000)) if len(annotations) > 0 else None
     metadata[f'{name}_last'] = str(datetime.datetime.utcfromtimestamp(annotations[-1]['dateTime'] // 1000)) if len(annotations) > 0 else None
-    metadata[f'{name}_invalid'] = len([item for item in annotations if not item['trialdata']['valid']])
+    if include_invalid:
+        metadata[f'{name}_invalid'] = len([item for item in annotations if not item['trialdata']['valid']])
 
     return metadata
 
 
+def get_valid_assignments(hit_ids):
+    client = utils.new_client()
+
+    hit_assignments = dict({})
+    for hit_id in hit_ids:
+        try:
+            assignments = client.list_assignments_for_hit(
+                HITId=hit_id,
+                AssignmentStatuses=['Submitted', 'Approved', 'Rejected'],
+                MaxResults=20
+            )['Assignments']
+            hit_assignments[hit_id] = [(a['WorkerId'], a['AssignmentId']) for a in assignments]
+        except Exception as ex:
+            print(hit_id, str(ex))
+
+    return hit_assignments
+
+
 # TODO: log and extract exact annotation mistakes
 def parse_trail_data(df, base_path):
+    valid_assignments = get_valid_assignments(set(df[df['mode'] == 'live']['hitid'].values))
+    print('valid_assignments', valid_assignments)
+    invalid_live_assignments = []
     ignored_assignments = []
     incomplete_assignments = []
 
@@ -104,6 +127,9 @@ def parse_trail_data(df, base_path):
         assignment_id = entry['assignmentid']
         hit_id = entry['hitid']
         mode = entry['mode']
+
+        if mode == 'live' and (worker_id, assignment_id) not in valid_assignments[hit_id]:
+            invalid_live_assignments.append((hit_id, worker_id, assignment_id))
 
         assignment_path = f'{base_path}/{mode}/{hit_id}'
         base_fp = f'{assignment_path}/{worker_id}:{assignment_id}'
@@ -124,7 +150,7 @@ def parse_trail_data(df, base_path):
             metadata['beginexp'] = None if isinstance(metadata['beginexp'], float) and math.isnan(metadata['beginexp']) else metadata['beginexp']
             metadata['task_done'] = len(submitted_ann) >= 1
             metadata['quiz_done'] = sum(int(item.get('phase', None) == 'questionnaire' and item.get('status', None) == 'submit') for item in all_ann) >= 1
-            metadata['guidelines_opened'] = sum(int(item.get('event', None) == 'open_guidelines') for item in all_ann)
+            metadata = add_ann_event_data(trial_data, 'open_guidelines', metadata, include_invalid=False)
             metadata = add_ann_event_data(trial_data, 'create_annotation', metadata)
             metadata = add_ann_event_data(trial_data, 'delete_annotation', metadata)
             metadata = add_ann_event_data(trial_data, 'update_annotation', metadata)
@@ -159,9 +185,14 @@ def parse_trail_data(df, base_path):
         else:
             ignored_assignments.append((hit_id, worker_id, assignment_id))
 
-    if len(ignored_assignments) > 0:
-        print('ignored assignments')
-        for triple in ignored_assignments:
+    if len(invalid_live_assignments) > 0:
+        print('invalid live assignments')
+        for triple in invalid_live_assignments:
+            print('\t', triple)
+
+    if len(incomplete_assignments) > 0:
+        print('incomplete assignments')
+        for triple in incomplete_assignments:
             print('\t', triple)
 
     if len(incomplete_assignments) > 0:
@@ -170,13 +201,14 @@ def parse_trail_data(df, base_path):
             print('\t', triple)
 
 
+# TODO: filter assignments: only keep those returned by MTurk
 if __name__ == '__main__':
     if len(sys.argv) != 1:
         exit('exactly one argument expected: db_export_path')
     db_export_path = sys.argv[1]
 
     # os.chdir('../')
-    # db_export_path = 'data/db_exports/assignments_202304091009.csv'
+    # db_export_path = 'data/db_exports/assignments_202304111128.csv'
 
     dir_name = db_export_path.split('/')[-1].split('.')[0]
     base_path = f"{HITS_PATH}/{dir_name}"
