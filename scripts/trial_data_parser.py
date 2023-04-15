@@ -117,7 +117,6 @@ def get_valid_assignments(hit_ids):
 # TODO: log and extract exact annotation mistakes
 def parse_trail_data(df, base_path):
     valid_assignments = get_valid_assignments(set(df[df['mode'] == 'live']['hitid'].values))
-    print('valid_assignments', valid_assignments)
     invalid_live_assignments = []
     ignored_assignments = []
     incomplete_assignments = []
@@ -158,7 +157,7 @@ def parse_trail_data(df, base_path):
             metadata['events'] = data['eventdata']
             metadata['content_metadata'] = content_metadata[-1]
 
-            content_path = f"{ARTICLES_PATH}/{content_metadata[-1]['article']}/{content_metadata[-1]['excerpt']}.txt"
+            content_path = f"{ARTICLES_PATH}/{content_metadata[-1].get('publisher', 'pbn')}/{content_metadata[-1]['article']}/{content_metadata[-1]['excerpt']}.txt"
             if not os.path.isfile(content_path):
                 print(f'file under path {content_path} not found, ignoring entry {hit_id}:{assignment_id}')
                 continue
@@ -201,14 +200,13 @@ def parse_trail_data(df, base_path):
             print('\t', triple)
 
 
-# TODO: filter assignments: only keep those returned by MTurk
 if __name__ == '__main__':
     if len(sys.argv) != 1:
         exit('exactly one argument expected: db_export_path')
     db_export_path = sys.argv[1]
 
     # os.chdir('../')
-    # db_export_path = 'data/db_exports/assignments_202304111128.csv'
+    # db_export_path = 'data/db_exports/assignments_202304122200.csv'
 
     dir_name = db_export_path.split('/')[-1].split('.')[0]
     base_path = f"{HITS_PATH}/{dir_name}"

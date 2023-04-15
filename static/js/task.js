@@ -431,6 +431,7 @@ function logMetadata() {
     'phase':'survey',
     'event': 'log_metadata',
     'annotation_mode': annotationMode,
+    'publisher': hitData.publisher,
     'article': hitData.article,
     'excerpt': hitData.excerpt,
     'major_claim': hitData.meta.major_claim

@@ -95,9 +95,9 @@ def list_excerpts(article):
         abort(404)
 
 
-def get_excerpt_helper(article, excerpt):
-    file_path = f'{articles_path}/{article}/{excerpt}.txt'
-    meta_path = f'{articles_path}/{article}/meta.json'
+def get_excerpt_helper(publisher, article, excerpt):
+    file_path = f'{articles_path}/{publisher}/{article}/{excerpt}.txt'
+    meta_path = f'{articles_path}/{publisher}/{article}/meta.json'
 
     if os.path.isfile(file_path) and os.path.isfile(meta_path):
         with open(file_path, 'r') as f:
@@ -112,9 +112,9 @@ def get_excerpt_helper(article, excerpt):
 # ----------------------------------------------
 # accessing specific article
 # ----------------------------------------------
-@custom_code.route('/articles/<article>/<excerpt>', methods=['GET'])
-def get_excerpt(article, excerpt):
-    excerpt_data = get_excerpt_helper(article, excerpt)
+@custom_code.route('/articles/<publisher>/<article>/<excerpt>', methods=['GET'])
+def get_excerpt(publisher, article, excerpt):
+    excerpt_data = get_excerpt_helper(publisher, article, excerpt)
     if excerpt_data:
         return jsonify(**excerpt_data)
     else:
@@ -122,11 +122,11 @@ def get_excerpt(article, excerpt):
 
 
 annotation_examples = [
-    ('salmon-deaths-scotland-fish-farming', 'section_2', 'section', 'EN'),
-    ('salmon-deaths-scotland-fish-farming', 'full', 'full', 'EN'),
-    ('pbn/should-vegans-stop-replicating-meat-cheese', 'full', 'article', 'EN'),
-    ('pbn/should-vegans-stop-replicating-meat-cheese', 'section_1', 'section', 'EN'),
-    ('altinget/kost-og-ernaeringsforbundet-groen-frokost-i-kommunerne-maa-ikke-indfoeres-i-blinde', 'full', 'full', 'DK'),
+    ('pbn', 'salmon-deaths-scotland-fish-farming', 'section_2', 'section', 'EN'),
+    ('pbn', 'salmon-deaths-scotland-fish-farming', 'full', 'full', 'EN'),
+    ('pbn', 'should-vegans-stop-replicating-meat-cheese', 'full', 'article', 'EN'),
+    ('pbn', 'should-vegans-stop-replicating-meat-cheese', 'section_1', 'section', 'EN'),
+    ('altinget', 'kost-og-ernaeringsforbundet-groen-frokost-i-kommunerne-maa-ikke-indfoeres-i-blinde', 'full', 'full', 'DK'),
 ]
 
 
@@ -136,16 +136,17 @@ annotation_examples = [
 @custom_code.route('/hit_info/<hitid>', methods=['GET'])
 def get_hit_info(hitid):
     if hitid.startswith('debug'):
-        article, excerpt, annotation_mode, lang = annotation_examples[0]
-        excerpt_data = get_excerpt_helper(article, excerpt)
+        publisher, article, excerpt, annotation_mode, lang = annotation_examples[0]
+        excerpt_data = get_excerpt_helper(publisher, article, excerpt)
         excerpt_data['annotation_mode'] = annotation_mode
         excerpt_data['article'] = article
         excerpt_data['excerpt'] = excerpt
+        excerpt_data['publisher'] = publisher
         excerpt_data['lang'] = lang
         return jsonify(**excerpt_data)
     else:
         query = f"""
-            SELECT annotation_mode, article, excerpt, lang
+            SELECT annotation_mode, article, excerpt, publisher, lang
             FROM {hit_configs_table}
             WHERE hitid = :val
         """
@@ -154,17 +155,18 @@ def get_hit_info(hitid):
         if len(rows) == 0:
             abort(404)
         else:
-            annotation_mode, article, excerpt, lang = rows[0]
-            excerpt_data = get_excerpt_helper(article, excerpt)
+            annotation_mode, article, excerpt, publisher, lang = rows[0]
+            excerpt_data = get_excerpt_helper(publisher, article, excerpt)
 
             if excerpt_data:
                 excerpt_data['annotation_mode'] = annotation_mode
                 excerpt_data['article'] = article
                 excerpt_data['excerpt'] = excerpt
+                excerpt_data['publisher'] = publisher
                 excerpt_data['lang'] = lang
                 return jsonify(**excerpt_data)
             else:
-                current_app.logger.warn(f"/hit_info/{hitid} no resources found for article={article}, excerpt{excerpt}")
+                current_app.logger.warn(f"/hit_info/{hitid} no resources found for publisher={publisher} article={article}, excerpt{excerpt}")
 
 
 # ----------------------------------------------
