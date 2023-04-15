@@ -126,7 +126,8 @@ annotation_examples = [
     ('pbn', 'salmon-deaths-scotland-fish-farming', 'full', 'full', 'EN'),
     ('pbn', 'should-vegans-stop-replicating-meat-cheese', 'full', 'article', 'EN'),
     ('pbn', 'should-vegans-stop-replicating-meat-cheese', 'section_1', 'section', 'EN'),
-    ('altinget', 'kost-og-ernaeringsforbundet-groen-frokost-i-kommunerne-maa-ikke-indfoeres-i-blinde', 'full', 'full', 'DK'),
+    ('altinget', 'har-soja-en-fremtid-i-dansk-landbrug', 'full', 'full', 'DK'),
+    ('altinget', 'har-soja-en-fremtid-i-dansk-landbrug', 'section_1', 'section', 'DK')
 ]
 
 
@@ -136,7 +137,7 @@ annotation_examples = [
 @custom_code.route('/hit_info/<hitid>', methods=['GET'])
 def get_hit_info(hitid):
     if hitid.startswith('debug'):
-        publisher, article, excerpt, annotation_mode, lang = annotation_examples[0]
+        publisher, article, excerpt, annotation_mode, lang = annotation_examples[-1]
         excerpt_data = get_excerpt_helper(publisher, article, excerpt)
         excerpt_data['annotation_mode'] = annotation_mode
         excerpt_data['article'] = article
