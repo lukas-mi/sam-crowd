@@ -25,12 +25,19 @@
         </div>
 
         <h1>Introduction</h1>
-        <p>In this task you will be provided with a section from an article on the topics of sustainable diets, veganism, meat alternatives, effects of food production on the environment, and others.</p>
+        <p>In this task you will be provided with a section from an article or a full article on the topics of sustainable diets, veganism, meat alternatives, effects of food production on the environment, and others.</p>
         <p>Your task is to identify argument components present in the text and determine how they are related to each other.</p>
         <p>
           Likely, you will have your own opinions and may agree or disagree with the contents of the articles, finding some statements to be untrue or even offensive.
           However, in order to correctly complete the task, it is crucial that you stay objective and follow the described guidelines to the best of your ability.
         </p>
+
+        <div id="language-requirement" hidden>
+          <h1>Language requirement</h1>
+          <p>In this HIT, proficiency in <strong>Danish</strong> and <strong>English</strong> is necessary because the annotation instructions, examples, and interface are in English, however, the text to be annotated is in Danish.</p>
+          <p>You will need to adapt and apply the instructions in English on the Danish text.</p>
+          <p>If you do not meet this requirement, please <strong>return</strong> the HIT.</p>
+        </div>
 
         <h1>Motivation</h1>
         <p>Your work may eventually be used in developing Artificial Intelligence (AI) that is capable of automatically extracting arguments and their relations from the text.</p>
@@ -56,6 +63,16 @@
           <p>To carry out the task correctly, be sure to carefully read the annotation guidelines, which will be available after the HIT is accepted.</p>
 
           <script type="text/javascript">
+            const hitInfoURL = 'hit_info/{{ hitid }}';
+
+            $.get(hitInfoURL).done(data => {
+              if (data['lang'] === 'DK') {
+                $('#language-requirement').removeAttr('hidden');
+              }
+            }).catch((jqXHR, textStatus, errorThrown) => {
+              console.log(`got error on ${hitInfoURL}`, jqXHR, textStatus, errorThrown);
+            });
+
             function openWindow() {
               window.open('{{ server_location }}/exp?hitId={{ hitid }}&assignmentId={{ assignmentid }}&workerId={{ workerid }}','Popup','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=no,width='+1024+',height='+768+'');
             }

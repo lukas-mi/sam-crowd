@@ -140,10 +140,11 @@ def get_hit_info(hitid):
         excerpt_data['annotation_mode'] = annotation_mode
         excerpt_data['article'] = article
         excerpt_data['excerpt'] = excerpt
+        excerpt_data['lang'] = 'EN'
         return jsonify(**excerpt_data)
     else:
         query = f"""
-            SELECT annotation_mode, article, excerpt
+            SELECT annotation_mode, article, excerpt, lang
             FROM {hit_configs_table}
             WHERE hitid = :val
         """
@@ -152,13 +153,14 @@ def get_hit_info(hitid):
         if len(rows) == 0:
             abort(404)
         else:
-            annotation_mode, article, excerpt = rows[0]
+            annotation_mode, article, excerpt, lang = rows[0]
             excerpt_data = get_excerpt_helper(article, excerpt)
 
             if excerpt_data:
                 excerpt_data['annotation_mode'] = annotation_mode
                 excerpt_data['article'] = article
                 excerpt_data['excerpt'] = excerpt
+                excerpt_data['lang'] = lang
                 return jsonify(**excerpt_data)
             else:
                 current_app.logger.warn(f"/hit_info/{hitid} no resources found for article={article}, excerpt{excerpt}")

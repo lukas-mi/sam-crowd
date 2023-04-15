@@ -12,7 +12,11 @@ BASE_URL = 'https://sam-crowd.herokuapp.com'
 HIT_CONFIGS_TABLE = 'hit_configs'
 
 
-def validate_wrapper_args(annotation_mode, article, excerpt):
+def validate_wrapper_args(annotation_mode, article, excerpt, lang):
+    if lang not in ['EN', 'DK']:
+        print(f'unsupported lang {lang}')
+        exit(1)
+
     if annotation_mode not in ['full', 'article', 'section']:
         print(f'unsupported annotation_mode {annotation_mode}')
         exit(1)
@@ -44,8 +48,8 @@ def check_table(conn):
         print(f'test query output = {rows[0][0]}')
 
 
-def insert_row(conn, hitid, annotation_mode, article, excerpt):
-    query = f"INSERT INTO {HIT_CONFIGS_TABLE} VALUES ('{hitid}', '{annotation_mode}', '{article}', '{excerpt}')"
+def insert_row(conn, hitid, annotation_mode, article, excerpt, lang):
+    query = f"INSERT INTO {HIT_CONFIGS_TABLE} VALUES ('{hitid}', '{annotation_mode}', '{article}', '{excerpt}', '{lang}')"
 
     print(f'running insert: {query}')
     with conn.cursor() as cur:
@@ -74,14 +78,14 @@ def extract_hitid(output):
 
 
 if __name__ == '__main__':
-    wrapper_args = sys.argv[1:4]
-    psiturk_args = sys.argv[4:]
+    wrapper_args = sys.argv[1:5]
+    psiturk_args = sys.argv[5:]
 
     print('wrapper args:', wrapper_args)
     print('psiturk args:', psiturk_args)
 
-    annotation_mode, article, excerpt = wrapper_args
-    validate_wrapper_args(annotation_mode, article, excerpt)
+    annotation_mode, article, excerpt, lang = wrapper_args
+    validate_wrapper_args(annotation_mode, article, excerpt, lang)
 
     with create_con() as conn:
         check_table(conn)
@@ -98,7 +102,7 @@ if __name__ == '__main__':
             exit(1)
 
         try:
-            insert_row(conn, hitid, annotation_mode, article, excerpt)
+            insert_row(conn, hitid, annotation_mode, article, excerpt, lang)
             conn.commit()
         except Exception as ex1:
             print('caught exception:', ex1)

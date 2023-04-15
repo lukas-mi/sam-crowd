@@ -3,16 +3,15 @@
         "QualificationTypeId": "00000000000000000071",
         "Comparator": "In",
         "LocaleValues": [
-            {"Country":  "US"},
-            {"Country":  "CA"},
-            {"Country":  "GB"},
-            {"Country":  "IE"},
-            {"Country":  "AU"},
-            {"Country":  "NZ"}
+            {"Country":  "DK"}
         ]
     },
     {
         "QualificationTypeId": "39G8RJBX09KE2RRLBV0601U6RCDSFZ",
+        "Comparator": "DoesNotExist"
+    },
+    {
+        "QualificationTypeId": "3CB2DOZURAVZYSRHUAJJXN3MT0UVAU",
         "Comparator": "DoesNotExist"
     }
 ]
