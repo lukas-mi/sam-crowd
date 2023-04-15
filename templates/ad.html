@@ -1,6 +1,23 @@
 {% extends 'layouts/layout.html' %}
 {% block head %}
 	{{ super() }}
+  <script type="text/javascript">
+    const hitInfoURL = 'hit_info/{{ hitid }}';
+
+    $(document).ready(() => {
+      $.get(hitInfoURL).done(data => {
+        if (data['lang'] === 'DK') {
+          $('#language-requirement').removeAttr('hidden');
+        }
+      }).catch((jqXHR, textStatus, errorThrown) => {
+        console.log(`got error on ${hitInfoURL}`, jqXHR, textStatus, errorThrown);
+      });
+    });
+
+    function openWindow() {
+      window.open('{{ server_location }}/exp?hitId={{ hitid }}&assignmentId={{ assignmentid }}&workerId={{ workerid }}','Popup','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=no,width='+1024+',height='+768+'');
+    }
+  </script>
 {% endblock %}
 
 {% block body %}
@@ -61,22 +78,6 @@
           <p>By clicking the button below, you will be taken to the experiment, including the complete instructions.</p>
 
           <p>To carry out the task correctly, be sure to carefully read the annotation guidelines, which will be available after the HIT is accepted.</p>
-
-          <script type="text/javascript">
-            const hitInfoURL = 'hit_info/{{ hitid }}';
-
-            $.get(hitInfoURL).done(data => {
-              if (data['lang'] === 'DK') {
-                $('#language-requirement').removeAttr('hidden');
-              }
-            }).catch((jqXHR, textStatus, errorThrown) => {
-              console.log(`got error on ${hitInfoURL}`, jqXHR, textStatus, errorThrown);
-            });
-
-            function openWindow() {
-              window.open('{{ server_location }}/exp?hitId={{ hitid }}&assignmentId={{ assignmentid }}&workerId={{ workerid }}','Popup','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=no,width='+1024+',height='+768+'');
-            }
-          </script>
 
           <button type="button" class="btn btn-primary btn-lg" onClick="openWindow();">
             Begin Experiment
