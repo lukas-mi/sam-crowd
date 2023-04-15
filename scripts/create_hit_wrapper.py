@@ -17,7 +17,7 @@ def validate_wrapper_args(annotation_mode, article, excerpt, publisher, lang):
         print(f'unsupported lang {lang}')
         exit(1)
 
-    if lang not in ['pbn', 'guardian', 'altinget']:
+    if publisher not in ['pbn', 'guardian', 'altinget']:
         print(f'unsupported publisher {publisher}')
         exit(1)
 
@@ -25,13 +25,13 @@ def validate_wrapper_args(annotation_mode, article, excerpt, publisher, lang):
         print(f'unsupported annotation_mode {annotation_mode}')
         exit(1)
 
-    file_path = f'{ARTICLES_BASE_PATH}/{article}/{excerpt}.txt'
-    meta_path = f'{ARTICLES_BASE_PATH}/{article}/meta.json'
+    file_path = f'{ARTICLES_BASE_PATH}/{publisher}/{article}/{excerpt}.txt'
+    meta_path = f'{ARTICLES_BASE_PATH}/{publisher}/{article}/meta.json'
     if not os.path.isfile(file_path) or not os.path.isfile(meta_path):
         print(f'files {file_path} or {meta_path} do not exist locally')
         exit(1)
 
-    excerpt_url = f'{BASE_URL}/articles/{article}/{excerpt}'
+    excerpt_url = f'{BASE_URL}/articles/{publisher}/{article}/{excerpt}'
     response = requests.get(excerpt_url)
     if response.status_code != 200:
         print(f'resource at {excerpt_url} was not found')
