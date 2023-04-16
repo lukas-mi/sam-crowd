@@ -122,12 +122,13 @@ def get_excerpt(publisher, article, excerpt):
 
 
 annotation_examples = [
-    ('pbn', 'salmon-deaths-scotland-fish-farming', 'section_2', 'section', 'EN'),
-    ('pbn', 'salmon-deaths-scotland-fish-farming', 'full', 'full', 'EN'),
     ('pbn', 'should-vegans-stop-replicating-meat-cheese', 'full', 'article', 'EN'),
     ('pbn', 'should-vegans-stop-replicating-meat-cheese', 'section_1', 'section', 'EN'),
-    ('altinget', 'har-soja-en-fremtid-i-dansk-landbrug', 'full', 'full', 'DK'),
-    ('altinget', 'har-soja-en-fremtid-i-dansk-landbrug', 'section_1', 'section', 'DK')
+    ('prep', 'salmon-deaths-scotland-fish-farming', 'section_2', 'section', 'EN'),
+    ('prep', 'salmon-deaths-scotland-fish-farming', 'full', 'full', 'EN'),
+    ('prep', 'har-soja-en-fremtid-i-dansk-landbrug', 'full', 'full', 'DK'),
+    ('prep', 'har-soja-en-fremtid-i-dansk-landbrug', 'section_1', 'section', 'DK'),
+    ('prep', 'americans-diet-public-health-food', 'full', 'full', 'EN')
 ]
 
 
