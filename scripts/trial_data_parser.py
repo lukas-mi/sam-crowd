@@ -157,7 +157,7 @@ def parse_trail_data(df, base_path):
             metadata['events'] = data['eventdata']
             metadata['content_metadata'] = content_metadata[-1]
 
-            content_path = f"{ARTICLES_PATH}/{content_metadata[-1].get('publisher', 'pbn')}/{content_metadata[-1]['article']}/{content_metadata[-1]['excerpt']}.txt"
+            content_path = f"{ARTICLES_PATH}/{content_metadata[-1].get('publisher', 'prep')}/{content_metadata[-1]['article']}/{content_metadata[-1]['excerpt']}.txt"
             if not os.path.isfile(content_path):
                 print(f'file under path {content_path} not found, ignoring entry {hit_id}:{assignment_id}')
                 continue
@@ -206,7 +206,7 @@ if __name__ == '__main__':
     db_export_path = sys.argv[1]
 
     # os.chdir('../')
-    # db_export_path = 'data/db_exports/assignments_202304122200.csv'
+    # db_export_path = 'data/db_exports/assignments_202304171229.csv'
 
     dir_name = db_export_path.split('/')[-1].split('.')[0]
     base_path = f"{HITS_PATH}/{dir_name}"

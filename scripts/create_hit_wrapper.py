@@ -17,7 +17,7 @@ def validate_wrapper_args(annotation_mode, article, excerpt, publisher, lang):
         print(f'unsupported lang {lang}')
         exit(1)
 
-    if publisher not in ['pbn', 'guardian', 'altinget']:
+    if publisher not in ['pbn', 'guardian', 'altinget', 'prep']:
         print(f'unsupported publisher {publisher}')
         exit(1)
 
