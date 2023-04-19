@@ -1,0 +1,34 @@
+Paragraph 1:
+- Second part of the sentence is the claim with a For stance toward the major claim while the first part is a premise attacking the claim.
+Paragraph 2:
+- First sentence provides factual information on how dietary diseases are responsible for more deaths than COVID-19, thus, it's not a claim.
+- The second and third sentences are two separate claims.
+Paragraph 3:
+- The first premise expresses support toward the last component of the previous paragraph by elaborating on it.
+- The second sentence is a ClaimFor for the major claim stated in the last sentence.
+Paragraph 4:
+- The first sentence contains two components: a claim and an attacking premise.
+- The premise in the next sentence support the claim that follows.
+Paragraph 5:
+- The first part of the sentence until ";", contains both: a claim and an explaining premise.
+- The second part is a long claim about how the future of food will look like.
+- The last sentence can be viewed as a premise that explains the previous claim by elaborating on how such future of food can be achieved.
+Paragraph 6:
+- The last sentence is a claim that there are no efforts in policies regarding diets while the sentence before, in a way, challenges this view by saying that government, in the past, have done notable work in similar areas.
+Paragraph 7:
+- A claim is stated, which is then explained by a premise. This premise is itself supported by the next premise.
+Paragraph 8:
+- The claim in the first sentence is supported by the premise in the second. The premise explains that the methods (from the first sentence) are gaining popularity, therefore, increasing their credibility.
+Paragraph 9:
+- The first sentence contains a claim, which is attacked by a premise. The second sentence supports the previous claim by elaborating on the environmental effects.
+- The last sentence is another claim.
+Paragraph 10:
+- Again, a sentence contains a claim and an opposing premise. The sentence that follows is a premise that support the former claim.
+Paragraph 11:
+- Contains a long premise that further explains the premise from the previous paragraph.
+Paragraph 12:
+- A claim states another solution to reducing meat production. This claim is then supported by the two premises in the latter sentences.
+Paragraphs 13 and 14:
+- Additional two claims are introduced.
+Paragraph 15:
+- The first sentence contains a claim while the second sentence is another occurrence of the major claim.
