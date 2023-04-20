@@ -5,7 +5,8 @@ Paragraph 2:
 - The second and third sentences are two separate claims.
 Paragraph 3:
 - The first premise expresses support toward the last component of the previous paragraph by elaborating on it.
-- The second sentence is a ClaimFor for the major claim stated in the last sentence.
+- The second sentence is a ClaimFor.
+- The MajorClaim stated in the last sentence, which is strongly related to the title of the article, where both urges the production of healthy foods.
 Paragraph 4:
 - The first sentence contains two components: a claim and an attacking premise.
 - The premise in the next sentence support the claim that follows.

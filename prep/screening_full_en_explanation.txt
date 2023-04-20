@@ -6,11 +6,11 @@ Paragraph 5:
 Paragraph 6:
 - The last sentence is a claim, which is supported the premise in the sentence just before (provides figures on the growth of the salmon industry).
 Paragraph 7:
-- The first occurrence of the MajorClaim is stated.
+- The first occurrence of the MajorClaim is stated. This statement is closely related to the title, which asks whether Scotland will address fish farming problems. The major claim urges to address this problem.
 Paragraph 8:
 - Is just a heading for introduction
 Paragraph 9:
-- First two sentences presents 2 claims, which may not be that arguable but still should be annotated.
+- First two sentences presents 2 claims, which are more abstract but still should be annotated.
 - The next sentence includes a statement, which can be interpreted as an attacking premise, since previous claim states that we must be careful with the planet's limited resources, yet about 15 million salmon died due to people's fault.
 Paragraph 10:
 - Contains a claim that is explained by a supporting premise.
