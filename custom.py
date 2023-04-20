@@ -128,6 +128,8 @@ annotation_examples = [
     ('prep', 'salmon-deaths-scotland-fish-farming', 'full', 'full', 'EN'),
     ('prep', 'har-soja-en-fremtid-i-dansk-landbrug', 'full', 'full', 'DK'),
     ('prep', 'har-soja-en-fremtid-i-dansk-landbrug', 'section_1', 'section', 'DK'),
+    ('prep', 'har-soja-en-fremtid-i-dansk-landbrug-en', 'full', 'full', 'EN'),
+    ('prep', 'har-soja-en-fremtid-i-dansk-landbrug-en', 'section_1', 'section', 'EN'),
     ('prep', 'americans-diet-public-health-food', 'full', 'full', 'EN')
 ]
 
@@ -138,7 +140,7 @@ annotation_examples = [
 @custom_code.route('/hit_info/<hitid>', methods=['GET'])
 def get_hit_info(hitid):
     if hitid.startswith('debug'):
-        publisher, article, excerpt, annotation_mode, lang = annotation_examples[-1]
+        publisher, article, excerpt, annotation_mode, lang = annotation_examples[-3]
         excerpt_data = get_excerpt_helper(publisher, article, excerpt)
         excerpt_data['annotation_mode'] = annotation_mode
         excerpt_data['article'] = article
