@@ -1,0 +1,46 @@
+Paragraph 1:
+- The last part of the second sentence is the fist occurrence of the major claim, which expresses articles main point that sustainable soy should continue to be prioritized in Denmark.
+- In the same sentence there is also another claim that provides a reason on why sustainable soy should be prioritized.
+- The first statement in a paragraph can be interpreted differently:
+  - One could say that this statement is a claim because it could be argued there is truly many climate-friendly options that are alternative to soy. In such case it should be annotated as ClaimAgainst since it oppose the major claim, saying that in fact there are many alternative to soy, thus, soy may not be that important after all.
+  - Alternative interpretation is to see this statement as a Premise that attacks a claim that follows. The claim states that green protein cannot stand alone in Denmark, on the other hand, the premise states that there are many climate-friendly green options for protein.
+Paragraph 2:
+- The first sentence is a claim, which is supported by a premise in the second sentence. However, this information could also be understood as a reasonably well known fact, in that case nothing should be annotated in the paragraph.
+Paragraph 3:
+- Here are several alternatives:
+  - The first sentence is a claim, which is supported by the second sentence. The second sentence itself contains two components, where the first premise is a concluding part, which is supported/explained by the second part.
+  - The first sentence may be considered a claim at all but again a known fact. In this case the first sentence should not be annotated. Then the first part of the second sentence could be annotated as a claim, while the second part as a supporting premise.
+Paragraph 4:
+- There is a ClaimAgainst in the first sentence, which claims that soy is controversial, potentially having negative aspects.
+- The claim is the supported by a premise in the sentence that follows.
+Paragraph 5:
+- A supporting premise: further elaborate on the criticism mentioned in the previous paragraph.
+Paragraphs 6 and 7:
+- The first sentence in P6 counters the criticism described previously, therefore, it can be viewed as an attacking premise. Then, the next sentence in P6 and P7 contains other premises that support the counter.
+- Alternatively, the first sentence of P6 could be viewed just as explanation with no direct opposition, therefore, it should not be annotated and as a result no other text in P6 and P7 should be annotated.
+Paragraph 8:
+- A claim for the major claim, saying that policies must also satisfy FEFAC's guidelines.
+Paragraph 9:
+- More informative than claiming something.
+Paragraph 10:
+- The first sentence is a ClaimFor.
+- The annotation for the second sentence is less clear. On one hand, it could be seen as elaborating on the previous claim, on the other hand, one could say it does not talk about the transportation of soy at all, which what the claim seems to be about.
+Paragraph 11:
+- Again, seems to serve more the informative role, therefore, nothing is annotated. It could maybe be argued that the last sentence is a claim, but it seems more like a fact.
+Paragraphs 12 and 13:
+- Just explains what's currently happening.
+Paragraph 14:
+- A ClaimAgainst in the second sentence explaining that soy can in fact replaced, which reduces the necessity of supporting sustainable soy as it is states in the major claim.
+Paragraph 15:
+- Contains a premise that attacks claim from the previous paragraph.
+Paragraph 16:
+- The first sentence is a claim against the major claim.
+- The second sentence supports the claim. This sentence itself contains 2 components, since the second one is concluding, it is supported by the first one. The second premise expresses support to the claim.
+Paragraph 17:
+- A claim, which is supported by a premise.
+Paragraph 18:
+- Restates the major claim and a claim for the major claim.
+Paragraph 19:
+- Has a claim that expresses opposition toward the major claim as "the development" (explained in P20) is about switching away from soy.
+Paragraph 20:
+- The first sentence is a premise that supports the previous claim. The second premise supports the first one.
