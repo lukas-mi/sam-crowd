@@ -88,8 +88,7 @@ def add_ann_event_data(data, name, metadata, include_invalid=True):
     annotations = sorted([item for item in data if item.get('trialdata', None) if item['trialdata'].get('event', None) == name], key=lambda item: item['dateTime'])
 
     metadata[f'{name}_count'] = len(annotations)
-    metadata[f'{name}_first'] = str(datetime.datetime.utcfromtimestamp(annotations[0]['dateTime'] // 1000)) if len(annotations) > 0 else None
-    metadata[f'{name}_last'] = str(datetime.datetime.utcfromtimestamp(annotations[-1]['dateTime'] // 1000)) if len(annotations) > 0 else None
+    metadata[f'{name}_times'] = [str(datetime.datetime.utcfromtimestamp(annotation['dateTime'] // 1000)) for annotation in annotations]
     if include_invalid:
         metadata[f'{name}_invalid'] = len([item for item in annotations if not item['trialdata']['valid']])
 
@@ -206,7 +205,7 @@ if __name__ == '__main__':
     db_export_path = sys.argv[1]
 
     # os.chdir('../')
-    # db_export_path = 'data/db_exports/assignments_202304171229.csv'
+    # db_export_path = 'data/db_exports/assignments_202304221804.csv'
 
     dir_name = db_export_path.split('/')[-1].split('.')[0]
     base_path = f"{HITS_PATH}/{dir_name}"
