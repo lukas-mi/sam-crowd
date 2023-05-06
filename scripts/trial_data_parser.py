@@ -3,12 +3,14 @@ import json
 import math
 import os
 import sys
+import shutil
 
 import pandas as pd
 
 from scripts import utils
 
-HITS_PATH = 'data/hits'
+BASE_ASSIGNMENTS_PATH = 'data/assignments'
+LATEST_ASSIGNMENTS_PATH = 'data/latest_assignments'
 ARTICLES_PATH = 'articles'
 
 # component labels
@@ -29,13 +31,16 @@ def to_aaec_brat(ann, original_content):
     lines = []
     id_mapping = {}
 
+    title_offset = original_content.find('\n\n')
+    title_offset += 2 if title_offset >= 0 else 1
+
     component_counter = 1
     attribute_counter = 1
     for c in components:
         cid = f'T{component_counter}'
         label = c['body'][0]['value']
-        start = c['target']['selector'][1]['start'] - 1
-        end = c['target']['selector'][1]['end'] - 1
+        start = c['target']['selector'][1]['start'] + title_offset - 1
+        end = c['target']['selector'][1]['end'] + title_offset - 1
         ann_excerpt = c['target']['selector'][0]['exact']
 
         # recogito replaces new line with a space
@@ -131,8 +136,9 @@ def parse_trail_data(df, base_path):
 
         assignment_path = f'{base_path}/{mode}/{hit_id}'
         base_fp = f'{assignment_path}/{worker_id}:{assignment_id}'
-        meta_fp = f'{base_fp}.json'
+        meta_fp = f'{base_fp}_meta.json'
         brat_fp = f'{base_fp}.ann'
+        ann_fp = f'{base_fp}_ann.json'
 
         data = json.loads(entry['datastring']) if isinstance(entry['datastring'], str) else None
         if data:
@@ -180,6 +186,9 @@ def parse_trail_data(df, base_path):
                     incomplete_assignments.append((hit_id, worker_id, assignment_id))
                     content = ''
                 f.write(content + '\n')
+
+            with open(ann_fp, 'w') as f:
+                f.write(json.dumps(submitted_ann[-1], indent=2))
         else:
             ignored_assignments.append((hit_id, worker_id, assignment_id))
 
@@ -199,14 +208,21 @@ def parse_trail_data(df, base_path):
             print('\t', triple)
 
 
+def copy_to_latest(assignments_path):
+    if os.path.exists(LATEST_ASSIGNMENTS_PATH):
+        shutil.rmtree(LATEST_ASSIGNMENTS_PATH)
+    shutil.copytree(assignments_path, LATEST_ASSIGNMENTS_PATH)
+
+
 if __name__ == '__main__':
     if len(sys.argv) != 1:
         exit('exactly one argument expected: db_export_path')
     db_export_path = sys.argv[1]
 
     # os.chdir('../')
-    # db_export_path = 'data/db_exports/assignments_202304221804.csv'
+    # db_export_path = 'data/db_exports/assignments_202305062226.csv'
 
     dir_name = db_export_path.split('/')[-1].split('.')[0]
-    base_path = f"{HITS_PATH}/{dir_name}"
+    base_path = f"{BASE_ASSIGNMENTS_PATH}/{dir_name}"
     parse_trail_data(pd.read_csv(db_export_path), base_path)
+    copy_to_latest(base_path)

@@ -389,8 +389,10 @@ function createAnnotation(text, start, end, label) {
 }
 
 function prepareContent() {
+  const contentLines = hitData.content.split('\n');
+
   const metaDiv = $('#meta');
-  metaDiv.append(`<p>The article title: "<strong>${hitData.meta.title}</strong>"</p>`)
+  metaDiv.append(`<p>The article title: "<strong>${contentLines[0]}</strong>"</p>`)
 
   const labelSpans = getAnnModeComponentLabels().map(label => `<span class="${labelsToCSS[label]}"><strong>${label}</strong></span>`)
 
@@ -409,9 +411,13 @@ function prepareContent() {
   metaDiv.append(`<p>Before starting the work read the instructions carefully (click <strong>Open Guidelines</strong> to open guidelines in a new window). You might have done similar task previously, however, this task may be <strong>different</strong> or/and instructions may have been updated.</p>`)
 
   const contentDiv = $('#content');
-  // Whitespace at the beginning of every line is necessary,
-  // otherwise, cross-line relation arrows will break when components start at the beginning of a line.
-  hitData.content.split('\n').forEach(val => contentDiv.append(`<p> ${val}</p>`));
+
+  // Skip 2 lines: title and an empty line
+  for (let i = 2; i < contentLines.length; i++) {
+    // Whitespace at the beginning of every line is necessary,
+    // otherwise, cross-line relation arrows will break when components start at the beginning of a line.
+    contentDiv.append(`<p> ${contentLines[i]}</p>`);
+  }
 }
 
 function preAnnotate(recogito) {
