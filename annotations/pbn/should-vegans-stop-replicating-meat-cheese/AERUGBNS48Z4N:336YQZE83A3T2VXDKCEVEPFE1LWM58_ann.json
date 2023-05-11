@@ -1,0 +1,689 @@
+{
+  "phase": "survey",
+  "event": "submit_annotations",
+  "components": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "it's time to get over the notion that animal meat and dairy are the ultimate paradigms"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 7,
+            "end": 93
+          }
+        ]
+      },
+      "id": "#25bd2d7b-9611-4d47-b03d-86d72f7a9609"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "we have to overcome our myopic analysis of markets by looking at one point in time"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 474,
+            "end": 556
+          }
+        ]
+      },
+      "id": "#d0cd6331-3606-4611-932e-0b4ea95ffb54"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "History evolves and will ebb and flow during its evolution"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 558,
+            "end": 616
+          }
+        ]
+      },
+      "id": "#ce88b337-bfac-44b5-ac92-b4a2e9d663f4"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "we can also learn from what has worked and what hasn\u2019t"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 622,
+            "end": 676
+          }
+        ]
+      },
+      "id": "#9ddb020c-facc-4505-8d46-cc40c101758f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimAgainst"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Some people may argue that it\u2019s their higher price, rather than lack of appeal, that makes plant-based alternatives less attractive"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1733,
+            "end": 1864
+          }
+        ]
+      },
+      "id": "#def30695-f06a-4508-8ff2-d53f3e537102"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It is true that they do tend to be more expensive than their traditional counterparts"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1866,
+            "end": 1951
+          }
+        ]
+      },
+      "id": "#3383710b-fdb9-46ec-94bc-926e69c95cad"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "this hasn\u2019t stopped the growth of alternative milks"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1957,
+            "end": 2008
+          }
+        ]
+      },
+      "id": "#52720e6f-2b41-4f69-a215-117b523cf662"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "we are thinking about it the wrong way"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2024,
+            "end": 2062
+          }
+        ]
+      },
+      "id": "#a2d88da7-e157-42db-b982-ff3ed8e2a043"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The more I talk to non-vegans who are interested in the idea of reducing their meat intake (the \u201cplant forward\u201d or flexitarian folks), the more I hear the same thing: they like the idea of plant-based, but would prefer a cauliflower steak to an exact replica of meat"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2064,
+            "end": 2330
+          }
+        ]
+      },
+      "id": "#691c48c4-4861-4449-bb21-b6849a10651a"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "we need to get over the notion that animal meat and dairy are the ultimate paradigms, that if we can\u2019t replicate that, we won\u2019t succeed"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2338,
+            "end": 2473
+          }
+        ]
+      },
+      "id": "#835ab630-5b2d-4fdb-a7f2-ee096aa168f9"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "people may want something \u201cmeaty\u201d or \u201cmilky,\u201d but maybe they just want something that tastes good"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2481,
+            "end": 2578
+          }
+        ]
+      },
+      "id": "#e30737d8-586a-4f89-a3bf-98e64c245a40"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "they just want something new"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2608,
+            "end": 2636
+          }
+        ]
+      },
+      "id": "#310a0e3f-62ac-4581-b886-05d5c6f79b39"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "At one time, a standard steak-and-potato was considered the ultimate meal in America"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2638,
+            "end": 2722
+          }
+        ]
+      },
+      "id": "#368ac8b2-6063-459a-9c97-596f148c88cc"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Then came Chinese, Thai, Indian, sushi, molecular gastronomy, and so many new world, worldly, and other-worldly cuisine and food ideas"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2724,
+            "end": 2858
+          }
+        ]
+      },
+      "id": "#b81f8617-2f7e-4048-8f34-4084b1545f65"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "we just need to create alternatives that can take the place of meat and milk that just taste great, instead of trying to replicate them exactly"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2984,
+            "end": 3127
+          }
+        ]
+      },
+      "id": "#315e5785-85c4-42f0-ad27-f825e330d0fc"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "We don\u2019t need to be a \u201cbetter alternative\u201d \u2013 we can be a \u201cnew alternative"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3129,
+            "end": 3202
+          }
+        ]
+      },
+      "id": "#c5ff0841-e70c-4276-a8cf-42538a6aee9c"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Better may be better, but \u201cnew\u201d might be best, and actually capable of setting a new paradigm"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3205,
+            "end": 3298
+          }
+        ]
+      },
+      "id": "#361318c5-0a9c-418d-b909-a1a01654a4d8"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "In other words, maybe we can just be ourselves, and not try to be someone else"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3300,
+            "end": 3378
+          }
+        ]
+      },
+      "id": "#c4aa65e2-d07e-46e2-a1d6-08805de63915"
+    }
+  ],
+  "relations": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#ac1e80de-96cf-4503-a6fc-c85539633f4f",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#3383710b-fdb9-46ec-94bc-926e69c95cad"
+        },
+        {
+          "id": "#def30695-f06a-4508-8ff2-d53f3e537102"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#03e93362-9737-4f59-8e05-7658204285cf",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#52720e6f-2b41-4f69-a215-117b523cf662"
+        },
+        {
+          "id": "#3383710b-fdb9-46ec-94bc-926e69c95cad"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#8244b535-a078-4baa-a849-a2f165464cf0",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#691c48c4-4861-4449-bb21-b6849a10651a"
+        },
+        {
+          "id": "#a2d88da7-e157-42db-b982-ff3ed8e2a043"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#842c2d92-47f6-4e8a-9002-2051abafb71f",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#e30737d8-586a-4f89-a3bf-98e64c245a40"
+        },
+        {
+          "id": "#835ab630-5b2d-4fdb-a7f2-ee096aa168f9"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#772f8f6a-baab-4223-a2fe-6bb959c3b534",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#310a0e3f-62ac-4581-b886-05d5c6f79b39"
+        },
+        {
+          "id": "#835ab630-5b2d-4fdb-a7f2-ee096aa168f9"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#330e88b1-ca31-41e2-8df4-6bbed2c5fa51",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#368ac8b2-6063-459a-9c97-596f148c88cc"
+        },
+        {
+          "id": "#310a0e3f-62ac-4581-b886-05d5c6f79b39"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#faa166cc-0eb7-4e17-8dcd-944e07ca115b",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#b81f8617-2f7e-4048-8f34-4084b1545f65"
+        },
+        {
+          "id": "#368ac8b2-6063-459a-9c97-596f148c88cc"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#b0ee4ec8-0a1f-468e-80f4-35f00158501f",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#361318c5-0a9c-418d-b909-a1a01654a4d8"
+        },
+        {
+          "id": "#c5ff0841-e70c-4276-a8cf-42538a6aee9c"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#ad577ab9-ef19-4327-8a96-d6544c174f97",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#c4aa65e2-d07e-46e2-a1d6-08805de63915"
+        },
+        {
+          "id": "#c5ff0841-e70c-4276-a8cf-42538a6aee9c"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#e1ecd92f-a6c5-4c8d-97b0-14cbf8786c0d",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#ce88b337-bfac-44b5-ac92-b4a2e9d663f4"
+        },
+        {
+          "id": "#d0cd6331-3606-4611-932e-0b4ea95ffb54"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#122079ad-3ce5-4a0b-ab3c-4844636dd650",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#9ddb020c-facc-4505-8d46-cc40c101758f"
+        },
+        {
+          "id": "#ce88b337-bfac-44b5-ac92-b4a2e9d663f4"
+        }
+      ],
+      "motivation": "linking"
+    }
+  ]
+}

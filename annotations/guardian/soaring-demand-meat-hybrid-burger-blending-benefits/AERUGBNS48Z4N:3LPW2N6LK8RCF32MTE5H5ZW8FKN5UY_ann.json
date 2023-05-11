@@ -1,0 +1,1128 @@
+{
+  "phase": "survey",
+  "event": "submit_annotations",
+  "components": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Blending lentils or vegetables into meat products could have huge benefits for the environment, animal welfare and human health"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1,
+            "end": 128
+          }
+        ]
+      },
+      "id": "#39c4b6b0-cc1d-4737-8f69-6de485354c6e"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the pace of growth has not been fast enough to achieve the scale of change needed"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1145,
+            "end": 1226
+          }
+        ]
+      },
+      "id": "#45dbd374-6c88-4d99-b957-f98bca2acebd"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "In the US, for example, plant-based meat alternatives represented just 1.4% of sales in 2021"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1228,
+            "end": 1320
+          }
+        ]
+      },
+      "id": "#c71f3043-393d-4b05-aca0-995df568929b"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "McDonald\u2019s recently launched the McPlant plant-based burger, which was successful enough to stay on the menu in the UK, but not in the US"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1322,
+            "end": 1459
+          }
+        ]
+      },
+      "id": "#fb816aab-125e-439e-926f-6f68b71dd550"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "given the small market share of meat alternatives, and the need to cut meat consumption, blended products might be essential to achieve international sustainability targets at the scale and speed required"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1996,
+            "end": 2200
+          }
+        ]
+      },
+      "id": "#07177d3d-e762-4089-b541-ef4cf469a187"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Using data on the environmental impacts of food, I estimated what would happen if two food companies which represent 2-3% of global beef purchases \u2013 Burger King and McDonald\u2019s \u2013 swapped out 50% of the beef in their burgers for plant-based meat to create blended burgers"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2202,
+            "end": 2471
+          }
+        ]
+      },
+      "id": "#1da4c489-5fd0-4345-ac6d-fff711cfeff0"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Demand for global agricultural land would reduce by about 8.5m hectares (21m acres)"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2473,
+            "end": 2556
+          }
+        ]
+      },
+      "id": "#30d12c01-84b0-4f03-b116-9f938d5c1098"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "That\u2019s an area the size of Ireland"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2558,
+            "end": 2592
+          }
+        ]
+      },
+      "id": "#4b3bff03-0d97-4e92-86c4-206957ce4509"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Given total agricultural area is actually declining at the global level, it is unlikely that new farmland would simply take the place of former grazing areas"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2594,
+            "end": 2751
+          }
+        ]
+      },
+      "id": "#db6f8c54-92f4-492b-becd-571a065e1a36"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Instead, as happened when wool demand collapsed during the 1990s, the land would probably revert to nature"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2753,
+            "end": 2859
+          }
+        ]
+      },
+      "id": "#32f5010d-5aab-4571-b075-a24828fc36c1"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "As well as the benefits for wildlife and biodiversity, this land could remove 17m tonnes of CO2 from the air each year for 100 years on average as trees regrow"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2861,
+            "end": 3020
+          }
+        ]
+      },
+      "id": "#ace6f777-d85a-4663-8ab4-730aa5631078"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The process could even be sped up by engaging landowners to replant trees, as the \u201cgrain for green\u201d programme did in China"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3022,
+            "end": 3144
+          }
+        ]
+      },
+      "id": "#b07fcbe2-e8ae-45b8-95f7-7d4ace805b0e"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Cows also create substantial greenhouse gas emissions related to their feed, their excreta and from methane-producing bacteria in their gut"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3146,
+            "end": 3285
+          }
+        ]
+      },
+      "id": "#0a09e159-3eac-4233-b183-b94f8443c99e"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Substituting 50% of the beef in these fast-food chain burgers for plants would reduce these greenhouse gas emissions by 34m tonnes of CO2 equivalents a year"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3287,
+            "end": 3443
+          }
+        ]
+      },
+      "id": "#51e95535-d449-423c-a3e0-397458bbdbe0"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Combined, this is a reduction of 51m tonnes of CO2 equivalent, and more than 80% of the way to both companies\u2019 net zero targets"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3445,
+            "end": 3572
+          }
+        ]
+      },
+      "id": "#f45b1580-c5ac-4eab-9cbb-925cdae3f754"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "From an animal welfare perspective, this change would lead to 4m fewer cows being reared and slaughtered each year"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3574,
+            "end": 3688
+          }
+        ]
+      },
+      "id": "#b047caa7-8eac-473d-8c6b-7b7d938beb53"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "research has found that even small substitutions of processed red meat for plant-based meat alternatives are associated with reductions in heart disease, diabetes and overall mortality"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3699,
+            "end": 3883
+          }
+        ]
+      },
+      "id": "#b6664828-220c-48cc-b88f-ba307140758a"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "You may well even prefer it"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4066,
+            "end": 4093
+          }
+        ]
+      },
+      "id": "#d6370a48-93ba-4ace-8c92-b25a4c16439c"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "in blind taste tests, a recent study found that consumers actually ranked the taste of blended burgers above beef burgers"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4096,
+            "end": 4217
+          }
+        ]
+      },
+      "id": "#63f40835-8189-4ed5-bef7-b199ed904cba"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "preferences for blended burgers increased when the consumers were told they were blended, possibly because people valued their environmental and health credentials"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4252,
+            "end": 4415
+          }
+        ]
+      },
+      "id": "#8d62e95a-a464-4ccc-b155-e81967406357"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Solutions rarely look this promising, even on paper"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4417,
+            "end": 4468
+          }
+        ]
+      },
+      "id": "#1900d210-c35a-4ac5-9cc0-7d9ef49ed397"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "some large companies have had only limited success trying to launch new blended products"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4479,
+            "end": 4567
+          }
+        ]
+      },
+      "id": "#9de4aaa5-5e3f-4226-95c4-204fcdd84692"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "they were trying to create a new product category, and like pure plant-based products, faced challenges in communicating their benefits"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4574,
+            "end": 4709
+          }
+        ]
+      },
+      "id": "#e0b7e74d-1b45-4225-b464-d003b40ed6fe"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "To achieve near-term benefits, we probably just need to blend plants into existing meat products"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4711,
+            "end": 4807
+          }
+        ]
+      },
+      "id": "#83d9cd36-095c-4ee6-b0de-81f31d039b28"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "in the UK, a \u201cbeef burger\u201d is legally defined as having at least 62% beef"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4810,
+            "end": 4883
+          }
+        ]
+      },
+      "id": "#d7e395a5-9700-4946-85db-f93183422f19"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "ingredient lists make it clear what is in products"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4889,
+            "end": 4939
+          }
+        ]
+      },
+      "id": "#7ba84377-d4e2-4489-9952-083aaa3d6674"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "these products are better for health, the environment and animal welfare than meat, and can taste better too"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4953,
+            "end": 5061
+          }
+        ]
+      },
+      "id": "#397ed2e6-b3cd-4ce8-8dbb-aafb27209fab"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "if we can get that message across, and change these products carefully, it might open up this essential solution"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5063,
+            "end": 5175
+          }
+        ]
+      },
+      "id": "#23667052-db1f-4755-835f-fe7dcddf2870"
+    }
+  ],
+  "relations": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#30bee582-6821-4c83-903a-a4334b296a90",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#1da4c489-5fd0-4345-ac6d-fff711cfeff0"
+        },
+        {
+          "id": "#07177d3d-e762-4089-b541-ef4cf469a187"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#bb5f47ad-618b-4f05-aea5-80589f1cc06b",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#30d12c01-84b0-4f03-b116-9f938d5c1098"
+        },
+        {
+          "id": "#1da4c489-5fd0-4345-ac6d-fff711cfeff0"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#fdcb2108-bf82-4b3e-bcf4-262223cfad13",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#4b3bff03-0d97-4e92-86c4-206957ce4509"
+        },
+        {
+          "id": "#30d12c01-84b0-4f03-b116-9f938d5c1098"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#9332848d-d8fe-4641-8707-642293ee1638",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#63f40835-8189-4ed5-bef7-b199ed904cba"
+        },
+        {
+          "id": "#d6370a48-93ba-4ace-8c92-b25a4c16439c"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#f784c811-8da5-4f13-9876-b744bb7400af",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#8d62e95a-a464-4ccc-b155-e81967406357"
+        },
+        {
+          "id": "#63f40835-8189-4ed5-bef7-b199ed904cba"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#fc468843-6fd4-43e4-a89f-463338b4ede7",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#9de4aaa5-5e3f-4226-95c4-204fcdd84692"
+        },
+        {
+          "id": "#1900d210-c35a-4ac5-9cc0-7d9ef49ed397"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#32037991-0938-4e10-95b5-bb4f1438b28e",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#7ba84377-d4e2-4489-9952-083aaa3d6674"
+        },
+        {
+          "id": "#d7e395a5-9700-4946-85db-f93183422f19"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#48de3c80-e345-4be6-807e-745789472e6c",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#397ed2e6-b3cd-4ce8-8dbb-aafb27209fab"
+        },
+        {
+          "id": "#23667052-db1f-4755-835f-fe7dcddf2870"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#d5a67a4b-e1a1-4e72-8984-4b6ec6d41ba2",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#c71f3043-393d-4b05-aca0-995df568929b"
+        },
+        {
+          "id": "#45dbd374-6c88-4d99-b957-f98bca2acebd"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#a0366914-b86f-4237-9a00-f3aef7d4f941",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#fb816aab-125e-439e-926f-6f68b71dd550"
+        },
+        {
+          "id": "#c71f3043-393d-4b05-aca0-995df568929b"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#3a1dfc18-8567-4ded-9182-46bf35d8da5e",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#32f5010d-5aab-4571-b075-a24828fc36c1"
+        },
+        {
+          "id": "#db6f8c54-92f4-492b-becd-571a065e1a36"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#5e1c3983-0fae-44cb-b132-f5bcde526b4f",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#ace6f777-d85a-4663-8ab4-730aa5631078"
+        },
+        {
+          "id": "#32f5010d-5aab-4571-b075-a24828fc36c1"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#4efd9e31-f9f5-4341-b03c-065436e3064e",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#b07fcbe2-e8ae-45b8-95f7-7d4ace805b0e"
+        },
+        {
+          "id": "#ace6f777-d85a-4663-8ab4-730aa5631078"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#35a42c54-1764-469e-90fa-479de2b837c8",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#d7e395a5-9700-4946-85db-f93183422f19"
+        },
+        {
+          "id": "#83d9cd36-095c-4ee6-b0de-81f31d039b28"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#ac428442-52e4-446d-a408-5a6704981ae5",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#e0b7e74d-1b45-4225-b464-d003b40ed6fe"
+        },
+        {
+          "id": "#9de4aaa5-5e3f-4226-95c4-204fcdd84692"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#d92b3406-9891-48f6-abce-c87be3492346",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#0a09e159-3eac-4233-b183-b94f8443c99e"
+        },
+        {
+          "id": "#07177d3d-e762-4089-b541-ef4cf469a187"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#1fb5c478-22e5-4da6-84cb-274bff30f139",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#51e95535-d449-423c-a3e0-397458bbdbe0"
+        },
+        {
+          "id": "#0a09e159-3eac-4233-b183-b94f8443c99e"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#5724c18a-01c0-4039-ad31-e32672409172",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#f45b1580-c5ac-4eab-9cbb-925cdae3f754"
+        },
+        {
+          "id": "#51e95535-d449-423c-a3e0-397458bbdbe0"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#3912a76b-5b67-4ab9-801e-32c5ce56da93",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#b047caa7-8eac-473d-8c6b-7b7d938beb53"
+        },
+        {
+          "id": "#f45b1580-c5ac-4eab-9cbb-925cdae3f754"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#a1441144-e465-4a80-bdf8-5e967072efef",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#b6664828-220c-48cc-b88f-ba307140758a"
+        },
+        {
+          "id": "#b047caa7-8eac-473d-8c6b-7b7d938beb53"
+        }
+      ],
+      "motivation": "linking"
+    }
+  ]
+}

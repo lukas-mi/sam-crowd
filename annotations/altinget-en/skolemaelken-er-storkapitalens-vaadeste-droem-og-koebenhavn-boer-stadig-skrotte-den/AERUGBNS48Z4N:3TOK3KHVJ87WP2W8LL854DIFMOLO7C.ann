@@ -1,0 +1,75 @@
+T1	Claim 83 159	There are neither red-green nor liberal arguments for preserving school milk
+A1	Stance T1 For
+T2	Premise 161 268	Even so, several parties at City Hall will drop the plans to scrap big capital's wet, climate-sinning dream
+T3	Claim 1250 1304	school milk is most of all big capital's wettest dream
+A2	Stance T3 For
+T4	Claim 1306 1469	It is also the unrestrained commercial entry of one industry - at the expense of other industries - into the primary school without special, weighty health reasons
+A3	Stance T4 For
+T5	Claim 1487 1524	school milk is also a climate emitter
+A4	Stance T5 For
+T6	Claim 1667 1813	it is recommended that everyone familiarize themselves with the meta-study "Reducing food's environmental impacts through producers and consumers"
+A5	Stance T6 For
+T7	Premise 1815 1914	The study showed that the CO2 emission from milk production is higher than the emission from cement
+T8	Claim 1916 2145	Milk production also contributes to the cultivation of a colossal area of land that could have been untouched nature for the sake of biodiversity, when we compare with what almond milk, rice milk and soy milk use in terms of area
+A6	Stance T8 For
+T9	Premise 2178 2255	the Dane's milk consumption on average emits around 250 kilos of CO2 per year
+T10	Premise 2267 2417	more than 600 liters of water must be used on average – equivalent to an entire rubbish container in your backyard – to produce just one liter of milk
+T11	Claim 2419 2473	You can hardly defend school milk with green arguments
+A7	Stance T11 For
+T12	Claim 2479 2578	does anyone think that the Dairy Association supports the school milk for purely altruistic reasons
+A8	Stance T12 For
+T13	Premise 2583 2784	are the unreasonable number of Facebook ads for the school milk connected to the fact that there is great profit in establishing a high milk consumption among children at the age when habits are formed
+T14	Claim 2786 2991	The different colored plastic lids and collectable stickers that belong to the school milk scream of the advertising industry's unrestrained entry into the most sacred halls we have - namely our classrooms
+A9	Stance T14 For
+T15	Claim 2993 3219	If the school milk advocates have fallen in love with the Dairy Association's message that children should have more than 250 milliliters of milk a day, then they have bought a three-lactated cow, as it is called in Old Danish
+A10	Stance T15 For
+T16	Premise 3221 3292	Because the Danes are not in a milk deficit from an average perspective
+T17	Premise 3304 3415	only 24 percent of the children in Copenhagen use the scheme according to the Children and Youth Administration
+T18	Premise 3438 3609	the user payment element means that it is unlikely that children from vulnerable areas use the school milk more than children from housing estates - until proven otherwise
+T19	Claim 3630 3671	we are in deficit of a sea of other foods
+A11	Stance T19 For
+T20	Premise 3673 3823	According to the Danish Health Authority, 92 percent of Danish men and 87 percent of Danish women, for example, do not get enough fruit and vegetables
+T21	Premise 3825 3969	This is despite the fact that the emphasis in the new dietary guidelines is that we must eat more climate-friendly, including a plant-based diet
+T22	Claim 3971 4172	You could choose to politically support this instead, as there is – to a certain extent – the possibility of converting EU support for school milk so that it becomes EU support for fruit and vegetables
+A12	Stance T22 For
+T23	Premise 4174 4276	The technical staff who distribute school milk today could, after all, distribute fruit and vegetables
+T24	Claim 4313 4395	no one questions the Danish Food and Food Administration's recommendations on milk
+A13	Stance T24 Against
+T25	Premise 4397 4502	Depending on age, we should drink 250 milliliters of milk and eat between 15 and 20 grams of cheese a day
+T26	Premise 4513 4667	as the Danish Veterinary and Food Administration has just confirmed, there are no recommendations for when the milk should be drunk or who should serve it
+T27	Claim 4679 4733	It is difficult to find good arguments for school milk
+A14	Stance T27 For
+T28	Premise 4735 4770	Both for the red-green and liberals
+T29	Premise 4843 4873	Where does colostrum come from
+T30	Premise 4875 4956	What is the logical origin of the umbilical cord for the advocates of school milk
+T31	Claim 4958 5136	The discussion is of principle, because in the debate about school milk is embodied an important question about what we should do with the children's food education in the future
+A15	Stance T31 For
+T32	Claim 5202 5387	it has much more perspective for the children's food education when we as a municipality support sustainable, climate-friendly diet and of course the many diverse purposes that food has
+A16	Stance T32 For
+T33	Premise 5389 5489	Food can be a boost for the community and the taste buds - far more than that commercial school milk
+T34	Premise 5495 5673	the food's sustainable and community-supporting element are some of the measures that are also in Copenhagen Municipality's food and meal strategy, which can quickly be forgotten
+T35	Claim 5701 5835	The school milk is in reality neither a green nor a liberal project, but rather one branch's special commercial access to the children
+A17	Stance T35 For
+T36	Premise 5837 5934	Without heavy health-related justifications and directly against our Copenhagen climate ambitions
+T37	MajorClaim 6016 6065	Slaughter the sacred cow and drop the school milk
+T38	Claim 6071 6154	let's instead support the children's green eating and drinking habits going forward
+A18	Stance T38 For
+R1	attacks Arg1:T2 Arg2:T1	
+R2	supports Arg1:T20 Arg2:T19	
+R3	supports Arg1:T21 Arg2:T20	
+R4	supports Arg1:T23 Arg2:T22	
+R5	supports Arg1:T28 Arg2:T27	
+R6	supports Arg1:T29 Arg2:T27	
+R7	supports Arg1:T30 Arg2:T27	
+R8	supports Arg1:T33 Arg2:T32	
+R9	supports Arg1:T7 Arg2:T6	
+R10	supports Arg1:T10 Arg2:T11	
+R11	supports Arg1:T9 Arg2:T11	
+R12	attacks Arg1:T13 Arg2:T12	
+R13	supports Arg1:T16 Arg2:T15	
+R14	supports Arg1:T25 Arg2:T24	
+R15	attacks Arg1:T26 Arg2:T25	
+R16	attacks Arg1:T34 Arg2:T33	
+R17	supports Arg1:T36 Arg2:T35	
+R18	supports Arg1:T17 Arg2:T16	
+R19	supports Arg1:T18 Arg2:T16	

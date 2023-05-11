@@ -1,0 +1,141 @@
+T1	Premise 85 143	Brands are launching vegan burgers left, right, and center
+T2	Claim 146 185	maybe it's time they got some new ideas
+A1	Stance T2 For
+T3	Claim 311 404	This is great from an industry standpoint, and sees one of the heavyweights entering the fray
+A2	Stance T3 Against
+T4	Premise 406 610	Heinz is a company with the distribution network to secure significant physical availability, and a gigantic advertising budget to secure what we in the brand and marketing world call “mental availability
+T5	Claim 665 719	we do not need another burger product in this category
+A3	Stance T5 For
+T6	Premise 804 849	At the time of writing, it returns 49 results
+T7	Premise 851 955	Type “beef burger” into Ocado’s search, and it returns only 32 products… some of which are vegan burgers
+T8	Premise 965 1002	some of these are actually dog treats
+T9	MajorClaim 1018 1107	there are a staggering number of vegan burgers, and this space is massively oversaturated
+T10	Claim 1120 1170	A saturated market is a dangerous space to play in
+A4	Stance T10 For
+T11	Premise 1183 1277	there are only two ways to compete – grow the market itself, or steal market share from others
+T12	Claim 1279 1363	The present over-saturation of the vegan burger space is a problem for three reasons
+A5	Stance T12 For
+T13	Claim 1368 1408	The biggest advertising budgets will win
+A6	Stance T13 For
+T14	Claim 1409 1443	There is little product innovation
+A7	Stance T14 For
+T15	Premise 1445 1511	How does a brand best compete when it’s entering a cluttered space
+T16	Premise 1513 1543	ESOV, or Excess Share of Voice
+T17	Premise 1545 1567	That means advertising
+T18	Premise 1608 1655	that’s expensive, especially for smaller brands
+T19	Premise 1673 1736	Heinz can pony up the bills required to support its new product
+T20	Premise 1742 1784	it benefits from brand recognizability too
+T21	Claim 1800 1837	smaller brands are going to be culled
+A8	Stance T21 For
+T22	Claim 1842 1894	It could support the “decline of veganism” narrative
+A9	Stance T22 For
+T23	Claim 1895 2022	As those smaller brands collapse, the media will jump on this and continue its narrative around the plant-based space dying out
+A10	Stance T23 For
+T24	Premise 2024 2057	Momentum has stopped, they’ll say
+T25	Premise 2059 2079	Growth is in decline
+T26	Claim 2115 2169	there’s a lot of room to grow veganism and plant-based
+A11	Stance T26 For
+T27	Premise 2176 2245	shoppers aren’t prepared to buy 17 different vegan burgers every week
+T28	Claim 2250 2273	Market growth stagnates
+A12	Stance T28 For
+T29	Premise 2274 2355	Brands are scrapping over the same small space, and failing to create new markets
+T30	Premise 2357 2383	It’s a tale as old as time
+T31	Claim 2390 2465	it’s unwise to compete over market share when you can command market growth
+A13	Stance T31 For
+T32	Claim 2467 2609	We know that consumer values that turn people toward more plant-based eating are only rising – health, sustainability concerns, animal welfare
+A14	Stance T32 Against
+T33	Claim 2615 2679	brands are often doing little to help people to “Cross the Chasm
+A15	Stance T33 For
+T34	Premise 2682 2775	Consumers want to see products that help them transition, but people don’t solely eat burgers
+T35	Claim 2800 2913	The single best thing FMCG brands can be doing right now is to make it easier for people to try plant-based foods
+A16	Stance T35 For
+T36	Premise 2915 3009	That means enticing customers with new products, and making them as easy to obtain as possible
+T37	Claim 3030 3053	Create something unique
+A17	Stance T37 For
+T38	Premise 3055 3068	Build a space
+T39	Premise 3070 3097	Be the plant-based pancetta
+T40	Premise 3099 3116	The vegan venison
+T41	Premise 3118 3139	The meatless mackerel
+T42	Premise 3141 3160	The herbivore’s ham
+T43	Premise 3162 3206	Aim for excellence within your product space
+T44	Premise 3208 3296	Reverse engineer what meats and animal products people love, and focus your energy there
+T45	Premise 3303 3335	don’t do another bleeding burger
+T46	Premise 3337 3353	We’ve got enough
+T47	Claim 3372 3417	Create emotion and feeling around what you do
+A18	Stance T47 For
+T48	Premise 3423 3480	carve out mental availability in the mind of the consumer
+T49	Premise 3482 3583	The faster your logo triggers recognition in the consumer, the sooner they will purchase your product
+T50	Premise 3585 3625	Shoppers often make decisions in seconds
+T51	Claim 3627 3727	You must be more than simply a product on a shelf to stand out – the space is too saturated for that
+A19	Stance T51 For
+T52	Premise 3752 3802	This is the concept of physical availability again
+T53	Premise 3804 3971	Even with the best marketing in the world, food brands are tangible products which need to be picked up in store, enjoyed in a restaurant, or ordered for home delivery
+T54	Claim 3973 4117	The simpler it is for a consumer to add your product to their weekly shopping basket, and not go out of their way, the more your brand will grow
+A20	Stance T54 For
+T55	Premise 4221 4291	Ten years ago, a vegan burger was a delightfully differentiated option
+T56	Claim 4293 4366	Today, it’s the vegan burger brands that need to differentiate themselves
+A21	Stance T56 For
+T57	Claim 4368 4425	There are some brands that are already getting this right
+A22	Stance T57 For
+T58	Premise 4477 4554	VFC is listed for both brilliant product focus and nailing the brand building
+T59	Premise 4556 4627	This is a brand solely focused on veganizing the fried chicken category
+T60	Premise 4633 4677	the brand is bold, distinctive and impactful
+T61	Premise 4686 4757	For single-mindedly tackling bacon – the last bastion of the meat lover
+T62	Premise 4759 4801	LA VIE knows the space it wants to play in
+T63	Premise 4807 4883	it is extremely focused on being the best of the best when it comes to bacon
+T64	Premise 4914 4973	Both of these companies are making plant-based pizza happen
+T65	Premise 4975 5047	OPP is focused on being the lead FMCG brand in the frozen pizza category
+T66	Premise 5055 5104	Purezza is tackling the niche of Neapolitan pizza
+T67	Premise 5114 5338	LoveRaw has been on this journey over the last few years, dropping its product lines and becoming hyper-focused on game-changingly good dairy-free chocolate with more than a subtle wink to some classic dairy chocolate brands
+T68	Premise 5340 5447	It’s also just got itself onto the Tesco Meal Deal package, really cementing its accessibility to consumers
+T69	Premise 5457 5555	Shicken is less widely available than most of the others mentioned above, but this is one to watch
+T70	Premise 5557 5630	It has crafted a product range that’s authentic to classic Indian cuisine
+T71	Premise 5632 5660	This company is going places
+R1	supports Arg1:T4 Arg2:T3	
+R2	supports Arg1:T6 Arg2:T5	
+R3	supports Arg1:T7 Arg2:T5	
+R4	supports Arg1:T8 Arg2:T7	
+R5	supports Arg1:T19 Arg2:T21	
+R6	supports Arg1:T20 Arg2:T21	
+R7	supports Arg1:T24 Arg2:T23	
+R8	supports Arg1:T25 Arg2:T23	
+R9	attacks Arg1:T27 Arg2:T26	
+R10	supports Arg1:T36 Arg2:T35	
+R11	supports Arg1:T11 Arg2:T10	
+R12	supports Arg1:T15 Arg2:T14	
+R13	supports Arg1:T16 Arg2:T15	
+R14	supports Arg1:T17 Arg2:T16	
+R15	supports Arg1:T18 Arg2:T17	
+R16	supports Arg1:T29 Arg2:T31	
+R17	supports Arg1:T30 Arg2:T29	
+R18	supports Arg1:T34 Arg2:T33	
+R19	supports Arg1:T38 Arg2:T37	
+R20	supports Arg1:T39 Arg2:T37	
+R21	supports Arg1:T40 Arg2:T37	
+R22	supports Arg1:T41 Arg2:T37	
+R23	supports Arg1:T42 Arg2:T37	
+R24	supports Arg1:T43 Arg2:T38	
+R25	supports Arg1:T44 Arg2:T43	
+R26	supports Arg1:T48 Arg2:T47	
+R27	supports Arg1:T49 Arg2:T48	
+R28	supports Arg1:T50 Arg2:T49	
+R29	supports Arg1:T53 Arg2:T54	
+R30	supports Arg1:T52 Arg2:T53	
+R31	supports Arg1:T55 Arg2:T56	
+R32	supports Arg1:T58 Arg2:T57	
+R33	supports Arg1:T59 Arg2:T58	
+R34	supports Arg1:T60 Arg2:T58	
+R35	supports Arg1:T62 Arg2:T57	
+R36	supports Arg1:T63 Arg2:T62	
+R37	supports Arg1:T61 Arg2:T62	
+R38	supports Arg1:T64 Arg2:T57	
+R39	supports Arg1:T65 Arg2:T64	
+R40	supports Arg1:T66 Arg2:T64	
+R41	supports Arg1:T67 Arg2:T57	
+R42	supports Arg1:T68 Arg2:T67	
+R43	supports Arg1:T69 Arg2:T57	
+R44	supports Arg1:T70 Arg2:T69	
+R45	supports Arg1:T71 Arg2:T69	
+R46	supports Arg1:T1 Arg2:T2	
+R47	supports Arg1:T45 Arg2:T37	
+R48	supports Arg1:T46 Arg2:T45	

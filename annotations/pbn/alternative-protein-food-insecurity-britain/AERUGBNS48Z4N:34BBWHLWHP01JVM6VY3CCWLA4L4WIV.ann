@@ -1,0 +1,47 @@
+T1	Claim 77 186	Changes to our food and farming sectors could help Britain find and keep its footing in these uncertain times
+A1	Stance T1 For
+T2	Claim 1900 1947	There is a solution to this food security issue
+A2	Stance T2 For
+T3	Premise 1953 2016	a growing number of British consumers are starting to choose it
+T4	Premise 2026 2221	instead of depending on intensively reared animals for food, which rely on these fertilizers and additives, more and more people are consuming protein-rich ingredients sourced from plants instead
+T5	Premise 2223 2380	A recent science journal study found the number of Brits eating plant-based alternative foods nearly doubled from 6.7 percent in 2008 to 13.1 percent in 2019
+T6	Claim 2382 2492	It’s better for our planet, our health, our animals, and can provide long-term opportunity for British farmers
+A3	Stance T6 For
+T7	Premise 2532 2701	Alternative proteins are foodstuffs made from plants, fungi, or tissue culture that provide a genuine different choice to conventional intensively farmed animal proteins
+T8	Claim 2703 2757	They rely on what British agriculture does best: crops
+A4	Stance T8 For
+T9	Premise 2759 2871	Britain is the second largest pea producer in Europe, and so self-sufficient in wheat that we are a net exporter
+T10	Premise 2873 3089	According to the Food Security Report, “the UK is a net importer of dairy and beef” but is “largely self-sufficient in production of grains” (producing 100 percent of its own oats and barley, and 90 percent of wheat)
+T11	Premise 3096 3160	it “produces over 50 percent of vegetables consumed domestically
+T12	MajorClaim 3163 3263	Supporting alternative proteins means backing more British produce and greater food security at home
+T13	Premise 3265 3381	By 2025, one in four of us could be vegetarian or vegan, according to a recent Global Food Security Programme report
+T14	Premise 3387 3503	if we include flexitarians – those who follow a primarily plant-based diet – it could be as many as one in two of us
+T15	Premise 3505 3529	Dietary change is coming
+T16	Premise 3531 3568	British consumers are leading the way
+T17	Claim 3573 3740	we need a world leading regulatory framework and forward-looking investment so that British industry can lead and guarantee UK food security long into the 21st century
+A5	Stance T17 For
+T18	Claim 3742 3965	Supporting the alternative protein sector is urgent if we want Britain to secure a world-leading position in a long-term market that AT Kearney research predicts could take up to 60 percent of the global meat market by 2040
+A6	Stance T18 For
+T19	Premise 3967 4235	Instead of using vast amounts of land to produce food for animals, we can produce the same amount of food on 93 percent less land, using 95 percent less water and with far less Russian fertilizer – safeguarding British farming through more efficient use of arable land
+T20	Claim 4241 4257	it’s greener too
+A7	Stance T20 For
+T21	Premise 4259 4405	alternative proteins produce an average of 88 percent lessgreenhouse gas emissions than animal proteins, helping us on our way to Net Zero by 2050
+T22	Claim 4438 4573	as well as giving us food security, this could reduce the cost of living through lower food prices and create tens of thousands of jobs
+A8	Stance T22 For
+T23	Premise 4575 4726	Henry Dimbleby’s National Food Strategy estimates that UK alternative protein manufacturing could create 10,000 new factory jobs and 6,500 farming jobs
+T24	Premise 4732 5029	the Department for International Trade has identified that “companies in the North East will be in a prime position to take advantage of the growing demand for plant-based and alternative protein products” as a result of their world-class universities, abundance of land, and manufacturing cluster
+R1	supports Arg1:T23 Arg2:T22	
+R2	supports Arg1:T24 Arg2:T22	
+R3	supports Arg1:T3 Arg2:T2	
+R4	supports Arg1:T4 Arg2:T3	
+R5	supports Arg1:T7 Arg2:T8	
+R6	supports Arg1:T9 Arg2:T8	
+R7	supports Arg1:T10 Arg2:T9	
+R8	supports Arg1:T11 Arg2:T10	
+R9	supports Arg1:T16 Arg2:T17	
+R10	supports Arg1:T15 Arg2:T17	
+R11	supports Arg1:T13 Arg2:T15	
+R12	supports Arg1:T14 Arg2:T13	
+R13	supports Arg1:T19 Arg2:T18	
+R14	supports Arg1:T21 Arg2:T20	
+R15	supports Arg1:T5 Arg2:T6	

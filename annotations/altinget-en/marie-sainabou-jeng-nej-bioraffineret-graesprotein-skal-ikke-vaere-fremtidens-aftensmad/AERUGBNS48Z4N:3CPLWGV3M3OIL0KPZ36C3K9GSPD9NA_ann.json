@@ -1,0 +1,1562 @@
+{
+  "phase": "survey",
+  "event": "submit_annotations",
+  "components": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "When we mechanically refer to the food of the future as \"plant proteins for human consumption\" and \"climate food that must not cost the joy of life\", we alienate ourselves from our food and manage to neither show the way nor inspire real, sustainable change in food systems"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1,
+            "end": 274
+          }
+        ]
+      },
+      "id": "#d9b13578-a505-4a99-8aa6-8cea1ac00ecf"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Should not be processed beyond recognition"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 757,
+            "end": 799
+          }
+        ]
+      },
+      "id": "#5de31359-867a-40cc-9c03-c8d465fd78a4"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the minister began with admonishing words that \"plant-based foods must not cost the joy of life"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 811,
+            "end": 906
+          }
+        ]
+      },
+      "id": "#37a1ffb1-f3c2-426c-a4a5-673ffae3e0ac"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "if a menu description with biorefined grass protein doesn't suck the joy out of you, then we soon don't know what will"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 913,
+            "end": 1031
+          }
+        ]
+      },
+      "id": "#2d252646-0259-4a79-93be-153fb7b22696"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimAgainst"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "There is no doubt about the need to rethink our food system in a more sustainable direction"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1033,
+            "end": 1124
+          }
+        ]
+      },
+      "id": "#e9746e55-c794-4987-b175-d16d870ac45d"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The question is how we attack that task"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1126,
+            "end": 1165
+          }
+        ]
+      },
+      "id": "#c88d50b7-6054-4838-80ea-e32f89b86486"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "if we do it with the assumption that plant-based food risks taking away our joy in life, it is perhaps not so strange that the will to change is lacking and the industry instead sells our vegetables disguised as meat"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1172,
+            "end": 1388
+          }
+        ]
+      },
+      "id": "#32fe101f-0413-49e6-aaf9-b6a7a6547f54"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "why should \"plant-based foods\" be synonymous with products processed beyond recognition to imitate something they are not"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1394,
+            "end": 1515
+          }
+        ]
+      },
+      "id": "#d88d79e5-eff6-4280-8cb6-19a65ccce38f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimAgainst"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "That plant-based food is much more than meat substitutes is such a trite point that it shouldn't need to be raised"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1517,
+            "end": 1631
+          }
+        ]
+      },
+      "id": "#a321e01e-b9c7-4cf7-8145-0808c9f385f6"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "it's as if we've forgotten how simple food can be, and we need to remember that if we want to make real change in our supply chains, not just replace old problems with new ones"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1637,
+            "end": 1813
+          }
+        ]
+      },
+      "id": "#7b5a3a2b-1568-476e-9403-5cdaab1b0c57"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Industry is driving the \"protein switch\" \u2013 and that's a problem"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1815,
+            "end": 1878
+          }
+        ]
+      },
+      "id": "#63c0ec04-ca17-4091-ab72-0683c06feb58"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "As the University of Copenhagen's conference title testified, both large parts of the research environment and the market-dominant forces in industry have embraced the meat substitute paradigm in a big way"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1879,
+            "end": 2084
+          }
+        ]
+      },
+      "id": "#08719f3c-4f2e-4153-ac22-516a96272fc2"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimAgainst"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "From ground beef to plant beef - this is how the sustainable diet of the future will be a success"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2087,
+            "end": 2184
+          }
+        ]
+      },
+      "id": "#56e2ca21-6b7f-43dc-88e0-524bca27043a"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "A success for whom?\", we wanted to ask from the audience, while the Minister of Food shared stage time with the industry and a selection of the University of Copenhagen's own researchers"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2188,
+            "end": 2374
+          }
+        ]
+      },
+      "id": "#422ccd3c-0f14-4c92-b5b9-b23e3451a3cb"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "who stands to profit from the \"protein transition\", which recently faced criticism in a new report from the International Panel of Experts on Sustainable Food Systems (IPES-Food)"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2384,
+            "end": 2562
+          }
+        ]
+      },
+      "id": "#9bd5417a-de5a-4dfc-968b-8aee466a075e"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Yes, the very same industrial conglomerates that dominate the market today and have been instrumental in creating our current food system based on an increasingly fragile, large-scale industrial monoculture do"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2564,
+            "end": 2773
+          }
+        ]
+      },
+      "id": "#2041ef13-7d3a-4d6b-8a9e-694e4d867866"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "In the report The Politics of Protein, IPES-Food warns against single-track agendas that do not take into account how complex our food systems are"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2775,
+            "end": 2921
+          }
+        ]
+      },
+      "id": "#d153a0e8-c783-4efc-bf23-b56838bcf2ae"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The so-called protein transition simply cannot be boiled down to the popular but simplistic balancing of protein content against greenhouse gas emissions"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2923,
+            "end": 3076
+          }
+        ]
+      },
+      "id": "#e56af362-5bdb-4e28-903f-371fb2f4d4b9"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Hyper-processed plant foods reinforce an unsustainable food system"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3078,
+            "end": 3144
+          }
+        ]
+      },
+      "id": "#fa67738d-b926-4b96-9c8c-26a1fd9a7c39"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "According to the researchers, the black-and-white view ignores \"critical sustainability challenges\" such as loss of biodiversity, chemical pollution, deterioration of soil fertility and living conditions for small farmers, hunger and micronutrient deficiencies"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3145,
+            "end": 3405
+          }
+        ]
+      },
+      "id": "#cd6b6946-b8e3-4bb4-964f-10285214dfce"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Are these not just as important challenges to bear in mind as the infamous CO2 account"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3407,
+            "end": 3493
+          }
+        ]
+      },
+      "id": "#a8392676-e734-4402-8107-3b069c418df7"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "When we plant hectare after hectare of monoculture agriculture in pursuit of pea protein for our plant steaks instead of embracing the diversity \u2013 and deliciousness \u2013 the plant kingdom offers, we are of course limiting greenhouse gas emissions"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3495,
+            "end": 3738
+          }
+        ]
+      },
+      "id": "#b3d0ed10-cad0-4c01-94d0-dc3a29412fff"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "at the same time we are strengthening the fragile food system, which is the whole reason for the food crisis the world is facing"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3744,
+            "end": 3872
+          }
+        ]
+      },
+      "id": "#eb3e51c9-1b39-4db4-bd84-ffb7dd105a05"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "From monoculture and mass production to large-scale use of artificial fertilizers and energy-intensive hyper-processing of our raw materials"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3874,
+            "end": 4014
+          }
+        ]
+      },
+      "id": "#0814215a-27a8-41f9-9aff-7181f7adcac7"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "According to the FAO, 75 percent of the world's food comes from just 12 plant and five animal species"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4016,
+            "end": 4117
+          }
+        ]
+      },
+      "id": "#1bc3b1f8-f489-4ea9-a65c-37a51b56d328"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It is cheap, effective \u2013 and extremely unhealthy for both us humans and the planet we live on"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4119,
+            "end": 4212
+          }
+        ]
+      },
+      "id": "#f0144782-42ec-4ff9-aa6b-aac6f5d4fe6d"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "we cannot continue to design the food system of the future on the premises of large industry and market forces, explained laboratory manager in FoodSHIFT 2030, Line Rise Nielsen, when we spoke to her for the Madland Podcast"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4225,
+            "end": 4448
+          }
+        ]
+      },
+      "id": "#93ab1a06-0417-4658-b23e-205696600801"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "it's not the companies that are the cause of the environmental impacts, who clean up afterwards"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4459,
+            "end": 4554
+          }
+        ]
+      },
+      "id": "#d4a5c04b-c9a0-41ae-b10e-118ff8e8e992"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It's the states, it's society and it's the planet that foots the bill"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4556,
+            "end": 4625
+          }
+        ]
+      },
+      "id": "#3572e253-5737-4afe-9b92-052c2453ae7f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "We do not need a narrow protein transition in a food industry that is otherwise allowed to rumble on as usual"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4628,
+            "end": 4737
+          }
+        ]
+      },
+      "id": "#072284b2-6ace-4f1e-a8af-98428e319a2f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "We need a real, holistic rethinking of food systems"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4739,
+            "end": 4790
+          }
+        ]
+      },
+      "id": "#abde65c4-d936-403c-8eea-3444468424f7"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The Norwegian word for sustainable is sustainable, and it very well describes the aim we should have: A food system that has the strength to carry us all \u2013 and the many closely linked challenges we face"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4792,
+            "end": 4994
+          }
+        ]
+      },
+      "id": "#56dc2cd2-520c-475d-a3ec-0e49efaa385a"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Who wants to put \"plant protein for human consumption\" on the dinner table"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4996,
+            "end": 5070
+          }
+        ]
+      },
+      "id": "#cb5e073d-7783-4b74-98b8-516ef96e9aeb"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "We could begin by talking about the change in another way"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5072,
+            "end": 5129
+          }
+        ]
+      },
+      "id": "#a72849f6-0ab9-4935-8237-b11295356dda"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Instead of talking about plant protein and lost joy in life, perhaps we should rather talk about plant foods and how tasty, colorful, diverse and nutritious our fruits, vegetables and herbs are"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5131,
+            "end": 5324
+          }
+        ]
+      },
+      "id": "#a1f76720-25a6-4f70-b915-681057f1b414"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Do we serve \"plant proteins for human consumption\" to the family at home"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5326,
+            "end": 5398
+          }
+        ]
+      },
+      "id": "#b49f975a-b66d-4473-833b-cb6c709bb91f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "No, we serve food"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5400,
+            "end": 5417
+          }
+        ]
+      },
+      "id": "#c5590401-b0cc-4d33-90f0-ace2fdd5e1aa"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "If we want to inspire more people to change their eating habits, we should perhaps start by referring to it as such"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5419,
+            "end": 5534
+          }
+        ]
+      },
+      "id": "#267e3193-caf2-4915-a5aa-afa81b653c60"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The food crises are waiting, and we are left with more and more destroyed farmland in our hands,\" pleaded the rector of the University of Copenhagen, Henrik C. Wegener, in the conference's opening speech"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5537,
+            "end": 5740
+          }
+        ]
+      },
+      "id": "#2f31acca-e010-4039-869f-7d2ba5f4636c"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "instead of plowing the same fragile tracks deeper, shouldn't we start new and more robust ones"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5745,
+            "end": 5839
+          }
+        ]
+      },
+      "id": "#84b539b2-5483-4062-bec4-67e72f0530b1"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It requires a lot of effort: political action, changed legislation, different education, rethinking production \u2013 and not least a change in our consumption and meal culture"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5841,
+            "end": 6012
+          }
+        ]
+      },
+      "id": "#80b09f55-62e1-41af-bddd-e27d7c1ddc40"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "it starts initially with a conversation about whether the direction that is currently being set out is now also the right one"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 6018,
+            "end": 6143
+          }
+        ]
+      },
+      "id": "#3fe18769-9770-45fe-8158-f6e5778912dc"
+    }
+  ],
+  "relations": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#477e67a3-1937-414b-ab3b-c465484be61f",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#08719f3c-4f2e-4153-ac22-516a96272fc2"
+        },
+        {
+          "id": "#63c0ec04-ca17-4091-ab72-0683c06feb58"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#23e0d143-05ac-48ff-9cbf-04c3826afe94",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#cd6b6946-b8e3-4bb4-964f-10285214dfce"
+        },
+        {
+          "id": "#fa67738d-b926-4b96-9c8c-26a1fd9a7c39"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#6fcb1595-5ebc-4829-b920-aa4944601a0c",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#a8392676-e734-4402-8107-3b069c418df7"
+        },
+        {
+          "id": "#cd6b6946-b8e3-4bb4-964f-10285214dfce"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#81555d8f-3b6f-4a02-9d98-54f46741d1dc",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#d4a5c04b-c9a0-41ae-b10e-118ff8e8e992"
+        },
+        {
+          "id": "#93ab1a06-0417-4658-b23e-205696600801"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#8c4b9193-ffa8-4a33-92a6-5db79de3fda2",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#3572e253-5737-4afe-9b92-052c2453ae7f"
+        },
+        {
+          "id": "#d4a5c04b-c9a0-41ae-b10e-118ff8e8e992"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#f0f337a6-f202-4119-adef-1f93b6411819",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#abde65c4-d936-403c-8eea-3444468424f7"
+        },
+        {
+          "id": "#072284b2-6ace-4f1e-a8af-98428e319a2f"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#2e941192-2c6d-4c49-aca2-02664165c3d0",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#37a1ffb1-f3c2-426c-a4a5-673ffae3e0ac"
+        },
+        {
+          "id": "#5de31359-867a-40cc-9c03-c8d465fd78a4"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#e4a65251-62d8-474b-8fa5-eb9040c6ac60",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#2d252646-0259-4a79-93be-153fb7b22696"
+        },
+        {
+          "id": "#37a1ffb1-f3c2-426c-a4a5-673ffae3e0ac"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#821e4e69-38d6-4fe3-be18-09c2ca63b5d1",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#c88d50b7-6054-4838-80ea-e32f89b86486"
+        },
+        {
+          "id": "#e9746e55-c794-4987-b175-d16d870ac45d"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#8427b777-8323-4459-ad76-c41014db6638",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#32fe101f-0413-49e6-aaf9-b6a7a6547f54"
+        },
+        {
+          "id": "#c88d50b7-6054-4838-80ea-e32f89b86486"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#814db82e-6697-4e3e-82f8-e573b6d4b1c9",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#7b5a3a2b-1568-476e-9403-5cdaab1b0c57"
+        },
+        {
+          "id": "#a321e01e-b9c7-4cf7-8145-0808c9f385f6"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#de504def-ae03-47f8-8508-8a7a0a413ff9",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#422ccd3c-0f14-4c92-b5b9-b23e3451a3cb"
+        },
+        {
+          "id": "#56e2ca21-6b7f-43dc-88e0-524bca27043a"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#2776ee08-330d-4636-a4c5-85920290d468",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#2041ef13-7d3a-4d6b-8a9e-694e4d867866"
+        },
+        {
+          "id": "#9bd5417a-de5a-4dfc-968b-8aee466a075e"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#1384a84b-1fc2-41d1-9e13-32027939b9bb",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#d153a0e8-c783-4efc-bf23-b56838bcf2ae"
+        },
+        {
+          "id": "#e56af362-5bdb-4e28-903f-371fb2f4d4b9"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#8f42f0f4-49a6-4a5e-878e-5df1ab277468",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#1bc3b1f8-f489-4ea9-a65c-37a51b56d328"
+        },
+        {
+          "id": "#93ab1a06-0417-4658-b23e-205696600801"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#62f82c29-372f-45c3-afe2-b15aad62243c",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#f0144782-42ec-4ff9-aa6b-aac6f5d4fe6d"
+        },
+        {
+          "id": "#1bc3b1f8-f489-4ea9-a65c-37a51b56d328"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#7242fadd-5313-4f35-a4b2-ce0e6790ac85",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#cb5e073d-7783-4b74-98b8-516ef96e9aeb"
+        },
+        {
+          "id": "#56dc2cd2-520c-475d-a3ec-0e49efaa385a"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#9e0ce58b-adf8-4c22-b8f1-d26e9a00058c",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#a1f76720-25a6-4f70-b915-681057f1b414"
+        },
+        {
+          "id": "#a72849f6-0ab9-4935-8237-b11295356dda"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#8a9350ad-a3ae-428b-aa07-a24fd45f2d2f",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#b49f975a-b66d-4473-833b-cb6c709bb91f"
+        },
+        {
+          "id": "#267e3193-caf2-4915-a5aa-afa81b653c60"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#06f21142-b095-4b45-8eae-c21e46854395",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#c5590401-b0cc-4d33-90f0-ace2fdd5e1aa"
+        },
+        {
+          "id": "#b49f975a-b66d-4473-833b-cb6c709bb91f"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#1716243e-d29b-4e80-b869-04fa21845e51",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#2f31acca-e010-4039-869f-7d2ba5f4636c"
+        },
+        {
+          "id": "#84b539b2-5483-4062-bec4-67e72f0530b1"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#711796f4-7666-4835-91c2-3c8037b6935d",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#3fe18769-9770-45fe-8158-f6e5778912dc"
+        },
+        {
+          "id": "#80b09f55-62e1-41af-bddd-e27d7c1ddc40"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#05ed5153-b2b8-46b6-8597-a94fd8160239",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#b3d0ed10-cad0-4c01-94d0-dc3a29412fff"
+        },
+        {
+          "id": "#eb3e51c9-1b39-4db4-bd84-ffb7dd105a05"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#843673a6-c865-4d0e-b1bc-a218e512139c",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#0814215a-27a8-41f9-9aff-7181f7adcac7"
+        },
+        {
+          "id": "#eb3e51c9-1b39-4db4-bd84-ffb7dd105a05"
+        }
+      ],
+      "motivation": "linking"
+    }
+  ]
+}

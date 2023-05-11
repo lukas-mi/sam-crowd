@@ -1,0 +1,71 @@
+T1	Claim 76 181	The corporate race for cultured protein rests on a view of human beings as greedy and incapable of change
+A1	Stance T1 For
+T2	Claim 1037 1177	Flesh without the blood, meat without murder and the beginning of the end of the environmental damage caused by intensive animal agriculture
+A2	Stance T2 Against
+T3	Premise 1179 1273	The news was met with a sigh of relief from meat eaters across the world, and with good reason
+T4	Premise 1275 1405	it will allow us to carry on as before, eating what we like while clever technology sidesteps the problems caused by our appetites
+T5	Premise 1411 1519	underneath Eat Just chicken bites’ crunchy, deep-fried crust, the reality might be a little more complicated
+T6	Claim 1728 1909	I was served a small beige rectangle of a nugget wrapped in greaseproof paper, containing what they told me was both cultured chicken and the end of animal agriculture as we know it
+A3	Stance T6 Against
+T7	Premise 1911 1936	Yes, it tasted of chicken
+T8	Premise 1938 2006	it had the unmistakable aroma of chicken on my tongue and in my nose
+T9	Premise 2008 2153	It had some of the juiciness of animal flesh that you expect when you eat chicken: that tacky feeling on your teeth when you bite a piece of meat
+T10	Claim 2159 2229	it had the consistency of the most low-grade processed meat imaginable
+A4	Stance T10 For
+T11	Premise 2231 2350	This was not a piece of chicken, a cut of meat, but a mass of chicken cells, bulked out and pressed into a nugget shape
+T12	Premise 2428 2550	It’s very likely that the formulation of Eat Just chicken bites has improved considerably since I tried them two years ago
+T13	Claim 2556 2757	even if they have managed to create something indistinguishable from a chicken nugget that comes from a dead bird, the circumstances in which the chicken was approved by regulators should give us pause
+A5	Stance T13 For
+T14	Premise 2759 2838	Why would a US company seek regulatory approval in an island city-state in Asia
+T15	Claim 3263 3319	That’s problematic for the entire cultured meat industry
+A6	Stance T15 For
+T16	Premise 3321 3390	consumers care more about the provenance of food now than ever before
+T17	Premise 3396 3478	any producer of a new food needs to be seen to take regulatory standards seriously
+T18	Claim 3480 3551	This product has far to go when it comes to winning consumer acceptance
+A7	Stance T18 For
+T19	Premise 3553 3627	the “ick factor” is a serious problem when it comes to meat grown in a lab
+T20	Claim 3633 3735	in the rush to get a regulatory thumbs up, some of the mission behind cultured meat may have been lost
+A8	Stance T20 For
+T21	Premise 3737 3905	The Eat Just chicken bites approved in Singapore were grown in a medium of foetal bovine serum (FBS), which, as the name suggests, comes from the blood of unborn calves
+T22	Claim 3907 3965	It is difficult to imagine a less vegan substance than FBS
+A9	Stance T22 For
+T23	Premise 3966 4030	This was largely removed before consumption of the chicken bites
+T24	Premise 4036 4119	Just Eat said it now had a plant-based medium to use in subsequent production lines
+T25	Claim 4121 4208	It seems a shame that it wasn’t prepared to wait for an FBS-free product to be approved
+A10	Stance T25 For
+T26	Claim 4210 4250	Cultured meat is eye-catching technology
+A11	Stance T26 Against
+T27	Premise 4256 4347	it is also an over-engineered solution to a problem that we can solve by changing our diets
+T28	MajorClaim 4349 4507	If we simply stopped eating meat, or ate it far less often, then there would be no need for either harmful intensive animal agriculture or meat grown in a lab
+T29	Claim 4509 4601	The cultured meat industry rests on a view of human beings as greedy and incapable of change
+A12	Stance T29 For
+T30	Premise 4607 4746	the coronavirus pandemic has shown that, globally, we are able to make enormous changes to our behaviour when faced with existential crisis
+T31	Claim 4748 4857	The startups growing meat in labs might be motivated by noble intentions: to save animals and save the planet
+A13	Stance T31 Against
+T32	Premise 4863 4959	giant meat producers such as Cargill and Tyson are already investing heavily in cultured protein
+T33	Premise 4961 5027	Who knows which companies will run the industry in decades to come
+T34	Claim 5029 5232	If we move into a world where eating meat remains normal but killing animals is taboo, we will become ever more dependent on remote corporations with highly specialised technology to meet our basic needs
+A14	Stance T34 For
+T35	Claim 5256 5291	We can just choose to eat less meat
+A15	Stance T35 For
+T36	Premise 5293 5407	That’s where real power lies – not in harnessing this new technology but in being prepared to change our behaviour
+R1	supports Arg1:T21 Arg2:T20	
+R2	supports Arg1:T30 Arg2:T29	
+R3	attacks Arg1:T27 Arg2:T26	
+R4	attacks Arg1:T32 Arg2:T31	
+R5	supports Arg1:T3 Arg2:T2	
+R6	supports Arg1:T4 Arg2:T3	
+R7	supports Arg1:T16 Arg2:T15	
+R8	supports Arg1:T17 Arg2:T15	
+R9	supports Arg1:T19 Arg2:T18	
+R10	attacks Arg1:T23 Arg2:T22	
+R11	attacks Arg1:T24 Arg2:T22	
+R12	attacks Arg1:T5 Arg2:T4	
+R13	supports Arg1:T14 Arg2:T13	
+R14	supports Arg1:T7 Arg2:T6	
+R15	supports Arg1:T8 Arg2:T7	
+R16	supports Arg1:T9 Arg2:T7	
+R17	supports Arg1:T11 Arg2:T10	
+R18	supports Arg1:T33 Arg2:T34	
+R19	supports Arg1:T36 Arg2:T35	
+R20	attacks Arg1:T12 Arg2:T10	

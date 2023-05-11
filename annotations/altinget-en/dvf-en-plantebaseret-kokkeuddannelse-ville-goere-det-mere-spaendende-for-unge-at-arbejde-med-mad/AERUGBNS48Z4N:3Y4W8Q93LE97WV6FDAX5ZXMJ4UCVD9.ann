@@ -1,0 +1,86 @@
+T1	MajorClaim 100 272	The government should prioritize financing the development of a plant-based cookery education, which can secure Denmark's place on the gastronomically sustainable world map
+T2	Premise 333 369	The cooking education is out of date
+T3	Premise 371 401	The working conditions are bad
+T4	Premise 407 564	the young chef students are not trained to be able to handle themselves in the green kitchen, even though this is what many restaurants and canteens call for
+T5	Claim 577 802	the Danish Vegetarian Association suggests that the politicians, in addition to prioritizing a better working environment, allocate funds for the development of a green, interesting and visionary plant-based cooking education
+A1	Stance T5 For
+T6	Premise 824 1007	In a debate at the Alting on 9 May, Kasper Fogh Hansen, chairman of the board of the Food People's Assembly, says that it is too uninteresting for young people to work with food today
+T7	Premise 1018 1112	the number of students on the cookery course has fallen by a third in the last couple of years
+T8	Claim 1132 1335	we know that there is actually a large crowd of vegetarians, vegans and climate-conscious young people out there who would consider a chef's degree if it were up-to-date, visionary, green and plant-based
+A2	Stance T8 For
+T9	Claim 1337 1632	It is not only experiences such as the horrific testimonies about working conditions and sexist culture mentioned in Politiken that make more skilled chefs nervous, but also the great focus on climate-sinning lost hare, chops and meatballs, which deters young people from attending the training.
+A3	Stance T9 For
+T10	MajorClaim 1633 1839	Therefore, the government and the supporting parties should prioritize funding the development of plant-based cooking education, which can secure Denmark's place on the gastronomically sustainable world map
+T11	Claim 1841 1920	Because young people are climate-conscious and prioritize climate-friendly food
+A4	Stance T11 For
+T12	Premise 1922 2000	This is what is interesting for them professionally – also on a cookery course
+T13	Claim 2002 2050	Meat should not take up 70 pages in the cookbook
+A5	Stance T13 For
+T14	Premise 2309 2455	Meat takes up 70 pages in the cookbook, fish takes up approximately 33 pages, while pulses have very graciously been allocated just over two pages
+T15	Claim 2491 2628	there is no plan for the cooking education to prioritize green cuisine – not to mention a gastronomy that reflects the dietary guidelines
+A6	Stance T15 For
+T16	Premise 2630 2799	In the Official Dietary Guidelines, the recommended intake of legumes is 700 grams per week, while Danes are recommended to reduce meat consumption to 350 grams per week
+T17	Claim 2801 2943	Shouldn't chefs who are trained in 2022 be able to cook exactly the food that the dietary guidelines recommend and that the population demands
+A7	Stance T17 For
+T18	Claim 2953 3146	a plant-based cooking education is defined as an education where vegetables, fruits, nuts, legumes and other plant-based products are the central and starting point for all gastronomic learning
+A8	Stance T18 For
+T19	Claim 3148 3315	Sustainability is at the same time central to the education's DNA and the starting point for the teaching, including teaching on the UN's global goals and food systems
+A9	Stance T19 For
+T20	Claim 3317 3354	Vegetarians are discriminated against
+A10	Stance T20 For
+T21	Premise 3355 3550	At the Danish Vegetarian Association, we are aware of several vegans and vegetarians who have dropped out or opted out of the cookery course because they are forced to work with meat in a big way
+T22	Claim 3552 3766	It is discrimination, which is probably on the edge of human rights, that as a vegetarian you can only take the cooking course if you are prepared to prepare meat and thus go against your own ethics and convictions
+A11	Stance T22 For
+T23	Premise 3781 3887	the production of meat and dairy products also emits far more greenhouse gases than vegetables and legumes
+T24	Premise 3902 4012	there is the whole animal ethical aspect, which is important to many young people who eat vegan and vegetarian
+T25	Claim 4018 4150	if animal products are no longer to be part of the cooking education sub-elements, it is the politicians who must legislate for this
+A12	Stance T25 For
+T26	Claim 4169 4274	Denmark is moving rapidly towards green gastronomy and the development of plant-based restaurant concepts
+A13	Stance T26 For
+T27	Premise 4276 4387	Restaurants such as ARK, Bistro Lupa, VeVe and Geraniums Angelika have gone all in on the green and sustainable
+T28	Premise 4393 4456	several canteen and catering companies have become much greener
+T29	Premise 4462 4521	the chefs they can hire have been tested in chops in a dish
+T30	Premise 4523 4717	Many of the players therefore arrange internal further training in vegetables, pulses and preparation themselves, because the newly trained chefs simply do not have the skills that are in demand
+T31	Claim 4737 4832	we see that the public kitchens will probably soon have to offer a plant-based option every day
+A14	Stance T31 For
+T32	Premise 4834 4864	Aalborg has just introduced it
+T33	Premise 4870 4939	a majority in the Danish Parliament is working to adopt it nationally
+T34	Claim 4941 5074	It is therefore paradoxical that we as a society do not have a plant-based cooking education where the skills in demand are the focus
+A15	Stance T34 For
+T35	Claim 5112 5182	Climate and sustainability are at the top of the young people's agenda
+A16	Stance T35 For
+T36	Premise 5184 5242	17 percent of Danes in the age group 18-34 eat flexitarian
+T37	Premise 5244 5338	Five percent of 18-34-year-olds eat pescetarian, four percent vegetarian and two percent vegan
+T38	Premise 5340 5428	This is shown by a study that we have carried out in collaboration owned by Coop Analyse
+T39	Claim 5446 5546	the statistics point in one direction – towards plant-based and sustainable cuisine being the future
+A17	Stance T39 For
+T40	Claim 5577 5646	there is a traditional food culture in the existing cooking education
+A18	Stance T40 Against
+T41	Premise 5656 5696	there is a demand for the classic dishes
+T42	Premise 5698 5808	This is also why we are proposing a completely new plant-based trail that can exist alongside the existing one
+T43	Premise 5810 5959	That the existing education needs a green reformation is also a fact, however, if we take a look at demand and development in the restaurant industry
+T44	Claim 5961 6187	The Danish Vegetarian Association therefore calls on politicians to prioritize the development of a plant-based cooking education and thus create an education that is attractive to climate-conscious (plant-eating) young people
+A19	Stance T44 For
+R1	supports Arg1:T12 Arg2:T11	
+R2	supports Arg1:T14 Arg2:T15	
+R3	supports Arg1:T16 Arg2:T17	
+R4	supports Arg1:T21 Arg2:T22	
+R5	supports Arg1:T27 Arg2:T26	
+R6	supports Arg1:T28 Arg2:T26	
+R7	attacks Arg1:T29 Arg2:T28	
+R8	supports Arg1:T32 Arg2:T31	
+R9	supports Arg1:T33 Arg2:T31	
+R10	supports Arg1:T36 Arg2:T35	
+R11	supports Arg1:T37 Arg2:T35	
+R12	supports Arg1:T38 Arg2:T37	
+R13	supports Arg1:T41 Arg2:T40	
+R14	supports Arg1:T2 Arg2:T5	
+R15	supports Arg1:T3 Arg2:T5	
+R16	supports Arg1:T4 Arg2:T5	
+R17	supports Arg1:T6 Arg2:T8	
+R18	supports Arg1:T7 Arg2:T8	
+R19	attacks Arg1:T42 Arg2:T40	
+R20	supports Arg1:T43 Arg2:T44	
+R21	supports Arg1:T30 Arg2:T34	
+R22	supports Arg1:T23 Arg2:T25	
+R23	supports Arg1:T24 Arg2:T25	

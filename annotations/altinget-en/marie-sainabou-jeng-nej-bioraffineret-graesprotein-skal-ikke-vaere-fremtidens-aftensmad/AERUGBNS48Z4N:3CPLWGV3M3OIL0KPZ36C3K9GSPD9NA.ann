@@ -1,0 +1,83 @@
+T1	MajorClaim 78 351	When we mechanically refer to the food of the future as "plant proteins for human consumption" and "climate food that must not cost the joy of life", we alienate ourselves from our food and manage to neither show the way nor inspire real, sustainable change in food systems
+T2	Claim 834 876	Should not be processed beyond recognition
+A1	Stance T2 For
+T3	Premise 888 983	the minister began with admonishing words that "plant-based foods must not cost the joy of life
+T4	Premise 990 1108	if a menu description with biorefined grass protein doesn't suck the joy out of you, then we soon don't know what will
+T5	Claim 1110 1201	There is no doubt about the need to rethink our food system in a more sustainable direction
+A2	Stance T5 Against
+T6	Premise 1203 1242	The question is how we attack that task
+T7	Premise 1249 1465	if we do it with the assumption that plant-based food risks taking away our joy in life, it is perhaps not so strange that the will to change is lacking and the industry instead sells our vegetables disguised as meat
+T8	Claim 1471 1592	why should "plant-based foods" be synonymous with products processed beyond recognition to imitate something they are not
+A3	Stance T8 For
+T9	Claim 1594 1708	That plant-based food is much more than meat substitutes is such a trite point that it shouldn't need to be raised
+A4	Stance T9 Against
+T10	Premise 1714 1890	it's as if we've forgotten how simple food can be, and we need to remember that if we want to make real change in our supply chains, not just replace old problems with new ones
+T11	Claim 1892 1955	Industry is driving the "protein switch" – and that's a problem
+A5	Stance T11 For
+T12	Premise 1956 2161	As the University of Copenhagen's conference title testified, both large parts of the research environment and the market-dominant forces in industry have embraced the meat substitute paradigm in a big way
+T13	Claim 2164 2261	From ground beef to plant beef - this is how the sustainable diet of the future will be a success
+A6	Stance T13 Against
+T14	Premise 2265 2451	A success for whom?", we wanted to ask from the audience, while the Minister of Food shared stage time with the industry and a selection of the University of Copenhagen's own researchers
+T15	Claim 2461 2639	who stands to profit from the "protein transition", which recently faced criticism in a new report from the International Panel of Experts on Sustainable Food Systems (IPES-Food)
+A7	Stance T15 For
+T16	Premise 2641 2850	Yes, the very same industrial conglomerates that dominate the market today and have been instrumental in creating our current food system based on an increasingly fragile, large-scale industrial monoculture do
+T17	Premise 2852 2998	In the report The Politics of Protein, IPES-Food warns against single-track agendas that do not take into account how complex our food systems are
+T18	Claim 3000 3153	The so-called protein transition simply cannot be boiled down to the popular but simplistic balancing of protein content against greenhouse gas emissions
+A8	Stance T18 For
+T19	Claim 3155 3221	Hyper-processed plant foods reinforce an unsustainable food system
+A9	Stance T19 For
+T20	Premise 3222 3482	According to the researchers, the black-and-white view ignores "critical sustainability challenges" such as loss of biodiversity, chemical pollution, deterioration of soil fertility and living conditions for small farmers, hunger and micronutrient deficiencies
+T21	Premise 3484 3570	Are these not just as important challenges to bear in mind as the infamous CO2 account
+T22	Premise 3572 3815	When we plant hectare after hectare of monoculture agriculture in pursuit of pea protein for our plant steaks instead of embracing the diversity – and deliciousness – the plant kingdom offers, we are of course limiting greenhouse gas emissions
+T23	Claim 3821 3949	at the same time we are strengthening the fragile food system, which is the whole reason for the food crisis the world is facing
+A10	Stance T23 For
+T24	Premise 3951 4091	From monoculture and mass production to large-scale use of artificial fertilizers and energy-intensive hyper-processing of our raw materials
+T25	Premise 4093 4194	According to the FAO, 75 percent of the world's food comes from just 12 plant and five animal species
+T26	Premise 4196 4289	It is cheap, effective – and extremely unhealthy for both us humans and the planet we live on
+T27	Claim 4302 4525	we cannot continue to design the food system of the future on the premises of large industry and market forces, explained laboratory manager in FoodSHIFT 2030, Line Rise Nielsen, when we spoke to her for the Madland Podcast
+A11	Stance T27 For
+T28	Premise 4536 4631	it's not the companies that are the cause of the environmental impacts, who clean up afterwards
+T29	Premise 4633 4702	It's the states, it's society and it's the planet that foots the bill
+T30	Claim 4705 4814	We do not need a narrow protein transition in a food industry that is otherwise allowed to rumble on as usual
+A12	Stance T30 For
+T31	Premise 4816 4867	We need a real, holistic rethinking of food systems
+T32	Claim 4869 5071	The Norwegian word for sustainable is sustainable, and it very well describes the aim we should have: A food system that has the strength to carry us all – and the many closely linked challenges we face
+A13	Stance T32 For
+T33	Premise 5073 5147	Who wants to put "plant protein for human consumption" on the dinner table
+T34	Claim 5149 5206	We could begin by talking about the change in another way
+A14	Stance T34 For
+T35	Premise 5208 5401	Instead of talking about plant protein and lost joy in life, perhaps we should rather talk about plant foods and how tasty, colorful, diverse and nutritious our fruits, vegetables and herbs are
+T36	Premise 5403 5475	Do we serve "plant proteins for human consumption" to the family at home
+T37	Premise 5477 5494	No, we serve food
+T38	Claim 5496 5611	If we want to inspire more people to change their eating habits, we should perhaps start by referring to it as such
+A15	Stance T38 For
+T39	Premise 5614 5817	The food crises are waiting, and we are left with more and more destroyed farmland in our hands," pleaded the rector of the University of Copenhagen, Henrik C. Wegener, in the conference's opening speech
+T40	Claim 5822 5916	instead of plowing the same fragile tracks deeper, shouldn't we start new and more robust ones
+A16	Stance T40 For
+T41	Claim 5918 6089	It requires a lot of effort: political action, changed legislation, different education, rethinking production – and not least a change in our consumption and meal culture
+A17	Stance T41 For
+T42	Premise 6095 6220	it starts initially with a conversation about whether the direction that is currently being set out is now also the right one
+R1	supports Arg1:T12 Arg2:T11	
+R2	supports Arg1:T20 Arg2:T19	
+R3	supports Arg1:T21 Arg2:T20	
+R4	supports Arg1:T28 Arg2:T27	
+R5	supports Arg1:T29 Arg2:T28	
+R6	supports Arg1:T31 Arg2:T30	
+R7	supports Arg1:T3 Arg2:T2	
+R8	supports Arg1:T4 Arg2:T3	
+R9	attacks Arg1:T6 Arg2:T5	
+R10	supports Arg1:T7 Arg2:T6	
+R11	supports Arg1:T10 Arg2:T9	
+R12	attacks Arg1:T14 Arg2:T13	
+R13	supports Arg1:T16 Arg2:T15	
+R14	supports Arg1:T17 Arg2:T18	
+R15	supports Arg1:T25 Arg2:T27	
+R16	supports Arg1:T26 Arg2:T25	
+R17	supports Arg1:T33 Arg2:T32	
+R18	supports Arg1:T35 Arg2:T34	
+R19	supports Arg1:T36 Arg2:T38	
+R20	supports Arg1:T37 Arg2:T36	
+R21	supports Arg1:T39 Arg2:T40	
+R22	supports Arg1:T42 Arg2:T41	
+R23	attacks Arg1:T22 Arg2:T23	
+R24	supports Arg1:T24 Arg2:T23	

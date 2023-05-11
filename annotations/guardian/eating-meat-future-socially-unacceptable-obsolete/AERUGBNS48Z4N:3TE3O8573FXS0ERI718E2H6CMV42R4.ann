@@ -1,0 +1,72 @@
+T1	MajorClaim 55 202	In the same way we’re now horrified people used to smoke in offices, we’ll soon find it almost unthinkable that people used to consume so much meat
+T2	Claim 217 352	Carnivores are going the way of cigarette smokers and, by 2050, there’s a good chance that it will be socially unacceptable to eat meat
+A1	Stance T2 For
+T3	MajorClaim 354 537	In the same way that we’re now horrified people used to smoke in offices and airplanes, we’ll find it almost unthinkable that people used to consume animals so casually and frequently
+T4	Premise 556 605	humans have been meat-eaters for about 2.5m years
+T5	Claim 607 702	the idea that we’re going to radically change our diets in a few decades might seem far-fetched
+A2	Stance T5 Against
+T6	Claim 713 798	there has already been a significant shift in the way we think about meat consumption
+A3	Stance T6 For
+T7	Premise 800 923	In just the past few years veganism has gone from being a fringe movement associated with hippies to being downright trendy
+T8	Premise 925 1029	The likes of Beyoncé and Jay-Z have challenged their fans “to move towards a more plant-based lifestyle”
+T9	Premise 1034 1103	more people are talking loudly and proudly about cutting down on meat
+T10	Claim 1117 1182	changes in attitude haven’t yet translated to changes in behavior
+A4	Stance T10 Against
+T11	Premise 1184 1258	US consumption of meat in 2018 was the highest it has been for a long time
+T12	Premise 1264 1294	it’s a similar story in Europe
+T13	Premise 1361 1473	the downturn in meat-eating between 2005 and 2014 was due to high prices relative to income during the recession
+T14	Claim 1479 1581	just because meat consumption in America hasn’t plummeted yet doesn’t mean it won’t in the near future
+A5	Stance T14 For
+T15	Premise 1583 1752	This is particularly true when you consider the explosion in popularity of realistic plant-based meat substitutes from companies such as Impossible Foods and Beyond Meat
+T16	Claim 2053 2108	the new breed of plant-based burgers are a game-changer
+A6	Stance T16 For
+T17	Premise 2110 2212	I even sent one back at a restaurant recently because I thought they had mistakenly given me real meat
+T18	Premise 2219 2300	my girlfriend, a committed carnivore, had a bite and wasn’t entirely sure herself
+T19	Claim 2302 2438	Fast-food chains have begun to enthusiastically embrace plant-based meat substitutes, propelling these foods further into the mainstream
+A7	Stance T19 For
+T20	Premise 2440 2513	In April, Burger King started trialling the Impossible Burger in St Louis
+T21	Premise 2515 2672	According to a report by inMarket inSights, this led to Burger King locations in St Louis seeing 16.75% higher foot traffic than the chain’s national average
+T22	Premise 2684 2783	the popularity of Greggs’s vegan sausage roll caused shares of the British fast-food chain to surge
+T23	Premise 2789 2862	KFC recently said it is searching for plant-based alternatives to chicken
+T24	Claim 2902 3061	As plant-based meat alternatives continue to proliferate and evolve it will become increasingly difficult for people to justify choosing the animal alternative
+A8	Stance T24 For
+T25	Premise 3063 3244	If you can easily get a meatless burger that tastes almost like the real thing – and eventually, I imagine, one tasting exactly like the real thing – why would you opt for real meat
+T26	Premise 3246 3283	Why would you make the crueler choice
+T27	Claim 3285 3398	Along with the increase in “meatless meat” we’re seeing the advent of the lab-grown, or cell-based, meat industry
+A9	Stance T27 For
+T28	Premise 3400 3643	Although there is still a fair way to go before we see lab-grown meat in stores, and important questions about just how environmentally friendly cultured meat actually is, it’s another sign that technology is poised to revolutionize how we eat
+T29	Claim 3645 3721	Meat that comes from animals will eventually seem old-fashioned and barbaric
+A10	Stance T29 For
+T30	Premise 3723 3847	There are theories that the reason humans first started eating large quantities of meat 2.5m years was due to climate change
+T31	Premise 3849 3944	droughts made fruit and vegetables less abundant and humans were forced to go in search of meat
+T32	Premise 3946 4046	It seems inevitable that the climate crisis we now face will drastically change our diets once again
+T33	Claim 4048 4191	As the impact of the climate emergency becomes impossible to ignore, eating meat will be increasingly seen as selfish and socially unacceptable
+A11	Stance T33 For
+T34	Claim 4193 4323	If we don’t willingly change our habits, of course, the consequences of the environmental disaster that is unfolding will force us
+A12	Stance T34 For
+T35	Premise 4325 4431	The climate crisis will affect the food supply in a way that means we simply won’t be able to produce meat
+T36	Premise 4440 4486	we won’t be able to produce enough food at all
+T37	Claim 4488 4559	The most committed of carnivores will have to resort to eating the rich
+A13	Stance T37 For
+R1	supports Arg1:T4 Arg2:T5	
+R2	supports Arg1:T11 Arg2:T10	
+R3	supports Arg1:T12 Arg2:T10	
+R4	supports Arg1:T20 Arg2:T19	
+R5	supports Arg1:T31 Arg2:T30	
+R6	supports Arg1:T35 Arg2:T34	
+R7	supports Arg1:T36 Arg2:T34	
+R8	supports Arg1:T7 Arg2:T6	
+R9	supports Arg1:T8 Arg2:T7	
+R10	supports Arg1:T9 Arg2:T7	
+R11	supports Arg1:T13 Arg2:T11	
+R12	supports Arg1:T15 Arg2:T14	
+R13	supports Arg1:T17 Arg2:T16	
+R14	supports Arg1:T18 Arg2:T16	
+R15	supports Arg1:T21 Arg2:T20	
+R16	supports Arg1:T22 Arg2:T19	
+R17	supports Arg1:T23 Arg2:T19	
+R18	supports Arg1:T25 Arg2:T24	
+R19	supports Arg1:T26 Arg2:T24	
+R20	supports Arg1:T28 Arg2:T27	
+R21	supports Arg1:T30 Arg2:T32	
+R22	supports Arg1:T32 Arg2:T33	

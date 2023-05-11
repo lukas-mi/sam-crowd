@@ -1,0 +1,79 @@
+T1	Claim 643 813	Animal agriculture is catastrophic for the environment, contributing to land degradation, water, and air pollution, resource use, loss of biodiversity, and global warming
+A1	Stance T1 For
+T2	Premise 815 971	While there’s debate in the scientific community on the proportion of emissions it’s responsible for, it is generally understood to be at least 14.5 percent
+T3	Claim 973 1109	While animal agriculture is of course not the only issue that needs addressing, it should be an essential part of any environmental plan
+A2	Stance T3 For
+T4	Premise 1111 1249	A major study from 2018 found that Western countries would need to reduce beef consumption by 90 percent to avoid dangerous climate change
+T5	Premise 1255 1388	the UN recently endorseda report urging world leaders to shift away from animal agriculture and move towards plant-based food systems
+T6	Premise 1390 1557	Despite the overwhelming scientific evidence, there remains a reluctance from politicians and the general public to accept that we urgently need to switch up our diets
+T7	Premise 1643 1854	An IPCC report published in April 2022 proclaimed that it’s ‘now or never’ to limit global heating, indicating that time is running out to leave it to the public to decide whether they fancy cutting down on meat
+T8	Claim 1856 2000	We need urgent action from governments to help food systems shift to plant-based if we are to meet climate goals and keep vital ecosystems alive
+A3	Stance T8 For
+T9	Premise 2007 2044	is taxing meat the way to go about it
+T10	Premise 2046 2262	A study from the University of Oxford published in January 2022, which looked at the effect taxing meat would have in countries like the US, UK, and Australia concluded that doing so would indeed help the environment
+T11	Premise 2264 2393	It found that increasing costs by 20-60 percent (depending on meat type), would reduce the consumption of the most damaging foods
+T12	Premise 2395 2639	The study stated that the average retail price for meat in high-income countries would need to increase by 35-56 percent for beef, 25 percent for poultry, and 19 percent for lamb and pork to reflect the environmental impacts of their production
+T13	Claim 2670 2796	it’s undeniable that increases such as these would at first glance seem to be contributing to already sky-rocketing food costs
+A4	Stance T13 Against
+T14	Premise 2802 2886	critics of the meat tax have argued that it would disproportionately effect the poor
+T15	Premise 2974 3191	If such a tax were introduced, it is arguable that the fall in consumption would be largely due to the fact that some people would no longer be able to afford it, while the richest would continue buying meat unscathed
+T16	Claim 3197 3300	governments shouldn’t introduce a meat tax and then trot off and leave the public to pick up the pieces
+A5	Stance T16 For
+T17	Premise 3302 3442	It should be just one of a number of measures they should take to move toward a plant-based food system that creates accessible food for all
+T18	Premise 3444 3713	Researchers in the Oxford study found that, as well as its ability to reduce meat consumption, one of the ‘key advantages’ of meat tax is that it could create revenue to help farmers move to alternative income streams and give support to people from low-income families
+T19	Premise 3716 3887	There are ways to ensure that meat taxes do not put additional financial pressure on those with low income,” said Franziska Funke, lead author, and researcher in the study
+T20	Claim 3890 4027	That is why we suggest that meat tax revenues should be redistributed to support low-income households or subsidize fruit and vegetables.
+A6	Stance T20 For
+T21	Premise 4029 4142	According to this research, most people on low incomes could end up with more money than before a meat tax reform
+T22	Claim 4154 4252	Some people may argue that this system is unfair and would leave people lacking in vital nutrition
+A7	Stance T22 Against
+T23	Premise 4258 4500	the idea that meat is an essential part of our diet comes from decades of clever marketing and ignores the numerous studies that have concluded plant-based diets are optimum for humans, as well as the link between meat consumption and disease
+T24	Claim 4515 4608	the long-term aim should not be that some people continue eating meat while others go without
+A8	Stance T24 For
+T25	Premise 4610 4720	A meat tax could be a vital step in tackling the meat consumption problem, but it is not the complete solution
+T26	Claim 4722 4818	Governments should work to make plant-based diets the norm by making them accessible to everyone
+A9	Stance T26 For
+T27	Premise 4820 4957	The reason why meat products are so prevalent in our society is because governments give away billions in subsidies to animal agriculture
+T28	Premise 4959 5116	Subsidies are tax-payer-funded grants that governments give to industries to keep down costs, therefore making their products more accessible to the consumer
+T29	Premise 5133 5231	It is thought that the tax-payer provides more than $1 million per minute in global farm subsidies
+T30	Premise 5233 5330	In the UK, around 90 percent of the income of farmers with grazing livestock comes from subsidies
+T31	Premise 5332 5401	In the US, tens of billions of dollars are given to farmers each year
+T32	Premise 5403 5576	The Trump administration gave a $16 billion support package payout on top of regular subsidies in 2019, while at the same time cutting $5 billion from the food stamps budget
+T33	Premise 5578 5722	This level of support has created a system where unhealthy meat products – like cheap fast food – are more accessible than fruits and vegetables
+T34	Claim 5724 5857	If crop farming was given this funding, it has the potential to provide far cheaper food for more people than our current system does
+A10	Stance T34 For
+T35	Premise 5859 6020	Crop farming requires considerably less land and resources than animal farming and would be vastly more efficient at feeding the population if it was prioritized
+T36	Claim 6022 6215	We are wasting money that could be used to make widespread cheaper food on ailing industries that are inept at feeding the population and accelerating the world toward environmental destruction
+A11	Stance T36 For
+T37	MajorClaim 6233 6390	Governments should stop subsidizing meat and dairy industries, and instead direct money to crop farming while helping existing animal farmers move towards it
+T38	Claim 6392 6532	While a meat tax has the potential to be a positive step in a move toward a plant-based system, it should by no means be a standalone policy
+A12	Stance T38 For
+T39	Premise 6534 6672	There needs to be an urgent shift in our food system away from animal agriculture, and governments should allocate funding to reflect this
+T40	Premise 6674 6909	After years of marketing campaigns that sold the public the wildly incorrect idea that meat and dairy is an essential component of a balanced diet, they should also take steps to educate the public on the benefits of plant-based eating
+R1	supports Arg1:T2 Arg2:T1	
+R2	supports Arg1:T4 Arg2:T3	
+R3	supports Arg1:T5 Arg2:T3	
+R4	attacks Arg1:T9 Arg2:T8	
+R5	supports Arg1:T7 Arg2:T8	
+R6	attacks Arg1:T10 Arg2:T9	
+R7	supports Arg1:T11 Arg2:T10	
+R8	supports Arg1:T12 Arg2:T11	
+R9	supports Arg1:T14 Arg2:T13	
+R10	supports Arg1:T15 Arg2:T14	
+R11	attacks Arg1:T23 Arg2:T22	
+R12	supports Arg1:T25 Arg2:T24	
+R13	supports Arg1:T27 Arg2:T26	
+R14	supports Arg1:T28 Arg2:T27	
+R15	supports Arg1:T29 Arg2:T28	
+R16	supports Arg1:T30 Arg2:T28	
+R17	supports Arg1:T31 Arg2:T28	
+R18	supports Arg1:T32 Arg2:T31	
+R19	supports Arg1:T35 Arg2:T34	
+R20	supports Arg1:T39 Arg2:T38	
+R21	supports Arg1:T40 Arg2:T39	
+R22	attacks Arg1:T6 Arg2:T5	
+R23	supports Arg1:T17 Arg2:T16	
+R24	supports Arg1:T18 Arg2:T17	
+R25	supports Arg1:T19 Arg2:T18	
+R26	supports Arg1:T21 Arg2:T20	
+R27	attacks Arg1:T33 Arg2:T32	

@@ -1,0 +1,1575 @@
+{
+  "phase": "survey",
+  "event": "submit_annotations",
+  "components": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Animal agriculture is catastrophic for the environment, contributing to land degradation, water, and air pollution, resource use, loss of biodiversity, and global warming"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 592,
+            "end": 762
+          }
+        ]
+      },
+      "id": "#7dbc40e5-ae87-4c2a-ba21-64a5656992a8"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "While there\u2019s debate in the scientific community on the proportion of emissions it\u2019s responsible for, it is generally understood to be at least 14.5 percent"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 764,
+            "end": 920
+          }
+        ]
+      },
+      "id": "#dc1d5622-1bdc-44dd-be52-e2aa87b5a99a"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "While animal agriculture is of course not the only issue that needs addressing, it should be an essential part of any environmental plan"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 922,
+            "end": 1058
+          }
+        ]
+      },
+      "id": "#656ab6d2-bd9c-4ec5-8584-f504bdfd3ad0"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "A major study from 2018 found that Western countries would need to reduce beef consumption by 90 percent to avoid dangerous climate change"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1060,
+            "end": 1198
+          }
+        ]
+      },
+      "id": "#00deed81-fba2-4f59-a56e-423cc5a4e0dd"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the UN recently endorseda report urging world leaders to shift away from animal agriculture and move towards plant-based food systems"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1204,
+            "end": 1337
+          }
+        ]
+      },
+      "id": "#f6b06db9-87bc-498c-a794-9c36ecd85c79"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Despite the overwhelming scientific evidence, there remains a reluctance from politicians and the general public to accept that we urgently need to switch up our diets"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1339,
+            "end": 1506
+          }
+        ]
+      },
+      "id": "#893f067b-5989-49cf-b2e5-06e6c8ab1f72"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "An IPCC report published in April 2022 proclaimed that it\u2019s \u2018now or never\u2019 to limit global heating, indicating that time is running out to leave it to the public to decide whether they fancy cutting down on meat"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1592,
+            "end": 1803
+          }
+        ]
+      },
+      "id": "#9994b466-075d-4eac-ba60-f7581ba8da38"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "We need urgent action from governments to help food systems shift to plant-based if we are to meet climate goals and keep vital ecosystems alive"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1805,
+            "end": 1949
+          }
+        ]
+      },
+      "id": "#71467ce4-e697-4326-bd34-779348952de2"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "is taxing meat the way to go about it"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1956,
+            "end": 1993
+          }
+        ]
+      },
+      "id": "#11f15876-8964-4b6f-8598-47b56d506380"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "A study from the University of Oxford published in January 2022, which looked at the effect taxing meat would have in countries like the US, UK, and Australia concluded that doing so would indeed help the environment"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1995,
+            "end": 2211
+          }
+        ]
+      },
+      "id": "#98f22c6a-1a86-447c-bc2b-29d115dd411f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It found that increasing costs by 20-60 percent (depending on meat type), would reduce the consumption of the most damaging foods"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2213,
+            "end": 2342
+          }
+        ]
+      },
+      "id": "#d7f8ffb2-2b68-4ae3-a36c-055f81eea009"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The study stated that the average retail price for meat in high-income countries would need to increase by 35-56 percent for beef, 25 percent for poultry, and 19 percent for lamb and pork to reflect the environmental impacts of their production"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2344,
+            "end": 2588
+          }
+        ]
+      },
+      "id": "#f11a0fbf-59dd-4103-9fc2-6c7c8d3c7510"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimAgainst"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "it\u2019s undeniable that increases such as these would at first glance seem to be contributing to already sky-rocketing food costs"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2619,
+            "end": 2745
+          }
+        ]
+      },
+      "id": "#865bfc40-e377-411c-aeb9-a636db84d640"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "critics of the meat tax have argued that it would disproportionately effect the poor"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2751,
+            "end": 2835
+          }
+        ]
+      },
+      "id": "#0632395e-a404-46f2-bbc3-900c4add7f69"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "If such a tax were introduced, it is arguable that the fall in consumption would be largely due to the fact that some people would no longer be able to afford it, while the richest would continue buying meat unscathed"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2923,
+            "end": 3140
+          }
+        ]
+      },
+      "id": "#9e058440-1893-4646-a205-f9d5a6370f7b"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "governments shouldn\u2019t introduce a meat tax and then trot off and leave the public to pick up the pieces"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3146,
+            "end": 3249
+          }
+        ]
+      },
+      "id": "#a10abf2e-c20e-4d0e-80ad-2aa7257d5562"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It should be just one of a number of measures they should take to move toward a plant-based food system that creates accessible food for all"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3251,
+            "end": 3391
+          }
+        ]
+      },
+      "id": "#6680d6d6-772e-476e-a856-f4cf6d6beb80"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Researchers in the Oxford study found that, as well as its ability to reduce meat consumption, one of the \u2018key advantages\u2019 of meat tax is that it could create revenue to help farmers move to alternative income streams and give support to people from low-income families"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3393,
+            "end": 3662
+          }
+        ]
+      },
+      "id": "#df65e625-5eb1-4b37-a917-0ca4daaf7dff"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "There are ways to ensure that meat taxes do not put additional financial pressure on those with low income,\u201d said Franziska Funke, lead author, and researcher in the study"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3665,
+            "end": 3836
+          }
+        ]
+      },
+      "id": "#a05a308a-ae10-45f3-899a-11d5236b66b3"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "That is why we suggest that meat tax revenues should be redistributed to support low-income households or subsidize fruit and vegetables."
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3839,
+            "end": 3976
+          }
+        ]
+      },
+      "id": "#3edadd4e-3a28-4e9b-80cc-3848e5c96d61"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "According to this research, most people on low incomes could end up with more money than before a meat tax reform"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3978,
+            "end": 4091
+          }
+        ]
+      },
+      "id": "#6f3e1616-8306-4533-b9c7-59d35b48fa02"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimAgainst"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Some people may argue that this system is unfair and would leave people lacking in vital nutrition"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4103,
+            "end": 4201
+          }
+        ]
+      },
+      "id": "#38abee1d-7f1e-45a0-bfd2-06edd9fef2e2"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the idea that meat is an essential part of our diet comes from decades of clever marketing and ignores the numerous studies that have concluded plant-based diets are optimum for humans, as well as the link between meat consumption and disease"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4207,
+            "end": 4449
+          }
+        ]
+      },
+      "id": "#f7b4fa3f-3b8a-438a-8a2c-ea342e0726e6"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the long-term aim should not be that some people continue eating meat while others go without"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4464,
+            "end": 4557
+          }
+        ]
+      },
+      "id": "#e1333df1-db0f-4302-a1b5-0f9a891504e0"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "A meat tax could be a vital step in tackling the meat consumption problem, but it is not the complete solution"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4559,
+            "end": 4669
+          }
+        ]
+      },
+      "id": "#672349d4-42ca-4581-b2a7-cf5a252955ae"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Governments should work to make plant-based diets the norm by making them accessible to everyone"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4671,
+            "end": 4767
+          }
+        ]
+      },
+      "id": "#4d8d555c-d89d-47d0-ba8c-e7437642a473"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The reason why meat products are so prevalent in our society is because governments give away billions in subsidies to animal agriculture"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4769,
+            "end": 4906
+          }
+        ]
+      },
+      "id": "#afe53e2e-4339-426f-a5ab-51da50eebb8f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Subsidies are tax-payer-funded grants that governments give to industries to keep down costs, therefore making their products more accessible to the consumer"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4908,
+            "end": 5065
+          }
+        ]
+      },
+      "id": "#ebdedea7-4432-4f6a-869b-ea7306054382"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It is thought that the tax-payer provides more than $1 million per minute in global farm subsidies"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5082,
+            "end": 5180
+          }
+        ]
+      },
+      "id": "#790237c0-4b48-438e-9173-554c6b0ba5a8"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "In the UK, around 90 percent of the income of farmers with grazing livestock comes from subsidies"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5182,
+            "end": 5279
+          }
+        ]
+      },
+      "id": "#e1d1f2a9-bd08-465d-8877-7c43611ed2cc"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "In the US, tens of billions of dollars are given to farmers each year"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5281,
+            "end": 5350
+          }
+        ]
+      },
+      "id": "#e8549cc8-cfd4-42af-8cf2-a2a4a7e4f525"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The Trump administration gave a $16 billion support package payout on top of regular subsidies in 2019, while at the same time cutting $5 billion from the food stamps budget"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5352,
+            "end": 5525
+          }
+        ]
+      },
+      "id": "#c44b411a-5aa9-4923-a979-e22967ecda80"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "This level of support has created a system where unhealthy meat products \u2013 like cheap fast food \u2013 are more accessible than fruits and vegetables"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5527,
+            "end": 5671
+          }
+        ]
+      },
+      "id": "#c7a64784-90ba-4e34-ae26-0d3f9532fe5f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "If crop farming was given this funding, it has the potential to provide far cheaper food for more people than our current system does"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5673,
+            "end": 5806
+          }
+        ]
+      },
+      "id": "#84f9df90-e3c0-427e-abfb-c8822a9df687"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Crop farming requires considerably less land and resources than animal farming and would be vastly more efficient at feeding the population if it was prioritized"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5808,
+            "end": 5969
+          }
+        ]
+      },
+      "id": "#49a1aedb-8ebb-4d76-a9f5-935be24d1fbf"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "We are wasting money that could be used to make widespread cheaper food on ailing industries that are inept at feeding the population and accelerating the world toward environmental destruction"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5971,
+            "end": 6164
+          }
+        ]
+      },
+      "id": "#0c55aae3-d394-40e8-bb4e-06d43ed16fd7"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Governments should stop subsidizing meat and dairy industries, and instead direct money to crop farming while helping existing animal farmers move towards it"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 6182,
+            "end": 6339
+          }
+        ]
+      },
+      "id": "#e2da037b-9374-409b-867e-3c8e7032f73a"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "While a meat tax has the potential to be a positive step in a move toward a plant-based system, it should by no means be a standalone policy"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 6341,
+            "end": 6481
+          }
+        ]
+      },
+      "id": "#0308df59-f962-4797-97c9-b5c72e1866de"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "There needs to be an urgent shift in our food system away from animal agriculture, and governments should allocate funding to reflect this"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 6483,
+            "end": 6621
+          }
+        ]
+      },
+      "id": "#7c93939a-5423-459b-b056-9ffe6318bfde"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "After years of marketing campaigns that sold the public the wildly incorrect idea that meat and dairy is an essential component of a balanced diet, they should also take steps to educate the public on the benefits of plant-based eating"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 6623,
+            "end": 6858
+          }
+        ]
+      },
+      "id": "#cf801ef0-28af-42f1-8d11-51ceacffe279"
+    }
+  ],
+  "relations": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#30a65cb6-825d-4066-8351-e4c3b48d18a1",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#dc1d5622-1bdc-44dd-be52-e2aa87b5a99a"
+        },
+        {
+          "id": "#7dbc40e5-ae87-4c2a-ba21-64a5656992a8"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#ca42a5e3-8bfe-467f-b6b7-a8ef668ad4fe",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#00deed81-fba2-4f59-a56e-423cc5a4e0dd"
+        },
+        {
+          "id": "#656ab6d2-bd9c-4ec5-8584-f504bdfd3ad0"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#e3a9fb04-cda0-4857-85d9-45ab75f30b8d",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#f6b06db9-87bc-498c-a794-9c36ecd85c79"
+        },
+        {
+          "id": "#656ab6d2-bd9c-4ec5-8584-f504bdfd3ad0"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#05314d7a-3cec-45cb-8f21-810b3d35384f",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#11f15876-8964-4b6f-8598-47b56d506380"
+        },
+        {
+          "id": "#71467ce4-e697-4326-bd34-779348952de2"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#66954b23-5068-4563-a76e-7c759cbfde71",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#9994b466-075d-4eac-ba60-f7581ba8da38"
+        },
+        {
+          "id": "#71467ce4-e697-4326-bd34-779348952de2"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#4c45aabe-34f8-4a3e-84e6-e38d32cabe02",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#98f22c6a-1a86-447c-bc2b-29d115dd411f"
+        },
+        {
+          "id": "#11f15876-8964-4b6f-8598-47b56d506380"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#ea8ff0af-7fec-4c0d-ab8d-d831517918c8",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#d7f8ffb2-2b68-4ae3-a36c-055f81eea009"
+        },
+        {
+          "id": "#98f22c6a-1a86-447c-bc2b-29d115dd411f"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#c2d67426-db44-41bd-858c-bdec967c2d9b",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#f11a0fbf-59dd-4103-9fc2-6c7c8d3c7510"
+        },
+        {
+          "id": "#d7f8ffb2-2b68-4ae3-a36c-055f81eea009"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#883bf391-037e-446a-a5c0-398808d234d4",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#0632395e-a404-46f2-bbc3-900c4add7f69"
+        },
+        {
+          "id": "#865bfc40-e377-411c-aeb9-a636db84d640"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#cd95553f-df3d-449a-b37d-81915e9410d3",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#9e058440-1893-4646-a205-f9d5a6370f7b"
+        },
+        {
+          "id": "#0632395e-a404-46f2-bbc3-900c4add7f69"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#72fb661e-a488-48d3-b76f-b742e9a4ba98",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#f7b4fa3f-3b8a-438a-8a2c-ea342e0726e6"
+        },
+        {
+          "id": "#38abee1d-7f1e-45a0-bfd2-06edd9fef2e2"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#8c24a3a3-420c-41c9-8f56-19359cffd26c",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#672349d4-42ca-4581-b2a7-cf5a252955ae"
+        },
+        {
+          "id": "#e1333df1-db0f-4302-a1b5-0f9a891504e0"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#be95ba8c-5330-4499-8e2d-bea493394f77",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#afe53e2e-4339-426f-a5ab-51da50eebb8f"
+        },
+        {
+          "id": "#4d8d555c-d89d-47d0-ba8c-e7437642a473"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#a057c79f-f81e-4922-b95c-0ccd979d2aad",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#ebdedea7-4432-4f6a-869b-ea7306054382"
+        },
+        {
+          "id": "#afe53e2e-4339-426f-a5ab-51da50eebb8f"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#27138285-988a-4f30-b3ac-542a3e7c16e9",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#790237c0-4b48-438e-9173-554c6b0ba5a8"
+        },
+        {
+          "id": "#ebdedea7-4432-4f6a-869b-ea7306054382"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#10f04764-e3b0-41fb-a457-7836fac947bf",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#e1d1f2a9-bd08-465d-8877-7c43611ed2cc"
+        },
+        {
+          "id": "#ebdedea7-4432-4f6a-869b-ea7306054382"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#cfd6ea62-b04c-4f74-b847-4734af4d7079",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#e8549cc8-cfd4-42af-8cf2-a2a4a7e4f525"
+        },
+        {
+          "id": "#ebdedea7-4432-4f6a-869b-ea7306054382"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#17266395-8341-45bf-b025-268a383edeb0",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#c44b411a-5aa9-4923-a979-e22967ecda80"
+        },
+        {
+          "id": "#e8549cc8-cfd4-42af-8cf2-a2a4a7e4f525"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#5ed9be2c-fa70-40e3-9bfb-f58c46045e2d",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#49a1aedb-8ebb-4d76-a9f5-935be24d1fbf"
+        },
+        {
+          "id": "#84f9df90-e3c0-427e-abfb-c8822a9df687"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#be56685c-d626-4b9c-adad-119349396e87",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#7c93939a-5423-459b-b056-9ffe6318bfde"
+        },
+        {
+          "id": "#0308df59-f962-4797-97c9-b5c72e1866de"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#352234cf-792b-4983-8271-84c44d1a7760",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#cf801ef0-28af-42f1-8d11-51ceacffe279"
+        },
+        {
+          "id": "#7c93939a-5423-459b-b056-9ffe6318bfde"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#dbcd9cd0-713d-4f8e-8f8e-a47b910f7c22",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#893f067b-5989-49cf-b2e5-06e6c8ab1f72"
+        },
+        {
+          "id": "#f6b06db9-87bc-498c-a794-9c36ecd85c79"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#97fc01bd-c000-4898-b411-c60db33068df",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#6680d6d6-772e-476e-a856-f4cf6d6beb80"
+        },
+        {
+          "id": "#a10abf2e-c20e-4d0e-80ad-2aa7257d5562"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#99ed6ed8-b7e7-4af5-adbf-906671403b94",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#df65e625-5eb1-4b37-a917-0ca4daaf7dff"
+        },
+        {
+          "id": "#6680d6d6-772e-476e-a856-f4cf6d6beb80"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#a05c48c5-2ab9-45e0-88d9-49941cb18312",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#a05a308a-ae10-45f3-899a-11d5236b66b3"
+        },
+        {
+          "id": "#df65e625-5eb1-4b37-a917-0ca4daaf7dff"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#28955f2e-35a1-4636-adfe-1f18a1a6df9a",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#6f3e1616-8306-4533-b9c7-59d35b48fa02"
+        },
+        {
+          "id": "#3edadd4e-3a28-4e9b-80cc-3848e5c96d61"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#bcd878a7-5842-4ece-a960-14b24b8216d0",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#c7a64784-90ba-4e34-ae26-0d3f9532fe5f"
+        },
+        {
+          "id": "#c44b411a-5aa9-4923-a979-e22967ecda80"
+        }
+      ],
+      "motivation": "linking"
+    }
+  ]
+}

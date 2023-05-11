@@ -1,0 +1,43 @@
+T1	MajorClaim 209 330	we must remember the bill and ensure the skills on the kitchen floors, so that it does not go beyond quality or nutrition
+T2	Claim 1057 1096	Our public kitchens must become greener
+A1	Stance T2 For
+T3	Premise 1102 1164	we also remind you that there is no such thing as a free lunch
+T4	Premise 1166 1188	Not a green one either
+T5	Claim 1466 1494	It has to be done right here
+A2	Stance T5 For
+T6	Premise 1496 1620	Not least because those who eat public meals are often sick, elderly, vulnerable or very small citizens at the start of life
+T7	Claim 1631 1813	public kitchens work based on the Food and Drug Administration's Food Council for Meals, where there is still a lack of guidance on how food can be organized and produced plant-based
+A3	Stance T7 For
+T8	Premise 1841 1930	I may be concerned that the meals are rearranged without the right nutritional guidelines
+T9	Claim 1940 1977	we must never compromise on nutrition
+A4	Stance T9 For
+T10	Premise 1979 2201	We must always take into account the various dietary considerations that the Diet and Nutrition Association's members work from every day, and which are carefully organized according to the nutritional needs of the citizen
+T11	Claim 2213 2317	plant-based meals must not go beyond the quality of the food and the culinary experience of the citizens
+A5	Stance T11 For
+T12	Premise 2319 2516	Although plant-based food is gaining more and more traction in our dietary culture, we must state that skills in the professional production of plant-based food have not received the same attention
+T13	Claim 2518 2689	There is therefore a need for new knowledge and skills on the kitchen floors if you want to ensure that the plant-based meals do not compromise either quality or nutrition
+A6	Stance T13 For
+T14	Premise 2731 2848	you cannot introduce plant-based meals blindfolded and without ensuring that the skills for the new tasks are present
+T15	Claim 2885 2955	it requires more working hours to have a plant-based offer on the menu
+A7	Stance T15 For
+T16	Premise 2957 2985	Plants are cheaper than meat
+T17	Premise 2991 3094	they require much more handling in relation to washing, preparation, preparation, flavoring and storage
+T18	Premise 3119 3211	meals with meat adapted to the many different target groups and needs must still be produced
+T19	Premise 3229 3267	plants require more professional hands
+T20	Claim 3280 3364	we must remember the bill when we invite to greener lunches from the public kitchens
+A8	Stance T20 For
+T21	Premise 3366 3445	The Diet and Nutrition Association's members are ready to take up the challenge
+T22	Premise 3451 3586	new skills are not free, just as the expertise and resources must be taken care of if we are to succeed in this in a responsible manner
+R1	attacks Arg1:T3 Arg2:T2	
+R2	supports Arg1:T4 Arg2:T3	
+R3	supports Arg1:T10 Arg2:T9	
+R4	supports Arg1:T12 Arg2:T11	
+R5	supports Arg1:T14 Arg2:T13	
+R6	supports Arg1:T17 Arg2:T15	
+R7	supports Arg1:T18 Arg2:T15	
+R8	attacks Arg1:T16 Arg2:T15	
+R9	supports Arg1:T19 Arg2:T18	
+R10	supports Arg1:T21 Arg2:T20	
+R11	attacks Arg1:T22 Arg2:T21	
+R12	supports Arg1:T6 Arg2:T5	
+R13	supports Arg1:T8 Arg2:T7	

@@ -1,0 +1,69 @@
+T1	MajorClaim 163 225	alternative, lab-grown foods, could have terrible consequences
+T2	Claim 1559 1652	he wrote that organic, pasture-fed beef and lamb are the “world’s most damaging farm products
+A1	Stance T2 Against
+T3	Premise 1655 1769	He criticises “chefs and foodies” like me for focusing on regenerative grazing, which he calls “rebranded ranching
+T4	Claim 1772 1910	His alternative vision includes a revolution in creating food through precision fermentation: growing food in labs from microbes and water
+A2	Stance T4 Against
+T5	Premise 1913 2044	Before long, most of our food will come neither from animals nor plants, but from unicellular life,” he wrote in this paper in 2020
+T6	Claim 2097 2153	I am much more for small-scale, community-driven farming
+A3	Stance T6 For
+T7	Premise 2162 2255	I believe in the potential of food to be a force for good, for human and environmental health
+T8	Premise 2257 2515	The methods that regenerative farmers such as the writer Gabe Brown propose have shown how non-intensive livestock, when managed well, can increase topsoil more than previously thought, which can then accumulate biomass (carbon) and retain precious rainwater
+T9	Claim 2517 2651	The argument put forward by Monbiot that it is not possible to produce enough food this way is often used to decry better food systems
+A4	Stance T9 Against
+T10	Premise 2657 2782	according to the Food and Agriculture Organization of the UN, small-scale farmers currently produce about a third of our food
+T11	Premise 2853 3036	Just about all of this new food technology is heavily funded by tech oligarchs, venture capitalists or the occasional celebrity,” writes the retail podcaster Errol Schweizer in Forbes
+T12	Claim 3038 3159	Precision fermentation claims to get us off our destructive addiction to cheap meat, but not without potential downsides.
+A5	Stance T12 Against
+T13	Premise 3160 3338	These inventions are heavily patented, pushing the future of our food supply further into the hands of an increasingly small and powerful collection of multinational food players
+T14	Claim 3341 3544	There is very little transparency about the amount of energy and materials needed to build the system of factories that would be needed to adopt these foods to the degree that their proponents would like
+A6	Stance T14 For
+T15	Premise 3546 3580	How fossil-fuel dependent are they
+T16	Premise 3582 3685	How many other chemicals and compounds are needed to make them, and where will we get them from and how
+T17	Premise 3687 3785	In our race to look for better systems of food production it is tempting to look for magic bullets
+T18	Claim 3791 3827	we cannot afford to ignore the risks
+A7	Stance T18 For
+T19	Premise 3829 3884	Ultra-processed foods make up half of the UK’s calories
+T20	Claim 3890 3978	their health impact gets very little attention from the government or in medical schools
+A8	Stance T20 For
+T21	Premise 3980 4126	We know that other ultra-processed foods – even some plant-based meat alternatives – are high in protein but can also be very high in salt and fat
+T22	Premise 4128 4423	Companies that practise regenerative farming, such as Hodmedod’s in the UK, are producing affordable pulses and grains that are rich in protein and fibre, through a cooperative of small-scale farms that almost all use some grazing animals in their systems to aid the nutrient cycle in their soil
+T23	Claim 4425 4564	In these types of farms, small herds of cattle or sheep graze diverse cover crops, boosting the biodiversity on their land, not reducing it
+A9	Stance T23 For
+T24	Premise 4602 4687	The cover crops build back goodness in the soil and remove the need to use pesticides
+T25	Premise 4689 4759	The presence of livestock adds nutrients through their muck and saliva
+T26	Premise 4761 4872	They also add the nutrients to our diets: animal fats from grass-fed animals are hard to replace in human diets
+T27	Premise 4880 4966	the livestock adds an extra revenue stream for the farmers, making them more resilient
+T28	Premise 4968 5204	Through the work we do at the charity Chefs in Schools, I have seen first-hand how it is possible to feed people food that is high in fibre and in flavour, and that costs less than the ultra-processed food children were being fed before
+T29	Claim 5206 5480	With the right political will (60% of secondary schools are currently failing school food standards and food plays no role in actual Ofsted ratings), we can feed people on all incomes a better diet, not just through schools but also in hospitals, prisons and social canteens
+A10	Stance T29 For
+T30	Premise 5482 5676	If we continue to go down the ultra-processed route then food may well continue to make people sick, which, according to Henry Dimbleby’s National Food Plan, costs the economy an estimated £74bn
+T31	Premise 5741 5877	I am open to plant-based foods if we can move away from making them with the mono-crops that are so destructive to animal life and soils
+T32	Premise 5883 5959	I am all for technology, but as long as it works with nature, not against it
+T33	Claim 5961 6055	We need better funding for soil science and for feeding proper food to people on lower incomes
+A11	Stance T33 For
+T34	Premise 6133 6361	the evidence of the past 70 years suggests that when we replace nature’s complex biology with a tunnel-visioned look at certain aspects of chemistry and ignore others, it has profoundly negative and often unforeseen consequences
+T35	Claim 6363 6461	In nature the animal and vegetable worlds are never separate – we should learn something from that
+A12	Stance T35 For
+R1	attacks Arg1:T13 Arg2:T12	
+R2	supports Arg1:T3 Arg2:T2	
+R3	supports Arg1:T5 Arg2:T4	
+R4	supports Arg1:T8 Arg2:T7	
+R5	attacks Arg1:T10 Arg2:T9	
+R6	supports Arg1:T7 Arg2:T6	
+R7	supports Arg1:T11 Arg2:T12	
+R8	supports Arg1:T15 Arg2:T14	
+R9	supports Arg1:T16 Arg2:T14	
+R10	supports Arg1:T19 Arg2:T20	
+R11	supports Arg1:T21 Arg2:T20	
+R12	supports Arg1:T24 Arg2:T23	
+R13	supports Arg1:T25 Arg2:T24	
+R14	supports Arg1:T26 Arg2:T25	
+R15	supports Arg1:T27 Arg2:T25	
+R16	supports Arg1:T22 Arg2:T23	
+R17	supports Arg1:T30 Arg2:T29	
+R18	supports Arg1:T28 Arg2:T29	
+R19	supports Arg1:T32 Arg2:T33	
+R20	supports Arg1:T31 Arg2:T33	
+R21	supports Arg1:T34 Arg2:T35	
+R22	attacks Arg1:T17 Arg2:T18	

@@ -1,0 +1,67 @@
+T1	Claim 98 187	It is soon only the force of habit and the inertia of our food culture that holds us back
+A1	Stance T1 For
+T2	Premise 204 266	these are powerful forces that are difficult to overcome alone
+T3	MajorClaim 279 342	we need a push from some of those who have power over our meals
+T4	Premise 471 620	Such a household council could make several ends meet when we want to take care of the climate, the body and the dwindling balance of the credit card
+T5	Claim 626 682	it's advice few of us are inclined to follow in practice
+A2	Stance T5 For
+T6	Premise 684 784	Madkulturen's figures show this time and time again: Only one in four evening meals contains legumes
+T7	Premise 786 821	Half of us rarely or never eat them
+T8	Premise 827 977	the recommendation of 100 grams a day is miles away from a reality where we only reach 2.4 grams, according to the Danish Food and Food Administration
+T9	Claim 1086 1139	We are all creatures of habit who do as we usually do
+A3	Stance T9 For
+T10	Premise 1145 1283	usually favors canonized Danish meat dishes over, for example, well-seasoned overseas classics with lentils and chickpeas in the main role
+T11	Claim 1903 1956	there are no real legume dishes on the Danes' top ten
+A4	Stance T11 For
+T12	Premise 1965 2118	quite a bit further down the ranking comes chili con carne, which in its typical Danish version consists of meat with a cosmetic sidekick of kidney beans
+T13	Premise 2126 2238	the dish becomes the exception that confirms the rule of a food culture where legumes shine by their sad absence
+T14	Premise 2760 2924	A recent study from the University of Copenhagen showed that Danes' knowledge of pulses is relatively high compared to other countries - despite the low consumption
+T15	Premise 2930 3021	in a fresh survey from Madkulturen, half of us answer that we would like to eat more pulses
+T16	Premise 3029 3057	only one in eight rejects it
+T17	Premise 3059 3128	Half of us think that legumes fit well into the dishes we already eat
+T18	Premise 3134 3193	very few people find it a problem to offer pulses to others
+T19	Claim 3211 3300	It is soon only the force of habit and the inertia of our food culture that holds us back
+A5	Stance T19 For
+T20	Premise 3317 3379	these are powerful forces that are difficult to overcome alone
+T21	Claim 3392 3455	we need a push from some of those who have power over our meals
+A6	Stance T21 For
+T22	Premise 3502 3631	A great many of us get a daily lunch made by others – 650,000 from public kitchens alone, to which are added the private canteens
+T23	Premise 3646 3724	on a normal evening, one in four eats takeaway, restaurant food or ready meals
+T24	Claim 3726 3879	By contracting out the cooking, we open a flank for someone to change our habits and introduce the vegetarian dishes that will soon become the new normal
+A7	Stance T24 For
+T25	Premise 3881 4081	That step is easier to take for food professionals than for the rest of us, who mostly plan and shop at the last minute, and for two-thirds of whom find it difficult to come up with good legume dishes
+T26	Premise 4083 4202	For progressive canteen workers, chefs and kitchen staff, it is good news that we are no longer really afraid of pulses
+T27	Claim 4204 4315	It is no longer necessary to list lentils in the meat pots or apologize for introducing a weekly vegetarian day
+A8	Stance T27 For
+T28	Premise 4317 4391	Something that more and more people are open to, and that some even expect
+T29	Premise 4404 4514	his kind of initiative can pave the way for the necessary introduction of legumes into our own cooking at home
+T30	Premise 4556 4664	A good one-sixth of Danes are already so familiar with pulses that they eat them at least a few times a week
+T31	Claim 4666 4743	They constitute a leguminous elite who can lead the way and drag others along
+A9	Stance T31 For
+T32	Premise 4806 4916	The same could of course be said for the new generations who will shape the food culture in the coming decades
+T33	Claim 4922 4980	we as a society have a special responsibility towards them
+A10	Stance T33 For
+T34	Premise 4982 5094	A responsibility to not just reproduce food culture as we know it, but to introduce a new world of possibilities
+R1	attacks Arg1:T4 Arg2:T5	
+R2	supports Arg1:T6 Arg2:T5	
+R3	supports Arg1:T7 Arg2:T6	
+R4	supports Arg1:T8 Arg2:T7	
+R5	supports Arg1:T14 Arg2:T19	
+R6	supports Arg1:T15 Arg2:T19	
+R7	attacks Arg1:T16 Arg2:T15	
+R8	supports Arg1:T17 Arg2:T19	
+R9	supports Arg1:T18 Arg2:T19	
+R10	supports Arg1:T20 Arg2:T21	
+R11	supports Arg1:T22 Arg2:T24	
+R12	supports Arg1:T23 Arg2:T24	
+R13	supports Arg1:T25 Arg2:T24	
+R14	supports Arg1:T28 Arg2:T27	
+R15	supports Arg1:T29 Arg2:T27	
+R16	supports Arg1:T26 Arg2:T27	
+R17	supports Arg1:T30 Arg2:T31	
+R18	supports Arg1:T2 Arg2:T1	
+R19	supports Arg1:T10 Arg2:T9	
+R20	supports Arg1:T12 Arg2:T11	
+R21	supports Arg1:T13 Arg2:T12	
+R22	supports Arg1:T32 Arg2:T31	
+R23	supports Arg1:T34 Arg2:T33	

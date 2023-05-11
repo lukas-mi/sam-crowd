@@ -1,0 +1,55 @@
+T1	MajorClaim 61 188	Blending lentils or vegetables into meat products could have huge benefits for the environment, animal welfare and human health
+T2	Claim 1205 1286	the pace of growth has not been fast enough to achieve the scale of change needed
+A1	Stance T2 For
+T3	Premise 1288 1380	In the US, for example, plant-based meat alternatives represented just 1.4% of sales in 2021
+T4	Premise 1382 1519	McDonald’s recently launched the McPlant plant-based burger, which was successful enough to stay on the menu in the UK, but not in the US
+T5	Claim 2056 2260	given the small market share of meat alternatives, and the need to cut meat consumption, blended products might be essential to achieve international sustainability targets at the scale and speed required
+A2	Stance T5 For
+T6	Premise 2262 2531	Using data on the environmental impacts of food, I estimated what would happen if two food companies which represent 2-3% of global beef purchases – Burger King and McDonald’s – swapped out 50% of the beef in their burgers for plant-based meat to create blended burgers
+T7	Premise 2533 2616	Demand for global agricultural land would reduce by about 8.5m hectares (21m acres)
+T8	Premise 2618 2652	That’s an area the size of Ireland
+T9	Claim 2654 2811	Given total agricultural area is actually declining at the global level, it is unlikely that new farmland would simply take the place of former grazing areas
+A3	Stance T9 For
+T10	Premise 2813 2919	Instead, as happened when wool demand collapsed during the 1990s, the land would probably revert to nature
+T11	Premise 2921 3080	As well as the benefits for wildlife and biodiversity, this land could remove 17m tonnes of CO2 from the air each year for 100 years on average as trees regrow
+T12	Premise 3082 3204	The process could even be sped up by engaging landowners to replant trees, as the “grain for green” programme did in China
+T13	Premise 3206 3345	Cows also create substantial greenhouse gas emissions related to their feed, their excreta and from methane-producing bacteria in their gut
+T14	Premise 3347 3503	Substituting 50% of the beef in these fast-food chain burgers for plants would reduce these greenhouse gas emissions by 34m tonnes of CO2 equivalents a year
+T15	Premise 3505 3632	Combined, this is a reduction of 51m tonnes of CO2 equivalent, and more than 80% of the way to both companies’ net zero targets
+T16	Premise 3634 3748	From an animal welfare perspective, this change would lead to 4m fewer cows being reared and slaughtered each year
+T17	Premise 3759 3943	research has found that even small substitutions of processed red meat for plant-based meat alternatives are associated with reductions in heart disease, diabetes and overall mortality
+T18	Claim 4126 4153	You may well even prefer it
+A4	Stance T18 For
+T19	Premise 4156 4277	in blind taste tests, a recent study found that consumers actually ranked the taste of blended burgers above beef burgers
+T20	Premise 4312 4475	preferences for blended burgers increased when the consumers were told they were blended, possibly because people valued their environmental and health credentials
+T21	Claim 4477 4528	Solutions rarely look this promising, even on paper
+A5	Stance T21 For
+T22	Premise 4539 4627	some large companies have had only limited success trying to launch new blended products
+T23	Premise 4634 4769	they were trying to create a new product category, and like pure plant-based products, faced challenges in communicating their benefits
+T24	Claim 4771 4867	To achieve near-term benefits, we probably just need to blend plants into existing meat products
+A6	Stance T24 For
+T25	Premise 4870 4943	in the UK, a “beef burger” is legally defined as having at least 62% beef
+T26	Premise 4949 4999	ingredient lists make it clear what is in products
+T27	Premise 5013 5121	these products are better for health, the environment and animal welfare than meat, and can taste better too
+T28	Claim 5123 5235	if we can get that message across, and change these products carefully, it might open up this essential solution
+A7	Stance T28 For
+R1	supports Arg1:T6 Arg2:T5	
+R2	supports Arg1:T7 Arg2:T6	
+R3	supports Arg1:T8 Arg2:T7	
+R4	supports Arg1:T19 Arg2:T18	
+R5	supports Arg1:T20 Arg2:T19	
+R6	attacks Arg1:T22 Arg2:T21	
+R7	supports Arg1:T26 Arg2:T25	
+R8	supports Arg1:T27 Arg2:T28	
+R9	supports Arg1:T3 Arg2:T2	
+R10	supports Arg1:T4 Arg2:T3	
+R11	supports Arg1:T10 Arg2:T9	
+R12	supports Arg1:T11 Arg2:T10	
+R13	supports Arg1:T12 Arg2:T11	
+R14	supports Arg1:T25 Arg2:T24	
+R15	attacks Arg1:T23 Arg2:T22	
+R16	supports Arg1:T13 Arg2:T5	
+R17	supports Arg1:T14 Arg2:T13	
+R18	supports Arg1:T15 Arg2:T14	
+R19	supports Arg1:T16 Arg2:T15	
+R20	supports Arg1:T17 Arg2:T16	

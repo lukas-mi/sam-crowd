@@ -1,0 +1,401 @@
+{
+  "uniqueid": "AERUGBNS48Z4N:3OLF68YTNOQK2RHDTL1ZRABRXHLAFY",
+  "assignmentid": "3OLF68YTNOQK2RHDTL1ZRABRXHLAFY",
+  "workerid": "AERUGBNS48Z4N",
+  "hitid": "372AGES0JIUQEAWL5OO53N4HQPJXRV",
+  "ipaddress": "10.1.10.17",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-10 12:00:39.012",
+  "beginexp": "2023-05-10 12:00:41.623",
+  "endhit": "2023-05-10 14:01:44.981",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 0,
+  "open_guidelines_times": [],
+  "create_annotation_count": 71,
+  "create_annotation_times": [
+    "2023-05-10 12:03:35",
+    "2023-05-10 12:04:23",
+    "2023-05-10 12:04:33",
+    "2023-05-10 12:04:36",
+    "2023-05-10 12:07:36",
+    "2023-05-10 12:07:42",
+    "2023-05-10 12:07:46",
+    "2023-05-10 12:08:04",
+    "2023-05-10 12:08:07",
+    "2023-05-10 12:08:21",
+    "2023-05-10 12:08:41",
+    "2023-05-10 12:08:45",
+    "2023-05-10 12:09:15",
+    "2023-05-10 12:09:32",
+    "2023-05-10 12:17:22",
+    "2023-05-10 12:17:35",
+    "2023-05-10 12:17:39",
+    "2023-05-10 12:17:54",
+    "2023-05-10 12:18:06",
+    "2023-05-10 12:18:09",
+    "2023-05-10 13:48:04",
+    "2023-05-10 13:48:17",
+    "2023-05-10 13:48:19",
+    "2023-05-10 13:49:03",
+    "2023-05-10 13:49:09",
+    "2023-05-10 13:49:14",
+    "2023-05-10 13:49:16",
+    "2023-05-10 13:49:28",
+    "2023-05-10 13:49:44",
+    "2023-05-10 13:49:46",
+    "2023-05-10 13:49:53",
+    "2023-05-10 13:50:05",
+    "2023-05-10 13:51:06",
+    "2023-05-10 13:51:28",
+    "2023-05-10 13:51:38",
+    "2023-05-10 13:51:44",
+    "2023-05-10 13:52:01",
+    "2023-05-10 13:52:47",
+    "2023-05-10 13:52:55",
+    "2023-05-10 13:53:01",
+    "2023-05-10 13:53:13",
+    "2023-05-10 13:53:19",
+    "2023-05-10 13:53:33",
+    "2023-05-10 13:53:36",
+    "2023-05-10 13:55:28",
+    "2023-05-10 13:55:37",
+    "2023-05-10 13:55:40",
+    "2023-05-10 13:55:49",
+    "2023-05-10 13:55:52",
+    "2023-05-10 13:56:04",
+    "2023-05-10 13:57:13",
+    "2023-05-10 13:57:21",
+    "2023-05-10 13:57:24",
+    "2023-05-10 13:57:32",
+    "2023-05-10 13:57:34",
+    "2023-05-10 13:57:39",
+    "2023-05-10 13:57:42",
+    "2023-05-10 13:57:53",
+    "2023-05-10 13:57:59",
+    "2023-05-10 13:58:10",
+    "2023-05-10 13:58:22",
+    "2023-05-10 14:00:07",
+    "2023-05-10 14:00:15",
+    "2023-05-10 14:00:18",
+    "2023-05-10 14:00:23",
+    "2023-05-10 14:00:28",
+    "2023-05-10 14:00:36",
+    "2023-05-10 14:00:51",
+    "2023-05-10 14:01:07",
+    "2023-05-10 14:01:14",
+    "2023-05-10 14:01:16"
+  ],
+  "create_annotation_invalid": 0,
+  "delete_annotation_count": 5,
+  "delete_annotation_times": [
+    "2023-05-10 13:50:00",
+    "2023-05-10 13:51:32",
+    "2023-05-10 13:56:24",
+    "2023-05-10 13:58:04",
+    "2023-05-10 13:58:14"
+  ],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 0,
+  "update_annotation_times": [],
+  "update_annotation_invalid": 0,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "3",
+    "task-interest": "5",
+    "ui-intuitiveness": "5",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1683720040330,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1137,
+        852
+      ],
+      "timestamp": 1683720040330,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1137,
+        1087
+      ],
+      "timestamp": 1683720041847,
+      "interval": 1517
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683720042096,
+      "interval": 249
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683720144057,
+      "interval": 101961
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683720144328,
+      "interval": 271
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683720144906,
+      "interval": 578
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683720152128,
+      "interval": 7222
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683720164471,
+      "interval": 12343
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683720278294,
+      "interval": 113823
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683720444720,
+      "interval": 166426
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683720502302,
+      "interval": 57582
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683720503817,
+      "interval": 1515
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683720506384,
+      "interval": 2567
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683720508456,
+      "interval": 2072
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683720574637,
+      "interval": 66181
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683721033903,
+      "interval": 459266
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683721092581,
+      "interval": 58678
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683721093720,
+      "interval": 1139
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683721094389,
+      "interval": 669
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683726319299,
+      "interval": 5224910
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683726319871,
+      "interval": 572
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683726322290,
+      "interval": 2419
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683726325558,
+      "interval": 3268
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683726457401,
+      "interval": 131843
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683726614558,
+      "interval": 157157
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683726625475,
+      "interval": 10917
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683726626318,
+      "interval": 843
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683726639114,
+      "interval": 12796
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        979
+      ],
+      "timestamp": 1683726669139,
+      "interval": 30025
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        931,
+        890
+      ],
+      "timestamp": 1683726669925,
+      "interval": 786
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1137,
+        1087
+      ],
+      "timestamp": 1683726670766,
+      "interval": 841
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1280,
+        1223
+      ],
+      "timestamp": 1683726671796,
+      "interval": 1030
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1137,
+        1087
+      ],
+      "timestamp": 1683726672687,
+      "interval": 891
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1280,
+        1223
+      ],
+      "timestamp": 1683726673779,
+      "interval": 1092
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683726840932,
+      "interval": 167153
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683726866823,
+      "interval": 25891
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683727153030,
+      "interval": 286207
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683727164882,
+      "interval": 11852
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683727289781,
+      "interval": 124899
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683727293495,
+      "interval": 3714
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "altinget-en",
+    "article": "nemligcom-hvis-regeringen-glemmer-nuancerne-vil-nyt-klimamaerke-skabe-forvirring",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

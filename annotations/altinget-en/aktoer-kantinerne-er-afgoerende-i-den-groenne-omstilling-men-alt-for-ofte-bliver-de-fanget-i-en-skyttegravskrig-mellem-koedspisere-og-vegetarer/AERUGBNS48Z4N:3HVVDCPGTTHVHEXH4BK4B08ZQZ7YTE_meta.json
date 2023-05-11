@@ -1,0 +1,285 @@
+{
+  "uniqueid": "AERUGBNS48Z4N:3HVVDCPGTTHVHEXH4BK4B08ZQZ7YTE",
+  "assignmentid": "3HVVDCPGTTHVHEXH4BK4B08ZQZ7YTE",
+  "workerid": "AERUGBNS48Z4N",
+  "hitid": "32TMVRKDH1NTY3TFM4G0FVCE70T48A",
+  "ipaddress": "10.1.23.91",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-08 22:09:54.049",
+  "beginexp": "2023-05-08 22:09:56.227",
+  "endhit": "2023-05-08 23:30:58.333",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 1,
+  "open_guidelines_times": [
+    "2023-05-08 22:09:57"
+  ],
+  "create_annotation_count": 71,
+  "create_annotation_times": [
+    "2023-05-08 22:13:25",
+    "2023-05-08 22:21:31",
+    "2023-05-08 22:22:02",
+    "2023-05-08 22:22:11",
+    "2023-05-08 22:22:13",
+    "2023-05-08 22:22:20",
+    "2023-05-08 22:22:23",
+    "2023-05-08 22:22:33",
+    "2023-05-08 22:22:37",
+    "2023-05-08 22:22:56",
+    "2023-05-08 22:23:05",
+    "2023-05-08 22:23:13",
+    "2023-05-08 22:23:20",
+    "2023-05-08 22:23:30",
+    "2023-05-08 22:23:36",
+    "2023-05-08 22:23:39",
+    "2023-05-08 22:23:52",
+    "2023-05-08 22:24:02",
+    "2023-05-08 22:24:06",
+    "2023-05-08 22:25:06",
+    "2023-05-08 22:25:17",
+    "2023-05-08 22:25:21",
+    "2023-05-08 22:25:29",
+    "2023-05-08 22:25:53",
+    "2023-05-08 22:26:01",
+    "2023-05-08 22:26:04",
+    "2023-05-08 22:26:18",
+    "2023-05-08 22:26:26",
+    "2023-05-08 22:26:29",
+    "2023-05-08 22:27:58",
+    "2023-05-08 22:28:36",
+    "2023-05-08 22:28:38",
+    "2023-05-08 22:28:43",
+    "2023-05-08 22:28:46",
+    "2023-05-08 22:28:59",
+    "2023-05-08 22:29:06",
+    "2023-05-08 22:29:08",
+    "2023-05-08 22:29:21",
+    "2023-05-08 22:29:43",
+    "2023-05-08 22:29:48",
+    "2023-05-08 22:30:04",
+    "2023-05-08 22:30:07",
+    "2023-05-08 22:30:15",
+    "2023-05-08 22:30:17",
+    "2023-05-08 22:30:32",
+    "2023-05-08 22:30:52",
+    "2023-05-08 22:41:47",
+    "2023-05-08 22:42:01",
+    "2023-05-08 22:42:07",
+    "2023-05-08 22:42:10",
+    "2023-05-08 22:42:18",
+    "2023-05-08 22:42:21",
+    "2023-05-08 22:42:39",
+    "2023-05-08 22:42:41",
+    "2023-05-08 22:42:48",
+    "2023-05-08 22:42:51",
+    "2023-05-08 22:43:12",
+    "2023-05-08 22:43:19",
+    "2023-05-08 22:43:24",
+    "2023-05-08 22:43:47",
+    "2023-05-08 22:43:50",
+    "2023-05-08 22:44:10",
+    "2023-05-08 22:44:16",
+    "2023-05-08 22:45:52",
+    "2023-05-08 22:45:57",
+    "2023-05-08 22:46:01",
+    "2023-05-08 22:46:18",
+    "2023-05-08 22:46:28",
+    "2023-05-08 22:46:31",
+    "2023-05-08 22:46:40",
+    "2023-05-08 22:47:25"
+  ],
+  "create_annotation_invalid": 0,
+  "delete_annotation_count": 4,
+  "delete_annotation_times": [
+    "2023-05-08 22:41:57",
+    "2023-05-08 22:42:28",
+    "2023-05-08 22:44:20",
+    "2023-05-08 22:44:28"
+  ],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 0,
+  "update_annotation_times": [],
+  "update_annotation_invalid": 0,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "3",
+    "task-interest": "5",
+    "ui-intuitiveness": "5",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1683583794616,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        767
+      ],
+      "timestamp": 1683583794616,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        768
+      ],
+      "timestamp": 1683583795193,
+      "interval": 577
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        979
+      ],
+      "timestamp": 1683583795694,
+      "interval": 501
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683583797133,
+      "interval": 1439
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683583805744,
+      "interval": 8611
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683583813101,
+      "interval": 7357
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683583945878,
+      "interval": 132777
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683583947045,
+      "interval": 1167
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683583948070,
+      "interval": 1025
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683584037213,
+      "interval": 89143
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683584485688,
+      "interval": 448475
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683584881479,
+      "interval": 395791
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683584882473,
+      "interval": 994
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683584889383,
+      "interval": 6910
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683584891882,
+      "interval": 2499
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683585084792,
+      "interval": 192910
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683585086081,
+      "interval": 1289
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683585115055,
+      "interval": 28974
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683585691820,
+      "interval": 576765
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683585873136,
+      "interval": 181316
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683585941361,
+      "interval": 68225
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683586053680,
+      "interval": 112319
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683588650058,
+      "interval": 2596378
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "altinget-en",
+    "article": "aktoer-kantinerne-er-afgoerende-i-den-groenne-omstilling-men-alt-for-ofte-bliver-de-fanget-i-en-skyttegravskrig-mellem-koedspisere-og-vegetarer",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

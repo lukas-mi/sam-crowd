@@ -1,0 +1,397 @@
+{
+  "uniqueid": "AERUGBNS48Z4N:3LPW2N6LK8RCF32MTE5H5ZW8FKN5UY",
+  "assignmentid": "3LPW2N6LK8RCF32MTE5H5ZW8FKN5UY",
+  "workerid": "AERUGBNS48Z4N",
+  "hitid": "3PZDSVZ3KJ6E1AGJS65JXS29WWB4NJ",
+  "ipaddress": "10.1.20.20",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-09 21:24:39.382",
+  "beginexp": "2023-05-09 21:24:41.714",
+  "endhit": "2023-05-09 22:38:26.693",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 1,
+  "open_guidelines_times": [
+    "2023-05-09 21:24:41"
+  ],
+  "create_annotation_count": 53,
+  "create_annotation_times": [
+    "2023-05-09 21:26:04",
+    "2023-05-09 21:26:35",
+    "2023-05-09 21:26:38",
+    "2023-05-09 21:26:46",
+    "2023-05-09 21:26:53",
+    "2023-05-09 21:26:58",
+    "2023-05-09 21:27:01",
+    "2023-05-09 21:28:25",
+    "2023-05-09 21:33:20",
+    "2023-05-09 21:33:29",
+    "2023-05-09 21:33:32",
+    "2023-05-09 21:33:46",
+    "2023-05-09 21:33:49",
+    "2023-05-09 21:33:58",
+    "2023-05-09 21:34:04",
+    "2023-05-09 21:34:14",
+    "2023-05-09 21:34:16",
+    "2023-05-09 21:34:39",
+    "2023-05-09 21:34:51",
+    "2023-05-09 21:35:07",
+    "2023-05-09 21:35:29",
+    "2023-05-09 21:35:36",
+    "2023-05-09 21:36:04",
+    "2023-05-09 21:36:08",
+    "2023-05-09 21:36:27",
+    "2023-05-09 21:36:56",
+    "2023-05-09 21:37:00",
+    "2023-05-09 21:39:02",
+    "2023-05-09 21:39:33",
+    "2023-05-09 21:39:36",
+    "2023-05-09 21:39:46",
+    "2023-05-09 21:39:50",
+    "2023-05-09 21:45:28",
+    "2023-05-09 21:45:34",
+    "2023-05-09 21:45:37",
+    "2023-05-09 21:46:00",
+    "2023-05-09 21:46:05",
+    "2023-05-09 21:46:12",
+    "2023-05-09 21:46:15",
+    "2023-05-09 21:49:04",
+    "2023-05-09 21:49:16",
+    "2023-05-09 21:49:24",
+    "2023-05-09 21:49:28",
+    "2023-05-09 21:49:52",
+    "2023-05-09 21:49:56",
+    "2023-05-09 21:50:27",
+    "2023-05-09 21:50:30",
+    "2023-05-09 21:50:39",
+    "2023-05-09 21:50:43",
+    "2023-05-09 21:50:49",
+    "2023-05-09 21:50:51",
+    "2023-05-09 21:51:05",
+    "2023-05-09 21:51:11"
+  ],
+  "create_annotation_invalid": 0,
+  "delete_annotation_count": 5,
+  "delete_annotation_times": [
+    "2023-05-09 21:34:08",
+    "2023-05-09 21:34:58",
+    "2023-05-09 21:35:10",
+    "2023-05-09 21:48:59",
+    "2023-05-09 21:49:10"
+  ],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 0,
+  "update_annotation_times": [],
+  "update_annotation_invalid": 0,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "3",
+    "task-interest": "5",
+    "ui-intuitiveness": "5",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1683667478730,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        767
+      ],
+      "timestamp": 1683667478730,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        768
+      ],
+      "timestamp": 1683667479266,
+      "interval": 536
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        979
+      ],
+      "timestamp": 1683667479958,
+      "interval": 692
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683667481338,
+      "interval": 1380
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683667483110,
+      "interval": 1772
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683667793861,
+      "interval": 310751
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683667951495,
+      "interval": 157634
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683667951853,
+      "interval": 358
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683667953534,
+      "interval": 1681
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683667966085,
+      "interval": 12551
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683667972840,
+      "interval": 6755
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683667975308,
+      "interval": 2468
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683667986558,
+      "interval": 11250
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        819,
+        783
+      ],
+      "timestamp": 1683668141626,
+      "interval": 155068
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        979
+      ],
+      "timestamp": 1683668145103,
+      "interval": 3477
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1137,
+        1087
+      ],
+      "timestamp": 1683668145737,
+      "interval": 634
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        979
+      ],
+      "timestamp": 1683668147736,
+      "interval": 1999
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1137,
+        1087
+      ],
+      "timestamp": 1683668148403,
+      "interval": 667
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683668151190,
+      "interval": 2787
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683668157839,
+      "interval": 6649
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683668194589,
+      "interval": 36750
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683668211998,
+      "interval": 17409
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683668231806,
+      "interval": 19808
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683668233010,
+      "interval": 1204
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683668233541,
+      "interval": 531
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683668264791,
+      "interval": 31250
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683668276012,
+      "interval": 11221
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683668289287,
+      "interval": 13275
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683668301397,
+      "interval": 12110
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683668303248,
+      "interval": 1851
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683668344893,
+      "interval": 41645
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683668349072,
+      "interval": 4179
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683668443605,
+      "interval": 94533
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683668674689,
+      "interval": 231084
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683668848518,
+      "interval": 173829
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683668897880,
+      "interval": 49362
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683668952110,
+      "interval": 54230
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683668952413,
+      "interval": 303
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683669112006,
+      "interval": 159593
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683671007695,
+      "interval": 1895689
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683671009585,
+      "interval": 1890
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683671896586,
+      "interval": 887001
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "guardian",
+    "article": "soaring-demand-meat-hybrid-burger-blending-benefits",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

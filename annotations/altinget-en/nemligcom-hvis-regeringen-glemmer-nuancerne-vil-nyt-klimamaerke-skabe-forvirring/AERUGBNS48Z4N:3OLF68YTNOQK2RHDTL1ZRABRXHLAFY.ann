@@ -1,0 +1,82 @@
+T1	MajorClaim 56 125	A national climate label is the only way to ensure informed consumers
+T2	Claim 138 218	it is also important that the brand takes into account the diversity of the food
+A1	Stance T2 For
+T3	MajorClaim 523 726	a national climate label must be able to convince consumers and deliver long-term and solid climate understanding, regardless of whether the product is purchased in a physical store or in an online store
+T4	Claim 728 825	We need a national climate label here and now that can be successful with producers and consumers
+A2	Stance T4 For
+T5	Premise 827 857	This cannot happen too quickly
+T6	Premise 859 997	If it is too late, companies themselves start making their own climate labels based on different methods and information for the same food
+T7	Premise 999 1033	Then consumers get really confused
+T8	Claim 1035 1187	A public brand must be able to secure the necessary support and cooperation in the grocery industry, so that consumers are informed uniformly and fairly
+A3	Stance T8 For
+T9	Premise 1189 1269	The benefit of cooperating is a more effective climate adjustment of consumption
+T10	Claim 1317 1393	the scheme must manage to ensure a high level of familiarity among consumers
+A4	Stance T10 For
+T11	Premise 1401 1465	trust and a large selection of goods are fundamentally necessary
+T12	Premise 1467 1568	Credibility and trust must be ensured by an independent certification with firm control of the market
+T13	Claim 1570 1655	Awareness must be secured through support from manufacturers and the grocery industry
+A5	Stance T13 For
+T14	Premise 1675 1799	the necessary product selection with the brand on it, which can stimulate an interest among consumers, will not be available
+T15	Premise 1801 2043	An analysis from Dansk Erhverv shows that consumers' "perceived trust" in a brand is conditioned by a high degree of familiarity, which in turn is conditioned by the fact that the brand can be found via a large selection of different products
+T16	Claim 2045 2142	It is important that the climate label is able to build a long-term understanding among consumers
+A6	Stance T16 For
+T17	Premise 2144 2270	A system is needed which can support consumers in moving their choices in a more climate-friendly direction on a nuanced basis
+T18	Claim 2283 2328	a "positive label" is something we must avoid
+A7	Stance T18 For
+T19	Premise 2338 2425	it only labels the more climate-friendly foods and avoids the more climate-harming ones
+T20	Claim 2427 2503	A "positive scheme" risks creating uncertainty and confusion among consumers
+A8	Stance T20 For
+T21	Premise 2513 2619	is a lack of a label due to a climate culprit or simply a food that the producer has opted out of labeling
+T22	Premise 2621 2676	We must remember that we are getting a voluntary scheme
+T23	Premise 2678 2793	"Positive labeling" also does not support the manufacturer to develop products in a more climate-friendly direction
+T24	Claim 2795 2941	A graduated scheme with a color scale "within the various product categories" will be better able to move consumer behavior in the right direction
+A9	Stance T24 For
+T25	Premise 2943 3159	If you take, for example, the product category "green", this category can be divided into around 10-12 product groups, which can receive a climate score with an average number and a color on a scale from green to red
+T26	Premise 3161 3327	The consumer then has the opportunity to move his choice within a category and product group and at the same time gain knowledge to shape a more climate-friendly meal
+T27	Premise 3329 3420	This scheme can be compared to the EU's very successful energy label on electrical products
+T28	Claim 3422 3482	A graduated color scale across categories is not a good idea
+A10	Stance T28 For
+T29	Premise 3492 3616	it limits the information and thus the action to only move away from a climate-damaging food in favor of a less-damaging one
+T30	Premise 3618 3682	This does not necessarily meet the consumer's daily needs either
+T31	Claim 3748 3830	the label must be used directly on the food and not just on the front of the shelf
+A11	Stance T31 For
+T32	Premise 3832 3930	It is important, if we are to avoid confusion, that the label follows the food wherever it is sold
+T33	Premise 3932 4068	The brand and its information on the products must be able to create inspiration and knowledge during conversations, cooking and dinners
+T34	Premise 4102 4212	There is an exciting positive development underway for the benefit of more truthful food-specific climate data
+T35	Claim 4214 4279	A Danish climate label should be able to capture that development
+A12	Stance T35 For
+T36	Premise 4294 4410	the scheme should be revised every three years, similar to other credible labels, such as the EU Flower and the Swan
+T37	Premise 4412 4569	If the requirements are tightened or clarified, it is ensured that the brand remains relevant and contributes to long-term knowledge building among consumers
+T38	Premise 4571 4690	It will probably be a few years before we methodically have the right climate label based on more specific climate data
+T39	Claim 4692 4856	A Danish initiative must be able to contribute to international knowledge building, because food is produced and traded internationally, and climate concerns us all
+A13	Stance T39 For
+T40	Premise 4869 4997	we must now be inspired by ISO, the EU's new PEF method, or by the five to six climate labels that are already on food in the EU
+T41	Claim 5022 5109	we must ensure cooperation on the Danish national climate label on all the food we sell
+A14	Stance T41 For
+T42	Premise 5111 5258	This is the only way to ensure the right information for consumers who want to lift the shopping basket in a greener and climate-friendly direction
+R1	supports Arg1:T9 Arg2:T8	
+R2	supports Arg1:T11 Arg2:T10	
+R3	supports Arg1:T12 Arg2:T11	
+R4	supports Arg1:T14 Arg2:T13	
+R5	supports Arg1:T15 Arg2:T14	
+R6	supports Arg1:T17 Arg2:T16	
+R7	supports Arg1:T19 Arg2:T18	
+R8	supports Arg1:T25 Arg2:T24	
+R9	supports Arg1:T26 Arg2:T25	
+R10	supports Arg1:T27 Arg2:T26	
+R11	supports Arg1:T29 Arg2:T28	
+R12	supports Arg1:T30 Arg2:T28	
+R13	supports Arg1:T32 Arg2:T31	
+R14	supports Arg1:T33 Arg2:T32	
+R15	supports Arg1:T34 Arg2:T35	
+R16	supports Arg1:T36 Arg2:T35	
+R17	supports Arg1:T37 Arg2:T36	
+R18	supports Arg1:T38 Arg2:T39	
+R19	supports Arg1:T40 Arg2:T39	
+R20	supports Arg1:T5 Arg2:T4	
+R21	supports Arg1:T6 Arg2:T5	
+R22	supports Arg1:T7 Arg2:T6	
+R23	supports Arg1:T21 Arg2:T20	
+R24	supports Arg1:T22 Arg2:T21	
+R25	supports Arg1:T23 Arg2:T22	
+R26	supports Arg1:T42 Arg2:T41	

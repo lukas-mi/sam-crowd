@@ -1,0 +1,35 @@
+T1	Claim 87 173	it's time to get over the notion that animal meat and dairy are the ultimate paradigms
+A1	Stance T1 For
+T2	Claim 554 636	we have to overcome our myopic analysis of markets by looking at one point in time
+A2	Stance T2 For
+T3	Premise 638 696	History evolves and will ebb and flow during its evolution
+T4	Premise 702 756	we can also learn from what has worked and what hasn’t
+T5	Claim 1813 1944	Some people may argue that it’s their higher price, rather than lack of appeal, that makes plant-based alternatives less attractive
+A3	Stance T5 Against
+T6	Premise 1946 2031	It is true that they do tend to be more expensive than their traditional counterparts
+T7	Premise 2037 2088	this hasn’t stopped the growth of alternative milks
+T8	Claim 2104 2142	we are thinking about it the wrong way
+A4	Stance T8 For
+T9	Premise 2144 2410	The more I talk to non-vegans who are interested in the idea of reducing their meat intake (the “plant forward” or flexitarian folks), the more I hear the same thing: they like the idea of plant-based, but would prefer a cauliflower steak to an exact replica of meat
+T10	Claim 2418 2553	we need to get over the notion that animal meat and dairy are the ultimate paradigms, that if we can’t replicate that, we won’t succeed
+A5	Stance T10 For
+T11	Premise 2561 2658	people may want something “meaty” or “milky,” but maybe they just want something that tastes good
+T12	Premise 2688 2716	they just want something new
+T13	Premise 2718 2802	At one time, a standard steak-and-potato was considered the ultimate meal in America
+T14	Premise 2804 2938	Then came Chinese, Thai, Indian, sushi, molecular gastronomy, and so many new world, worldly, and other-worldly cuisine and food ideas
+T15	MajorClaim 3064 3207	we just need to create alternatives that can take the place of meat and milk that just taste great, instead of trying to replicate them exactly
+T16	Claim 3209 3282	We don’t need to be a “better alternative” – we can be a “new alternative
+A6	Stance T16 For
+T17	Premise 3285 3378	Better may be better, but “new” might be best, and actually capable of setting a new paradigm
+T18	Premise 3380 3458	In other words, maybe we can just be ourselves, and not try to be someone else
+R1	supports Arg1:T6 Arg2:T5	
+R2	attacks Arg1:T7 Arg2:T6	
+R3	supports Arg1:T9 Arg2:T8	
+R4	supports Arg1:T11 Arg2:T10	
+R5	supports Arg1:T12 Arg2:T10	
+R6	attacks Arg1:T13 Arg2:T12	
+R7	attacks Arg1:T14 Arg2:T13	
+R8	supports Arg1:T17 Arg2:T16	
+R9	supports Arg1:T18 Arg2:T16	
+R10	supports Arg1:T3 Arg2:T2	
+R11	supports Arg1:T4 Arg2:T3	

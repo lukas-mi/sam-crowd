@@ -1,0 +1,923 @@
+{
+  "phase": "survey",
+  "event": "submit_annotations",
+  "components": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Changes to our food and farming sectors could help Britain find and keep its footing in these uncertain times"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1,
+            "end": 110
+          }
+        ]
+      },
+      "id": "#39ba9763-f401-4c70-893d-d664eb1ac3b2"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "There is a solution to this food security issue"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1824,
+            "end": 1871
+          }
+        ]
+      },
+      "id": "#2fd89a8c-3c5e-4475-8a0d-c82ae8cd318a"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "a growing number of British consumers are starting to choose it"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1877,
+            "end": 1940
+          }
+        ]
+      },
+      "id": "#70843d42-c76b-47e3-a4dc-138091f115ab"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "instead of depending on intensively reared animals for food, which rely on these fertilizers and additives, more and more people are consuming protein-rich ingredients sourced from plants instead"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1950,
+            "end": 2145
+          }
+        ]
+      },
+      "id": "#eb2ae9c1-5183-4f97-8008-14811b885a54"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "A recent science journal study found the number of Brits eating plant-based alternative foods nearly doubled from 6.7 percent in 2008 to 13.1 percent in 2019"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2147,
+            "end": 2304
+          }
+        ]
+      },
+      "id": "#23f2284f-140c-4a4e-94fe-0f01e81542df"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It\u2019s better for our planet, our health, our animals, and can provide long-term opportunity for British farmers"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2306,
+            "end": 2416
+          }
+        ]
+      },
+      "id": "#274e9538-ca2f-4e30-bbaf-3320308cb5ba"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Alternative proteins are foodstuffs made from plants, fungi, or tissue culture that provide a genuine different choice to conventional intensively farmed animal proteins"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2456,
+            "end": 2625
+          }
+        ]
+      },
+      "id": "#1365bdd6-0f0e-4337-86ee-8b189e9438c8"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "They rely on what British agriculture does best: crops"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2627,
+            "end": 2681
+          }
+        ]
+      },
+      "id": "#7c9ce3cc-f961-42ab-9fe3-63a59cd1a9ca"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Britain is the second largest pea producer in Europe, and so self-sufficient in wheat that we are a net exporter"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2683,
+            "end": 2795
+          }
+        ]
+      },
+      "id": "#98603cda-6e11-42b6-8123-b8465e6ffdbe"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "According to the Food Security Report, \u201cthe UK is a net importer of dairy and beef\u201d but is \u201clargely self-sufficient in production of grains\u201d (producing 100 percent of its own oats and barley, and 90 percent of wheat)"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2797,
+            "end": 3013
+          }
+        ]
+      },
+      "id": "#73bcb63b-f91c-4eed-8fe6-08916430fc87"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "it \u201cproduces over 50 percent of vegetables consumed domestically"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3020,
+            "end": 3084
+          }
+        ]
+      },
+      "id": "#12269df7-3af1-4e6a-94c0-e916f7f6f513"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Supporting alternative proteins means backing more British produce and greater food security at home"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3087,
+            "end": 3187
+          }
+        ]
+      },
+      "id": "#c97cb39c-d9ab-46b5-8a02-c22b721cf9f9"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "By 2025, one in four of us could be vegetarian or vegan, according to a recent Global Food Security Programme report"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3189,
+            "end": 3305
+          }
+        ]
+      },
+      "id": "#e577e172-77d6-4da1-9b93-797cb4cf281d"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "if we include flexitarians \u2013 those who follow a primarily plant-based diet \u2013 it could be as many as one in two of us"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3311,
+            "end": 3427
+          }
+        ]
+      },
+      "id": "#cad8a29f-c5fc-4844-b59c-deb1e36ec5d0"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Dietary change is coming"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3429,
+            "end": 3453
+          }
+        ]
+      },
+      "id": "#305a0f3b-6e77-4af7-affd-8896b73547f9"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "British consumers are leading the way"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3455,
+            "end": 3492
+          }
+        ]
+      },
+      "id": "#f47b5dad-410f-4bba-be02-8be4a2751149"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "we need a world leading regulatory framework and forward-looking investment so that British industry can lead and guarantee UK food security long into the 21st century"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3497,
+            "end": 3664
+          }
+        ]
+      },
+      "id": "#deadf479-ede2-4486-8168-58bdb787670e"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Supporting the alternative protein sector is urgent if we want Britain to secure a world-leading position in a long-term market that AT Kearney research predicts could take up to 60 percent of the global meat market by 2040"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3666,
+            "end": 3889
+          }
+        ]
+      },
+      "id": "#21d3372d-53bd-47b9-a7a3-fa0ea92c9128"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Instead of using vast amounts of land to produce food for animals, we can produce the same amount of food on 93 percent less land, using 95 percent less water and with far less Russian fertilizer \u2013 safeguarding British farming through more efficient use of arable land"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3891,
+            "end": 4159
+          }
+        ]
+      },
+      "id": "#7e9e3d6a-113c-4f39-b294-723063e590a2"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "it\u2019s greener too"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4165,
+            "end": 4181
+          }
+        ]
+      },
+      "id": "#3f3e5847-732d-4b15-a38c-8645d2c9f320"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "alternative proteins produce an average of 88 percent lessgreenhouse gas emissions than animal proteins, helping us on our way to Net Zero by 2050"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4183,
+            "end": 4329
+          }
+        ]
+      },
+      "id": "#0e3c6b8a-706b-4466-a2ec-2206ab0df5ea"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "as well as giving us food security, this could reduce the cost of living through lower food prices and create tens of thousands of jobs"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4362,
+            "end": 4497
+          }
+        ]
+      },
+      "id": "#effcc957-c5e5-4829-90c6-f1a6b659bb21"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Henry Dimbleby\u2019s National Food Strategy estimates that UK alternative protein manufacturing could create 10,000 new factory jobs and 6,500 farming jobs"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4499,
+            "end": 4650
+          }
+        ]
+      },
+      "id": "#41b74b99-667e-4ff0-b458-d69c475958c2"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the Department for International Trade has identified that \u201ccompanies in the North East will be in a prime position to take advantage of the growing demand for plant-based and alternative protein products\u201d as a result of their world-class universities, abundance of land, and manufacturing cluster"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4656,
+            "end": 4953
+          }
+        ]
+      },
+      "id": "#3b7419ee-e7b4-48b9-84c8-77588c9b0d27"
+    }
+  ],
+  "relations": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#9fa66743-a3e5-4da4-b299-7aefdcc249e6",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#41b74b99-667e-4ff0-b458-d69c475958c2"
+        },
+        {
+          "id": "#effcc957-c5e5-4829-90c6-f1a6b659bb21"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#ee591170-b50a-4834-999d-8c7936d3c5ce",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#3b7419ee-e7b4-48b9-84c8-77588c9b0d27"
+        },
+        {
+          "id": "#effcc957-c5e5-4829-90c6-f1a6b659bb21"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#a54d4651-f19e-4495-81d6-853ad3d76ff4",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#70843d42-c76b-47e3-a4dc-138091f115ab"
+        },
+        {
+          "id": "#2fd89a8c-3c5e-4475-8a0d-c82ae8cd318a"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#3d15be5f-a981-4506-84df-c0c2351b4e6f",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#eb2ae9c1-5183-4f97-8008-14811b885a54"
+        },
+        {
+          "id": "#70843d42-c76b-47e3-a4dc-138091f115ab"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#bdd04263-c5a4-469e-bec7-dd77ab54486a",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#1365bdd6-0f0e-4337-86ee-8b189e9438c8"
+        },
+        {
+          "id": "#7c9ce3cc-f961-42ab-9fe3-63a59cd1a9ca"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#3aad863a-6b92-44d5-bb43-f230b97744b7",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#98603cda-6e11-42b6-8123-b8465e6ffdbe"
+        },
+        {
+          "id": "#7c9ce3cc-f961-42ab-9fe3-63a59cd1a9ca"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#dfe57145-23a4-419d-823a-1750ccb5ea4f",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#73bcb63b-f91c-4eed-8fe6-08916430fc87"
+        },
+        {
+          "id": "#98603cda-6e11-42b6-8123-b8465e6ffdbe"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#536f1980-f4ba-4259-8e5a-bd522ca1d748",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#12269df7-3af1-4e6a-94c0-e916f7f6f513"
+        },
+        {
+          "id": "#73bcb63b-f91c-4eed-8fe6-08916430fc87"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#bb22970b-29f7-4c13-b574-b79ddbeb1d9c",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#f47b5dad-410f-4bba-be02-8be4a2751149"
+        },
+        {
+          "id": "#deadf479-ede2-4486-8168-58bdb787670e"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#8cfcc321-8b13-4fcf-b156-36f5c43b9c0f",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#305a0f3b-6e77-4af7-affd-8896b73547f9"
+        },
+        {
+          "id": "#deadf479-ede2-4486-8168-58bdb787670e"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#0474bf03-892b-4b6b-980e-93d5bd08a892",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#e577e172-77d6-4da1-9b93-797cb4cf281d"
+        },
+        {
+          "id": "#305a0f3b-6e77-4af7-affd-8896b73547f9"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#d43465e3-e62f-4068-861e-52ce0c494f78",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#cad8a29f-c5fc-4844-b59c-deb1e36ec5d0"
+        },
+        {
+          "id": "#e577e172-77d6-4da1-9b93-797cb4cf281d"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#efc108cb-bfab-449f-8ac4-61596a58b0ee",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#7e9e3d6a-113c-4f39-b294-723063e590a2"
+        },
+        {
+          "id": "#21d3372d-53bd-47b9-a7a3-fa0ea92c9128"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#a19599a9-1278-42cf-ade0-962de883d354",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#0e3c6b8a-706b-4466-a2ec-2206ab0df5ea"
+        },
+        {
+          "id": "#3f3e5847-732d-4b15-a38c-8645d2c9f320"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#15473b21-31e5-4f51-91c5-7a5dd0d1d4fd",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#23f2284f-140c-4a4e-94fe-0f01e81542df"
+        },
+        {
+          "id": "#274e9538-ca2f-4e30-bbaf-3320308cb5ba"
+        }
+      ],
+      "motivation": "linking"
+    }
+  ]
+}

@@ -1,0 +1,591 @@
+{
+  "uniqueid": "AERUGBNS48Z4N:3TR2532VI4JZKRR6MYB8Q31XTYM6J2",
+  "assignmentid": "3TR2532VI4JZKRR6MYB8Q31XTYM6J2",
+  "workerid": "AERUGBNS48Z4N",
+  "hitid": "39O0SQZVK1WWZVQUNBK79ORTOSGR7Y",
+  "ipaddress": "10.1.33.234",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-04 18:18:15.648",
+  "beginexp": "2023-05-04 18:18:17.965",
+  "endhit": "2023-05-04 19:39:14.896",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 0,
+  "open_guidelines_times": [],
+  "create_annotation_count": 44,
+  "create_annotation_times": [
+    "2023-05-04 18:19:01",
+    "2023-05-04 18:19:11",
+    "2023-05-04 18:19:19",
+    "2023-05-04 18:19:30",
+    "2023-05-04 18:19:33",
+    "2023-05-04 18:19:51",
+    "2023-05-04 18:19:57",
+    "2023-05-04 18:20:00",
+    "2023-05-04 18:46:11",
+    "2023-05-04 18:46:21",
+    "2023-05-04 18:46:25",
+    "2023-05-04 18:46:33",
+    "2023-05-04 18:46:36",
+    "2023-05-04 18:46:47",
+    "2023-05-04 18:48:15",
+    "2023-05-04 18:48:19",
+    "2023-05-04 18:48:28",
+    "2023-05-04 18:48:36",
+    "2023-05-04 19:12:35",
+    "2023-05-04 19:14:49",
+    "2023-05-04 19:15:01",
+    "2023-05-04 19:15:06",
+    "2023-05-04 19:15:36",
+    "2023-05-04 19:15:39",
+    "2023-05-04 19:17:06",
+    "2023-05-04 19:20:33",
+    "2023-05-04 19:20:38",
+    "2023-05-04 19:20:44",
+    "2023-05-04 19:20:55",
+    "2023-05-04 19:20:58",
+    "2023-05-04 19:26:08",
+    "2023-05-04 19:26:16",
+    "2023-05-04 19:26:21",
+    "2023-05-04 19:26:31",
+    "2023-05-04 19:26:37",
+    "2023-05-04 19:27:27",
+    "2023-05-04 19:27:36",
+    "2023-05-04 19:28:40",
+    "2023-05-04 19:28:47",
+    "2023-05-04 19:29:47",
+    "2023-05-04 19:30:07",
+    "2023-05-04 19:30:44",
+    "2023-05-04 19:30:50",
+    "2023-05-04 19:30:56"
+  ],
+  "create_annotation_invalid": 0,
+  "delete_annotation_count": 6,
+  "delete_annotation_times": [
+    "2023-05-04 19:12:57",
+    "2023-05-04 19:15:17",
+    "2023-05-04 19:17:17",
+    "2023-05-04 19:27:18",
+    "2023-05-04 19:28:26",
+    "2023-05-04 19:28:27"
+  ],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 0,
+  "update_annotation_times": [],
+  "update_annotation_invalid": 0,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "3",
+    "task-interest": "5",
+    "ui-intuitiveness": "5",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1683224296508,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        767
+      ],
+      "timestamp": 1683224296508,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        766
+      ],
+      "timestamp": 1683224297111,
+      "interval": 603
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        767
+      ],
+      "timestamp": 1683224297328,
+      "interval": 217
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683224297595,
+      "interval": 267
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683224298978,
+      "interval": 1383
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        979
+      ],
+      "timestamp": 1683224299600,
+      "interval": 622
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683224410103,
+      "interval": 110503
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683225939724,
+      "interval": 1529621
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683225940121,
+      "interval": 397
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683225944827,
+      "interval": 4706
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683226021186,
+      "interval": 76359
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683226024035,
+      "interval": 2849
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683226025210,
+      "interval": 1175
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683226073787,
+      "interval": 48577
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683226075090,
+      "interval": 1303
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683226085300,
+      "interval": 10210
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683226087114,
+      "interval": 1814
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683226088835,
+      "interval": 1721
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683226089226,
+      "interval": 391
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683226091699,
+      "interval": 2473
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683226132554,
+      "interval": 40855
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683227520487,
+      "interval": 1387933
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683227521004,
+      "interval": 517
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683227545543,
+      "interval": 24539
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683227558156,
+      "interval": 12613
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683227560654,
+      "interval": 2498
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683227560957,
+      "interval": 303
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683227564750,
+      "interval": 3793
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683227581085,
+      "interval": 16335
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683227587927,
+      "interval": 6842
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683227613261,
+      "interval": 25334
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683227614111,
+      "interval": 850
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683227614757,
+      "interval": 646
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683227616374,
+      "interval": 1617
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683227622709,
+      "interval": 6335
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683227625729,
+      "interval": 3020
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683227626493,
+      "interval": 764
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683227631136,
+      "interval": 4643
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683227631957,
+      "interval": 821
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683227633990,
+      "interval": 2033
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683227650037,
+      "interval": 16047
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683227651258,
+      "interval": 1221
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683227652077,
+      "interval": 819
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683227652679,
+      "interval": 602
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683227740021,
+      "interval": 87342
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683227745434,
+      "interval": 5413
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683227745845,
+      "interval": 411
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683227774711,
+      "interval": 28866
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683227775109,
+      "interval": 398
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683227776807,
+      "interval": 1698
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683227865878,
+      "interval": 89071
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683227867831,
+      "interval": 1953
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683227868285,
+      "interval": 454
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683227993557,
+      "interval": 125272
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683228002069,
+      "interval": 8512
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683228021094,
+      "interval": 19025
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683228094590,
+      "interval": 73496
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683228107331,
+      "interval": 12741
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683228126157,
+      "interval": 18826
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683228158223,
+      "interval": 32066
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683228160564,
+      "interval": 2341
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683228165704,
+      "interval": 5140
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683228184102,
+      "interval": 18398
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683228321890,
+      "interval": 137788
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683228322223,
+      "interval": 333
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683228356368,
+      "interval": 34145
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683228458271,
+      "interval": 101903
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683228465104,
+      "interval": 6833
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683228660510,
+      "interval": 195406
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683228663232,
+      "interval": 2722
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683228693414,
+      "interval": 30182
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683228703329,
+      "interval": 9915
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683228704350,
+      "interval": 1021
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683228754025,
+      "interval": 49675
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683228778294,
+      "interval": 24269
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683229030066,
+      "interval": 251772
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683229030424,
+      "interval": 358
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683229120230,
+      "interval": 89806
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "altinget-en",
+    "article": "aktoerer-fremtidens-kokke-skal-hjaelpe-os-til-klimavenlige-madvaner",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

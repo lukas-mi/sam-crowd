@@ -1,0 +1,77 @@
+T1	Claim 156 214	the alternative is looking (and tasting) better by the day
+A1	Stance T1 For
+T2	Claim 1667 1737	You blindly echo the myth that as people get richer they eat more meat
+A2	Stance T2 Against
+T3	Premise 1739 1800	Indians continue to be vegetarians even when they become rich
+T4	Premise 1802 1860	Food cultures are shaped by cultural and ecological values
+T5	Premise 1867 1905	meat-eating in India is rising rapidly
+T6	Premise 1914 1940	many people do it secretly
+T7	Premise 1958 2072	despite religious proscriptions, enforced with vigilantism and, in some cases, murder, Bennett’s Law still applies
+T8	Premise 2074 2207	It’s as if we were urging people to burn less fossil fuel without offering a replacement: no solar, wind, geothermal or nuclear power
+T9	Claim 2209 2309	This issue is just as urgent, arguably even more so, as livestock farming attacks every Earth system
+A3	Stance T9 For
+T10	Premise 2311 2374	It’s the primary agent of habitat destruction and wildlife loss
+T11	Premise 2376 2420	It’s causing rivercide and dead zones at sea
+T12	Premise 2422 2495	It generates more greenhouse gas emissions than all the world’s transport
+T13	Premise 2497 2600	It sprawls across vast tracts of the planet, inflicting massive carbon and ecological opportunity costs
+T14	Premise 2602 2764	Both historically and currently, livestock farming is probably the world’s most powerful agent of colonial land grabbing and the displacement of Indigenous people
+T15	Claim 2766 2794	Meat is consuming the planet
+A4	Stance T15 For
+T16	MajorClaim 2796 2858	Substitutes for animal products can greatly reduce this damage
+T17	Claim 2860 2956	They can allow vast areas to be returned to dispossessed people and the ecosystems they defended
+A5	Stance T17 For
+T18	Claim 3490 3621	Less so is the support the animal industry receives from people who claim to be green, but happily recite its misleading propaganda
+A6	Stance T18 For
+T19	Premise 3623 3789	The professor of food and agricultural policy Robert Paarlberg compares this alliance to the inadvertent coalition of Baptists and bootleggers in the US a century ago
+T20	Premise 3791 3943	By lobbying successfully for the prohibition of alcohol, the Southern Baptists opened the door to gangsters trading in stronger and more dangerous drink
+T21	Claim 3945 4022	True environmentalists have a duty to break this ultra-conservative consensus
+A7	Stance T21 For
+T22	Claim 4024 4106	Adoption of the new technologies is likely to follow an S-curve: slow, then sudden
+A8	Stance T22 For
+T23	Premise 4108 4170	At first, uptake will be low and will suffer repeated setbacks
+T24	Premise 4176 4257	as scale rises and prices fall, market penetration is likely to reach 10% or more
+T25	Premise 4259 4338	That’s the point at which linear growth suddenly switches to exponential growth
+T26	Premise 4340 4424	It’s a trend we’ve seen in dozens of technologies, from refrigerators to smartphones
+T27	Claim 4426 4463	The biggest hurdles will be political
+A9	Stance T27 Against
+T28	Premise 4465 4620	As governments are pressurised by Big Meat, they will raise the kind of obstacles that, in the UK and US, have delayed the rollout of renewable electricity
+T29	Premise 4622 4740	The UK government, for example, is reported to be considering a ban on calling plant-based products “milk” and “butter
+T30	Premise 4743 4813	What it will do about coconut milk and peanut butter is anyone’s guess
+T31	Premise 4815 4902	No VAT is charged on meat and milk here, but most plant-based alternatives must pay 20%
+T32	Claim 4904 4976	The regulators that might approve the new products are often overwhelmed
+A10	Stance T32 Against
+T33	Premise 4978 5048	Brexit has dumped a massive workload on the UK’s Food Standards Agency
+T34	Premise 5053 5096	its budget falls far short of what it needs
+T35	Premise 5116 5184	it has been flooded with applications for CBD (cannabidiol) products
+T36	Premise 5186 5245	it could be years before it can assess alternative proteins
+T37	Claim 5247 5312	None of these questions should be left to industry and government
+A11	Stance T37 For
+T38	Premise 5314 5563	Environmental campaigners should be working not to destroy the green alternatives but to ensure they are regulated properly and, through effective anti-trust laws, do not become as concentrated in the hands of a few corporations as the meat trade is
+T39	Premise 5576 5640	this will be a political struggle as much as a technological one
+R1	supports Arg1:T23 Arg2:T22	
+R2	supports Arg1:T24 Arg2:T22	
+R3	supports Arg1:T25 Arg2:T24	
+R4	supports Arg1:T26 Arg2:T25	
+R5	supports Arg1:T28 Arg2:T27	
+R6	supports Arg1:T29 Arg2:T28	
+R7	supports Arg1:T31 Arg2:T29	
+R8	supports Arg1:T33 Arg2:T32	
+R9	supports Arg1:T34 Arg2:T33	
+R10	supports Arg1:T35 Arg2:T32	
+R11	supports Arg1:T36 Arg2:T35	
+R12	supports Arg1:T38 Arg2:T37	
+R13	supports Arg1:T39 Arg2:T38	
+R14	supports Arg1:T3 Arg2:T2	
+R15	supports Arg1:T4 Arg2:T3	
+R16	attacks Arg1:T5 Arg2:T4	
+R17	supports Arg1:T6 Arg2:T5	
+R18	supports Arg1:T7 Arg2:T6	
+R19	supports Arg1:T8 Arg2:T9	
+R20	supports Arg1:T10 Arg2:T9	
+R21	supports Arg1:T11 Arg2:T10	
+R22	supports Arg1:T12 Arg2:T10	
+R23	supports Arg1:T13 Arg2:T12	
+R24	supports Arg1:T14 Arg2:T15	
+R25	supports Arg1:T30 Arg2:T29	
+R26	supports Arg1:T19 Arg2:T18	
+R27	supports Arg1:T20 Arg2:T19	

@@ -1,0 +1,59 @@
+T1	MajorClaim 80 191	Combining cultivated and plant-based meat is unlikely to be the key to consumers craving slaughter-free protein
+T2	Claim 918 1027	As a way to gently usher cultured meat products into the food system, hybrid developments are being suggested
+A1	Stance T2 For
+T3	Premise 1029 1147	Created by blending plant-based protein with cultivated meat, the result is supposedly a cleaner, tastier meat product
+T4	Premise 1149 1217	It also requires no intensive animal agriculture or animal slaughter
+T5	Premise 1219 1301	American news publication Vox compares the move to the introduction of hybrid cars
+T6	Premise 1303 1396	It says that they eventually led to the accepted commercialization of fully electric vehicles
+T7	Claim 1407 1545	the success of hybrid meat will likely hinge on capturing a specific contingent of consumers who are already open to cultured developments
+A2	Stance T7 For
+T8	Claim 1619 1683	The process of bringing cultured meat to consumers is not simple
+A3	Stance T8 For
+T9	Premise 1685 1904	While the production mechanics, which see single cells taken, supposedly painlessly, from animals and then grown in bioreactors to create meat products, is more widely understood, approvals have been slow to materialize
+T10	Premise 1915 2019	only Singapore has granted regulatory approval for the production and commercial sale of cultivated meat
+T11	Premise 2032 2116	it has only given permission for two chicken developments from one company, Eat Just
+T12	Premise 2118 2309	Despite rumors that the US would be following suit a year ago, with domestic cultivated interest Upside Foods building a large production facility in readiness, no approvals have been granted
+T13	Premise 2318 2442	President Biden appears to have recently given the green light for progression in his recent biotech-focused executive order
+T14	Premise 2444 2513	The EU has also been slow to support its burgeoning cultivated sector
+T15	Premise 2515 2622	This is the case despite it including major players such as the Netherlands’ Mosa Meat and France’s Gourmey
+T16	Claim 2624 2763	Aside from a lack of infrastructure in place to support global cultivated production, consumer perceptions could also stunt sector progress
+A4	Stance T16 For
+T17	Premise 2765 2876	Last year, an Australian study reported that 72 percent of diners are not willing to consider cultured meat yet
+T18	Premise 2911 2970	Australia is one of the biggest consumers of meat worldwide
+T19	Claim 3015 3116	As a route to gain consumer acceptance of cultivated meat, hybrid products are not guaranteed success
+A5	Stance T19 For
+T20	Premise 3118 3320	Given that hesitation is largely predicated on a feeling that meat grown in bioreactors is less natural than that produced by slaughter, hybrid developments may face exactly the same consumer reluctance
+T21	Premise 3322 3422	It will also be subject to the same regulatory delays, meaning it won’t accelerate acceptance either
+T22	Claim 3457 3495	is it worth developing hybrid products
+A6	Stance T22 For
+T23	Premise 3497 3568	Some manufacturers might claim that it will bolster flexitarian numbers
+T24	Premise 3579 3661	other observers have identified that standard hybrid products are already doing so
+T25	Claim 3663 3833	Blending plant proteins with conventional meat to reduce the amount of animal protein in popular products such as burgers and sausages is witnessing a surge in popularity
+A7	Stance T25 Against
+T26	Premise 3835 3983	The Guardian recently reported that such developments are seen as a healthy alternative to standard meat and tastier than straight-up vegan products
+T27	Premise 3985 4098	They are also hoped to be a gateway to increased flexitarianism and potentially, meat-free living for more people
+T28	Claim 4100 4140	It might be best not to muddy the waters
+A8	Stance T28 For
+T29	Premise 4142 4291	Keep cultivated meat as an exciting but standalone new development that seeks to reduce the environmental impact of standard meat by up to 96 percent
+T30	Premise 4297 4363	let hybrid and totally meat-free products take an alternative path
+R1	supports Arg1:T17 Arg2:T16	
+R2	supports Arg1:T18 Arg2:T17	
+R3	supports Arg1:T23 Arg2:T22	
+R4	attacks Arg1:T24 Arg2:T23	
+R5	supports Arg1:T29 Arg2:T28	
+R6	supports Arg1:T30 Arg2:T29	
+R7	supports Arg1:T3 Arg2:T2	
+R8	supports Arg1:T4 Arg2:T3	
+R9	attacks Arg1:T5 Arg2:T7	
+R10	supports Arg1:T6 Arg2:T5	
+R11	supports Arg1:T9 Arg2:T8	
+R12	supports Arg1:T10 Arg2:T9	
+R13	supports Arg1:T11 Arg2:T10	
+R14	supports Arg1:T12 Arg2:T9	
+R15	attacks Arg1:T13 Arg2:T12	
+R16	supports Arg1:T14 Arg2:T9	
+R17	supports Arg1:T15 Arg2:T14	
+R18	supports Arg1:T20 Arg2:T19	
+R19	supports Arg1:T21 Arg2:T19	
+R20	supports Arg1:T26 Arg2:T25	
+R21	supports Arg1:T27 Arg2:T25	
