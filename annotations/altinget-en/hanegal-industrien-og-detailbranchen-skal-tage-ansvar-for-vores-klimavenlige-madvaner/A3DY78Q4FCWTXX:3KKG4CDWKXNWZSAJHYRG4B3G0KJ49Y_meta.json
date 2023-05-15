@@ -1,0 +1,270 @@
+{
+  "uniqueid": "A3DY78Q4FCWTXX:3KKG4CDWKXNWZSAJHYRG4B3G0KJ49Y",
+  "assignmentid": "3KKG4CDWKXNWZSAJHYRG4B3G0KJ49Y",
+  "workerid": "A3DY78Q4FCWTXX",
+  "hitid": "3EQPA8A38ILYLHDNY13HYHY1O2WZJZ",
+  "ipaddress": "10.1.85.203",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-02 12:08:17.914",
+  "beginexp": "2023-05-02 12:08:18.405",
+  "endhit": "2023-05-02 12:41:12.545",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 0,
+  "open_guidelines_times": [],
+  "create_annotation_count": 56,
+  "create_annotation_times": [
+    "2023-05-02 12:08:44",
+    "2023-05-02 12:09:01",
+    "2023-05-02 12:09:08",
+    "2023-05-02 12:09:17",
+    "2023-05-02 12:09:24",
+    "2023-05-02 12:09:50",
+    "2023-05-02 12:09:55",
+    "2023-05-02 12:10:40",
+    "2023-05-02 12:11:00",
+    "2023-05-02 12:11:04",
+    "2023-05-02 12:11:59",
+    "2023-05-02 12:12:40",
+    "2023-05-02 12:18:49",
+    "2023-05-02 12:19:05",
+    "2023-05-02 12:19:15",
+    "2023-05-02 12:19:42",
+    "2023-05-02 12:19:49",
+    "2023-05-02 12:20:03",
+    "2023-05-02 12:20:13",
+    "2023-05-02 12:20:29",
+    "2023-05-02 12:20:42",
+    "2023-05-02 12:20:58",
+    "2023-05-02 12:22:05",
+    "2023-05-02 12:23:01",
+    "2023-05-02 12:23:11",
+    "2023-05-02 12:23:26",
+    "2023-05-02 12:23:33",
+    "2023-05-02 12:24:58",
+    "2023-05-02 12:25:14",
+    "2023-05-02 12:25:23",
+    "2023-05-02 12:28:04",
+    "2023-05-02 12:28:20",
+    "2023-05-02 12:28:44",
+    "2023-05-02 12:28:58",
+    "2023-05-02 12:29:04",
+    "2023-05-02 12:29:11",
+    "2023-05-02 12:29:34",
+    "2023-05-02 12:29:38",
+    "2023-05-02 12:29:49",
+    "2023-05-02 12:29:53",
+    "2023-05-02 12:30:37",
+    "2023-05-02 12:30:58",
+    "2023-05-02 12:31:09",
+    "2023-05-02 12:31:26",
+    "2023-05-02 12:32:13",
+    "2023-05-02 12:32:43",
+    "2023-05-02 12:32:51",
+    "2023-05-02 12:33:31",
+    "2023-05-02 12:33:50",
+    "2023-05-02 12:34:17",
+    "2023-05-02 12:34:24",
+    "2023-05-02 12:35:48",
+    "2023-05-02 12:37:23",
+    "2023-05-02 12:38:35",
+    "2023-05-02 12:39:43",
+    "2023-05-02 12:40:58"
+  ],
+  "create_annotation_invalid": 2,
+  "delete_annotation_count": 5,
+  "delete_annotation_times": [
+    "2023-05-02 12:10:12",
+    "2023-05-02 12:10:14",
+    "2023-05-02 12:19:11",
+    "2023-05-02 12:19:21",
+    "2023-05-02 12:37:14"
+  ],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 3,
+  "update_annotation_times": [
+    "2023-05-02 12:27:41",
+    "2023-05-02 12:36:59",
+    "2023-05-02 12:37:12"
+  ],
+  "update_annotation_invalid": 1,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "4",
+    "task-interest": "3",
+    "ui-intuitiveness": "4",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1683029297280,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        683,
+        512
+      ],
+      "timestamp": 1683029297280,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683029299617,
+      "interval": 2337
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        567,
+        886
+      ],
+      "timestamp": 1683029299806,
+      "interval": 189
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683029300997,
+      "interval": 1191
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        683,
+        512
+      ],
+      "timestamp": 1683029303121,
+      "interval": 2124
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1707,
+        891
+      ],
+      "timestamp": 1683029305076,
+      "interval": 1955
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683029866760,
+      "interval": 561684
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683029910224,
+      "interval": 43464
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683029982151,
+      "interval": 71927
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683029982151,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683030072817,
+      "interval": 90666
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683030072944,
+      "interval": 127
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683030075566,
+      "interval": 2622
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683030110241,
+      "interval": 34675
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683030957035,
+      "interval": 846794
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683031011731,
+      "interval": 54696
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683031019979,
+      "interval": 8248
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683031019979,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683031032106,
+      "interval": 12127
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683031032106,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683031183468,
+      "interval": 151362
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683031183468,
+      "interval": 0
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "altinget-en",
+    "article": "hanegal-industrien-og-detailbranchen-skal-tage-ansvar-for-vores-klimavenlige-madvaner",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

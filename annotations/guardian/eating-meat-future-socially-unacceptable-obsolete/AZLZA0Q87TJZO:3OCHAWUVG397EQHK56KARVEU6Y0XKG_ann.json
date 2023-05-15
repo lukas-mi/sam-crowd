@@ -1,0 +1,1299 @@
+{
+  "phase": "survey",
+  "event": "submit_annotations",
+  "components": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "we\u2019ll soon find it almost unthinkable that people used to consume so much meat"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 70,
+            "end": 148
+          }
+        ]
+      },
+      "id": "#aeb4ca91-4506-4ce8-ae6a-e6298672f7b5"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Carnivores are going the way of cigarette smokers"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 163,
+            "end": 212
+          }
+        ]
+      },
+      "id": "#397f56cb-9de6-4991-a5a0-61e68a721d81"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "by 2050, there\u2019s a good chance that it will be socially unacceptable to eat meat"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 218,
+            "end": 298
+          }
+        ]
+      },
+      "id": "#74f4369d-d084-495f-8558-4e8ce503e8e4"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "we\u2019ll find it almost unthinkable that people used to consume animals so casually and frequently"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 388,
+            "end": 483
+          }
+        ]
+      },
+      "id": "#4a9fca31-6da3-43cc-9a34-1f74d2ecc3b5"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "there has already been a significant shift in the way we think about meat consumption"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 659,
+            "end": 744
+          }
+        ]
+      },
+      "id": "#84aa2428-8004-4bb4-9005-065103679067"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "In just the past few years veganism has gone from being a fringe movement associated with hippies to being downright trendy"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 746,
+            "end": 869
+          }
+        ]
+      },
+      "id": "#2a2b9668-b370-4eaa-9817-2fdbb503a3fc"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The likes of Beyonc\u00e9 and Jay-Z have challenged their fans \u201cto move towards a more plant-based lifestyle\u201d"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 871,
+            "end": 975
+          }
+        ]
+      },
+      "id": "#2af020a9-0286-4c85-b0b2-e9e4f1a0ddc8"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "more people are talking loudly and proudly about cutting down on meat"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 980,
+            "end": 1049
+          }
+        ]
+      },
+      "id": "#e0a0f4ab-01df-466f-9353-4e953329fa54"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimAgainst"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "changes in attitude haven\u2019t yet translated to changes in behavior"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1063,
+            "end": 1128
+          }
+        ]
+      },
+      "id": "#51276cbb-6804-4ec0-8476-e25a0cd76512"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "US consumption of meat in 2018 was the highest it has been for a long time"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1130,
+            "end": 1204
+          }
+        ]
+      },
+      "id": "#76a7cbb9-dbba-4967-b5e8-8b9b4e105802"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "it\u2019s a similar story in Europe"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1210,
+            "end": 1240
+          }
+        ]
+      },
+      "id": "#e87c9d32-c51a-4224-bca4-cec8bf8d03a5"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "This is largely down to a better economy"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1242,
+            "end": 1282
+          }
+        ]
+      },
+      "id": "#4bd09d6b-381a-4384-9907-9fb8da324fbe"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the downturn in meat-eating between 2005 and 2014 was due to high prices relative to income during the recession"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1307,
+            "end": 1419
+          }
+        ]
+      },
+      "id": "#5194f2fe-328d-40e1-9f8b-0badeca598b3"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "just because meat consumption in America hasn\u2019t plummeted yet doesn\u2019t mean it won\u2019t in the near future"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1425,
+            "end": 1527
+          }
+        ]
+      },
+      "id": "#4e575e87-331b-4e77-8f88-78b122d8f6ba"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "This is particularly true when you consider the explosion in popularity of realistic plant-based meat substitutes"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1529,
+            "end": 1642
+          }
+        ]
+      },
+      "id": "#4b3be832-821b-48cd-9f71-a4ad027fc8b7"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the new breed of plant-based burgers are a game-changer"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1999,
+            "end": 2054
+          }
+        ]
+      },
+      "id": "#9242843e-b384-4766-9a4a-a60bdc9f27cb"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "I even sent one back at a restaurant recently because I thought they had mistakenly given me real meat"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2056,
+            "end": 2158
+          }
+        ]
+      },
+      "id": "#882264a1-8105-4ce1-9f0d-ffa6d691d301"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "my girlfriend, a committed carnivore, had a bite and wasn\u2019t entirely sure herself"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2165,
+            "end": 2246
+          }
+        ]
+      },
+      "id": "#3163ac68-58ac-4ab4-ae28-5745a3e8f06e"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Fast-food chains have begun to enthusiastically embrace plant-based meat substitutes"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2248,
+            "end": 2332
+          }
+        ]
+      },
+      "id": "#f4ef5987-1691-4065-a783-6be1dcfd9f46"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Burger King started trialling the Impossible Burger in St Louis"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2396,
+            "end": 2459
+          }
+        ]
+      },
+      "id": "#59a9c54a-c36d-44f4-9de4-a82cd65b5ab0"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the popularity of Greggs\u2019s vegan sausage roll caused shares of the British fast-food chain to surge"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2630,
+            "end": 2729
+          }
+        ]
+      },
+      "id": "#c854f21a-062d-4e6a-bfe8-dadaf9ee2296"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "KFC recently said it is searching for plant-based alternatives to chicken"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2735,
+            "end": 2808
+          }
+        ]
+      },
+      "id": "#b500db78-43d8-4d22-b450-99fec378a8e5"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "As plant-based meat alternatives continue to proliferate and evolve it will become increasingly difficult for people to justify choosing the animal alternative"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2848,
+            "end": 3007
+          }
+        ]
+      },
+      "id": "#de9794e6-76cd-48c3-89e3-b66cc04c833c"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "If you can easily get a meatless burger that tastes almost like the real thing \u2013 and eventually, I imagine, one tasting exactly like the real thing \u2013 why would you opt for real meat"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3009,
+            "end": 3190
+          }
+        ]
+      },
+      "id": "#e7800258-a6d8-4eb5-9f99-2f89f8a8f0ee"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Why would you make the crueler choice"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3192,
+            "end": 3229
+          }
+        ]
+      },
+      "id": "#401b1cb0-6bb7-41d3-a3f3-10900c723dc5"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Along with the increase in \u201cmeatless meat\u201d we\u2019re seeing the advent of the lab-grown, or cell-based, meat industry"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3231,
+            "end": 3344
+          }
+        ]
+      },
+      "id": "#c107cdcf-53d5-4e51-b17c-873685a07ac4"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "there is still a fair way to go before we see lab-grown meat in stores"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3355,
+            "end": 3425
+          }
+        ]
+      },
+      "id": "#67b7c287-d746-4ce9-bddf-14107732c683"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "technology is poised to revolutionize how we eat"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3541,
+            "end": 3589
+          }
+        ]
+      },
+      "id": "#9c211153-aff7-40f2-a0ca-3e361a36dda1"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Meat that comes from animals will eventually seem old-fashioned and barbaric"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3591,
+            "end": 3667
+          }
+        ]
+      },
+      "id": "#f764e17f-db4b-4e2b-8f93-c4442740b8f2"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the reason humans first started eating large quantities of meat 2.5m years was due to climate change"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3693,
+            "end": 3793
+          }
+        ]
+      },
+      "id": "#6ac46d2b-8830-4f24-b3fa-ba213c48e293"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "droughts made fruit and vegetables less abundant and humans were forced to go in search of meat"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3795,
+            "end": 3890
+          }
+        ]
+      },
+      "id": "#2b2ae467-6eb4-4d33-9d8b-37af07c7079c"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It seems inevitable that the climate crisis we now face will drastically change our diets once again"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3892,
+            "end": 3992
+          }
+        ]
+      },
+      "id": "#af25d24d-ad11-418c-8f83-53a8f2f4c4b0"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The climate crisis will affect the food supply in a way that means we simply won\u2019t be able to produce meat"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4271,
+            "end": 4377
+          }
+        ]
+      },
+      "id": "#8cde94dd-ffac-4eca-9e36-9f24f9abb532"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "we won\u2019t be able to produce enough food at all"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4386,
+            "end": 4432
+          }
+        ]
+      },
+      "id": "#2ae2af21-010b-4f59-9669-e7a1ef4c9f2d"
+    }
+  ],
+  "relations": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#e081ab21-66c4-4819-bcc8-1460eec502c5",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#2a2b9668-b370-4eaa-9817-2fdbb503a3fc"
+        },
+        {
+          "id": "#84aa2428-8004-4bb4-9005-065103679067"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#7b13930c-9e91-4b39-9040-b74c8e715c55",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#2af020a9-0286-4c85-b0b2-e9e4f1a0ddc8"
+        },
+        {
+          "id": "#84aa2428-8004-4bb4-9005-065103679067"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#9fe83d87-8131-4199-a334-8087dde9efff",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#e0a0f4ab-01df-466f-9353-4e953329fa54"
+        },
+        {
+          "id": "#84aa2428-8004-4bb4-9005-065103679067"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#227016a0-828e-4793-86ae-964763721c92",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#76a7cbb9-dbba-4967-b5e8-8b9b4e105802"
+        },
+        {
+          "id": "#51276cbb-6804-4ec0-8476-e25a0cd76512"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#cde4b8e9-918f-4a24-aad6-cfa5b2464d14",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#e87c9d32-c51a-4224-bca4-cec8bf8d03a5"
+        },
+        {
+          "id": "#51276cbb-6804-4ec0-8476-e25a0cd76512"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#197208a2-9500-44db-b407-e37e37854eef",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#4bd09d6b-381a-4384-9907-9fb8da324fbe"
+        },
+        {
+          "id": "#51276cbb-6804-4ec0-8476-e25a0cd76512"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#fa62e7d0-7735-420e-979c-61cbb142d0a3",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#5194f2fe-328d-40e1-9f8b-0badeca598b3"
+        },
+        {
+          "id": "#4bd09d6b-381a-4384-9907-9fb8da324fbe"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#b64320e7-8a38-4bb4-9b97-deca4b094aa2",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#4b3be832-821b-48cd-9f71-a4ad027fc8b7"
+        },
+        {
+          "id": "#4e575e87-331b-4e77-8f88-78b122d8f6ba"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#779a9a90-2cb1-4cbe-983b-d672c1dbd394",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#882264a1-8105-4ce1-9f0d-ffa6d691d301"
+        },
+        {
+          "id": "#9242843e-b384-4766-9a4a-a60bdc9f27cb"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#945310be-9e97-4f5e-a566-2a080ae14464",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#3163ac68-58ac-4ab4-ae28-5745a3e8f06e"
+        },
+        {
+          "id": "#9242843e-b384-4766-9a4a-a60bdc9f27cb"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#77a5d6a1-9b5b-4d80-92c4-d6c37546889c",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#59a9c54a-c36d-44f4-9de4-a82cd65b5ab0"
+        },
+        {
+          "id": "#f4ef5987-1691-4065-a783-6be1dcfd9f46"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#5d65eb2a-b872-44a0-b5a8-caddef11f226",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#c854f21a-062d-4e6a-bfe8-dadaf9ee2296"
+        },
+        {
+          "id": "#f4ef5987-1691-4065-a783-6be1dcfd9f46"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#a1fd5af1-a556-4293-8a2d-1aaf93d6a4ab",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#b500db78-43d8-4d22-b450-99fec378a8e5"
+        },
+        {
+          "id": "#f4ef5987-1691-4065-a783-6be1dcfd9f46"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#281c10b4-e4d9-4465-95a8-ef9d01db7e17",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#e7800258-a6d8-4eb5-9f99-2f89f8a8f0ee"
+        },
+        {
+          "id": "#de9794e6-76cd-48c3-89e3-b66cc04c833c"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#e1f5c54d-d54a-48a5-8fb1-794331af031e",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#401b1cb0-6bb7-41d3-a3f3-10900c723dc5"
+        },
+        {
+          "id": "#de9794e6-76cd-48c3-89e3-b66cc04c833c"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#3e48e478-b024-45b9-aa4f-26937fa2fac5",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#67b7c287-d746-4ce9-bddf-14107732c683"
+        },
+        {
+          "id": "#c107cdcf-53d5-4e51-b17c-873685a07ac4"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#cdc9e960-b04e-4752-8a87-4b7560ea355d",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#9c211153-aff7-40f2-a0ca-3e361a36dda1"
+        },
+        {
+          "id": "#c107cdcf-53d5-4e51-b17c-873685a07ac4"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#4ae4ea87-de63-4734-a439-9559ad3f25a6",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#f764e17f-db4b-4e2b-8f93-c4442740b8f2"
+        },
+        {
+          "id": "#de9794e6-76cd-48c3-89e3-b66cc04c833c"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#b541d704-d63a-4e28-b957-9dd547d3f939",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#4a9fca31-6da3-43cc-9a34-1f74d2ecc3b5"
+        },
+        {
+          "id": "#397f56cb-9de6-4991-a5a0-61e68a721d81"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#4c6a5f18-8deb-4751-88db-4fe35f144274",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#2b2ae467-6eb4-4d33-9d8b-37af07c7079c"
+        },
+        {
+          "id": "#6ac46d2b-8830-4f24-b3fa-ba213c48e293"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#b37866a6-a042-43e8-be35-d5480c83a4d0",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#2ae2af21-010b-4f59-9669-e7a1ef4c9f2d"
+        },
+        {
+          "id": "#8cde94dd-ffac-4eca-9e36-9f24f9abb532"
+        }
+      ],
+      "motivation": "linking"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "uniqueid": "AZLZA0Q87TJZO:3OCHAWUVG397EQHK56KARVEU6Y0XKG",
+  "assignmentid": "3OCHAWUVG397EQHK56KARVEU6Y0XKG",
+  "workerid": "AZLZA0Q87TJZO",
+  "hitid": "3Z3R5YC0QHCMU3IS9JNEXV5SA5KTFD",
+  "ipaddress": "10.1.36.71",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-11 10:27:39.719",
+  "beginexp": "2023-05-11 10:27:40.953",
+  "endhit": "2023-05-11 10:42:50.678",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 0,
+  "open_guidelines_times": [],
+  "create_annotation_count": 55,
+  "create_annotation_times": [
+    "2023-05-11 10:31:00",
+    "2023-05-11 10:31:11",
+    "2023-05-11 10:31:23",
+    "2023-05-11 10:31:49",
+    "2023-05-11 10:31:57",
+    "2023-05-11 10:32:04",
+    "2023-05-11 10:32:14",
+    "2023-05-11 10:32:18",
+    "2023-05-11 10:32:29",
+    "2023-05-11 10:32:33",
+    "2023-05-11 10:32:52",
+    "2023-05-11 10:33:02",
+    "2023-05-11 10:33:06",
+    "2023-05-11 10:33:12",
+    "2023-05-11 10:33:16",
+    "2023-05-11 10:33:42",
+    "2023-05-11 10:33:46",
+    "2023-05-11 10:33:56",
+    "2023-05-11 10:34:00",
+    "2023-05-11 10:34:20",
+    "2023-05-11 10:34:30",
+    "2023-05-11 10:34:34",
+    "2023-05-11 10:34:45",
+    "2023-05-11 10:34:57",
+    "2023-05-11 10:35:02",
+    "2023-05-11 10:35:20",
+    "2023-05-11 10:35:24",
+    "2023-05-11 10:35:34",
+    "2023-05-11 10:35:46",
+    "2023-05-11 10:35:51",
+    "2023-05-11 10:36:23",
+    "2023-05-11 10:36:27",
+    "2023-05-11 10:36:36",
+    "2023-05-11 10:36:41",
+    "2023-05-11 10:36:55",
+    "2023-05-11 10:37:19",
+    "2023-05-11 10:37:23",
+    "2023-05-11 10:37:28",
+    "2023-05-11 10:37:33",
+    "2023-05-11 10:37:54",
+    "2023-05-11 10:38:06",
+    "2023-05-11 10:38:09",
+    "2023-05-11 10:38:38",
+    "2023-05-11 10:38:43",
+    "2023-05-11 10:38:56",
+    "2023-05-11 10:39:01",
+    "2023-05-11 10:39:48",
+    "2023-05-11 10:40:27",
+    "2023-05-11 10:40:31",
+    "2023-05-11 10:41:21",
+    "2023-05-11 10:41:30",
+    "2023-05-11 10:41:33",
+    "2023-05-11 10:41:52",
+    "2023-05-11 10:42:30",
+    "2023-05-11 10:42:34"
+  ],
+  "create_annotation_invalid": 0,
+  "delete_annotation_count": 0,
+  "delete_annotation_times": [],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 0,
+  "update_annotation_times": [],
+  "update_annotation_invalid": 0,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "3",
+    "task-interest": "4",
+    "ui-intuitiveness": "5",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1683800861489,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        767
+      ],
+      "timestamp": 1683800861490,
+      "interval": 1
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        995,
+        979
+      ],
+      "timestamp": 1683800866128,
+      "interval": 4638
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        767
+      ],
+      "timestamp": 1683800869045,
+      "interval": 2917
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683801153981,
+      "interval": 284936
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683801163075,
+      "interval": 9094
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "guardian",
+    "article": "eating-meat-future-socially-unacceptable-obsolete",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "uniqueid": "A3DY78Q4FCWTXX:3R0T90IZ171E96A6OJ38FQ1RXILGCL",
+  "assignmentid": "3R0T90IZ171E96A6OJ38FQ1RXILGCL",
+  "workerid": "A3DY78Q4FCWTXX",
+  "hitid": "3ZCC2DXSELTOBGYHOF21UX4NVGUYY2",
+  "ipaddress": "10.1.85.55",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-09 00:46:08.035",
+  "beginexp": "2023-05-09 00:46:08.433",
+  "endhit": "2023-05-09 01:11:04.212",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 0,
+  "open_guidelines_times": [],
+  "create_annotation_count": 60,
+  "create_annotation_times": [
+    "2023-05-09 00:47:09",
+    "2023-05-09 00:48:25",
+    "2023-05-09 00:49:09",
+    "2023-05-09 00:49:39",
+    "2023-05-09 00:50:24",
+    "2023-05-09 00:50:51",
+    "2023-05-09 00:50:58",
+    "2023-05-09 00:51:50",
+    "2023-05-09 00:52:24",
+    "2023-05-09 00:52:30",
+    "2023-05-09 00:52:35",
+    "2023-05-09 00:52:45",
+    "2023-05-09 00:52:55",
+    "2023-05-09 00:53:14",
+    "2023-05-09 00:53:28",
+    "2023-05-09 00:54:16",
+    "2023-05-09 00:54:29",
+    "2023-05-09 00:55:08",
+    "2023-05-09 00:56:06",
+    "2023-05-09 00:56:12",
+    "2023-05-09 00:56:44",
+    "2023-05-09 00:56:54",
+    "2023-05-09 00:57:17",
+    "2023-05-09 00:57:29",
+    "2023-05-09 00:57:55",
+    "2023-05-09 00:58:12",
+    "2023-05-09 00:58:16",
+    "2023-05-09 00:58:38",
+    "2023-05-09 00:58:47",
+    "2023-05-09 00:59:43",
+    "2023-05-09 01:00:32",
+    "2023-05-09 01:00:43",
+    "2023-05-09 01:01:03",
+    "2023-05-09 01:01:21",
+    "2023-05-09 01:01:28",
+    "2023-05-09 01:02:11",
+    "2023-05-09 01:02:20",
+    "2023-05-09 01:02:33",
+    "2023-05-09 01:02:36",
+    "2023-05-09 01:02:54",
+    "2023-05-09 01:02:58",
+    "2023-05-09 01:03:12",
+    "2023-05-09 01:03:16",
+    "2023-05-09 01:03:32",
+    "2023-05-09 01:03:48",
+    "2023-05-09 01:03:58",
+    "2023-05-09 01:04:08",
+    "2023-05-09 01:04:19",
+    "2023-05-09 01:04:25",
+    "2023-05-09 01:05:11",
+    "2023-05-09 01:05:29",
+    "2023-05-09 01:06:01",
+    "2023-05-09 01:06:16",
+    "2023-05-09 01:07:00",
+    "2023-05-09 01:09:24",
+    "2023-05-09 01:09:28",
+    "2023-05-09 01:09:42",
+    "2023-05-09 01:09:51",
+    "2023-05-09 01:10:08",
+    "2023-05-09 01:10:17"
+  ],
+  "create_annotation_invalid": 0,
+  "delete_annotation_count": 5,
+  "delete_annotation_times": [
+    "2023-05-09 00:50:43",
+    "2023-05-09 00:51:22",
+    "2023-05-09 00:52:06",
+    "2023-05-09 01:00:10",
+    "2023-05-09 01:06:41"
+  ],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 2,
+  "update_annotation_times": [
+    "2023-05-09 00:55:29",
+    "2023-05-09 00:55:50"
+  ],
+  "update_annotation_invalid": 1,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "4",
+    "task-interest": "3",
+    "ui-intuitiveness": "5",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1683593167376,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        819,
+        614
+      ],
+      "timestamp": 1683593167376,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        2048,
+        1071
+      ],
+      "timestamp": 1683593169407,
+      "interval": 2031
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683593729838,
+      "interval": 560431
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683593729838,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683593733722,
+      "interval": 3884
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683593745467,
+      "interval": 11745
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683594496567,
+      "interval": 751100
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683594557882,
+      "interval": 61315
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683594647043,
+      "interval": 89161
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683594647226,
+      "interval": 183
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683594648295,
+      "interval": 1069
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683594663108,
+      "interval": 14813
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "pbn",
+    "article": "should-meat-eaters-pay-more-tax",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

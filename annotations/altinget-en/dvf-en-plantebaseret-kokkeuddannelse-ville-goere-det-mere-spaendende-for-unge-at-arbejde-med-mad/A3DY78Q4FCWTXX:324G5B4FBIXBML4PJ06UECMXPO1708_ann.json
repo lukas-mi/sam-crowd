@@ -1,0 +1,1433 @@
+{
+  "phase": "survey",
+  "event": "submit_annotations",
+  "components": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The government should prioritize financing the development of a plant-based cookery education, which can secure Denmark's place on the gastronomically sustainable world map"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1,
+            "end": 173
+          }
+        ]
+      },
+      "id": "#68c821cd-4017-495f-9780-35a14747e308"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The cooking education is out of date"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 234,
+            "end": 270
+          }
+        ]
+      },
+      "id": "#dc722872-c26c-4112-9a46-975258532112"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The working conditions are bad"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 272,
+            "end": 302
+          }
+        ]
+      },
+      "id": "#8444217e-2d92-483e-903f-48ffe47e298f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the young chef students are not trained to be able to handle themselves in the green kitchen, even though this is what many restaurants and canteens call for"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 308,
+            "end": 465
+          }
+        ]
+      },
+      "id": "#48478a41-8e13-4059-a340-41c6392efe18"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the Danish Vegetarian Association suggests that the politicians, in addition to prioritizing a better working environment, allocate funds for the development of a green, interesting and visionary plant-based cooking education"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 478,
+            "end": 703
+          }
+        ]
+      },
+      "id": "#c65498f8-bd65-4cde-b641-9c8e90db8643"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "In a debate at the Alting on 9 May, Kasper Fogh Hansen, chairman of the board of the Food People's Assembly, says that it is too uninteresting for young people to work with food today, and that the number of students on the cookery course has fallen by a third in the last couple of years"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 725,
+            "end": 1013
+          }
+        ]
+      },
+      "id": "#53d04140-e909-4e00-9dbc-1f5c813e080d"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "there is actually a large crowd of vegetarians, vegans and climate-conscious young people out there who would consider a chef's degree if it were up-to-date, visionary, green and plant-based"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1046,
+            "end": 1236
+          }
+        ]
+      },
+      "id": "#5c0bf7b2-73a2-40a1-bc5c-9f8177409e39"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "t is not only experiences such as the horrific testimonies about working conditions and sexist culture mentioned in Politiken that make more skilled chefs nervous, but also the great focus on climate-sinning lost hare, chops and meatballs, which deters young people from attending the training"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1239,
+            "end": 1532
+          }
+        ]
+      },
+      "id": "#5fb02028-20a3-4b39-a97c-55f90024e186"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the government and the supporting parties should prioritize funding the development of plant-based cooking education, which can secure Denmark's place on the gastronomically sustainable world map"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1545,
+            "end": 1740
+          }
+        ]
+      },
+      "id": "#f630e805-b198-4c86-8844-07193c6a11de"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "young people are climate-conscious and prioritize climate-friendly food"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1750,
+            "end": 1821
+          }
+        ]
+      },
+      "id": "#47747096-6e8e-4dfc-ab42-43008cec0970"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "This is what is interesting for them professionally \u2013 also on a cookery course"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1823,
+            "end": 1901
+          }
+        ]
+      },
+      "id": "#f2c0e9ff-f934-478b-8992-9309c974775f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The existing education is based on what is colloquially called the \"cookbook\""
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1952,
+            "end": 2029
+          }
+        ]
+      },
+      "id": "#30c95d71-53ed-4dea-b0fd-ed215cd3abb2"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "he book defines the content of the education, academic goals, description of the goals of the internship and which recipes the students can come up with for the apprentice test"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2032,
+            "end": 2208
+          }
+        ]
+      },
+      "id": "#cbd9e3d8-bc78-4df3-a710-7bc95562b06d"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Meat takes up 70 pages in the cookbook, fish takes up approximately 33 pages, while pulses have very graciously been allocated just over two pages"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2210,
+            "end": 2356
+          }
+        ]
+      },
+      "id": "#516f9da4-f818-4b45-af14-a58365cc89b6"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "there is no plan for the cooking education to prioritize green cuisine \u2013 not to mention a gastronomy that reflects the dietary guidelines"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2392,
+            "end": 2529
+          }
+        ]
+      },
+      "id": "#806a86f9-fa12-4a95-ae50-319a93ef09fc"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "In the Official Dietary Guidelines, the recommended intake of legumes is 700 grams per week, while Danes are recommended to reduce meat consumption to 350 grams per week"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2531,
+            "end": 2700
+          }
+        ]
+      },
+      "id": "#07636fc1-94a1-4bef-a4ed-2dd66b7763e0"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Shouldn't chefs who are trained in 2022 be able to cook exactly the food that the dietary guidelines recommend and that the population demands"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2702,
+            "end": 2844
+          }
+        ]
+      },
+      "id": "#41921ee3-da58-4f90-a222-78271bd14b74"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "we are aware of several vegans and vegetarians who have dropped out or opted out of the cookery course because they are forced to work with meat in a big way"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3294,
+            "end": 3451
+          }
+        ]
+      },
+      "id": "#09e48a27-b154-49a6-8981-70c78f2acaf5"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It is discrimination, which is probably on the edge of human rights, that as a vegetarian you can only take the cooking course if you are prepared to prepare meat and thus go against your own ethics and convictions"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3453,
+            "end": 3667
+          }
+        ]
+      },
+      "id": "#0bdb3e27-7e34-4755-9e01-14d09b542e9f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the production of meat and dairy products also emits far more greenhouse gases than vegetables and legumes"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3682,
+            "end": 3788
+          }
+        ]
+      },
+      "id": "#c15b6fc5-4838-436c-8f07-db8f8ec811eb"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "In addition, there is the whole animal ethical aspect, which is important to many young people who eat vegan and vegetarian"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3790,
+            "end": 3913
+          }
+        ]
+      },
+      "id": "#56c7143a-184e-465f-8c02-1912657914a5"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "But if animal products are no longer to be part of the cooking education sub-elements, it is the politicians who must legislate for this"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3915,
+            "end": 4051
+          }
+        ]
+      },
+      "id": "#987fd299-de57-468a-9aca-097726ad0800"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "In recent years, Denmark is moving rapidly towards green gastronomy and the development of plant-based restaurant concepts"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4053,
+            "end": 4175
+          }
+        ]
+      },
+      "id": "#d20fb6ef-b0a7-4cde-a123-c309522f1f63"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Restaurants such as ARK, Bistro Lupa, VeVe and Geraniums Angelika have gone all in on the green and sustainable, and several canteen and catering companies have become much greener"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4177,
+            "end": 4357
+          }
+        ]
+      },
+      "id": "#f0305649-b1de-492e-93e6-77786a7b55aa"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the chefs they can hire have been tested in chops in a dish"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4363,
+            "end": 4422
+          }
+        ]
+      },
+      "id": "#5622f299-ed03-4542-a018-aa1b27350c81"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Many of the players therefore arrange internal further training in vegetables, pulses and preparation themselves, because the newly trained chefs simply do not have the skills that are in demand"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4424,
+            "end": 4618
+          }
+        ]
+      },
+      "id": "#32f29269-99b7-4e4a-b835-d15e3601e155"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "At the same time, we see that the public kitchens will probably soon have to offer a plant-based option every day"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4620,
+            "end": 4733
+          }
+        ]
+      },
+      "id": "#39975620-acd4-4368-9ccd-f28708ef3c66"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Aalborg has just introduced it, and a majority in the Danish Parliament is working to adopt it nationally"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4735,
+            "end": 4840
+          }
+        ]
+      },
+      "id": "#66b636c6-4342-46c9-aa3f-0582d6af038d"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It is therefore paradoxical that we as a society do not have a plant-based cooking education where the skills in demand are the focus"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4842,
+            "end": 4975
+          }
+        ]
+      },
+      "id": "#e15c3e56-aec8-4379-9127-881404412c5c"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Climate and sustainability are at the top of the young people's agenda"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5013,
+            "end": 5083
+          }
+        ]
+      },
+      "id": "#89abe229-5280-44be-b2be-eb06b38a4520"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "17 percent of Danes in the age group 18-34 eat flexitarian"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5085,
+            "end": 5143
+          }
+        ]
+      },
+      "id": "#e06cdea4-da27-411a-9af1-d9b6697f9ae1"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Five percent of 18-34-year-olds eat pescetarian, four percent vegetarian and two percent vegan"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5145,
+            "end": 5239
+          }
+        ]
+      },
+      "id": "#59197306-9954-4936-ad69-3fc4f3723b89"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the statistics point in one direction \u2013 towards plant-based and sustainable cuisine being the future"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5347,
+            "end": 5447
+          }
+        ]
+      },
+      "id": "#56235958-d316-4567-b0ea-ff6b0bd9237f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimAgainst"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "we recognize that there is a traditional food culture in the existing cooking education and that there is a demand for the classic dishes"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5460,
+            "end": 5597
+          }
+        ]
+      },
+      "id": "#31729486-92e3-4ffe-a9ea-8dd85c89198c"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "This is also why we are proposing a completely new plant-based trail that can exist alongside the existing one"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5599,
+            "end": 5709
+          }
+        ]
+      },
+      "id": "#3a0b1644-2d01-4775-8a9d-efe0bfc3a1fe"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "That the existing education needs a green reformation is also a fact, however, if we take a look at demand and development in the restaurant industry"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5711,
+            "end": 5860
+          }
+        ]
+      },
+      "id": "#8d806634-18ef-4ad0-b1d1-e2a2309c6500"
+    }
+  ],
+  "relations": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#8b3e8c56-1464-4cf5-8460-551ff536ff6c",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#30c95d71-53ed-4dea-b0fd-ed215cd3abb2"
+        },
+        {
+          "id": "#cbd9e3d8-bc78-4df3-a710-7bc95562b06d"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#678320a7-8d73-4d79-b654-61f2eb016230",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#cbd9e3d8-bc78-4df3-a710-7bc95562b06d"
+        },
+        {
+          "id": "#516f9da4-f818-4b45-af14-a58365cc89b6"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#b6ef1c92-46d4-4562-bd30-ea1be49f000b",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#516f9da4-f818-4b45-af14-a58365cc89b6"
+        },
+        {
+          "id": "#806a86f9-fa12-4a95-ae50-319a93ef09fc"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#924e9dff-d142-46e5-aad8-824f42782fcd",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#07636fc1-94a1-4bef-a4ed-2dd66b7763e0"
+        },
+        {
+          "id": "#41921ee3-da58-4f90-a222-78271bd14b74"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#342e605a-c736-4300-bfdd-900b35c43602",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#c15b6fc5-4838-436c-8f07-db8f8ec811eb"
+        },
+        {
+          "id": "#987fd299-de57-468a-9aca-097726ad0800"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#03a2192a-8863-4b87-9ce9-c7f1dcac9a2c",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#56c7143a-184e-465f-8c02-1912657914a5"
+        },
+        {
+          "id": "#987fd299-de57-468a-9aca-097726ad0800"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#9901c9a3-94d4-441c-b28f-7f50d69b342b",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#5c0bf7b2-73a2-40a1-bc5c-9f8177409e39"
+        },
+        {
+          "id": "#53d04140-e909-4e00-9dbc-1f5c813e080d"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#6b8b8007-1ac0-49b2-9447-eb7d5d247c35",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#5fb02028-20a3-4b39-a97c-55f90024e186"
+        },
+        {
+          "id": "#5c0bf7b2-73a2-40a1-bc5c-9f8177409e39"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#45ca89bd-00df-40a6-8425-4b5f5965c9cb",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#47747096-6e8e-4dfc-ab42-43008cec0970"
+        },
+        {
+          "id": "#f2c0e9ff-f934-478b-8992-9309c974775f"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#6eb43ba3-bc7b-4d09-8dd2-4cf860ce4209",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#09e48a27-b154-49a6-8981-70c78f2acaf5"
+        },
+        {
+          "id": "#0bdb3e27-7e34-4755-9e01-14d09b542e9f"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#a3d3a903-7e7a-443b-bad4-4dba5955aabe",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#f0305649-b1de-492e-93e6-77786a7b55aa"
+        },
+        {
+          "id": "#d20fb6ef-b0a7-4cde-a123-c309522f1f63"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#012bb3f0-2734-492b-9b76-706f67cb310f",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#5622f299-ed03-4542-a018-aa1b27350c81"
+        },
+        {
+          "id": "#f0305649-b1de-492e-93e6-77786a7b55aa"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#078ac24c-f720-4d3e-9c24-a78d64750a7c",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#32f29269-99b7-4e4a-b835-d15e3601e155"
+        },
+        {
+          "id": "#e15c3e56-aec8-4379-9127-881404412c5c"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#4d89b691-a662-4609-bea7-f679bff819e7",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#39975620-acd4-4368-9ccd-f28708ef3c66"
+        },
+        {
+          "id": "#66b636c6-4342-46c9-aa3f-0582d6af038d"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#6f2b8fa7-4e38-4935-b140-8e2a2c2dd7f6",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#66b636c6-4342-46c9-aa3f-0582d6af038d"
+        },
+        {
+          "id": "#e15c3e56-aec8-4379-9127-881404412c5c"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#a17f489e-cef4-4b81-8bfe-5d4298e37042",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#d20fb6ef-b0a7-4cde-a123-c309522f1f63"
+        },
+        {
+          "id": "#32f29269-99b7-4e4a-b835-d15e3601e155"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#19a0ec50-3d54-49e8-909c-b607b4815d8b",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#59197306-9954-4936-ad69-3fc4f3723b89"
+        },
+        {
+          "id": "#89abe229-5280-44be-b2be-eb06b38a4520"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#aecc7a7b-01d7-4f69-888a-054275009555",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#e06cdea4-da27-411a-9af1-d9b6697f9ae1"
+        },
+        {
+          "id": "#89abe229-5280-44be-b2be-eb06b38a4520"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#fad60e3d-ebf6-49fd-8048-5afcc5328333",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#8d806634-18ef-4ad0-b1d1-e2a2309c6500"
+        },
+        {
+          "id": "#3a0b1644-2d01-4775-8a9d-efe0bfc3a1fe"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#b87d6a05-ba90-48fd-a806-1d9ba185beb1",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#dc722872-c26c-4112-9a46-975258532112"
+        },
+        {
+          "id": "#c65498f8-bd65-4cde-b641-9c8e90db8643"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#37f2e993-bfff-472c-913b-e2df95b5eb3c",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#8444217e-2d92-483e-903f-48ffe47e298f"
+        },
+        {
+          "id": "#c65498f8-bd65-4cde-b641-9c8e90db8643"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#9b679287-781b-4ee7-a6d3-a48fa1d6d1b5",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#48478a41-8e13-4059-a340-41c6392efe18"
+        },
+        {
+          "id": "#c65498f8-bd65-4cde-b641-9c8e90db8643"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#6376fa5a-769d-4802-b8d5-0cb6f9db3784",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#f2c0e9ff-f934-478b-8992-9309c974775f"
+        },
+        {
+          "id": "#30c95d71-53ed-4dea-b0fd-ed215cd3abb2"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#5c468a67-86c3-4d94-9605-fca0ee535b8b",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#89abe229-5280-44be-b2be-eb06b38a4520"
+        },
+        {
+          "id": "#56235958-d316-4567-b0ea-ff6b0bd9237f"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#8c4eb201-ea39-40d7-917e-61c311a37a6d",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#53d04140-e909-4e00-9dbc-1f5c813e080d"
+        },
+        {
+          "id": "#c65498f8-bd65-4cde-b641-9c8e90db8643"
+        }
+      ],
+      "motivation": "linking"
+    }
+  ]
+}

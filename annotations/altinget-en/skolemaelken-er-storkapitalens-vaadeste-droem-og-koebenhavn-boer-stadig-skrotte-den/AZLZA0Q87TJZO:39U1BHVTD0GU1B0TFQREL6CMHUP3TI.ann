@@ -1,0 +1,44 @@
+T1	MajorClaim 83 159	There are neither red-green nor liberal arguments for preserving school milk
+T2	Claim 694 763	there is actually a chance that the school milk will now be preserved
+A1	Stance T2 For
+T3	Premise 765 836	Enhedslisten has openly declared that they want to preserve school milk
+T4	Premise 842 928	it seems that Venstre, as a classic Danish agricultural party, will support that cours
+T5	Premise 931 962	Several parties may follow suit
+T6	Claim 1250 1304	school milk is most of all big capital's wettest dream
+A2	Stance T6 For
+T7	Premise 1306 1469	It is also the unrestrained commercial entry of one industry - at the expense of other industries - into the primary school without special, weighty health reasons
+T8	Premise 1487 1524	school milk is also a climate emitter
+T9	Premise 1837 1914	the CO2 emission from milk production is higher than the emission from cement
+T10	Premise 1916 2061	Milk production also contributes to the cultivation of a colossal area of land that could have been untouched nature for the sake of biodiversity
+T11	Premise 2267 2417	more than 600 liters of water must be used on average – equivalent to an entire rubbish container in your backyard – to produce just one liter of milk
+T12	Claim 2419 2473	You can hardly defend school milk with green arguments
+A3	Stance T12 For
+T13	Claim 2993 3188	If the school milk advocates have fallen in love with the Dairy Association's message that children should have more than 250 milliliters of milk a day, then they have bought a three-lactated cow
+A4	Stance T13 For
+T14	Premise 3229 3292	the Danes are not in a milk deficit from an average perspective
+T15	Claim 3438 3584	the user payment element means that it is unlikely that children from vulnerable areas use the school milk more than children from housing estates
+A5	Stance T15 For
+T16	Claim 3630 3671	we are in deficit of a sea of other foods
+A6	Stance T16 For
+T17	Premise 3715 3823	92 percent of Danish men and 87 percent of Danish women, for example, do not get enough fruit and vegetables
+T18	Claim 3971 4172	You could choose to politically support this instead, as there is – to a certain extent – the possibility of converting EU support for school milk so that it becomes EU support for fruit and vegetables
+A7	Stance T18 For
+T19	Premise 4174 4276	The technical staff who distribute school milk today could, after all, distribute fruit and vegetables
+T20	Claim 4313 4395	no one questions the Danish Food and Food Administration's recommendations on milk
+A8	Stance T20 For
+T21	Claim 4679 4733	It is difficult to find good arguments for school milk
+A9	Stance T21 For
+T22	Claim 5495 5641	the food's sustainable and community-supporting element are some of the measures that are also in Copenhagen Municipality's food and meal strategy
+A10	Stance T22 For
+T23	MajorClaim 5701 5768	The school milk is in reality neither a green nor a liberal project
+R1	supports Arg1:T3 Arg2:T2	
+R2	supports Arg1:T4 Arg2:T2	
+R3	supports Arg1:T5 Arg2:T2	
+R4	supports Arg1:T8 Arg2:T6	
+R5	supports Arg1:T7 Arg2:T6	
+R6	supports Arg1:T11 Arg2:T12	
+R7	supports Arg1:T9 Arg2:T12	
+R8	supports Arg1:T10 Arg2:T12	
+R9	supports Arg1:T17 Arg2:T16	
+R10	supports Arg1:T14 Arg2:T13	
+R11	supports Arg1:T19 Arg2:T18	

@@ -1,0 +1,17 @@
+T1	MajorClaim 209 330	we must remember the bill and ensure the skills on the kitchen floors, so that it does not go beyond quality or nutrition
+T2	MajorClaim 1367 1464	consider how to ensure that plant-based options do not compromise nutrition, quality or resources
+T3	Premise 1631 1813	public kitchens work based on the Food and Drug Administration's Food Council for Meals, where there is still a lack of guidance on how food can be organized and produced plant-based
+T4	Claim 1865 1930	the meals are rearranged without the right nutritional guidelines
+A1	Stance T4 Against
+T5	Claim 2328 2401	plant-based food is gaining more and more traction in our dietary culture
+A2	Stance T5 For
+T6	Claim 2422 2516	skills in the professional production of plant-based food have not received the same attention
+A3	Stance T6 Against
+T7	MajorClaim 2518 2689	There is therefore a need for new knowledge and skills on the kitchen floors if you want to ensure that the plant-based meals do not compromise either quality or nutrition
+T8	Claim 2885 2955	it requires more working hours to have a plant-based offer on the menu
+A4	Stance T8 Against
+T9	Premise 2991 3211	they require much more handling in relation to washing, preparation, preparation, flavoring and storage, while at the same time meals with meat adapted to the many different target groups and needs must still be produced
+T10	Premise 3229 3267	plants require more professional hands
+R1	supports Arg1:T3 Arg2:T4	
+R2	supports Arg1:T9 Arg2:T8	
+R3	supports Arg1:T10 Arg2:T9	

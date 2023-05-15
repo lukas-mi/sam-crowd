@@ -1,0 +1,68 @@
+T1	MajorClaim 80 191	Combining cultivated and plant-based meat is unlikely to be the key to consumers craving slaughter-free protein
+T2	Premise 192 326	Cultivated meat (also referred to as cultured and clean meat) is being hailed by those in the sector as the future of sustainable food
+T3	Premise 328 456	Animal agriculture is catastrophic for the environment, responsible for at least 14.5 percent of global greenhouse gas emissions
+T4	Premise 458 565	It’s also a public health risk, as factory farming is linked to an increased likelihood of future pandemics
+T5	Premise 608 695	a move away from meat is essential, and cultivated meat has been heralded as the answer
+T6	Premise 697 792	Currently, it is only available in Singapore, and has yet to be approved in any other countries
+T7	Premise 794 916	Lengthy regulatory approval processes and consumer wariness look to be hard-to-overcome obstacles for its continued growth
+T8	Premise 918 1027	As a way to gently usher cultured meat products into the food system, hybrid developments are being suggested
+T9	Premise 1029 1147	Created by blending plant-based protein with cultivated meat, the result is supposedly a cleaner, tastier meat product
+T10	Premise 1149 1217	It also requires no intensive animal agriculture or animal slaughter
+T11	Premise 1219 1301	American news publication Vox compares the move to the introduction of hybrid cars
+T12	Premise 1303 1396	It says that they eventually led to the accepted commercialization of fully electric vehicles
+T13	Premise 1407 1545	the success of hybrid meat will likely hinge on capturing a specific contingent of consumers who are already open to cultured developments
+T14	Claim 1551 1566	is it necessary
+A1	Stance T14 For
+T15	Claim 1619 1683	The process of bringing cultured meat to consumers is not simple
+A2	Stance T15 For
+T16	Premise 1685 1904	While the production mechanics, which see single cells taken, supposedly painlessly, from animals and then grown in bioreactors to create meat products, is more widely understood, approvals have been slow to materialize
+T17	Premise 1906 2019	To date, only Singapore has granted regulatory approval for the production and commercial sale of cultivated meat
+T18	Premise 2021 2116	Even then, it has only given permission for two chicken developments from one company, Eat Just
+T19	Premise 2118 2309	Despite rumors that the US would be following suit a year ago, with domestic cultivated interest Upside Foods building a large production facility in readiness, no approvals have been granted
+T20	Premise 2311 2442	Though President Biden appears to have recently given the green light for progression in his recent biotech-focused executive order
+T21	Premise 2444 2513	The EU has also been slow to support its burgeoning cultivated sector
+T22	Premise 2515 2622	This is the case despite it including major players such as the Netherlands’ Mosa Meat and France’s Gourmey
+T23	Claim 2624 2763	Aside from a lack of infrastructure in place to support global cultivated production, consumer perceptions could also stunt sector progress
+A3	Stance T23 For
+T24	Premise 2765 2876	Last year, an Australian study reported that 72 percent of diners are not willing to consider cultured meat yet
+T25	Premise 2878 2970	The findings are significant, as Australia is one of the biggest consumers of meat worldwide
+T26	Claim 3015 3116	As a route to gain consumer acceptance of cultivated meat, hybrid products are not guaranteed success
+A4	Stance T26 For
+T27	Premise 3118 3320	Given that hesitation is largely predicated on a feeling that meat grown in bioreactors is less natural than that produced by slaughter, hybrid developments may face exactly the same consumer reluctance
+T28	Premise 3322 3422	It will also be subject to the same regulatory delays, meaning it won’t accelerate acceptance either
+T29	Claim 3497 3568	Some manufacturers might claim that it will bolster flexitarian numbers
+A5	Stance T29 Against
+T30	Premise 3579 3661	other observers have identified that standard hybrid products are already doing so
+T31	Claim 3663 3833	Blending plant proteins with conventional meat to reduce the amount of animal protein in popular products such as burgers and sausages is witnessing a surge in popularity
+A6	Stance T31 Against
+T32	Claim 3871 3983	such developments are seen as a healthy alternative to standard meat and tastier than straight-up vegan products
+A7	Stance T32 Against
+T33	Claim 3985 4098	They are also hoped to be a gateway to increased flexitarianism and potentially, meat-free living for more people
+A8	Stance T33 Against
+T34	Claim 4142 4291	Keep cultivated meat as an exciting but standalone new development that seeks to reduce the environmental impact of standard meat by up to 96 percent
+A9	Stance T34 For
+T35	MajorClaim 4297 4363	let hybrid and totally meat-free products take an alternative path
+R1	supports Arg1:T3 Arg2:T2	
+R2	supports Arg1:T4 Arg2:T2	
+R3	supports Arg1:T5 Arg2:T2	
+R4	supports Arg1:T7 Arg2:T6	
+R5	attacks Arg1:T6 Arg2:T2	
+R6	supports Arg1:T9 Arg2:T8	
+R7	supports Arg1:T10 Arg2:T9	
+R8	attacks Arg1:T8 Arg2:T14	
+R9	supports Arg1:T16 Arg2:T15	
+R10	supports Arg1:T18 Arg2:T17	
+R11	supports Arg1:T17 Arg2:T16	
+R12	supports Arg1:T19 Arg2:T18	
+R13	supports Arg1:T20 Arg2:T19	
+R14	supports Arg1:T21 Arg2:T16	
+R15	supports Arg1:T22 Arg2:T21	
+R16	supports Arg1:T25 Arg2:T24	
+R17	supports Arg1:T24 Arg2:T23	
+R18	supports Arg1:T28 Arg2:T27	
+R19	supports Arg1:T27 Arg2:T26	
+R20	attacks Arg1:T30 Arg2:T29	
+R21	attacks Arg1:T2 Arg2:T14	
+R22	supports Arg1:T12 Arg2:T11	
+R23	attacks Arg1:T11 Arg2:T14	
+R24	supports Arg1:T13 Arg2:T12	

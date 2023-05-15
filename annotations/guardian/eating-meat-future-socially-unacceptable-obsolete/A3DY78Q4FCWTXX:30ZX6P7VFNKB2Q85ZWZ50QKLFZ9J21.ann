@@ -1,0 +1,55 @@
+T1	Claim 124 202	we’ll soon find it almost unthinkable that people used to consume so much meat
+A1	Stance T1 For
+T2	Claim 203 215	Meat is dead
+A2	Stance T2 For
+T3	Premise 217 266	Carnivores are going the way of cigarette smokers
+T4	Premise 272 352	by 2050, there’s a good chance that it will be socially unacceptable to eat meat
+T5	Claim 442 537	we’ll find it almost unthinkable that people used to consume animals so casually and frequently
+A3	Stance T5 For
+T6	Premise 713 798	there has already been a significant shift in the way we think about meat consumption
+T7	Premise 800 923	In just the past few years veganism has gone from being a fringe movement associated with hippies to being downright trendy
+T8	Premise 1034 1103	more people are talking loudly and proudly about cutting down on meat
+T9	Premise 1117 1182	changes in attitude haven’t yet translated to changes in behavior
+T10	Premise 1184 1294	US consumption of meat in 2018 was the highest it has been for a long time, and it’s a similar story in Europe
+T11	Premise 1296 1473	This is largely down to a better economy; according to Rabobank, the downturn in meat-eating between 2005 and 2014 was due to high prices relative to income during the recession
+T12	Claim 1475 1581	But just because meat consumption in America hasn’t plummeted yet doesn’t mean it won’t in the near future
+A4	Stance T12 For
+T13	Premise 1618 1752	consider the explosion in popularity of realistic plant-based meat substitutes from companies such as Impossible Foods and Beyond Meat
+T14	Premise 2302 2438	Fast-food chains have begun to enthusiastically embrace plant-based meat substitutes, propelling these foods further into the mainstream
+T15	Premise 2440 2513	In April, Burger King started trialling the Impossible Burger in St Louis
+T16	Premise 2515 2672	According to a report by inMarket inSights, this led to Burger King locations in St Louis seeing 16.75% higher foot traffic than the chain’s national average
+T17	Premise 2684 2862	the popularity of Greggs’s vegan sausage roll caused shares of the British fast-food chain to surge, and KFC recently said it is searching for plant-based alternatives to chicken
+T18	Claim 2902 3061	As plant-based meat alternatives continue to proliferate and evolve it will become increasingly difficult for people to justify choosing the animal alternative
+A5	Stance T18 For
+T19	Claim 3063 3244	If you can easily get a meatless burger that tastes almost like the real thing – and eventually, I imagine, one tasting exactly like the real thing – why would you opt for real meat
+A6	Stance T19 For
+T20	Claim 3246 3283	Why would you make the crueler choice
+A7	Stance T20 For
+T21	Premise 3285 3398	Along with the increase in “meatless meat” we’re seeing the advent of the lab-grown, or cell-based, meat industry
+T22	Premise 3400 3643	Although there is still a fair way to go before we see lab-grown meat in stores, and important questions about just how environmentally friendly cultured meat actually is, it’s another sign that technology is poised to revolutionize how we eat
+T23	Claim 3645 3721	Meat that comes from animals will eventually seem old-fashioned and barbaric
+A8	Stance T23 For
+T24	Premise 3723 3944	There are theories that the reason humans first started eating large quantities of meat 2.5m years was due to climate change; droughts made fruit and vegetables less abundant and humans were forced to go in search of meat
+T25	Premise 3946 4046	It seems inevitable that the climate crisis we now face will drastically change our diets once again
+T26	Claim 4048 4191	As the impact of the climate emergency becomes impossible to ignore, eating meat will be increasingly seen as selfish and socially unacceptable
+A9	Stance T26 For
+T27	MajorClaim 4193 4323	If we don’t willingly change our habits, of course, the consequences of the environmental disaster that is unfolding will force us
+T28	Claim 4325 4486	The climate crisis will affect the food supply in a way that means we simply won’t be able to produce meat; indeed we won’t be able to produce enough food at all
+A10	Stance T28 For
+R1	supports Arg1:T4 Arg2:T3	
+R2	supports Arg1:T7 Arg2:T6	
+R3	supports Arg1:T8 Arg2:T7	
+R4	supports Arg1:T11 Arg2:T10	
+R5	supports Arg1:T10 Arg2:T9	
+R6	attacks Arg1:T9 Arg2:T8	
+R7	supports Arg1:T22 Arg2:T21	
+R8	supports Arg1:T21 Arg2:T23	
+R9	supports Arg1:T25 Arg2:T24	
+R10	supports Arg1:T13 Arg2:T12	
+R11	supports Arg1:T6 Arg2:T4	
+R12	supports Arg1:T3 Arg2:T2	
+R13	supports Arg1:T17 Arg2:T14	
+R14	supports Arg1:T16 Arg2:T15	
+R15	supports Arg1:T15 Arg2:T14	
+R16	supports Arg1:T14 Arg2:T12	
+R17	supports Arg1:T24 Arg2:T26	

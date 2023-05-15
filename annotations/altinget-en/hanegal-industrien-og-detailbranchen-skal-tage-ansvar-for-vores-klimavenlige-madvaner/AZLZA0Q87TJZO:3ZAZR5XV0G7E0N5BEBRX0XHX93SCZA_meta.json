@@ -1,0 +1,143 @@
+{
+  "uniqueid": "AZLZA0Q87TJZO:3ZAZR5XV0G7E0N5BEBRX0XHX93SCZA",
+  "assignmentid": "3ZAZR5XV0G7E0N5BEBRX0XHX93SCZA",
+  "workerid": "AZLZA0Q87TJZO",
+  "hitid": "3MZ3TAMYUZCTOF7Q62O40DH22DEIRH",
+  "ipaddress": "10.1.24.40",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-12 10:35:07.905",
+  "beginexp": "2023-05-12 10:35:08.936",
+  "endhit": "2023-05-12 10:53:56.040",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 0,
+  "open_guidelines_times": [],
+  "create_annotation_count": 42,
+  "create_annotation_times": [
+    "2023-05-12 10:36:56",
+    "2023-05-12 10:38:10",
+    "2023-05-12 10:38:15",
+    "2023-05-12 10:38:18",
+    "2023-05-12 10:38:34",
+    "2023-05-12 10:38:37",
+    "2023-05-12 10:38:50",
+    "2023-05-12 10:38:58",
+    "2023-05-12 10:39:04",
+    "2023-05-12 10:39:41",
+    "2023-05-12 10:40:13",
+    "2023-05-12 10:40:20",
+    "2023-05-12 10:40:22",
+    "2023-05-12 10:41:19",
+    "2023-05-12 10:41:27",
+    "2023-05-12 10:41:48",
+    "2023-05-12 10:41:51",
+    "2023-05-12 10:42:05",
+    "2023-05-12 10:42:59",
+    "2023-05-12 10:43:09",
+    "2023-05-12 10:43:16",
+    "2023-05-12 10:43:34",
+    "2023-05-12 10:43:47",
+    "2023-05-12 10:43:50",
+    "2023-05-12 10:44:38",
+    "2023-05-12 10:45:10",
+    "2023-05-12 10:45:27",
+    "2023-05-12 10:46:26",
+    "2023-05-12 10:47:25",
+    "2023-05-12 10:47:34",
+    "2023-05-12 10:47:50",
+    "2023-05-12 10:48:00",
+    "2023-05-12 10:48:16",
+    "2023-05-12 10:49:07",
+    "2023-05-12 10:49:11",
+    "2023-05-12 10:49:19",
+    "2023-05-12 10:49:25",
+    "2023-05-12 10:49:45",
+    "2023-05-12 10:49:48",
+    "2023-05-12 10:50:19",
+    "2023-05-12 10:50:50",
+    "2023-05-12 10:53:07"
+  ],
+  "create_annotation_invalid": 0,
+  "delete_annotation_count": 4,
+  "delete_annotation_times": [
+    "2023-05-12 10:41:57",
+    "2023-05-12 10:45:12",
+    "2023-05-12 10:50:05",
+    "2023-05-12 10:51:10"
+  ],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 2,
+  "update_annotation_times": [
+    "2023-05-12 10:52:56",
+    "2023-05-12 10:53:02"
+  ],
+  "update_annotation_invalid": 0,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "4",
+    "task-interest": "4",
+    "ui-intuitiveness": "5",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1683887709804,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        767
+      ],
+      "timestamp": 1683887709805,
+      "interval": 1
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683887717823,
+      "interval": 8018
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683887717991,
+      "interval": 168
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683888776937,
+      "interval": 1058946
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683888776938,
+      "interval": 1
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "altinget-en",
+    "article": "hanegal-industrien-og-detailbranchen-skal-tage-ansvar-for-vores-klimavenlige-madvaner",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

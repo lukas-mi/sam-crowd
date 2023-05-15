@@ -1,0 +1,948 @@
+{
+  "phase": "survey",
+  "event": "submit_annotations",
+  "components": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "A national climate label is the only way to ensure informed consumers"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1,
+            "end": 70
+          }
+        ]
+      },
+      "id": "#1439dcb6-23cb-4b09-b241-26e2cc35623a"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "a national climate label must be able to convince consumers and deliver long-term and solid climate understanding"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 468,
+            "end": 581
+          }
+        ]
+      },
+      "id": "#2961b35f-e38f-4e0a-b92b-2b5ce25efb6b"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "We need a national climate label here and now that can be successful with producers and consumers"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 673,
+            "end": 770
+          }
+        ]
+      },
+      "id": "#828e5e00-4ed1-4d75-80cb-12fe82c7c26a"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "If it is too late, companies themselves start making their own climate labels based on different methods and information for the same food"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 804,
+            "end": 942
+          }
+        ]
+      },
+      "id": "#d85134d0-7925-49d2-8d29-a4d8e1ccbcc9"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "consumers get really confused"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 949,
+            "end": 978
+          }
+        ]
+      },
+      "id": "#7676379a-41b0-420c-a626-a419ace1d30a"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "A public brand must be able to secure the necessary support and cooperation in the grocery industry, so that consumers are informed uniformly and fairly"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 980,
+            "end": 1132
+          }
+        ]
+      },
+      "id": "#12fb19d7-5269-4a1a-a4af-faec5669add1"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The benefit of cooperating is a more effective climate adjustment of consumption"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1134,
+            "end": 1214
+          }
+        ]
+      },
+      "id": "#7fb936ce-ee01-47c0-a875-c90bb0a4ed48"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Awareness must be secured through support from manufacturers and the grocery industry"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1515,
+            "end": 1600
+          }
+        ]
+      },
+      "id": "#f963e5b8-b904-4b2f-bbfb-477c2093930f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "otherwise the necessary product selection with the brand on it, which can stimulate an interest among consumers, will not be available"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1610,
+            "end": 1744
+          }
+        ]
+      },
+      "id": "#53d19fb0-056d-4eaf-9a9f-26647392ea96"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "An analysis from Dansk Erhverv shows that consumers' \"perceived trust\" in a brand is conditioned by a high degree of familiarity, which in turn is conditioned by the fact that the brand can be found via a large selection of different products"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1746,
+            "end": 1988
+          }
+        ]
+      },
+      "id": "#55a32175-bd7c-48a5-9dd9-4d994cd59e25"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It is important that the climate label is able to build a long-term understanding among consumers"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1990,
+            "end": 2087
+          }
+        ]
+      },
+      "id": "#5a003283-7c4e-4618-a081-93ddd6d65030"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "a \"positive label\" is something we must avoid"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2228,
+            "end": 2273
+          }
+        ]
+      },
+      "id": "#1929b4a3-55db-480f-8531-47443c3da5a1"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "it only labels the more climate-friendly foods and avoids the more climate-harming ones"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2283,
+            "end": 2370
+          }
+        ]
+      },
+      "id": "#4b474a49-56b6-4104-98a1-0c4f6abcbe42"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "A \"positive scheme\" risks creating uncertainty and confusion among consumers"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2372,
+            "end": 2448
+          }
+        ]
+      },
+      "id": "#e77ac715-d921-4a80-a377-3ed33160f191"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "\"Positive labeling\" also does not support the manufacturer to develop products in a more climate-friendly direction"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2623,
+            "end": 2738
+          }
+        ]
+      },
+      "id": "#a8a74ebb-91ab-4e88-8451-80b02df27e6d"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "A graduated scheme with a color scale \"within the various product categories\" will be better able to move consumer behavior in the right direction"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2740,
+            "end": 2886
+          }
+        ]
+      },
+      "id": "#121ece72-fa64-4c2c-9e07-1bf4b7cfa1ad"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The consumer then has the opportunity to move his choice within a category and product group and at the same time gain knowledge to shape a more climate-friendly meal"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3106,
+            "end": 3272
+          }
+        ]
+      },
+      "id": "#581f778f-bd71-494e-9a3d-a362beb78bc6"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "A graduated color scale across categories is not a good idea"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3367,
+            "end": 3427
+          }
+        ]
+      },
+      "id": "#2b2a9ac4-f54a-494b-a55a-7d315ffdba65"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "it limits the information and thus the action to only move away from a climate-damaging food in favor of a less-damaging one"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3437,
+            "end": 3561
+          }
+        ]
+      },
+      "id": "#6fa15347-cd49-4564-afcf-96f291055eec"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "There is an exciting positive development underway for the benefit of more truthful food-specific climate data"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4047,
+            "end": 4157
+          }
+        ]
+      },
+      "id": "#b23f00c5-9267-42f6-9051-f0315c36483a"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "A Danish climate label should be able to capture that development"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4159,
+            "end": 4224
+          }
+        ]
+      },
+      "id": "#f8f1990b-e9fb-4d3d-a37b-28292e19277e"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "If the requirements are tightened or clarified, it is ensured that the brand remains relevant and contributes to long-term knowledge building among consumers"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4357,
+            "end": 4514
+          }
+        ]
+      },
+      "id": "#4bc756ab-8e7b-46ea-b0d8-edbcb7207aec"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "A Danish initiative must be able to contribute to international knowledge building"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4637,
+            "end": 4719
+          }
+        ]
+      },
+      "id": "#b0aa3bcd-2bb7-4988-a6ab-9155a5bf417f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "food is produced and traded internationally, and climate concerns us all"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4729,
+            "end": 4801
+          }
+        ]
+      },
+      "id": "#57e48aa7-d7bd-4219-aa11-032e77855f0d"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "This is the only way to ensure the right information for consumers who want to lift the shopping basket in a greener and climate-friendly direction"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5056,
+            "end": 5203
+          }
+        ]
+      },
+      "id": "#67e0e9a3-bf3c-4937-a4da-e9513d571d88"
+    }
+  ],
+  "relations": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#ccb29477-cd6d-44bf-8d48-e142e8d23d3f",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#7fb936ce-ee01-47c0-a875-c90bb0a4ed48"
+        },
+        {
+          "id": "#12fb19d7-5269-4a1a-a4af-faec5669add1"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#5050445a-5bdc-4a93-84af-441ce4132ca6",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#53d19fb0-056d-4eaf-9a9f-26647392ea96"
+        },
+        {
+          "id": "#f963e5b8-b904-4b2f-bbfb-477c2093930f"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#7dc02841-eafb-4848-955f-a84ac35a7107",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#4b474a49-56b6-4104-98a1-0c4f6abcbe42"
+        },
+        {
+          "id": "#1929b4a3-55db-480f-8531-47443c3da5a1"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#79ebaddf-8125-4061-a9f4-5dfb5e324dc9",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#581f778f-bd71-494e-9a3d-a362beb78bc6"
+        },
+        {
+          "id": "#121ece72-fa64-4c2c-9e07-1bf4b7cfa1ad"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#3d8b7f74-ca7d-4295-9780-b6fff8ddc8fb",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#2b2a9ac4-f54a-494b-a55a-7d315ffdba65"
+        },
+        {
+          "id": "#121ece72-fa64-4c2c-9e07-1bf4b7cfa1ad"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#71cfdfc0-553c-457c-ba5c-0f137132fd71",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#6fa15347-cd49-4564-afcf-96f291055eec"
+        },
+        {
+          "id": "#2b2a9ac4-f54a-494b-a55a-7d315ffdba65"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#155df404-8d17-4d54-9733-a7329518fff3",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#e77ac715-d921-4a80-a377-3ed33160f191"
+        },
+        {
+          "id": "#1929b4a3-55db-480f-8531-47443c3da5a1"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#998da051-d815-4d40-a405-0e8d49a2160a",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#a8a74ebb-91ab-4e88-8451-80b02df27e6d"
+        },
+        {
+          "id": "#1929b4a3-55db-480f-8531-47443c3da5a1"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#3dd4b3be-c053-4d63-b3a9-322a99a325e4",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#f8f1990b-e9fb-4d3d-a37b-28292e19277e"
+        },
+        {
+          "id": "#b23f00c5-9267-42f6-9051-f0315c36483a"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#cd59f136-8d3d-40a3-9de7-1ed2078bf171",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#4bc756ab-8e7b-46ea-b0d8-edbcb7207aec"
+        },
+        {
+          "id": "#f8f1990b-e9fb-4d3d-a37b-28292e19277e"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#0b98b944-c522-4737-bcfc-8a70c0cd3007",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#d85134d0-7925-49d2-8d29-a4d8e1ccbcc9"
+        },
+        {
+          "id": "#828e5e00-4ed1-4d75-80cb-12fe82c7c26a"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#1e3f497d-8a26-4fa4-831e-ae758c03f6db",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#7676379a-41b0-420c-a626-a419ace1d30a"
+        },
+        {
+          "id": "#d85134d0-7925-49d2-8d29-a4d8e1ccbcc9"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#36705678-9afb-49a0-8d26-35e8c413974d",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#57e48aa7-d7bd-4219-aa11-032e77855f0d"
+        },
+        {
+          "id": "#b0aa3bcd-2bb7-4988-a6ab-9155a5bf417f"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#9ee2fe6d-5140-41c2-831a-40df8bdf1b49",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#55a32175-bd7c-48a5-9dd9-4d994cd59e25"
+        },
+        {
+          "id": "#f963e5b8-b904-4b2f-bbfb-477c2093930f"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#d89cf30a-2809-4c33-b334-f60c2d8c05d2",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#1929b4a3-55db-480f-8531-47443c3da5a1"
+        },
+        {
+          "id": "#5a003283-7c4e-4618-a081-93ddd6d65030"
+        }
+      ],
+      "motivation": "linking"
+    }
+  ]
+}

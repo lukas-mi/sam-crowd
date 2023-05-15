@@ -1,0 +1,185 @@
+{
+  "uniqueid": "AZLZA0Q87TJZO:39U1BHVTD0GU1B0TFQREL6CMHUP3TI",
+  "assignmentid": "39U1BHVTD0GU1B0TFQREL6CMHUP3TI",
+  "workerid": "AZLZA0Q87TJZO",
+  "hitid": "388FBO7J05IUZHU3HDTQDH6GRWQYNC",
+  "ipaddress": "10.1.90.109",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-08 17:12:55.403",
+  "beginexp": "2023-05-08 17:12:56.838",
+  "endhit": "2023-05-09 11:05:44.210",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 0,
+  "open_guidelines_times": [],
+  "create_annotation_count": 38,
+  "create_annotation_times": [
+    "2023-05-08 17:16:27",
+    "2023-05-08 17:16:44",
+    "2023-05-08 17:17:09",
+    "2023-05-08 17:17:35",
+    "2023-05-08 17:18:13",
+    "2023-05-08 17:33:35",
+    "2023-05-09 10:52:30",
+    "2023-05-09 10:52:42",
+    "2023-05-09 10:52:50",
+    "2023-05-09 10:53:00",
+    "2023-05-09 10:53:07",
+    "2023-05-09 10:53:13",
+    "2023-05-09 10:53:18",
+    "2023-05-09 10:53:55",
+    "2023-05-09 10:53:59",
+    "2023-05-09 10:54:13",
+    "2023-05-09 10:54:17",
+    "2023-05-09 10:56:31",
+    "2023-05-09 10:56:43",
+    "2023-05-09 10:56:47",
+    "2023-05-09 10:57:11",
+    "2023-05-09 10:57:40",
+    "2023-05-09 10:57:48",
+    "2023-05-09 10:57:52",
+    "2023-05-09 10:58:36",
+    "2023-05-09 10:58:48",
+    "2023-05-09 10:58:54",
+    "2023-05-09 10:58:59",
+    "2023-05-09 11:00:47",
+    "2023-05-09 11:00:59",
+    "2023-05-09 11:01:03",
+    "2023-05-09 11:01:38",
+    "2023-05-09 11:01:44",
+    "2023-05-09 11:01:48",
+    "2023-05-09 11:02:10",
+    "2023-05-09 11:02:47",
+    "2023-05-09 11:03:00",
+    "2023-05-09 11:04:14"
+  ],
+  "create_annotation_invalid": 1,
+  "delete_annotation_count": 3,
+  "delete_annotation_times": [
+    "2023-05-08 17:16:34",
+    "2023-05-08 17:17:59",
+    "2023-05-08 17:18:24"
+  ],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 1,
+  "update_annotation_times": [
+    "2023-05-09 10:57:35"
+  ],
+  "update_annotation_invalid": 0,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "4",
+    "task-interest": "4",
+    "ui-intuitiveness": "5",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1683565976704,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        767
+      ],
+      "timestamp": 1683565976704,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683566214160,
+      "interval": 237456
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683566219838,
+      "interval": 5678
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683566311005,
+      "interval": 91167
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683567184370,
+      "interval": 873365
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683567311575,
+      "interval": 127205
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683567632550,
+      "interval": 320975
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683567673982,
+      "interval": 41432
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683593706684,
+      "interval": 26032702
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683593792819,
+      "interval": 86135
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683629526075,
+      "interval": 35733256
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683629934700,
+      "interval": 408625
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683629934701,
+      "interval": 1
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "altinget-en",
+    "article": "skolemaelken-er-storkapitalens-vaadeste-droem-og-koebenhavn-boer-stadig-skrotte-den",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

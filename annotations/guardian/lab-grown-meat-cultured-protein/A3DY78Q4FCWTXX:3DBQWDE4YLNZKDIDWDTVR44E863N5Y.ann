@@ -1,0 +1,35 @@
+T1	Claim 76 181	The corporate race for cultured protein rests on a view of human beings as greedy and incapable of change
+A1	Stance T1 For
+T2	Premise 810 1035	Eat Just, Inc – and the dozens of other cultured meat startups racing each other to get lab-grown meat on to the menu across the globe – are selling the promise that carnivores will be able to eat meat with a clean conscience
+T3	Premise 1037 1177	Flesh without the blood, meat without murder and the beginning of the end of the environmental damage caused by intensive animal agriculture
+T4	Premise 1179 1405	The news was met with a sigh of relief from meat eaters across the world, and with good reason: it will allow us to carry on as before, eating what we like while clever technology sidesteps the problems caused by our appetites
+T5	Premise 2556 2757	even if they have managed to create something indistinguishable from a chicken nugget that comes from a dead bird, the circumstances in which the chicken was approved by regulators should give us pause
+T6	Claim 2759 2838	Why would a US company seek regulatory approval in an island city-state in Asia
+A2	Stance T6 For
+T7	Premise 2840 3048	Back in 2018, Eat Just’s CEO, Josh Tetrick, said the company was aiming to have its cultured meat approved in a number of countries outside the US because the Food and Drug Administration was behind the times
+T8	Premise 3050 3099	“The regulatory [system] is not ready in the US,”
+T9	Premise 3112 3261	Instead of waiting for it to be ready, the company found a country with more amenable standards to give it the green light to put its product on sale
+T10	Claim 3263 3478	That’s problematic for the entire cultured meat industry: consumers care more about the provenance of food now than ever before, and any producer of a new food needs to be seen to take regulatory standards seriously
+A3	Stance T10 For
+T11	Claim 3480 3551	This product has far to go when it comes to winning consumer acceptance
+A4	Stance T11 For
+T12	Premise 3553 3627	the “ick factor” is a serious problem when it comes to meat grown in a lab
+T13	Claim 4256 4347	it is also an over-engineered solution to a problem that we can solve by changing our diets
+A5	Stance T13 For
+T14	MajorClaim 4349 4507	If we simply stopped eating meat, or ate it far less often, then there would be no need for either harmful intensive animal agriculture or meat grown in a lab
+T15	Claim 4509 4601	The cultured meat industry rests on a view of human beings as greedy and incapable of change
+A6	Stance T15 For
+T16	Premise 4607 4746	the coronavirus pandemic has shown that, globally, we are able to make enormous changes to our behaviour when faced with existential crisis
+T17	Claim 5029 5232	If we move into a world where eating meat remains normal but killing animals is taboo, we will become ever more dependent on remote corporations with highly specialised technology to meet our basic needs
+A7	Stance T17 For
+T18	Claim 5256 5291	We can just choose to eat less meat
+A8	Stance T18 For
+R1	supports Arg1:T16 Arg2:T15	
+R2	supports Arg1:T3 Arg2:T2	
+R3	supports Arg1:T2 Arg2:T4	
+R4	supports Arg1:T5 Arg2:T6	
+R5	attacks Arg1:T4 Arg2:T1	
+R6	supports Arg1:T12 Arg2:T11	
+R7	supports Arg1:T8 Arg2:T7	
+R8	supports Arg1:T9 Arg2:T8	
+R9	supports Arg1:T7 Arg2:T10	

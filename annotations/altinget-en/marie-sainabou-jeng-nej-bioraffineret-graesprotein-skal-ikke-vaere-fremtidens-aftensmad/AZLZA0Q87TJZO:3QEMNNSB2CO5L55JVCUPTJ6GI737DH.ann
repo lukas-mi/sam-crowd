@@ -1,0 +1,20 @@
+T1	MajorClaim 78 351	When we mechanically refer to the food of the future as "plant proteins for human consumption" and "climate food that must not cost the joy of life", we alienate ourselves from our food and manage to neither show the way nor inspire real, sustainable change in food systems
+T2	Claim 1110 1201	There is no doubt about the need to rethink our food system in a more sustainable direction
+A1	Stance T2 For
+T3	Claim 1599 1650	plant-based food is much more than meat substitutes
+A2	Stance T3 For
+T4	Claim 1892 1932	Industry is driving the "protein switch"
+A3	Stance T4 For
+T5	Premise 2018 2161	both large parts of the research environment and the market-dominant forces in industry have embraced the meat substitute paradigm in a big way
+T6	Claim 3155 3221	Hyper-processed plant foods reinforce an unsustainable food system
+A4	Stance T6 For
+T7	Premise 3838 3949	we are strengthening the fragile food system, which is the whole reason for the food crisis the world is facing
+T8	Premise 4196 4289	It is cheap, effective – and extremely unhealthy for both us humans and the planet we live on
+T9	Claim 4302 4412	we cannot continue to design the food system of the future on the premises of large industry and market forces
+A5	Stance T9 For
+T10	Premise 4536 4631	it's not the companies that are the cause of the environmental impacts, who clean up afterwards
+T11	MajorClaim 5496 5611	If we want to inspire more people to change their eating habits, we should perhaps start by referring to it as such
+R1	supports Arg1:T5 Arg2:T4	
+R2	supports Arg1:T7 Arg2:T6	
+R3	supports Arg1:T8 Arg2:T9	
+R4	supports Arg1:T10 Arg2:T9	

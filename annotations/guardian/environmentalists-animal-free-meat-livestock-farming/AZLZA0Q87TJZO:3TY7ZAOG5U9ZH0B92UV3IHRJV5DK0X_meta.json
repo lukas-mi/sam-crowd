@@ -1,0 +1,123 @@
+{
+  "uniqueid": "AZLZA0Q87TJZO:3TY7ZAOG5U9ZH0B92UV3IHRJV5DK0X",
+  "assignmentid": "3TY7ZAOG5U9ZH0B92UV3IHRJV5DK0X",
+  "workerid": "AZLZA0Q87TJZO",
+  "hitid": "3Y3N5A7N5UYOHZ935CEQ02HGM6GYMC",
+  "ipaddress": "10.1.23.174",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-09 11:06:01.286",
+  "beginexp": "2023-05-09 11:06:02.691",
+  "endhit": "2023-05-09 11:22:20.168",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 0,
+  "open_guidelines_times": [],
+  "create_annotation_count": 42,
+  "create_annotation_times": [
+    "2023-05-09 11:12:20",
+    "2023-05-09 11:13:16",
+    "2023-05-09 11:13:23",
+    "2023-05-09 11:13:27",
+    "2023-05-09 11:13:45",
+    "2023-05-09 11:13:51",
+    "2023-05-09 11:14:05",
+    "2023-05-09 11:14:10",
+    "2023-05-09 11:14:25",
+    "2023-05-09 11:14:29",
+    "2023-05-09 11:14:51",
+    "2023-05-09 11:15:02",
+    "2023-05-09 11:15:06",
+    "2023-05-09 11:15:15",
+    "2023-05-09 11:15:19",
+    "2023-05-09 11:15:28",
+    "2023-05-09 11:15:32",
+    "2023-05-09 11:15:54",
+    "2023-05-09 11:16:01",
+    "2023-05-09 11:16:06",
+    "2023-05-09 11:16:18",
+    "2023-05-09 11:16:22",
+    "2023-05-09 11:16:33",
+    "2023-05-09 11:17:08",
+    "2023-05-09 11:17:17",
+    "2023-05-09 11:17:21",
+    "2023-05-09 11:18:04",
+    "2023-05-09 11:18:16",
+    "2023-05-09 11:18:20",
+    "2023-05-09 11:18:50",
+    "2023-05-09 11:19:00",
+    "2023-05-09 11:19:04",
+    "2023-05-09 11:19:16",
+    "2023-05-09 11:19:21",
+    "2023-05-09 11:19:41",
+    "2023-05-09 11:19:53",
+    "2023-05-09 11:19:58",
+    "2023-05-09 11:20:09",
+    "2023-05-09 11:20:13",
+    "2023-05-09 11:20:19",
+    "2023-05-09 11:20:24",
+    "2023-05-09 11:21:12"
+  ],
+  "create_annotation_invalid": 0,
+  "delete_annotation_count": 0,
+  "delete_annotation_times": [],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 0,
+  "update_annotation_times": [],
+  "update_annotation_invalid": 0,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "3",
+    "task-interest": "4",
+    "ui-intuitiveness": "5",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1683630363283,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        767
+      ],
+      "timestamp": 1683630363283,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683630466354,
+      "interval": 103071
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683630487265,
+      "interval": 20911
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "guardian",
+    "article": "environmentalists-animal-free-meat-livestock-farming",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

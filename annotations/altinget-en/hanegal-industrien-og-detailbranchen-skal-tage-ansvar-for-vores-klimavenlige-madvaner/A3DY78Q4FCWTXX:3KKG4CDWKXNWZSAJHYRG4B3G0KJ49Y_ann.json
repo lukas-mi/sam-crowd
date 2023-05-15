@@ -1,0 +1,1136 @@
+{
+  "phase": "survey",
+  "event": "submit_annotations",
+  "components": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Industry and the retail sector must take greater responsibility for Danes' climate-friendly eating habits"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 83,
+            "end": 188
+          }
+        ]
+      },
+      "id": "#8d7625c3-0fa7-48eb-af72-b5cdd41e4990"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "We must eat more greens"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 250,
+            "end": 273
+          }
+        ]
+      },
+      "id": "#d61e85a6-34ef-4fb3-b623-f0f12b725a1d"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Less meat"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 275,
+            "end": 284
+          }
+        ]
+      },
+      "id": "#5f6e3a7d-4c0b-4af9-a179-47c4e38d27a8"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "More whole grains and more legumes"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 286,
+            "end": 320
+          }
+        ]
+      },
+      "id": "#5aed2a9d-d086-4894-bf32-88693d70025c"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "But when the kids are picked up from kindergarten and the shopping needs to be done, while the last e-mails are being answered on the phone hanging over the fridge, and the kids are complaining about mix-your-own sweets and cheese pops, the Danish Food and Veterinary Authority's climate food advice slips into the background, and the good intentions of more climate-friendly eating habits are left in the store along with the pulses and couscous"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 377,
+            "end": 823
+          }
+        ]
+      },
+      "id": "#1d0a4544-de04-419a-a31d-a06a98167fde"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Although two out of three Danes would like to eat more climate-friendly"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 825,
+            "end": 896
+          }
+        ]
+      },
+      "id": "#b5e75ce0-eb7b-4361-8242-8aa2b93f03ee"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "it is difficult to rediscover the good intentions in what we put in the shopping basket when we are stressing around the supermarket"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 898,
+            "end": 1030
+          }
+        ]
+      },
+      "id": "#be7aac80-bb03-45ad-b1f1-c321751ab44f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Denmark takes last place in an EU-supported study of the ability of five European populations to exploit the potential of climate-friendly \"superfoods\" such as peas, beans and lentils"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1052,
+            "end": 1235
+          }
+        ]
+      },
+      "id": "#20ce2307-073a-4c40-b005-19a70bbccac4"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "According to the researchers behind the study, this is due to ignorance and a lack of food traditions"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1237,
+            "end": 1338
+          }
+        ]
+      },
+      "id": "#63cf1cc4-8a61-47fc-a75e-ef718f413b3e"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The Danish ignorance means that an average Dane emits just over three tonnes of CO2 through the diet alone"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1340,
+            "end": 1446
+          }
+        ]
+      },
+      "id": "#5eeb6b49-4f81-4b42-b606-549bfbde1141"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Therefore, there are also quite good opportunities to reduce our CO2 emissions if we eat more climate-friendly"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1448,
+            "end": 1558
+          }
+        ]
+      },
+      "id": "#90cdaf77-cc0b-4b18-b4d8-5fa29e631532"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "If we followed the Danish Food and Veterinary Authority's climate food advice to eat less meat, more vegetables, more legumes and more whole grains, we could easily lower the CO2 footprint associated with our diet by 30 to 45 percent"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1560,
+            "end": 1793
+          }
+        ]
+      },
+      "id": "#0a5a26b9-e2ad-46cf-80a5-449b3445de48"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "quite a considerable share"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1799,
+            "end": 1825
+          }
+        ]
+      },
+      "id": "#bff23649-9965-411d-a107-f809fbf1f60d"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Why is it so infinitely slow to reap the climate benefits when it comes to our food consumption"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1882,
+            "end": 1977
+          }
+        ]
+      },
+      "id": "#5dc0891a-f6e9-43e2-ad1c-c82f6a728963"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Why don't we just change our diet a bit and reap the climate benefits that are right at hand, when we now know that the Danes actually want to live more climate-friendly"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1979,
+            "end": 2148
+          }
+        ]
+      },
+      "id": "#f545c1e5-5626-4a7a-b929-9e0fd84c47f4"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The truth is that we are creatures of habit, and it's hard as hell to get new eating habits"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2150,
+            "end": 2241
+          }
+        ]
+      },
+      "id": "#aa44074c-21c3-4911-b9ff-0be531c69db4"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It requires energy, imagination and time"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2243,
+            "end": 2283
+          }
+        ]
+      },
+      "id": "#c050c023-f555-43f5-9b1f-735994934d9e"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "And perhaps it also requires a period of sullen children and spouses when the legumes occupy the dinner plates in the place where the red meat used to lie"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2285,
+            "end": 2439
+          }
+        ]
+      },
+      "id": "#5ede0cfe-fd5f-4de0-b78e-0706d0f23f1f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the plant-based alternatives may not have been of a quality or at a price where they were a real alternative to the meat either"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2479,
+            "end": 2606
+          }
+        ]
+      },
+      "id": "#1c620da0-2ba4-41e6-bec4-918467490796"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "A more climate-friendly diet has thus been associated with deprivation"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2608,
+            "end": 2678
+          }
+        ]
+      },
+      "id": "#4ff80ef5-d28a-41f9-ad56-551ecf2d629a"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "And if there's one thing we don't like when it comes to our diet, it's deprivation"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2680,
+            "end": 2762
+          }
+        ]
+      },
+      "id": "#f0e92bb2-e336-4846-83aa-d63a177cbdb0"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The food industry has a responsibility"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2764,
+            "end": 2802
+          }
+        ]
+      },
+      "id": "#44151707-b0a1-477c-ae10-16f24d0ae0ba"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "If we are to have pushed the Danes' eating habits in a more climate-friendly direction, it requires solid legwork and an even greater focus in the food industry and in the retail trade"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2890,
+            "end": 3074
+          }
+        ]
+      },
+      "id": "#d7ded71c-65b1-483a-88f3-f4030a6ebba1"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The Danes must be spoiled with even more delicious sustainable products with less meat and more vegetables"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3076,
+            "end": 3182
+          }
+        ]
+      },
+      "id": "#04cdd6f6-7ae6-4cae-a1b2-732e9cebfaa1"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "A more sustainable diet should not taste of deprivation and smell of inadequacy"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3184,
+            "end": 3263
+          }
+        ]
+      },
+      "id": "#b32f8f01-ade3-465e-ac5e-c591ba37014a"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Industry and retail have a responsibility to develop more climate-friendly foods and sell them at prices that make them interesting for consumers"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3265,
+            "end": 3410
+          }
+        ]
+      },
+      "id": "#83ffc4b4-94ae-4f70-9a3e-251e64a446a1"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "In January, the Danish Vegetarian Association, together with a number of retail chains and food manufacturers, carried out the 'Green January' campaign with the aim of making plant-based foods visible in the first month of the year and giving them a little more space in the minds of consumers"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3412,
+            "end": 3705
+          }
+        ]
+      },
+      "id": "#3e582e0b-93a0-4d4c-95f4-84d7b0c10d4f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "This is the kind of display window that is needed if consumers are to get to know the new foods and prioritize them in their daily purchases"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3707,
+            "end": 3847
+          }
+        ]
+      },
+      "id": "#4042cc9e-76e0-45ba-ad9f-467c01040338"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "I am convinced that the selection of plant-based foods will have reached a level within the coming years where consumers will largely choose the plant-based foods because they are of a quality that makes interesting ones"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3898,
+            "end": 4118
+          }
+        ]
+      },
+      "id": "#a6aa8b45-1efe-4581-a92e-7334a5669e65"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Only when plant-based foods have reached that level will the market really move in a more sustainable direction"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4120,
+            "end": 4231
+          }
+        ]
+      },
+      "id": "#99f31b68-7e7b-4aa0-a817-af51e0cc2703"
+    }
+  ],
+  "relations": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#1f82852b-cb08-4df7-9d67-bbd43778f32b",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#be7aac80-bb03-45ad-b1f1-c321751ab44f"
+        },
+        {
+          "id": "#b5e75ce0-eb7b-4361-8242-8aa2b93f03ee"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#1a4bba0c-bc59-4be4-846b-7eaaf9c114a9",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#b5e75ce0-eb7b-4361-8242-8aa2b93f03ee"
+        },
+        {
+          "id": "#1d0a4544-de04-419a-a31d-a06a98167fde"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#6814b598-4b32-4b16-a4cb-8f6f83aaa2fd",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#63cf1cc4-8a61-47fc-a75e-ef718f413b3e"
+        },
+        {
+          "id": "#20ce2307-073a-4c40-b005-19a70bbccac4"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#8b3e77e5-728c-445c-afa5-cee504283d90",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#20ce2307-073a-4c40-b005-19a70bbccac4"
+        },
+        {
+          "id": "#5eeb6b49-4f81-4b42-b606-549bfbde1141"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#cdade8b0-c754-46bc-89f6-c0882f70dbce",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#3e582e0b-93a0-4d4c-95f4-84d7b0c10d4f"
+        },
+        {
+          "id": "#4042cc9e-76e0-45ba-ad9f-467c01040338"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#c29f1f35-cde8-4e7e-b465-c0c933033fd7",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#5eeb6b49-4f81-4b42-b606-549bfbde1141"
+        },
+        {
+          "id": "#0a5a26b9-e2ad-46cf-80a5-449b3445de48"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#b873fd35-64ca-4414-a475-98ffaccfc58d",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#bff23649-9965-411d-a107-f809fbf1f60d"
+        },
+        {
+          "id": "#0a5a26b9-e2ad-46cf-80a5-449b3445de48"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#a4424bdf-c143-430f-931e-ea78621cc4d1",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#5dc0891a-f6e9-43e2-ad1c-c82f6a728963"
+        },
+        {
+          "id": "#f545c1e5-5626-4a7a-b929-9e0fd84c47f4"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#414155fc-5536-4a70-89ac-0ba22c966b38",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#f545c1e5-5626-4a7a-b929-9e0fd84c47f4"
+        },
+        {
+          "id": "#aa44074c-21c3-4911-b9ff-0be531c69db4"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#99b2be5d-51df-45e3-a34f-a56baaeff788",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#aa44074c-21c3-4911-b9ff-0be531c69db4"
+        },
+        {
+          "id": "#c050c023-f555-43f5-9b1f-735994934d9e"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#ca893aa3-1fdd-4d8c-9f41-23c3350d588b",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#c050c023-f555-43f5-9b1f-735994934d9e"
+        },
+        {
+          "id": "#5ede0cfe-fd5f-4de0-b78e-0706d0f23f1f"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#6c0d66fd-c87f-407c-a4ba-29af2e96cf43",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#1c620da0-2ba4-41e6-bec4-918467490796"
+        },
+        {
+          "id": "#f545c1e5-5626-4a7a-b929-9e0fd84c47f4"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#ef470882-95cd-441b-8840-44762c34814a",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#f0e92bb2-e336-4846-83aa-d63a177cbdb0"
+        },
+        {
+          "id": "#4ff80ef5-d28a-41f9-ad56-551ecf2d629a"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#011f2f6e-8a95-460c-8f1b-595a6273d6dc",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#4ff80ef5-d28a-41f9-ad56-551ecf2d629a"
+        },
+        {
+          "id": "#5ede0cfe-fd5f-4de0-b78e-0706d0f23f1f"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#4c6ea6c4-ef6c-4fe1-9d47-b626c1944741",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#b32f8f01-ade3-465e-ac5e-c591ba37014a"
+        },
+        {
+          "id": "#04cdd6f6-7ae6-4cae-a1b2-732e9cebfaa1"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#f5f000fe-6d0d-41d8-b43e-62182543a285",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#d7ded71c-65b1-483a-88f3-f4030a6ebba1"
+        },
+        {
+          "id": "#44151707-b0a1-477c-ae10-16f24d0ae0ba"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#b0327f78-f942-4267-bac6-0dd52df5af5c",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#1d0a4544-de04-419a-a31d-a06a98167fde"
+        },
+        {
+          "id": "#0a5a26b9-e2ad-46cf-80a5-449b3445de48"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#0dcddb7d-cfe6-4093-a24c-9c25a8c17126",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#5ede0cfe-fd5f-4de0-b78e-0706d0f23f1f"
+        },
+        {
+          "id": "#04cdd6f6-7ae6-4cae-a1b2-732e9cebfaa1"
+        }
+      ],
+      "motivation": "linking"
+    }
+  ]
+}

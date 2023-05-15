@@ -1,0 +1,180 @@
+{
+  "uniqueid": "AZLZA0Q87TJZO:3G0WWMR1UA9ODZ1BG5HYPFZ54O7NQ0",
+  "assignmentid": "3G0WWMR1UA9ODZ1BG5HYPFZ54O7NQ0",
+  "workerid": "AZLZA0Q87TJZO",
+  "hitid": "3QGHA0EA1XPO93A6ZM6T1PL6Z4RWBB",
+  "ipaddress": "10.1.41.255",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-13 01:49:06.273",
+  "beginexp": "2023-05-13 01:49:07.941",
+  "endhit": "2023-05-13 03:27:05.750",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 0,
+  "open_guidelines_times": [],
+  "create_annotation_count": 35,
+  "create_annotation_times": [
+    "2023-05-13 02:16:08",
+    "2023-05-13 02:16:18",
+    "2023-05-13 02:16:21",
+    "2023-05-13 02:43:26",
+    "2023-05-13 02:45:32",
+    "2023-05-13 02:45:58",
+    "2023-05-13 02:46:24",
+    "2023-05-13 03:17:33",
+    "2023-05-13 03:17:41",
+    "2023-05-13 03:17:44",
+    "2023-05-13 03:17:51",
+    "2023-05-13 03:18:02",
+    "2023-05-13 03:18:14",
+    "2023-05-13 03:18:17",
+    "2023-05-13 03:18:50",
+    "2023-05-13 03:19:03",
+    "2023-05-13 03:19:07",
+    "2023-05-13 03:19:25",
+    "2023-05-13 03:19:31",
+    "2023-05-13 03:19:34",
+    "2023-05-13 03:19:46",
+    "2023-05-13 03:19:50",
+    "2023-05-13 03:20:41",
+    "2023-05-13 03:21:54",
+    "2023-05-13 03:22:11",
+    "2023-05-13 03:22:13",
+    "2023-05-13 03:22:40",
+    "2023-05-13 03:24:22",
+    "2023-05-13 03:24:34",
+    "2023-05-13 03:24:37",
+    "2023-05-13 03:25:06",
+    "2023-05-13 03:25:50",
+    "2023-05-13 03:25:54",
+    "2023-05-13 03:26:52",
+    "2023-05-13 03:26:54"
+  ],
+  "create_annotation_invalid": 0,
+  "delete_annotation_count": 1,
+  "delete_annotation_times": [
+    "2023-05-13 03:18:54"
+  ],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 1,
+  "update_annotation_times": [
+    "2023-05-13 03:21:29"
+  ],
+  "update_annotation_invalid": 0,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "5",
+    "task-interest": "5",
+    "ui-intuitiveness": "5",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1683942552256,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        767
+      ],
+      "timestamp": 1683942552256,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683942561310,
+      "interval": 9054
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683943960172,
+      "interval": 1398862
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683944056521,
+      "interval": 96349
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683944059011,
+      "interval": 2490
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683944066875,
+      "interval": 7864
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683944073725,
+      "interval": 6850
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683944188813,
+      "interval": 115088
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683945750852,
+      "interval": 1562039
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683945850426,
+      "interval": 99574
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683945904327,
+      "interval": 53901
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683946032515,
+      "interval": 128188
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683947756858,
+      "interval": 1724343
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "altinget-en",
+    "article": "aktoer-kantinerne-er-afgoerende-i-den-groenne-omstilling-men-alt-for-ofte-bliver-de-fanget-i-en-skyttegravskrig-mellem-koedspisere-og-vegetarer",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

@@ -1,0 +1,70 @@
+T1	MajorClaim 100 272	The government should prioritize financing the development of a plant-based cookery education, which can secure Denmark's place on the gastronomically sustainable world map
+T2	Premise 333 369	The cooking education is out of date
+T3	Premise 371 401	The working conditions are bad
+T4	Premise 407 564	the young chef students are not trained to be able to handle themselves in the green kitchen, even though this is what many restaurants and canteens call for
+T5	Claim 577 802	the Danish Vegetarian Association suggests that the politicians, in addition to prioritizing a better working environment, allocate funds for the development of a green, interesting and visionary plant-based cooking education
+A1	Stance T5 For
+T6	Premise 824 1112	In a debate at the Alting on 9 May, Kasper Fogh Hansen, chairman of the board of the Food People's Assembly, says that it is too uninteresting for young people to work with food today, and that the number of students on the cookery course has fallen by a third in the last couple of years
+T7	Premise 1145 1335	there is actually a large crowd of vegetarians, vegans and climate-conscious young people out there who would consider a chef's degree if it were up-to-date, visionary, green and plant-based
+T8	Premise 1338 1631	t is not only experiences such as the horrific testimonies about working conditions and sexist culture mentioned in Politiken that make more skilled chefs nervous, but also the great focus on climate-sinning lost hare, chops and meatballs, which deters young people from attending the training
+T9	MajorClaim 1644 1839	the government and the supporting parties should prioritize funding the development of plant-based cooking education, which can secure Denmark's place on the gastronomically sustainable world map
+T10	Premise 1849 1920	young people are climate-conscious and prioritize climate-friendly food
+T11	Premise 1922 2000	This is what is interesting for them professionally – also on a cookery course
+T12	Premise 2051 2128	The existing education is based on what is colloquially called the "cookbook"
+T13	Premise 2131 2307	he book defines the content of the education, academic goals, description of the goals of the internship and which recipes the students can come up with for the apprentice test
+T14	Premise 2309 2455	Meat takes up 70 pages in the cookbook, fish takes up approximately 33 pages, while pulses have very graciously been allocated just over two pages
+T15	Claim 2491 2628	there is no plan for the cooking education to prioritize green cuisine – not to mention a gastronomy that reflects the dietary guidelines
+A2	Stance T15 For
+T16	Premise 2630 2799	In the Official Dietary Guidelines, the recommended intake of legumes is 700 grams per week, while Danes are recommended to reduce meat consumption to 350 grams per week
+T17	Claim 2801 2943	Shouldn't chefs who are trained in 2022 be able to cook exactly the food that the dietary guidelines recommend and that the population demands
+A3	Stance T17 For
+T18	Premise 3393 3550	we are aware of several vegans and vegetarians who have dropped out or opted out of the cookery course because they are forced to work with meat in a big way
+T19	Claim 3552 3766	It is discrimination, which is probably on the edge of human rights, that as a vegetarian you can only take the cooking course if you are prepared to prepare meat and thus go against your own ethics and convictions
+A4	Stance T19 For
+T20	Premise 3781 3887	the production of meat and dairy products also emits far more greenhouse gases than vegetables and legumes
+T21	Premise 3889 4012	In addition, there is the whole animal ethical aspect, which is important to many young people who eat vegan and vegetarian
+T22	Claim 4014 4150	But if animal products are no longer to be part of the cooking education sub-elements, it is the politicians who must legislate for this
+A5	Stance T22 For
+T23	Premise 4152 4274	In recent years, Denmark is moving rapidly towards green gastronomy and the development of plant-based restaurant concepts
+T24	Premise 4276 4456	Restaurants such as ARK, Bistro Lupa, VeVe and Geraniums Angelika have gone all in on the green and sustainable, and several canteen and catering companies have become much greener
+T25	Premise 4462 4521	the chefs they can hire have been tested in chops in a dish
+T26	Premise 4523 4717	Many of the players therefore arrange internal further training in vegetables, pulses and preparation themselves, because the newly trained chefs simply do not have the skills that are in demand
+T27	Premise 4719 4832	At the same time, we see that the public kitchens will probably soon have to offer a plant-based option every day
+T28	Premise 4834 4939	Aalborg has just introduced it, and a majority in the Danish Parliament is working to adopt it nationally
+T29	Claim 4941 5074	It is therefore paradoxical that we as a society do not have a plant-based cooking education where the skills in demand are the focus
+A6	Stance T29 For
+T30	Premise 5112 5182	Climate and sustainability are at the top of the young people's agenda
+T31	Premise 5184 5242	17 percent of Danes in the age group 18-34 eat flexitarian
+T32	Premise 5244 5338	Five percent of 18-34-year-olds eat pescetarian, four percent vegetarian and two percent vegan
+T33	Claim 5446 5546	the statistics point in one direction – towards plant-based and sustainable cuisine being the future
+A7	Stance T33 For
+T34	Claim 5559 5696	we recognize that there is a traditional food culture in the existing cooking education and that there is a demand for the classic dishes
+A8	Stance T34 Against
+T35	Claim 5698 5808	This is also why we are proposing a completely new plant-based trail that can exist alongside the existing one
+A9	Stance T35 For
+T36	Premise 5810 5959	That the existing education needs a green reformation is also a fact, however, if we take a look at demand and development in the restaurant industry
+R1	supports Arg1:T12 Arg2:T13	
+R2	supports Arg1:T13 Arg2:T14	
+R3	supports Arg1:T14 Arg2:T15	
+R4	supports Arg1:T16 Arg2:T17	
+R5	supports Arg1:T20 Arg2:T22	
+R6	supports Arg1:T21 Arg2:T22	
+R7	attacks Arg1:T7 Arg2:T6	
+R8	supports Arg1:T8 Arg2:T7	
+R9	supports Arg1:T10 Arg2:T11	
+R10	supports Arg1:T18 Arg2:T19	
+R11	supports Arg1:T24 Arg2:T23	
+R12	attacks Arg1:T25 Arg2:T24	
+R13	supports Arg1:T26 Arg2:T29	
+R14	supports Arg1:T27 Arg2:T28	
+R15	supports Arg1:T28 Arg2:T29	
+R16	supports Arg1:T23 Arg2:T26	
+R17	supports Arg1:T32 Arg2:T30	
+R18	supports Arg1:T31 Arg2:T30	
+R19	supports Arg1:T36 Arg2:T35	
+R20	supports Arg1:T2 Arg2:T5	
+R21	supports Arg1:T3 Arg2:T5	
+R22	supports Arg1:T4 Arg2:T5	
+R23	supports Arg1:T11 Arg2:T12	
+R24	supports Arg1:T30 Arg2:T33	
+R25	supports Arg1:T6 Arg2:T5	

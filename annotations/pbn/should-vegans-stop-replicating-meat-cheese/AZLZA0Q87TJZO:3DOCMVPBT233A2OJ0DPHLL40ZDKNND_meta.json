@@ -1,0 +1,119 @@
+{
+  "uniqueid": "AZLZA0Q87TJZO:3DOCMVPBT233A2OJ0DPHLL40ZDKNND",
+  "assignmentid": "3DOCMVPBT233A2OJ0DPHLL40ZDKNND",
+  "workerid": "AZLZA0Q87TJZO",
+  "hitid": "3VI0PC2ZBC9NHX45DW719SZCF5GOX0",
+  "ipaddress": "10.1.45.242",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-13 01:37:22.996",
+  "beginexp": "2023-05-13 01:37:25.368",
+  "endhit": "2023-05-13 01:48:58.138",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 0,
+  "open_guidelines_times": [],
+  "create_annotation_count": 33,
+  "create_annotation_times": [
+    "2023-05-13 01:39:04",
+    "2023-05-13 01:39:12",
+    "2023-05-13 01:39:15",
+    "2023-05-13 01:39:24",
+    "2023-05-13 01:39:27",
+    "2023-05-13 01:40:17",
+    "2023-05-13 01:41:13",
+    "2023-05-13 01:41:19",
+    "2023-05-13 01:41:21",
+    "2023-05-13 01:41:30",
+    "2023-05-13 01:41:42",
+    "2023-05-13 01:41:48",
+    "2023-05-13 01:42:07",
+    "2023-05-13 01:42:10",
+    "2023-05-13 01:42:17",
+    "2023-05-13 01:42:23",
+    "2023-05-13 01:42:59",
+    "2023-05-13 01:43:02",
+    "2023-05-13 01:43:27",
+    "2023-05-13 01:43:41",
+    "2023-05-13 01:43:44",
+    "2023-05-13 01:44:23",
+    "2023-05-13 01:44:34",
+    "2023-05-13 01:44:53",
+    "2023-05-13 01:45:03",
+    "2023-05-13 01:45:06",
+    "2023-05-13 01:45:15",
+    "2023-05-13 01:45:22",
+    "2023-05-13 01:45:24",
+    "2023-05-13 01:47:32",
+    "2023-05-13 01:47:53",
+    "2023-05-13 01:48:02",
+    "2023-05-13 01:48:48"
+  ],
+  "create_annotation_invalid": 1,
+  "delete_annotation_count": 4,
+  "delete_annotation_times": [
+    "2023-05-13 01:41:51",
+    "2023-05-13 01:44:26",
+    "2023-05-13 01:47:44",
+    "2023-05-13 01:47:56"
+  ],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 0,
+  "update_annotation_times": [],
+  "update_annotation_invalid": 0,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "4",
+    "task-interest": "5",
+    "ui-intuitiveness": "5",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1683941849060,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        767
+      ],
+      "timestamp": 1683941849061,
+      "interval": 1
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683942322140,
+      "interval": 473079
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683942322140,
+      "interval": 0
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "pbn",
+    "article": "should-vegans-stop-replicating-meat-cheese",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

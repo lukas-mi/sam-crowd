@@ -1,0 +1,291 @@
+{
+  "uniqueid": "A3DY78Q4FCWTXX:324G5B4FBIXBML4PJ06UECMXPO1708",
+  "assignmentid": "324G5B4FBIXBML4PJ06UECMXPO1708",
+  "workerid": "A3DY78Q4FCWTXX",
+  "hitid": "3YOAVL4CBE68IZU2VUGDSF9I69ZZ49",
+  "ipaddress": "10.1.1.42",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-08 19:59:03.535",
+  "beginexp": "2023-05-08 19:59:04.119",
+  "endhit": "2023-05-08 20:40:26.552",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 1,
+  "open_guidelines_times": [
+    "2023-05-08 19:59:46"
+  ],
+  "create_annotation_count": 70,
+  "create_annotation_times": [
+    "2023-05-08 20:00:15",
+    "2023-05-08 20:05:09",
+    "2023-05-08 20:05:16",
+    "2023-05-08 20:05:27",
+    "2023-05-08 20:06:10",
+    "2023-05-08 20:06:35",
+    "2023-05-08 20:08:30",
+    "2023-05-08 20:09:26",
+    "2023-05-08 20:09:34",
+    "2023-05-08 20:09:45",
+    "2023-05-08 20:10:00",
+    "2023-05-08 20:10:34",
+    "2023-05-08 20:11:08",
+    "2023-05-08 20:11:18",
+    "2023-05-08 20:11:26",
+    "2023-05-08 20:11:48",
+    "2023-05-08 20:11:54",
+    "2023-05-08 20:12:07",
+    "2023-05-08 20:12:57",
+    "2023-05-08 20:13:23",
+    "2023-05-08 20:13:39",
+    "2023-05-08 20:14:00",
+    "2023-05-08 20:14:19",
+    "2023-05-08 20:14:44",
+    "2023-05-08 20:14:54",
+    "2023-05-08 20:15:07",
+    "2023-05-08 20:15:28",
+    "2023-05-08 20:15:43",
+    "2023-05-08 20:16:09",
+    "2023-05-08 20:16:19",
+    "2023-05-08 20:16:34",
+    "2023-05-08 20:16:46",
+    "2023-05-08 20:16:55",
+    "2023-05-08 20:17:09",
+    "2023-05-08 20:17:38",
+    "2023-05-08 20:18:15",
+    "2023-05-08 20:18:29",
+    "2023-05-08 20:18:57",
+    "2023-05-08 20:19:33",
+    "2023-05-08 20:19:39",
+    "2023-05-08 20:20:01",
+    "2023-05-08 20:20:54",
+    "2023-05-08 20:21:34",
+    "2023-05-08 20:22:20",
+    "2023-05-08 20:23:46",
+    "2023-05-08 20:23:53",
+    "2023-05-08 20:24:10",
+    "2023-05-08 20:24:24",
+    "2023-05-08 20:24:39",
+    "2023-05-08 20:24:50",
+    "2023-05-08 20:26:16",
+    "2023-05-08 20:27:49",
+    "2023-05-08 20:28:28",
+    "2023-05-08 20:29:23",
+    "2023-05-08 20:30:36",
+    "2023-05-08 20:30:57",
+    "2023-05-08 20:31:02",
+    "2023-05-08 20:31:25",
+    "2023-05-08 20:32:02",
+    "2023-05-08 20:32:06",
+    "2023-05-08 20:33:07",
+    "2023-05-08 20:33:43",
+    "2023-05-08 20:34:00",
+    "2023-05-08 20:34:54",
+    "2023-05-08 20:35:23",
+    "2023-05-08 20:35:33",
+    "2023-05-08 20:35:38",
+    "2023-05-08 20:37:52",
+    "2023-05-08 20:38:59",
+    "2023-05-08 20:39:39"
+  ],
+  "create_annotation_invalid": 1,
+  "delete_annotation_count": 4,
+  "delete_annotation_times": [
+    "2023-05-08 20:05:55",
+    "2023-05-08 20:14:39",
+    "2023-05-08 20:25:26",
+    "2023-05-08 20:28:06"
+  ],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 9,
+  "update_annotation_times": [
+    "2023-05-08 20:06:00",
+    "2023-05-08 20:23:12",
+    "2023-05-08 20:25:24",
+    "2023-05-08 20:27:30",
+    "2023-05-08 20:32:56",
+    "2023-05-08 20:35:05",
+    "2023-05-08 20:36:04",
+    "2023-05-08 20:38:39",
+    "2023-05-08 20:38:52"
+  ],
+  "update_annotation_invalid": 1,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "4",
+    "task-interest": "3",
+    "ui-intuitiveness": "4",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1683575943012,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        819,
+        614
+      ],
+      "timestamp": 1683575943012,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        2048,
+        1071
+      ],
+      "timestamp": 1683575945543,
+      "interval": 2531
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683575986593,
+      "interval": 41050
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683576007935,
+      "interval": 21342
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        819,
+        614
+      ],
+      "timestamp": 1683576418882,
+      "interval": 410947
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683576421475,
+      "interval": 2593
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683576471848,
+      "interval": 50373
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683576474047,
+      "interval": 2199
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683576477093,
+      "interval": 3046
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        2048,
+        1071
+      ],
+      "timestamp": 1683576478716,
+      "interval": 1623
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683577524161,
+      "interval": 1045445
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683577524161,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683577987249,
+      "interval": 463088
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683577987249,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683578105992,
+      "interval": 118743
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683578105992,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683578164636,
+      "interval": 58644
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683578164636,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683578319092,
+      "interval": 154456
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683578319092,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683578396919,
+      "interval": 77827
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683578425406,
+      "interval": 28487
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "altinget-en",
+    "article": "dvf-en-plantebaseret-kokkeuddannelse-ville-goere-det-mere-spaendende-for-unge-at-arbejde-med-mad",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

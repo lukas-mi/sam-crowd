@@ -1,0 +1,1186 @@
+{
+  "phase": "survey",
+  "event": "submit_annotations",
+  "components": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "we must become better at developing and utilizing the biosolutions we already know"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 66,
+            "end": 148
+          }
+        ]
+      },
+      "id": "#ab2d0139-3f31-4b72-ac3a-d9688ae41a3a"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "we find ourselves in an abundance of crises and imbalances on the globe"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 474,
+            "end": 545
+          }
+        ]
+      },
+      "id": "#93994774-5f78-41b3-8379-8201870a990a"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Whether it concerns climate change, loss of biodiversity or the food crisis, we can be sure that there are countless researchers at both companies and universities working around the clock on the solutions"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 644,
+            "end": 849
+          }
+        ]
+      },
+      "id": "#3e4a699b-78c2-4502-8dfd-86030a6308a1"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "there are many of them today who can make a significant difference to the world's populations"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 868,
+            "end": 961
+          }
+        ]
+      },
+      "id": "#4acf6ccf-4027-4847-bafd-22110e6f87fa"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "One of these solutions is the development of climate-efficient proteins that can replace and supplement the current animal proteins"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 963,
+            "end": 1094
+          }
+        ]
+      },
+      "id": "#f4293cf0-8c31-46a4-9d00-c883ca2f8f26"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The proteins come from, among other things, beans and quinoa, mushrooms and seaweed, which, when fermented, become just as tasty in your smashburger as a beef steak"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1096,
+            "end": 1260
+          }
+        ]
+      },
+      "id": "#f502bfc5-1f10-4da4-a021-d110391a08cf"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "technology allows us to cultivate new, amazing tastes and can add future food experiences"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1276,
+            "end": 1365
+          }
+        ]
+      },
+      "id": "#0187887b-152c-4edf-a877-7149b1cc2ddc"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Fermentation is, on an equal footing with biorefining, one of the core technologies within biological solutions, also known as biosolutions"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1367,
+            "end": 1506
+          }
+        ]
+      },
+      "id": "#c7cb28ab-3f46-4856-a4b5-43ec33a923e5"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "t's fermentation that brews the enzymes in your toothpaste, that turns milk into cheese and yogurt, and that can turn beans into juicy burger patties"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1509,
+            "end": 1658
+          }
+        ]
+      },
+      "id": "#972ea468-7a7d-4607-bab5-0f604a4e81ed"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The development of new alternative proteins will not only mean that our protein consumption will require significantly less use of the globe's land areas"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1703,
+            "end": 1856
+          }
+        ]
+      },
+      "id": "#9aee8286-cf72-44d0-8efb-90e86cc5352c"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It will also lead to CO2 reductions and feed more mouths with the same amount of resources"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1858,
+            "end": 1948
+          }
+        ]
+      },
+      "id": "#47aae43e-4b0b-4d68-9e8e-2be78741e007"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "A recent report from Copenhagen Economics showed the potential of CO2 reductions"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1950,
+            "end": 2030
+          }
+        ]
+      },
+      "id": "#b7d77faa-10e7-45b6-a28e-e4be47450f23"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The biosolutions we know today alone can globally reduce CO2 by 4,300 million tonnes by 2030"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2032,
+            "end": 2124
+          }
+        ]
+      },
+      "id": "#19a72b8e-365d-4e1e-b6ae-365998e1a85d"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "This corresponds to eight percent of global emissions today"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2126,
+            "end": 2185
+          }
+        ]
+      },
+      "id": "#80c4661d-ae39-4240-95be-c2159ec2ae9f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "This is because biosolutions both lead to more efficient production processes, for example in the form of milk proteins created in fermentation tanks, just as good bacteria can shorten cheese ripening processes and extend the shelf life of many types of food"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2187,
+            "end": 2445
+          }
+        ]
+      },
+      "id": "#8f7d3a68-3312-49fe-b878-6aecb6f6c064"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "All these examples are developed from fermentation, which is the same technology that is also used in developing alternative proteins"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2447,
+            "end": 2580
+          }
+        ]
+      },
+      "id": "#2b910393-b026-4d9a-86a8-ffa7409883a4"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Alternative proteins are a tool that we have known for a long time, but which has often been overlooked in the toolbox"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2582,
+            "end": 2700
+          }
+        ]
+      },
+      "id": "#1a360409-22b5-440d-95fd-de8b795562fd"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "fermentation technology dates back thousands of years to when we first made cheese and fermented milk products"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2711,
+            "end": 2821
+          }
+        ]
+      },
+      "id": "#0b576f38-e048-406c-80b4-1fa5b0bb606f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "in relation to modern alternative foods, consumers have been somewhat skeptical"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2832,
+            "end": 2911
+          }
+        ]
+      },
+      "id": "#64e20080-496e-4414-add7-2dde4326af6e"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "as a result many companies have been reluctant to invest in the technologies behind them"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2917,
+            "end": 3005
+          }
+        ]
+      },
+      "id": "#ed5759dd-8650-4ed8-b820-23b6800d8bf5"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "We would like to change that, as time is running out"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3007,
+            "end": 3059
+          }
+        ]
+      },
+      "id": "#e069bd1f-0a94-4e45-8c4d-b80e5b9996db"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "On top of December's global biodiversity conference (COP15), it is clear that the global food system is challenged"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3087,
+            "end": 3201
+          }
+        ]
+      },
+      "id": "#d0e91ffc-741e-4156-8e6f-b2eb4c6dff95"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "we are running out of room for an ever-growing population"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3213,
+            "end": 3270
+          }
+        ]
+      },
+      "id": "#5e31382c-5d1d-4a6d-a3bc-5f7763bbeb05"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "we must make it easier to get new foods on the market"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3472,
+            "end": 3525
+          }
+        ]
+      },
+      "id": "#c0057c8f-9784-46c0-b796-f5452d4b144a"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "o support the development of new, fermented foods and secure the foundation for us to grow proteins in steel tanks with precision fermentation"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3528,
+            "end": 3670
+          }
+        ]
+      },
+      "id": "#938c3f29-0c70-48cf-99ce-03152c3a2f03"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "To design our EU legislation to include an innovation principle when we assess biosolutions that can deliver on our green objectives"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3672,
+            "end": 3804
+          }
+        ]
+      },
+      "id": "#8bd61e5b-86f8-46f3-b07c-b68acf5f6c75"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "we have the tools from the Danish biosolutions industry to deliver significant CO2 reductions"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3850,
+            "end": 3943
+          }
+        ]
+      },
+      "id": "#81474c7c-f5be-40a4-ad17-e9170f29a203"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "biosolutions also contribute to the solution of the other sustainability crises"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3951,
+            "end": 4030
+          }
+        ]
+      },
+      "id": "#f60e4f1e-7699-40bf-b803-7ad559ddfa97"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "biosolutions are an indispensable tool in the crisis toolbox"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4053,
+            "end": 4113
+          }
+        ]
+      },
+      "id": "#839b1959-2f03-48a3-86f1-296983534b73"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "a tool that can only utilize its full potential if EU regulation helps"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4124,
+            "end": 4194
+          }
+        ]
+      },
+      "id": "#6b90a934-1d1b-46de-986c-98f125660bc0"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "it is urgent to make it happen, because the imbalances will only get worse the longer we wait"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4200,
+            "end": 4293
+          }
+        ]
+      },
+      "id": "#e2703a12-c4d7-4b4b-a48e-5611abafd28b"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The green transition requires the use of all tools to deal with the global crises"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4295,
+            "end": 4376
+          }
+        ]
+      },
+      "id": "#3e65894d-bea9-4beb-95e8-d1a9f47e4618"
+    }
+  ],
+  "relations": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#3b04a16a-49ac-4d07-9855-f5c1347f2046",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#4acf6ccf-4027-4847-bafd-22110e6f87fa"
+        },
+        {
+          "id": "#3e4a699b-78c2-4502-8dfd-86030a6308a1"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#e30d73f6-b82a-4ceb-85ea-e4434941e68b",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#3e4a699b-78c2-4502-8dfd-86030a6308a1"
+        },
+        {
+          "id": "#f4293cf0-8c31-46a4-9d00-c883ca2f8f26"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#1e7a7ad6-f5c0-4411-94e8-8845f3871c66",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#972ea468-7a7d-4607-bab5-0f604a4e81ed"
+        },
+        {
+          "id": "#c7cb28ab-3f46-4856-a4b5-43ec33a923e5"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#ba31e9d2-8318-4af6-ae9c-13115bc66593",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#c7cb28ab-3f46-4856-a4b5-43ec33a923e5"
+        },
+        {
+          "id": "#0187887b-152c-4edf-a877-7149b1cc2ddc"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#923217f0-8494-4e73-b37c-b711d9cbad9d",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#0187887b-152c-4edf-a877-7149b1cc2ddc"
+        },
+        {
+          "id": "#f502bfc5-1f10-4da4-a021-d110391a08cf"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#43418c83-17e6-4d03-8f73-bda7ea5a372c",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#19a72b8e-365d-4e1e-b6ae-365998e1a85d"
+        },
+        {
+          "id": "#b7d77faa-10e7-45b6-a28e-e4be47450f23"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#6455b927-ebea-40e6-92ec-23eb7d276d12",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#b7d77faa-10e7-45b6-a28e-e4be47450f23"
+        },
+        {
+          "id": "#47aae43e-4b0b-4d68-9e8e-2be78741e007"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#c7c70dcb-6896-4a73-8e0a-026c5f9757d8",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#80c4661d-ae39-4240-95be-c2159ec2ae9f"
+        },
+        {
+          "id": "#19a72b8e-365d-4e1e-b6ae-365998e1a85d"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#1f64cdbd-0ff3-4e96-9a1f-80d0dee6c713",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#1a360409-22b5-440d-95fd-de8b795562fd"
+        },
+        {
+          "id": "#2b910393-b026-4d9a-86a8-ffa7409883a4"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#8fe87dea-2d5a-419d-9906-1bd85a602aa5",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#2b910393-b026-4d9a-86a8-ffa7409883a4"
+        },
+        {
+          "id": "#8f7d3a68-3312-49fe-b878-6aecb6f6c064"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#26ceb9eb-ef57-4042-b03b-81082c743545",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#8f7d3a68-3312-49fe-b878-6aecb6f6c064"
+        },
+        {
+          "id": "#19a72b8e-365d-4e1e-b6ae-365998e1a85d"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#e5e26570-9a58-4c3c-82a8-db2aeb493b9d",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#0b576f38-e048-406c-80b4-1fa5b0bb606f"
+        },
+        {
+          "id": "#1a360409-22b5-440d-95fd-de8b795562fd"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#ba5ec0e0-609b-4c94-9426-aa5ff9fa23fa",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#ed5759dd-8650-4ed8-b820-23b6800d8bf5"
+        },
+        {
+          "id": "#64e20080-496e-4414-add7-2dde4326af6e"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#e58a281e-852c-41ae-a177-76aefd81d10a",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#64e20080-496e-4414-add7-2dde4326af6e"
+        },
+        {
+          "id": "#e069bd1f-0a94-4e45-8c4d-b80e5b9996db"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#15e093ce-0a1e-4695-9050-4e818dffa6ec",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#5e31382c-5d1d-4a6d-a3bc-5f7763bbeb05"
+        },
+        {
+          "id": "#d0e91ffc-741e-4156-8e6f-b2eb4c6dff95"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#49235d78-303f-490a-8005-d7811158f814",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#d0e91ffc-741e-4156-8e6f-b2eb4c6dff95"
+        },
+        {
+          "id": "#c0057c8f-9784-46c0-b796-f5452d4b144a"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#0f21a9e0-80d4-4b7a-935c-608d615667a8",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#839b1959-2f03-48a3-86f1-296983534b73"
+        },
+        {
+          "id": "#3e65894d-bea9-4beb-95e8-d1a9f47e4618"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#4d691ed6-5eee-4ae7-b267-bc9048a7ba24",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#81474c7c-f5be-40a4-ad17-e9170f29a203"
+        },
+        {
+          "id": "#839b1959-2f03-48a3-86f1-296983534b73"
+        }
+      ],
+      "motivation": "linking"
+    }
+  ]
+}

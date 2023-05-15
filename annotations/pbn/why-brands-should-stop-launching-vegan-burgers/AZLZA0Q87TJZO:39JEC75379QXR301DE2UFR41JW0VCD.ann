@@ -1,0 +1,32 @@
+T1	Claim 665 719	we do not need another burger product in this category
+A1	Stance T1 For
+T2	Premise 804 849	At the time of writing, it returns 49 results
+T3	Premise 851 955	Type “beef burger” into Ocado’s search, and it returns only 32 products… some of which are vegan burgers
+T4	MajorClaim 1018 1107	there are a staggering number of vegan burgers, and this space is massively oversaturated
+T5	Claim 1279 1345	The present over-saturation of the vegan burger space is a problem
+A2	Stance T5 For
+T6	Premise 1368 1408	The biggest advertising budgets will win
+T7	Premise 1608 1655	that’s expensive, especially for smaller brands
+T8	Premise 1842 1894	It could support the “decline of veganism” narrative
+T9	Premise 1895 2022	As those smaller brands collapse, the media will jump on this and continue its narrative around the plant-based space dying out
+T10	Premise 2250 2273	Market growth stagnates
+T11	Premise 2274 2355	Brands are scrapping over the same small space, and failing to create new markets
+T12	Premise 2615 2680	brands are often doing little to help people to “Cross the Chasm.
+T13	Claim 2800 2913	The single best thing FMCG brands can be doing right now is to make it easier for people to try plant-based foods
+A3	Stance T13 For
+T14	Premise 2915 3009	That means enticing customers with new products, and making them as easy to obtain as possible
+T15	Claim 4221 4291	Ten years ago, a vegan burger was a delightfully differentiated option
+A4	Stance T15 Against
+T16	Claim 4293 4366	Today, it’s the vegan burger brands that need to differentiate themselves
+A5	Stance T16 For
+T17	MajorClaim 5725 5818	if your idea of innovation is another burger than please, please go back to the drawing board
+R1	supports Arg1:T6 Arg2:T5	
+R2	supports Arg1:T8 Arg2:T5	
+R3	supports Arg1:T9 Arg2:T8	
+R4	supports Arg1:T10 Arg2:T5	
+R5	supports Arg1:T11 Arg2:T10	
+R6	supports Arg1:T14 Arg2:T13	
+R7	supports Arg1:T3 Arg2:T1	
+R8	supports Arg1:T2 Arg2:T1	
+R9	supports Arg1:T7 Arg2:T6	
+R10	supports Arg1:T12 Arg2:T10	

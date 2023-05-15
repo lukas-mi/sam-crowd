@@ -1,0 +1,960 @@
+{
+  "phase": "survey",
+  "event": "submit_annotations",
+  "components": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "school milk is most of all big capital's wettest dream"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1168,
+            "end": 1222
+          }
+        ]
+      },
+      "id": "#e7990f46-2e76-48ec-a9b0-d0ac7bc4fdc1"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It is also the unrestrained commercial entry of one industry - at the expense of other industries - into the primary school without special, weighty health reasons"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1224,
+            "end": 1387
+          }
+        ]
+      },
+      "id": "#2bba1979-97d9-435d-be95-646c627c5d8d"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "school milk is also a climate emitter"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1405,
+            "end": 1442
+          }
+        ]
+      },
+      "id": "#966012dc-6e9d-45fe-a9f4-072b482f9695"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the CO2 emission from milk production is higher than the emission from cement"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1755,
+            "end": 1832
+          }
+        ]
+      },
+      "id": "#9963985b-9f64-44a8-b7f2-ffa3973cba3b"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Milk production also contributes to the cultivation of a colossal area of land that could have been untouched nature for the sake of biodiversity, when we compare with what almond milk, rice milk and soy milk use in terms of area"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1834,
+            "end": 2063
+          }
+        ]
+      },
+      "id": "#98251600-bc6f-43cb-8168-fd45b49c7cd6"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the Dane's milk consumption on average emits around 250 kilos of CO2 per year"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2096,
+            "end": 2173
+          }
+        ]
+      },
+      "id": "#dc1e66f0-b793-49f6-b777-896731ea4e8d"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "more than 600 liters of water must be used on average \u2013 equivalent to an entire rubbish container in your backyard \u2013 to produce just one liter of milk"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2185,
+            "end": 2335
+          }
+        ]
+      },
+      "id": "#93d47f98-4392-4348-b466-2d1c5a9722ee"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "does anyone think that the Dairy Association supports the school milk for purely altruistic reasons, or are the unreasonable number of Facebook ads for the school milk connected to the fact that there is great profit in establishing a high milk consumption among children at the age when habits are formed"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2397,
+            "end": 2702
+          }
+        ]
+      },
+      "id": "#1aacfd6f-3511-429c-9f93-cf5f21f45749"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The different colored plastic lids and collectable stickers that belong to the school milk scream of the advertising industry's unrestrained entry into the most sacred halls we have - namely our classrooms"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2704,
+            "end": 2909
+          }
+        ]
+      },
+      "id": "#9edee3dc-4ce2-447f-8f51-ee1da15175e4"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimAgainst"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the school milk advocates have fallen in love with the Dairy Association's message that children should have more than 250 milliliters of milk a day"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2914,
+            "end": 3062
+          }
+        ]
+      },
+      "id": "#eef6d86b-855c-484c-8392-554012984145"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Danes are not in a milk deficit from an average perspective"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3151,
+            "end": 3210
+          }
+        ]
+      },
+      "id": "#a7fac2c8-8ef9-4880-9f4e-dfb2d58094b5"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "only 24 percent of the children in Copenhagen use the scheme according to the Children and Youth Administration"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3222,
+            "end": 3333
+          }
+        ]
+      },
+      "id": "#e689d09c-4623-467b-b77c-611d62579714"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the user payment element means that it is unlikely that children from vulnerable areas use the school milk more than children from housing estates"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3356,
+            "end": 3502
+          }
+        ]
+      },
+      "id": "#301df85e-7fd2-40c9-96ef-51dcbd5b227b"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "we are in deficit of a sea of other foods"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3548,
+            "end": 3589
+          }
+        ]
+      },
+      "id": "#eaeed073-6aba-4d39-b59a-3f6898222735"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "According to the Danish Health Authority, 92 percent of Danish men and 87 percent of Danish women, for example, do not get enough fruit and vegetables"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3591,
+            "end": 3741
+          }
+        ]
+      },
+      "id": "#ac049fdf-2670-41bb-b78f-223dfe475bca"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the emphasis in the new dietary guidelines is that we must eat more climate-friendly, including a plant-based diet"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3773,
+            "end": 3887
+          }
+        ]
+      },
+      "id": "#26b239fe-625d-43fe-983e-0b1a541ef347"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "You could choose to politically support this instead, as there is \u2013 to a certain extent \u2013 the possibility of converting EU support for school milk so that it becomes EU support for fruit and vegetables"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3889,
+            "end": 4090
+          }
+        ]
+      },
+      "id": "#c9413688-5045-4d15-b3bf-cf4e4049044c"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The technical staff who distribute school milk today could, after all, distribute fruit and vegetables"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4092,
+            "end": 4194
+          }
+        ]
+      },
+      "id": "#805ccc29-1e55-4dd2-9377-f8f9615f557c"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "no one questions the Danish Food and Food Administration's recommendations on milk"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4231,
+            "end": 4313
+          }
+        ]
+      },
+      "id": "#a7dbd9e5-bf2b-4890-b22f-37e7e413a55d"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Depending on age, we should drink 250 milliliters of milk and eat between 15 and 20 grams of cheese a day"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4315,
+            "end": 4420
+          }
+        ]
+      },
+      "id": "#3bb7a16a-d6d7-45b7-8a47-cbb478d91e3c"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "as the Danish Veterinary and Food Administration has just confirmed, there are no recommendations for when the milk should be drunk or who should serve it"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4431,
+            "end": 4585
+          }
+        ]
+      },
+      "id": "#619e483e-6201-400a-857f-72798ef35ff8"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the debate about school milk is embodied an important question about what we should do with the children's food education in the future"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4919,
+            "end": 5054
+          }
+        ]
+      },
+      "id": "#475bf61f-a6bf-477f-98b1-b5454018160f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "it has much more perspective for the children's food education when we as a municipality support sustainable, climate-friendly diet and of course the many diverse purposes that food has"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5120,
+            "end": 5305
+          }
+        ]
+      },
+      "id": "#9cbc74a8-f372-4d33-a4e1-6506b26e7ba2"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Food can be a boost for the community and the taste buds - far more than that commercial school milk"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5307,
+            "end": 5407
+          }
+        ]
+      },
+      "id": "#dcca6e79-eadc-4fef-852f-32a5b76388c5"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "school milk is in reality neither a green nor a liberal project, but rather one branch's special commercial access to the children"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5623,
+            "end": 5753
+          }
+        ]
+      },
+      "id": "#2d3bc4f8-feac-4088-9739-6be2dd7973e6"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Without heavy health-related justifications and directly against our Copenhagen climate ambitions"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5755,
+            "end": 5852
+          }
+        ]
+      },
+      "id": "#7ed54601-c9ea-4862-880f-68f1cb9df640"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "In the name of the climate, biodiversity and free competition, I therefore say: Slaughter the sacred cow and drop the school milk"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5854,
+            "end": 5983
+          }
+        ]
+      },
+      "id": "#34d14fba-ed40-4ba0-b63c-de1201557764"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "let's instead support the children's green eating and drinking habits going forward"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5989,
+            "end": 6072
+          }
+        ]
+      },
+      "id": "#54dd9bfa-4b72-4b83-bdb2-0edba2c9dcb4"
+    }
+  ],
+  "relations": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#db195e0f-bd88-45ee-b999-7575b4bd2157",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#a7fac2c8-8ef9-4880-9f4e-dfb2d58094b5"
+        },
+        {
+          "id": "#eef6d86b-855c-484c-8392-554012984145"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#56b44aa1-3f04-4d6b-a4ce-67d2229f04d5",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#e689d09c-4623-467b-b77c-611d62579714"
+        },
+        {
+          "id": "#301df85e-7fd2-40c9-96ef-51dcbd5b227b"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#a9d52ce8-a143-47aa-a078-713925678a12",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#93d47f98-4392-4348-b466-2d1c5a9722ee"
+        },
+        {
+          "id": "#dc1e66f0-b793-49f6-b777-896731ea4e8d"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#21813956-9cf7-47ec-9d6a-8c4b4bc4702e",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#dc1e66f0-b793-49f6-b777-896731ea4e8d"
+        },
+        {
+          "id": "#98251600-bc6f-43cb-8168-fd45b49c7cd6"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#567dfc94-6d49-4729-b45d-5a2561fb5fa3",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#98251600-bc6f-43cb-8168-fd45b49c7cd6"
+        },
+        {
+          "id": "#9963985b-9f64-44a8-b7f2-ffa3973cba3b"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#ee935600-6fd6-46ff-9f34-de5979309c9b",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#9963985b-9f64-44a8-b7f2-ffa3973cba3b"
+        },
+        {
+          "id": "#966012dc-6e9d-45fe-a9f4-072b482f9695"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#d77fc75d-385c-4323-9bea-deaffc39b4fb",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#ac049fdf-2670-41bb-b78f-223dfe475bca"
+        },
+        {
+          "id": "#eaeed073-6aba-4d39-b59a-3f6898222735"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#591f21b0-7f71-47d8-99a1-43dfd26f22a6",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#26b239fe-625d-43fe-983e-0b1a541ef347"
+        },
+        {
+          "id": "#ac049fdf-2670-41bb-b78f-223dfe475bca"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#c996248d-387f-40c8-8470-8a3e89763c09",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#eaeed073-6aba-4d39-b59a-3f6898222735"
+        },
+        {
+          "id": "#c9413688-5045-4d15-b3bf-cf4e4049044c"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#b3f21106-ed2a-4fd8-888f-68ed8559a466",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#805ccc29-1e55-4dd2-9377-f8f9615f557c"
+        },
+        {
+          "id": "#c9413688-5045-4d15-b3bf-cf4e4049044c"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#926f3f97-274f-4e86-9594-400738ca04e2",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#3bb7a16a-d6d7-45b7-8a47-cbb478d91e3c"
+        },
+        {
+          "id": "#a7dbd9e5-bf2b-4890-b22f-37e7e413a55d"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#8228bb57-e14f-46a5-8f24-dfd4d00ec9c3",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#a7dbd9e5-bf2b-4890-b22f-37e7e413a55d"
+        },
+        {
+          "id": "#619e483e-6201-400a-857f-72798ef35ff8"
+        }
+      ],
+      "motivation": "linking"
+    }
+  ]
+}

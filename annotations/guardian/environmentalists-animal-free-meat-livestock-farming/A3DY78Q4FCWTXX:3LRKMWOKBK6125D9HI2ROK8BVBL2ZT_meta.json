@@ -1,0 +1,527 @@
+{
+  "uniqueid": "A3DY78Q4FCWTXX:3LRKMWOKBK6125D9HI2ROK8BVBL2ZT",
+  "assignmentid": "3LRKMWOKBK6125D9HI2ROK8BVBL2ZT",
+  "workerid": "A3DY78Q4FCWTXX",
+  "hitid": "3AC6MFV6AY72UBIXA10WM4IMBASZHU",
+  "ipaddress": "10.1.87.73",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-02 16:06:04.306",
+  "beginexp": "2023-05-02 16:06:04.749",
+  "endhit": "2023-05-02 20:00:03.675",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 0,
+  "open_guidelines_times": [],
+  "create_annotation_count": 108,
+  "create_annotation_times": [
+    "2023-05-02 16:06:44",
+    "2023-05-02 16:07:22",
+    "2023-05-02 16:07:33",
+    "2023-05-02 16:07:46",
+    "2023-05-02 16:08:17",
+    "2023-05-02 16:08:29",
+    "2023-05-02 16:09:06",
+    "2023-05-02 16:09:38",
+    "2023-05-02 16:09:53",
+    "2023-05-02 16:16:02",
+    "2023-05-02 16:16:43",
+    "2023-05-02 16:16:50",
+    "2023-05-02 16:16:53",
+    "2023-05-02 16:17:07",
+    "2023-05-02 16:17:11",
+    "2023-05-02 16:17:22",
+    "2023-05-02 16:17:30",
+    "2023-05-02 16:17:47",
+    "2023-05-02 16:17:59",
+    "2023-05-02 16:18:04",
+    "2023-05-02 16:18:33",
+    "2023-05-02 16:20:06",
+    "2023-05-02 16:20:18",
+    "2023-05-02 16:20:23",
+    "2023-05-02 16:20:26",
+    "2023-05-02 16:20:33",
+    "2023-05-02 16:20:37",
+    "2023-05-02 16:20:44",
+    "2023-05-02 16:20:59",
+    "2023-05-02 16:21:03",
+    "2023-05-02 16:21:11",
+    "2023-05-02 16:21:14",
+    "2023-05-02 16:21:37",
+    "2023-05-02 16:21:45",
+    "2023-05-02 16:21:51",
+    "2023-05-02 16:22:00",
+    "2023-05-02 16:22:23",
+    "2023-05-02 16:22:31",
+    "2023-05-02 16:22:41",
+    "2023-05-02 16:23:07",
+    "2023-05-02 16:23:12",
+    "2023-05-02 16:23:47",
+    "2023-05-02 16:23:57",
+    "2023-05-02 16:24:20",
+    "2023-05-02 16:24:41",
+    "2023-05-02 16:25:05",
+    "2023-05-02 16:25:22",
+    "2023-05-02 16:25:31",
+    "2023-05-02 16:25:43",
+    "2023-05-02 16:25:59",
+    "2023-05-02 16:26:25",
+    "2023-05-02 16:26:41",
+    "2023-05-02 16:26:45",
+    "2023-05-02 16:26:57",
+    "2023-05-02 16:27:04",
+    "2023-05-02 16:27:28",
+    "2023-05-02 16:27:32",
+    "2023-05-02 16:27:41",
+    "2023-05-02 16:27:51",
+    "2023-05-02 16:27:54",
+    "2023-05-02 16:28:06",
+    "2023-05-02 16:28:11",
+    "2023-05-02 16:28:28",
+    "2023-05-02 16:28:48",
+    "2023-05-02 16:28:57",
+    "2023-05-02 16:29:04",
+    "2023-05-02 16:29:10",
+    "2023-05-02 16:29:30",
+    "2023-05-02 16:30:05",
+    "2023-05-02 16:30:40",
+    "2023-05-02 16:30:55",
+    "2023-05-02 16:31:10",
+    "2023-05-02 16:31:21",
+    "2023-05-02 16:31:25",
+    "2023-05-02 16:31:38",
+    "2023-05-02 16:31:42",
+    "2023-05-02 16:31:53",
+    "2023-05-02 16:32:00",
+    "2023-05-02 16:32:31",
+    "2023-05-02 16:32:48",
+    "2023-05-02 16:33:12",
+    "2023-05-02 16:42:05",
+    "2023-05-02 16:42:50",
+    "2023-05-02 16:43:21",
+    "2023-05-02 16:45:08",
+    "2023-05-02 16:45:16",
+    "2023-05-02 16:45:27",
+    "2023-05-02 16:45:41",
+    "2023-05-02 16:46:04",
+    "2023-05-02 16:46:42",
+    "2023-05-02 16:46:51",
+    "2023-05-02 16:47:01",
+    "2023-05-02 16:47:13",
+    "2023-05-02 16:47:19",
+    "2023-05-02 16:47:24",
+    "2023-05-02 16:47:43",
+    "2023-05-02 19:53:34",
+    "2023-05-02 19:54:36",
+    "2023-05-02 19:55:06",
+    "2023-05-02 19:55:16",
+    "2023-05-02 19:56:22",
+    "2023-05-02 19:56:44",
+    "2023-05-02 19:57:18",
+    "2023-05-02 19:57:57",
+    "2023-05-02 19:58:16",
+    "2023-05-02 19:58:34",
+    "2023-05-02 19:59:07",
+    "2023-05-02 19:59:28"
+  ],
+  "create_annotation_invalid": 10,
+  "delete_annotation_count": 10,
+  "delete_annotation_times": [
+    "2023-05-02 16:08:02",
+    "2023-05-02 16:08:04",
+    "2023-05-02 16:08:05",
+    "2023-05-02 16:16:20",
+    "2023-05-02 16:20:53",
+    "2023-05-02 16:23:29",
+    "2023-05-02 16:23:34",
+    "2023-05-02 16:23:40",
+    "2023-05-02 16:31:02",
+    "2023-05-02 19:56:33"
+  ],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 2,
+  "update_annotation_times": [
+    "2023-05-02 16:09:43",
+    "2023-05-02 19:56:04"
+  ],
+  "update_annotation_invalid": 0,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "5",
+    "task-interest": "3",
+    "ui-intuitiveness": "4",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1683043563441,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        683,
+        512
+      ],
+      "timestamp": 1683043563441,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1707,
+        891
+      ],
+      "timestamp": 1683043567593,
+      "interval": 4152
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        683,
+        512
+      ],
+      "timestamp": 1683043606602,
+      "interval": 39009
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683043609028,
+      "interval": 2426
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683043630183,
+      "interval": 21155
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        683,
+        726
+      ],
+      "timestamp": 1683043630581,
+      "interval": 398
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683043886432,
+      "interval": 255851
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683044152681,
+      "interval": 266249
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683044418323,
+      "interval": 265642
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683044418323,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683044587028,
+      "interval": 168705
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683044587028,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683044886612,
+      "interval": 299584
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683044886612,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683044944734,
+      "interval": 58122
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683044944734,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683044950387,
+      "interval": 5653
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683044950387,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683045113804,
+      "interval": 163417
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683045113804,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683045241653,
+      "interval": 127849
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683045689583,
+      "interval": 447930
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        683,
+        512
+      ],
+      "timestamp": 1683045691996,
+      "interval": 2413
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1707,
+        891
+      ],
+      "timestamp": 1683045693316,
+      "interval": 1320
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683045964051,
+      "interval": 270735
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683045964051,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683046002532,
+      "interval": 38481
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683046002532,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683046033262,
+      "interval": 30730
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683046033262,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683046074496,
+      "interval": 41234
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683046099150,
+      "interval": 24654
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        683,
+        512
+      ],
+      "timestamp": 1683046099438,
+      "interval": 288
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683046101177,
+      "interval": 1739
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683056471723,
+      "interval": 10370546
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1280,
+        731
+      ],
+      "timestamp": 1683056476646,
+      "interval": 4923
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        683,
+        512
+      ],
+      "timestamp": 1683056590925,
+      "interval": 114279
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1707,
+        891
+      ],
+      "timestamp": 1683056592651,
+      "interval": 1726
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683056596021,
+      "interval": 3370
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683056619123,
+      "interval": 23102
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        683,
+        512
+      ],
+      "timestamp": 1683056786763,
+      "interval": 167640
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683056793972,
+      "interval": 7209
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683057164378,
+      "interval": 370406
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1280,
+        731
+      ],
+      "timestamp": 1683057164757,
+      "interval": 379
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683057382291,
+      "interval": 217534
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683057382291,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        683,
+        512
+      ],
+      "timestamp": 1683057570630,
+      "interval": 188339
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683057573367,
+      "interval": 2737
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683057587158,
+      "interval": 13791
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683057601077,
+      "interval": 13919
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683057602308,
+      "interval": 1231
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "guardian",
+    "article": "environmentalists-animal-free-meat-livestock-farming",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

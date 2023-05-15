@@ -1,0 +1,154 @@
+{
+  "uniqueid": "AZLZA0Q87TJZO:3CFVK00FW0A5FHF6PJNL6IEPZ6TL6P",
+  "assignmentid": "3CFVK00FW0A5FHF6PJNL6IEPZ6TL6P",
+  "workerid": "AZLZA0Q87TJZO",
+  "hitid": "3RDTX9JRUCQQVVU8TUKLI3RZID079V",
+  "ipaddress": "10.1.28.54",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-14 13:05:51.693",
+  "beginexp": "2023-05-14 13:05:56.343",
+  "endhit": "2023-05-14 13:30:50.128",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 0,
+  "open_guidelines_times": [],
+  "create_annotation_count": 55,
+  "create_annotation_times": [
+    "2023-05-14 13:06:17",
+    "2023-05-14 13:06:28",
+    "2023-05-14 13:06:38",
+    "2023-05-14 13:06:56",
+    "2023-05-14 13:07:05",
+    "2023-05-14 13:07:10",
+    "2023-05-14 13:07:13",
+    "2023-05-14 13:07:20",
+    "2023-05-14 13:07:23",
+    "2023-05-14 13:07:54",
+    "2023-05-14 13:08:04",
+    "2023-05-14 13:08:08",
+    "2023-05-14 13:08:16",
+    "2023-05-14 13:08:19",
+    "2023-05-14 13:22:20",
+    "2023-05-14 13:22:39",
+    "2023-05-14 13:22:57",
+    "2023-05-14 13:23:05",
+    "2023-05-14 13:23:17",
+    "2023-05-14 13:23:20",
+    "2023-05-14 13:23:47",
+    "2023-05-14 13:24:01",
+    "2023-05-14 13:24:04",
+    "2023-05-14 13:24:10",
+    "2023-05-14 13:24:12",
+    "2023-05-14 13:24:18",
+    "2023-05-14 13:24:21",
+    "2023-05-14 13:24:40",
+    "2023-05-14 13:24:42",
+    "2023-05-14 13:24:53",
+    "2023-05-14 13:25:01",
+    "2023-05-14 13:25:27",
+    "2023-05-14 13:25:38",
+    "2023-05-14 13:25:40",
+    "2023-05-14 13:25:49",
+    "2023-05-14 13:26:12",
+    "2023-05-14 13:26:17",
+    "2023-05-14 13:26:20",
+    "2023-05-14 13:26:26",
+    "2023-05-14 13:26:29",
+    "2023-05-14 13:27:07",
+    "2023-05-14 13:27:12",
+    "2023-05-14 13:27:15",
+    "2023-05-14 13:27:20",
+    "2023-05-14 13:27:23",
+    "2023-05-14 13:27:35",
+    "2023-05-14 13:27:37",
+    "2023-05-14 13:28:11",
+    "2023-05-14 13:28:51",
+    "2023-05-14 13:28:55",
+    "2023-05-14 13:29:11",
+    "2023-05-14 13:29:17",
+    "2023-05-14 13:29:20",
+    "2023-05-14 13:29:25",
+    "2023-05-14 13:29:28"
+  ],
+  "create_annotation_invalid": 0,
+  "delete_annotation_count": 3,
+  "delete_annotation_times": [
+    "2023-05-14 13:06:23",
+    "2023-05-14 13:22:47",
+    "2023-05-14 13:27:29"
+  ],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 1,
+  "update_annotation_times": [
+    "2023-05-14 13:07:02"
+  ],
+  "update_annotation_invalid": 0,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "3",
+    "task-interest": "5",
+    "ui-intuitiveness": "5",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1684069554143,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        767
+      ],
+      "timestamp": 1684069554143,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1684069703135,
+      "interval": 148992
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1684070463714,
+      "interval": 760579
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1684070487695,
+      "interval": 23981
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1684070496032,
+      "interval": 8337
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "altinget-en",
+    "article": "dvf-en-plantebaseret-kokkeuddannelse-ville-goere-det-mere-spaendende-for-unge-at-arbejde-med-mad",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

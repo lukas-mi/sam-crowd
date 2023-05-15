@@ -1,0 +1,59 @@
+T1	MajorClaim 100 193	The government should prioritize financing the development of a plant-based cookery education
+T2	Premise 333 369	The cooking education is out of date
+T3	Premise 371 401	The working conditions are bad
+T4	Premise 407 499	the young chef students are not trained to be able to handle themselves in the green kitchen
+T5	Claim 577 802	the Danish Vegetarian Association suggests that the politicians, in addition to prioritizing a better working environment, allocate funds for the development of a green, interesting and visionary plant-based cooking education
+A1	Stance T5 For
+T6	Premise 943 1007	it is too uninteresting for young people to work with food today
+T7	Premise 1018 1112	the number of students on the cookery course has fallen by a third in the last couple of years
+T8	Claim 1145 1335	there is actually a large crowd of vegetarians, vegans and climate-conscious young people out there who would consider a chef's degree if it were up-to-date, visionary, green and plant-based
+A2	Stance T8 For
+T9	Premise 1337 1631	It is not only experiences such as the horrific testimonies about working conditions and sexist culture mentioned in Politiken that make more skilled chefs nervous, but also the great focus on climate-sinning lost hare, chops and meatballs, which deters young people from attending the training
+T10	MajorClaim 1644 1760	the government and the supporting parties should prioritize funding the development of plant-based cooking education
+T11	Claim 1849 1920	young people are climate-conscious and prioritize climate-friendly food
+A3	Stance T11 For
+T12	Premise 2309 2347	Meat takes up 70 pages in the cookbook
+T13	Premise 2349 2385	fish takes up approximately 33 pages
+T14	Premise 2393 2455	pulses have very graciously been allocated just over two pages
+T15	Claim 2491 2628	there is no plan for the cooking education to prioritize green cuisine – not to mention a gastronomy that reflects the dietary guidelines
+A4	Stance T15 For
+T16	Premise 2630 2799	In the Official Dietary Guidelines, the recommended intake of legumes is 700 grams per week, while Danes are recommended to reduce meat consumption to 350 grams per week
+T17	Premise 2801 2943	Shouldn't chefs who are trained in 2022 be able to cook exactly the food that the dietary guidelines recommend and that the population demands
+T18	Premise 3355 3550	At the Danish Vegetarian Association, we are aware of several vegans and vegetarians who have dropped out or opted out of the cookery course because they are forced to work with meat in a big way
+T19	Claim 3552 3766	It is discrimination, which is probably on the edge of human rights, that as a vegetarian you can only take the cooking course if you are prepared to prepare meat and thus go against your own ethics and convictions
+A5	Stance T19 For
+T20	Claim 3781 3887	the production of meat and dairy products also emits far more greenhouse gases than vegetables and legumes
+A6	Stance T20 For
+T21	Claim 4152 4274	In recent years, Denmark is moving rapidly towards green gastronomy and the development of plant-based restaurant concepts
+A7	Stance T21 For
+T22	Premise 4276 4387	Restaurants such as ARK, Bistro Lupa, VeVe and Geraniums Angelika have gone all in on the green and sustainable
+T23	Premise 4393 4456	several canteen and catering companies have become much greener
+T24	Premise 4523 4717	Many of the players therefore arrange internal further training in vegetables, pulses and preparation themselves, because the newly trained chefs simply do not have the skills that are in demand
+T25	Claim 4749 4832	the public kitchens will probably soon have to offer a plant-based option every day
+A8	Stance T25 For
+T26	Premise 4834 4864	Aalborg has just introduced it
+T27	Premise 4870 4939	a majority in the Danish Parliament is working to adopt it nationally
+T28	Claim 5112 5182	Climate and sustainability are at the top of the young people's agenda
+A9	Stance T28 For
+T29	Premise 5184 5242	17 percent of Danes in the age group 18-34 eat flexitarian
+T30	Premise 5244 5338	Five percent of 18-34-year-olds eat pescetarian, four percent vegetarian and two percent vegan
+T31	MajorClaim 5961 6187	The Danish Vegetarian Association therefore calls on politicians to prioritize the development of a plant-based cooking education and thus create an education that is attractive to climate-conscious (plant-eating) young people
+R1	supports Arg1:T2 Arg2:T5	
+R2	supports Arg1:T3 Arg2:T5	
+R3	supports Arg1:T4 Arg2:T5	
+R4	attacks Arg1:T6 Arg2:T8	
+R5	attacks Arg1:T7 Arg2:T8	
+R6	supports Arg1:T9 Arg2:T5	
+R7	supports Arg1:T12 Arg2:T15	
+R8	supports Arg1:T13 Arg2:T15	
+R9	supports Arg1:T14 Arg2:T15	
+R10	supports Arg1:T16 Arg2:T15	
+R11	supports Arg1:T17 Arg2:T15	
+R12	supports Arg1:T18 Arg2:T19	
+R13	supports Arg1:T22 Arg2:T21	
+R14	supports Arg1:T23 Arg2:T21	
+R15	supports Arg1:T29 Arg2:T28	
+R16	supports Arg1:T30 Arg2:T28	
+R17	supports Arg1:T24 Arg2:T21	
+R18	supports Arg1:T26 Arg2:T25	
+R19	supports Arg1:T27 Arg2:T25	

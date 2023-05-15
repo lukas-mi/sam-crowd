@@ -1,0 +1,48 @@
+T1	Claim 56 125	A national climate label is the only way to ensure informed consumers
+A1	Stance T1 For
+T2	MajorClaim 523 636	a national climate label must be able to convince consumers and deliver long-term and solid climate understanding
+T3	Claim 728 825	We need a national climate label here and now that can be successful with producers and consumers
+A2	Stance T3 For
+T4	Premise 859 997	If it is too late, companies themselves start making their own climate labels based on different methods and information for the same food
+T5	Premise 1004 1033	consumers get really confused
+T6	Claim 1035 1187	A public brand must be able to secure the necessary support and cooperation in the grocery industry, so that consumers are informed uniformly and fairly
+A3	Stance T6 For
+T7	Premise 1189 1269	The benefit of cooperating is a more effective climate adjustment of consumption
+T8	Claim 1570 1655	Awareness must be secured through support from manufacturers and the grocery industry
+A4	Stance T8 For
+T9	Premise 1665 1799	otherwise the necessary product selection with the brand on it, which can stimulate an interest among consumers, will not be available
+T10	Premise 1801 2043	An analysis from Dansk Erhverv shows that consumers' "perceived trust" in a brand is conditioned by a high degree of familiarity, which in turn is conditioned by the fact that the brand can be found via a large selection of different products
+T11	Claim 2045 2142	It is important that the climate label is able to build a long-term understanding among consumers
+A5	Stance T11 For
+T12	Premise 2283 2328	a "positive label" is something we must avoid
+T13	Premise 2338 2425	it only labels the more climate-friendly foods and avoids the more climate-harming ones
+T14	Premise 2427 2503	A "positive scheme" risks creating uncertainty and confusion among consumers
+T15	Premise 2678 2793	"Positive labeling" also does not support the manufacturer to develop products in a more climate-friendly direction
+T16	Claim 2795 2941	A graduated scheme with a color scale "within the various product categories" will be better able to move consumer behavior in the right direction
+A6	Stance T16 For
+T17	Premise 3161 3327	The consumer then has the opportunity to move his choice within a category and product group and at the same time gain knowledge to shape a more climate-friendly meal
+T18	Premise 3422 3482	A graduated color scale across categories is not a good idea
+T19	Premise 3492 3616	it limits the information and thus the action to only move away from a climate-damaging food in favor of a less-damaging one
+T20	Claim 4102 4212	There is an exciting positive development underway for the benefit of more truthful food-specific climate data
+A7	Stance T20 For
+T21	Premise 4214 4279	A Danish climate label should be able to capture that development
+T22	Premise 4412 4569	If the requirements are tightened or clarified, it is ensured that the brand remains relevant and contributes to long-term knowledge building among consumers
+T23	Claim 4692 4774	A Danish initiative must be able to contribute to international knowledge building
+A8	Stance T23 For
+T24	Premise 4784 4856	food is produced and traded internationally, and climate concerns us all
+T25	MajorClaim 5111 5258	This is the only way to ensure the right information for consumers who want to lift the shopping basket in a greener and climate-friendly direction
+R1	supports Arg1:T7 Arg2:T6	
+R2	supports Arg1:T9 Arg2:T8	
+R3	supports Arg1:T13 Arg2:T12	
+R4	supports Arg1:T17 Arg2:T16	
+R5	attacks Arg1:T18 Arg2:T16	
+R6	supports Arg1:T19 Arg2:T18	
+R7	supports Arg1:T14 Arg2:T12	
+R8	supports Arg1:T15 Arg2:T12	
+R9	supports Arg1:T21 Arg2:T20	
+R10	supports Arg1:T22 Arg2:T21	
+R11	supports Arg1:T4 Arg2:T3	
+R12	supports Arg1:T5 Arg2:T4	
+R13	supports Arg1:T24 Arg2:T23	
+R14	supports Arg1:T10 Arg2:T8	
+R15	attacks Arg1:T12 Arg2:T11	

@@ -1,0 +1,1387 @@
+{
+  "phase": "survey",
+  "event": "submit_annotations",
+  "components": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Combining cultivated and plant-based meat is unlikely to be the key to consumers craving slaughter-free protein"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1,
+            "end": 112
+          }
+        ]
+      },
+      "id": "#56569f4b-d53b-4b9f-ae7b-69fd5db92a23"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Cultivated meat (also referred to as cultured and clean meat) is being hailed by those in the sector as the future of sustainable food"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 113,
+            "end": 247
+          }
+        ]
+      },
+      "id": "#cf649872-ee0c-4b0e-9f09-2aa5f293e9e2"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Animal agriculture is catastrophic for the environment, responsible for at least 14.5 percent of global greenhouse gas emissions"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 249,
+            "end": 377
+          }
+        ]
+      },
+      "id": "#4cb1af20-acc7-407b-8256-768cbff51989"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It\u2019s also a public health risk, as factory farming is linked to an increased likelihood of future pandemics"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 379,
+            "end": 486
+          }
+        ]
+      },
+      "id": "#442b264a-beed-4977-9238-f6dd8bc912fe"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "a move away from meat is essential, and cultivated meat has been heralded as the answer"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 529,
+            "end": 616
+          }
+        ]
+      },
+      "id": "#04bbbf80-7946-462a-892f-3e83fae24f40"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Currently, it is only available in Singapore, and has yet to be approved in any other countries"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 618,
+            "end": 713
+          }
+        ]
+      },
+      "id": "#1f0dd7d7-da48-4fa4-84c0-d8596b9f4806"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Lengthy regulatory approval processes and consumer wariness look to be hard-to-overcome obstacles for its continued growth"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 715,
+            "end": 837
+          }
+        ]
+      },
+      "id": "#0c890a0e-252a-4751-8a59-fcf23f6f0fed"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "As a way to gently usher cultured meat products into the food system, hybrid developments are being suggested"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 839,
+            "end": 948
+          }
+        ]
+      },
+      "id": "#cd6f7488-d53f-4207-8440-7c89048c8a30"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Created by blending plant-based protein with cultivated meat, the result is supposedly a cleaner, tastier meat product"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 950,
+            "end": 1068
+          }
+        ]
+      },
+      "id": "#533f9a27-dd04-4fde-bcce-736a5bcbed57"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It also requires no intensive animal agriculture or animal slaughter"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1070,
+            "end": 1138
+          }
+        ]
+      },
+      "id": "#61645786-4b3d-414f-b757-db38c5ec1a2a"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "American news publication Vox compares the move to the introduction of hybrid cars"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1140,
+            "end": 1222
+          }
+        ]
+      },
+      "id": "#a54081e3-c470-4a71-91d6-637cf3ca848a"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It says that they eventually led to the accepted commercialization of fully electric vehicles"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1224,
+            "end": 1317
+          }
+        ]
+      },
+      "id": "#2aba63d2-c479-45cb-bb1c-9d9357632460"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the success of hybrid meat will likely hinge on capturing a specific contingent of consumers who are already open to cultured developments"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1328,
+            "end": 1466
+          }
+        ]
+      },
+      "id": "#96d40c56-4929-44d4-8be8-0f5cef231000"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "is it necessary"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1472,
+            "end": 1487
+          }
+        ]
+      },
+      "id": "#3ad01c25-c227-48cd-9c2a-45a9fa644553"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The process of bringing cultured meat to consumers is not simple"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1540,
+            "end": 1604
+          }
+        ]
+      },
+      "id": "#f949e043-f83c-4bbc-96d7-1a5d6b3ad18a"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "While the production mechanics, which see single cells taken, supposedly painlessly, from animals and then grown in bioreactors to create meat products, is more widely understood, approvals have been slow to materialize"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1606,
+            "end": 1825
+          }
+        ]
+      },
+      "id": "#eca6302f-2787-4168-be5e-50782edcb6c7"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "To date, only Singapore has granted regulatory approval for the production and commercial sale of cultivated meat"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1827,
+            "end": 1940
+          }
+        ]
+      },
+      "id": "#cca8e5e6-227e-4af6-a088-282150d8097b"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Even then, it has only given permission for two chicken developments from one company, Eat Just"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1942,
+            "end": 2037
+          }
+        ]
+      },
+      "id": "#cfa263d6-bcf2-4b97-82a8-6353a6d6b73a"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Despite rumors that the US would be following suit a year ago, with domestic cultivated interest Upside Foods building a large production facility in readiness, no approvals have been granted"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2039,
+            "end": 2230
+          }
+        ]
+      },
+      "id": "#6225017e-f7f1-487b-a428-2c525a6c80cb"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Though President Biden appears to have recently given the green light for progression in his recent biotech-focused executive order"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2232,
+            "end": 2363
+          }
+        ]
+      },
+      "id": "#56f858cb-6ba9-4ebc-b4cb-8e9773a1b1d5"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The EU has also been slow to support its burgeoning cultivated sector"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2365,
+            "end": 2434
+          }
+        ]
+      },
+      "id": "#c7efc1a9-56ed-4dcc-9160-eeaddea0832b"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "This is the case despite it including major players such as the Netherlands\u2019 Mosa Meat and France\u2019s Gourmey"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2436,
+            "end": 2543
+          }
+        ]
+      },
+      "id": "#43b743e0-b85e-4ed6-b26e-aad38c622066"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Aside from a lack of infrastructure in place to support global cultivated production, consumer perceptions could also stunt sector progress"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2545,
+            "end": 2684
+          }
+        ]
+      },
+      "id": "#bf393027-cdee-4532-b44a-f0b08e60e2e6"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Last year, an Australian study reported that 72 percent of diners are not willing to consider cultured meat yet"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2686,
+            "end": 2797
+          }
+        ]
+      },
+      "id": "#892430f3-3752-48dd-93c8-b94bcb81ced0"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The findings are significant, as Australia is one of the biggest consumers of meat worldwide"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2799,
+            "end": 2891
+          }
+        ]
+      },
+      "id": "#2b38a454-f7d1-436b-ba17-df2ff0625a71"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "As a route to gain consumer acceptance of cultivated meat, hybrid products are not guaranteed success"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2936,
+            "end": 3037
+          }
+        ]
+      },
+      "id": "#22bce8dd-9c63-4c0e-9c7f-14ac50f7eb3c"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Given that hesitation is largely predicated on a feeling that meat grown in bioreactors is less natural than that produced by slaughter, hybrid developments may face exactly the same consumer reluctance"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3039,
+            "end": 3241
+          }
+        ]
+      },
+      "id": "#f3ec6e45-3ba9-48f1-b224-e076448b9ba4"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It will also be subject to the same regulatory delays, meaning it won\u2019t accelerate acceptance either"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3243,
+            "end": 3343
+          }
+        ]
+      },
+      "id": "#30c9c62a-063a-4074-a38b-4fc4ef98516e"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimAgainst"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Some manufacturers might claim that it will bolster flexitarian numbers"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3418,
+            "end": 3489
+          }
+        ]
+      },
+      "id": "#8368f1b9-d151-45cf-873b-ee22eb6ad852"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "other observers have identified that standard hybrid products are already doing so"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3500,
+            "end": 3582
+          }
+        ]
+      },
+      "id": "#610d177b-4e93-418f-8005-8a9cefe4cb0f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimAgainst"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Blending plant proteins with conventional meat to reduce the amount of animal protein in popular products such as burgers and sausages is witnessing a surge in popularity"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3584,
+            "end": 3754
+          }
+        ]
+      },
+      "id": "#b8048241-f1af-46d8-8036-52f780d91582"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimAgainst"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "such developments are seen as a healthy alternative to standard meat and tastier than straight-up vegan products"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3792,
+            "end": 3904
+          }
+        ]
+      },
+      "id": "#38dd7b93-6314-4580-9b56-67e3ae867dea"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimAgainst"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "They are also hoped to be a gateway to increased flexitarianism and potentially, meat-free living for more people"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3906,
+            "end": 4019
+          }
+        ]
+      },
+      "id": "#46dcf573-f9b7-4f18-bd4e-c811e7e1b6f8"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Keep cultivated meat as an exciting but standalone new development that seeks to reduce the environmental impact of standard meat by up to 96 percent"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4063,
+            "end": 4212
+          }
+        ]
+      },
+      "id": "#cc0aa416-1c39-4901-9aa3-7f98daf4f618"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "let hybrid and totally meat-free products take an alternative path"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4218,
+            "end": 4284
+          }
+        ]
+      },
+      "id": "#fd85e3df-fb9c-4e8a-b390-a6295c42966e"
+    }
+  ],
+  "relations": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#86835cf1-4044-4ed2-b265-302c68e345e0",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#4cb1af20-acc7-407b-8256-768cbff51989"
+        },
+        {
+          "id": "#cf649872-ee0c-4b0e-9f09-2aa5f293e9e2"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#c9d89f50-9269-4b04-9185-1973d52522a1",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#442b264a-beed-4977-9238-f6dd8bc912fe"
+        },
+        {
+          "id": "#cf649872-ee0c-4b0e-9f09-2aa5f293e9e2"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#0ead2af6-96f3-4ce9-8139-28609823fc71",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#04bbbf80-7946-462a-892f-3e83fae24f40"
+        },
+        {
+          "id": "#cf649872-ee0c-4b0e-9f09-2aa5f293e9e2"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#b6e6a23e-b378-4ebe-bca7-18b1183a5f68",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#0c890a0e-252a-4751-8a59-fcf23f6f0fed"
+        },
+        {
+          "id": "#1f0dd7d7-da48-4fa4-84c0-d8596b9f4806"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#a08f683d-896a-49e8-a306-0ef1a821b0c2",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#1f0dd7d7-da48-4fa4-84c0-d8596b9f4806"
+        },
+        {
+          "id": "#cf649872-ee0c-4b0e-9f09-2aa5f293e9e2"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#267349e4-2849-4b3d-b4b3-ce49f4887e40",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#533f9a27-dd04-4fde-bcce-736a5bcbed57"
+        },
+        {
+          "id": "#cd6f7488-d53f-4207-8440-7c89048c8a30"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#f641a6a0-8b21-4765-95b1-53310b421bb8",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#61645786-4b3d-414f-b757-db38c5ec1a2a"
+        },
+        {
+          "id": "#533f9a27-dd04-4fde-bcce-736a5bcbed57"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#e0dc532b-5b72-481b-bc19-eda07040bd4b",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#cd6f7488-d53f-4207-8440-7c89048c8a30"
+        },
+        {
+          "id": "#3ad01c25-c227-48cd-9c2a-45a9fa644553"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#ef224d18-009f-4216-9718-f8e8e268d5e4",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#eca6302f-2787-4168-be5e-50782edcb6c7"
+        },
+        {
+          "id": "#f949e043-f83c-4bbc-96d7-1a5d6b3ad18a"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#34f3c552-25bd-4854-99a2-2e5217c43c07",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#cfa263d6-bcf2-4b97-82a8-6353a6d6b73a"
+        },
+        {
+          "id": "#cca8e5e6-227e-4af6-a088-282150d8097b"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#f4a7e73b-60ee-4bec-9e69-a18342d6d58b",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#cca8e5e6-227e-4af6-a088-282150d8097b"
+        },
+        {
+          "id": "#eca6302f-2787-4168-be5e-50782edcb6c7"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#aea54f58-b4d6-4cdb-8f71-35d54a3b4684",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#6225017e-f7f1-487b-a428-2c525a6c80cb"
+        },
+        {
+          "id": "#cfa263d6-bcf2-4b97-82a8-6353a6d6b73a"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#88021937-b124-42ab-9cf0-ee0364ac8780",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#56f858cb-6ba9-4ebc-b4cb-8e9773a1b1d5"
+        },
+        {
+          "id": "#6225017e-f7f1-487b-a428-2c525a6c80cb"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#62eeb9f6-cd43-4849-8869-a3b8a267f7f3",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#c7efc1a9-56ed-4dcc-9160-eeaddea0832b"
+        },
+        {
+          "id": "#eca6302f-2787-4168-be5e-50782edcb6c7"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#ec340dac-578c-4dd2-83ff-7802b5c4dd74",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#43b743e0-b85e-4ed6-b26e-aad38c622066"
+        },
+        {
+          "id": "#c7efc1a9-56ed-4dcc-9160-eeaddea0832b"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#f9ae1fdd-55a2-4690-b791-1f1dd90e6719",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#2b38a454-f7d1-436b-ba17-df2ff0625a71"
+        },
+        {
+          "id": "#892430f3-3752-48dd-93c8-b94bcb81ced0"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#f355a3df-10e2-49e6-a576-f5963de460e2",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#892430f3-3752-48dd-93c8-b94bcb81ced0"
+        },
+        {
+          "id": "#bf393027-cdee-4532-b44a-f0b08e60e2e6"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#99687a65-9eba-4ce2-9b2a-02139c772dcf",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#30c9c62a-063a-4074-a38b-4fc4ef98516e"
+        },
+        {
+          "id": "#f3ec6e45-3ba9-48f1-b224-e076448b9ba4"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#c30e51ef-bba7-48a5-af44-866218ddf903",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#f3ec6e45-3ba9-48f1-b224-e076448b9ba4"
+        },
+        {
+          "id": "#22bce8dd-9c63-4c0e-9c7f-14ac50f7eb3c"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#82912f5b-744b-4662-8b62-840fd928f05d",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#610d177b-4e93-418f-8005-8a9cefe4cb0f"
+        },
+        {
+          "id": "#8368f1b9-d151-45cf-873b-ee22eb6ad852"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#a5d421b1-46b6-42f2-8242-8ef21b34fca4",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#cf649872-ee0c-4b0e-9f09-2aa5f293e9e2"
+        },
+        {
+          "id": "#3ad01c25-c227-48cd-9c2a-45a9fa644553"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#6be5baf0-b532-4304-afcb-b39430d62ca7",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#2aba63d2-c479-45cb-bb1c-9d9357632460"
+        },
+        {
+          "id": "#a54081e3-c470-4a71-91d6-637cf3ca848a"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#31230d39-35fa-4f73-a2e7-a9e87d43a4a4",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#a54081e3-c470-4a71-91d6-637cf3ca848a"
+        },
+        {
+          "id": "#3ad01c25-c227-48cd-9c2a-45a9fa644553"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#12d536b1-bbe7-4ddd-862d-45801bd3d103",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#96d40c56-4929-44d4-8be8-0f5cef231000"
+        },
+        {
+          "id": "#2aba63d2-c479-45cb-bb1c-9d9357632460"
+        }
+      ],
+      "motivation": "linking"
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "uniqueid": "A3DY78Q4FCWTXX:3I7DHKZYG2PNWL5WYPAIJZV53QCF5X",
+  "assignmentid": "3I7DHKZYG2PNWL5WYPAIJZV53QCF5X",
+  "workerid": "A3DY78Q4FCWTXX",
+  "hitid": "39WSF6KUWGAEBXDOIRH9L3E5ZQDEO7",
+  "ipaddress": "10.1.18.206",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-03 23:36:41.530",
+  "beginexp": "2023-05-03 23:36:42.225",
+  "endhit": "2023-05-04 00:34:43.365",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 1,
+  "open_guidelines_times": [
+    "2023-05-03 23:36:52"
+  ],
+  "create_annotation_count": 51,
+  "create_annotation_times": [
+    "2023-05-03 23:41:57",
+    "2023-05-03 23:42:20",
+    "2023-05-03 23:43:01",
+    "2023-05-03 23:43:06",
+    "2023-05-03 23:43:39",
+    "2023-05-03 23:44:23",
+    "2023-05-03 23:44:39",
+    "2023-05-03 23:44:55",
+    "2023-05-03 23:45:38",
+    "2023-05-03 23:45:46",
+    "2023-05-03 23:46:14",
+    "2023-05-03 23:51:36",
+    "2023-05-03 23:54:38",
+    "2023-05-03 23:55:32",
+    "2023-05-03 23:56:59",
+    "2023-05-03 23:57:07",
+    "2023-05-03 23:57:18",
+    "2023-05-03 23:57:46",
+    "2023-05-03 23:57:58",
+    "2023-05-03 23:58:04",
+    "2023-05-03 23:58:33",
+    "2023-05-03 23:59:40",
+    "2023-05-04 00:00:33",
+    "2023-05-04 00:00:45",
+    "2023-05-04 00:00:53",
+    "2023-05-04 00:14:18",
+    "2023-05-04 00:14:42",
+    "2023-05-04 00:15:00",
+    "2023-05-04 00:15:15",
+    "2023-05-04 00:15:37",
+    "2023-05-04 00:15:40",
+    "2023-05-04 00:16:23",
+    "2023-05-04 00:16:39",
+    "2023-05-04 00:16:42",
+    "2023-05-04 00:17:48",
+    "2023-05-04 00:18:15",
+    "2023-05-04 00:18:39",
+    "2023-05-04 00:19:29",
+    "2023-05-04 00:19:35",
+    "2023-05-04 00:20:44",
+    "2023-05-04 00:20:59",
+    "2023-05-04 00:21:23",
+    "2023-05-04 00:22:35",
+    "2023-05-04 00:22:54",
+    "2023-05-04 00:22:59",
+    "2023-05-04 00:29:52",
+    "2023-05-04 00:31:35",
+    "2023-05-04 00:31:56",
+    "2023-05-04 00:32:26",
+    "2023-05-04 00:33:10",
+    "2023-05-04 00:33:17"
+  ],
+  "create_annotation_invalid": 5,
+  "delete_annotation_count": 10,
+  "delete_annotation_times": [
+    "2023-05-03 23:53:15",
+    "2023-05-03 23:53:17",
+    "2023-05-04 00:06:16",
+    "2023-05-04 00:18:04",
+    "2023-05-04 00:18:25",
+    "2023-05-04 00:22:13",
+    "2023-05-04 00:22:17",
+    "2023-05-04 00:22:47",
+    "2023-05-04 00:29:38",
+    "2023-05-04 00:34:02"
+  ],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 1,
+  "update_annotation_times": [
+    "2023-05-04 00:33:59"
+  ],
+  "update_annotation_invalid": 1,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "5",
+    "task-interest": "3",
+    "ui-intuitiveness": "4",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1683157001281,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        683,
+        512
+      ],
+      "timestamp": 1683157001281,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1707,
+        891
+      ],
+      "timestamp": 1683157003007,
+      "interval": 1726
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683157012900,
+      "interval": 9893
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683157308538,
+      "interval": 295638
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683157381206,
+      "interval": 72668
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683157381206,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683157538404,
+      "interval": 157198
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683157538404,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683157798119,
+      "interval": 259715
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683157891627,
+      "interval": 93508
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683158219020,
+      "interval": 327393
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683158219020,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683158455131,
+      "interval": 236111
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683158774460,
+      "interval": 319329
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683159139862,
+      "interval": 365402
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683159180137,
+      "interval": 40275
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683159189855,
+      "interval": 9718
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683159211345,
+      "interval": 21490
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683160316410,
+      "interval": 1105065
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683160316410,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683160390855,
+      "interval": 74445
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683160390855,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683160439202,
+      "interval": 48347
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683160439202,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683160467505,
+      "interval": 28303
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683160482402,
+      "interval": 14897
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "guardian",
+    "article": "eating-meat-planet-george-monbiot-regenerative-grazing",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

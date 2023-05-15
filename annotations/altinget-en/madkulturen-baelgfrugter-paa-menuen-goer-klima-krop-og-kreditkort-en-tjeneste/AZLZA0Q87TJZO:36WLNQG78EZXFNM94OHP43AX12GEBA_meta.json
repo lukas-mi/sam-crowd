@@ -1,0 +1,204 @@
+{
+  "uniqueid": "AZLZA0Q87TJZO:36WLNQG78EZXFNM94OHP43AX12GEBA",
+  "assignmentid": "36WLNQG78EZXFNM94OHP43AX12GEBA",
+  "workerid": "AZLZA0Q87TJZO",
+  "hitid": "3HJ1EVZS328EYCP7LZHHW7FDILLR39",
+  "ipaddress": "10.1.28.201",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-02 04:21:57.081",
+  "beginexp": "2023-05-02 04:21:59.568",
+  "endhit": "2023-05-02 04:49:43.083",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 0,
+  "open_guidelines_times": [],
+  "create_annotation_count": 58,
+  "create_annotation_times": [
+    "2023-05-02 04:23:28",
+    "2023-05-02 04:23:41",
+    "2023-05-02 04:23:47",
+    "2023-05-02 04:23:52",
+    "2023-05-02 04:23:59",
+    "2023-05-02 04:24:04",
+    "2023-05-02 04:24:11",
+    "2023-05-02 04:24:16",
+    "2023-05-02 04:24:25",
+    "2023-05-02 04:24:29",
+    "2023-05-02 04:24:52",
+    "2023-05-02 04:24:56",
+    "2023-05-02 04:25:09",
+    "2023-05-02 04:25:14",
+    "2023-05-02 04:25:28",
+    "2023-05-02 04:25:35",
+    "2023-05-02 04:25:57",
+    "2023-05-02 04:26:02",
+    "2023-05-02 04:28:33",
+    "2023-05-02 04:29:35",
+    "2023-05-02 04:31:32",
+    "2023-05-02 04:31:52",
+    "2023-05-02 04:32:17",
+    "2023-05-02 04:32:27",
+    "2023-05-02 04:32:32",
+    "2023-05-02 04:33:37",
+    "2023-05-02 04:33:43",
+    "2023-05-02 04:33:48",
+    "2023-05-02 04:35:51",
+    "2023-05-02 04:36:04",
+    "2023-05-02 04:36:11",
+    "2023-05-02 04:36:21",
+    "2023-05-02 04:36:36",
+    "2023-05-02 04:36:42",
+    "2023-05-02 04:36:49",
+    "2023-05-02 04:36:53",
+    "2023-05-02 04:37:01",
+    "2023-05-02 04:37:10",
+    "2023-05-02 04:37:17",
+    "2023-05-02 04:37:23",
+    "2023-05-02 04:38:06",
+    "2023-05-02 04:38:13",
+    "2023-05-02 04:38:19",
+    "2023-05-02 04:38:37",
+    "2023-05-02 04:38:49",
+    "2023-05-02 04:39:15",
+    "2023-05-02 04:39:46",
+    "2023-05-02 04:40:07",
+    "2023-05-02 04:40:16",
+    "2023-05-02 04:40:21",
+    "2023-05-02 04:40:36",
+    "2023-05-02 04:40:41",
+    "2023-05-02 04:43:52",
+    "2023-05-02 04:46:39",
+    "2023-05-02 04:47:14",
+    "2023-05-02 04:48:09",
+    "2023-05-02 04:48:51",
+    "2023-05-02 04:48:56"
+  ],
+  "create_annotation_invalid": 2,
+  "delete_annotation_count": 4,
+  "delete_annotation_times": [
+    "2023-05-02 04:31:44",
+    "2023-05-02 04:31:54",
+    "2023-05-02 04:46:29",
+    "2023-05-02 04:48:44"
+  ],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 0,
+  "update_annotation_times": [],
+  "update_annotation_invalid": 0,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "4",
+    "task-interest": "5",
+    "ui-intuitiveness": "5",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1683001320371,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        767
+      ],
+      "timestamp": 1683001320371,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683001421404,
+      "interval": 101033
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683001421404,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683001918726,
+      "interval": 497322
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683001925401,
+      "interval": 6675
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683001926857,
+      "interval": 1456
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683001926991,
+      "interval": 134
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683002164209,
+      "interval": 237218
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683002164210,
+      "interval": 1
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683002744522,
+      "interval": 580312
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683002773632,
+      "interval": 29110
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683002775477,
+      "interval": 1845
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683002787855,
+      "interval": 12378
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "altinget-en",
+    "article": "madkulturen-baelgfrugter-paa-menuen-goer-klima-krop-og-kreditkort-en-tjeneste",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

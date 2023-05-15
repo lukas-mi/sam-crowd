@@ -1,0 +1,86 @@
+T1	MajorClaim 98 187	It is soon only the force of habit and the inertia of our food culture that holds us back
+T2	Premise 204 266	these are powerful forces that are difficult to overcome alone
+T3	Claim 279 342	we need a push from some of those who have power over our meals
+A1	Stance T3 For
+T4	Claim 364 470	"Is the crisis scratching in your kitchen? So cook a kilo of chickpeas or add lentils to your meat sauce."
+A2	Stance T4 For
+T5	Claim 471 620	Such a household council could make several ends meet when we want to take care of the climate, the body and the dwindling balance of the credit card
+A3	Stance T5 For
+T6	Claim 622 682	Yet it's advice few of us are inclined to follow in practice
+A4	Stance T6 Against
+T7	Premise 684 784	Madkulturen's figures show this time and time again: Only one in four evening meals contains legumes
+T8	Premise 786 821	Half of us rarely or never eat them
+T9	Premise 823 977	And the recommendation of 100 grams a day is miles away from a reality where we only reach 2.4 grams, according to the Danish Food and Food Administration
+T10	Premise 1086 1139	We are all creatures of habit who do as we usually do
+T11	Premise 1141 1283	And usually favors canonized Danish meat dishes over, for example, well-seasoned overseas classics with lentils and chickpeas in the main role
+T12	Premise 1619 1732	In Denmark, we used to have the pea as the national leguminous fruit, which was part of countless ordinary dishes
+T13	Premise 1734 1891	During the war of 1864, for example, dried peas were a regular part of the field ration, which certainly did not make the common soldier either jump or frown
+T14	Premise 1893 1956	But today there are no real legume dishes on the Danes' top ten
+T15	Premise 1958 2118	First, quite a bit further down the ranking comes chili con carne, which in its typical Danish version consists of meat with a cosmetic sidekick of kidney beans
+T16	Premise 2120 2238	Thus, the dish becomes the exception that confirms the rule of a food culture where legumes shine by their sad absence
+T17	Claim 2240 2279	We simply have to do something about it
+A5	Stance T17 For
+T18	Claim 2281 2305	The soup needs new beans
+A6	Stance T18 For
+T19	Premise 2332 2420	For years we have been soaking in climate food advice and good arguments for more pulses
+T20	Premise 2422 2465	We have access to all kinds of good recipes
+T21	Premise 2467 2593	And gradually it is possible to get your hands on beans, lentils and peas of all kinds - including Danish ones of good quality
+T22	Claim 2595 2717	So has there been no development - if nothing else in our attitude and readiness to accept pulses as part of everyday food
+A7	Stance T22 For
+T23	Premise 2760 2924	A recent study from the University of Copenhagen showed that Danes' knowledge of pulses is relatively high compared to other countries - despite the low consumption
+T24	Premise 2926 3057	And in a fresh survey from Madkulturen, half of us answer that we would like to eat more pulses, while only one in eight rejects it
+T25	Premise 3059 3128	Half of us think that legumes fit well into the dishes we already eat
+T26	Premise 3130 3193	And very few people find it a problem to offer pulses to others
+T27	MajorClaim 3211 3300	It is soon only the force of habit and the inertia of our food culture that holds us back
+T28	Premise 3317 3379	these are powerful forces that are difficult to overcome alone
+T29	Claim 3392 3455	we need a push from some of those who have power over our meals
+A8	Stance T29 For
+T30	Premise 3502 3631	A great many of us get a daily lunch made by others – 650,000 from public kitchens alone, to which are added the private canteens
+T31	Premise 3633 3724	Furthermore, on a normal evening, one in four eats takeaway, restaurant food or ready meals
+T32	Claim 3726 3879	By contracting out the cooking, we open a flank for someone to change our habits and introduce the vegetarian dishes that will soon become the new normal
+A9	Stance T32 For
+T33	Premise 3881 4081	That step is easier to take for food professionals than for the rest of us, who mostly plan and shop at the last minute, and for two-thirds of whom find it difficult to come up with good legume dishes
+T34	Claim 4083 4202	For progressive canteen workers, chefs and kitchen staff, it is good news that we are no longer really afraid of pulses
+A10	Stance T34 For
+T35	Premise 4204 4315	It is no longer necessary to list lentils in the meat pots or apologize for introducing a weekly vegetarian day
+T36	Premise 4317 4391	Something that more and more people are open to, and that some even expect
+T37	Claim 4403 4514	this kind of initiative can pave the way for the necessary introduction of legumes into our own cooking at home
+A11	Stance T37 For
+T38	Premise 4556 4664	A good one-sixth of Danes are already so familiar with pulses that they eat them at least a few times a week
+T39	Premise 4666 4743	They constitute a leguminous elite who can lead the way and drag others along
+T40	Claim 4745 4804	My appeal to them is: Don't hold back - the future is yours
+A12	Stance T40 For
+T41	Claim 4806 4916	The same could of course be said for the new generations who will shape the food culture in the coming decades
+A13	Stance T41 For
+T42	Premise 4918 4980	But we as a society have a special responsibility towards them
+T43	Claim 4982 5094	A responsibility to not just reproduce food culture as we know it, but to introduce a new world of possibilities
+A14	Stance T43 For
+T44	Claim 5096 5148	Not least for good food with beans, lentils and peas
+A15	Stance T44 For
+R1	supports Arg1:T11 Arg2:T10	
+R2	supports Arg1:T2 Arg2:T3	
+R3	supports Arg1:T8 Arg2:T7	
+R4	supports Arg1:T9 Arg2:T8	
+R5	supports Arg1:T7 Arg2:T6	
+R6	supports Arg1:T13 Arg2:T12	
+R7	supports Arg1:T16 Arg2:T15	
+R8	supports Arg1:T15 Arg2:T14	
+R9	supports Arg1:T14 Arg2:T13	
+R10	supports Arg1:T12 Arg2:T17	
+R11	supports Arg1:T20 Arg2:T19	
+R12	supports Arg1:T21 Arg2:T20	
+R13	supports Arg1:T19 Arg2:T18	
+R14	supports Arg1:T23 Arg2:T22	
+R15	supports Arg1:T26 Arg2:T25	
+R16	supports Arg1:T25 Arg2:T24	
+R17	supports Arg1:T24 Arg2:T23	
+R18	supports Arg1:T28 Arg2:T29	
+R19	supports Arg1:T31 Arg2:T30	
+R20	supports Arg1:T30 Arg2:T32	
+R21	supports Arg1:T33 Arg2:T32	
+R22	supports Arg1:T35 Arg2:T34	
+R23	supports Arg1:T36 Arg2:T35	
+R24	supports Arg1:T38 Arg2:T39	
+R25	supports Arg1:T39 Arg2:T40	
+R26	supports Arg1:T42 Arg2:T43	
+R27	supports Arg1:T10 Arg2:T6	

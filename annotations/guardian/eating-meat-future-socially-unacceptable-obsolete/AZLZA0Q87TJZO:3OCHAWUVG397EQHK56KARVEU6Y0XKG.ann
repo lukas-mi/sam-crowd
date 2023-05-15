@@ -1,0 +1,66 @@
+T1	MajorClaim 124 202	we’ll soon find it almost unthinkable that people used to consume so much meat
+T2	Claim 217 266	Carnivores are going the way of cigarette smokers
+A1	Stance T2 For
+T3	MajorClaim 272 352	by 2050, there’s a good chance that it will be socially unacceptable to eat meat
+T4	Premise 442 537	we’ll find it almost unthinkable that people used to consume animals so casually and frequently
+T5	Claim 713 798	there has already been a significant shift in the way we think about meat consumption
+A2	Stance T5 For
+T6	Premise 800 923	In just the past few years veganism has gone from being a fringe movement associated with hippies to being downright trendy
+T7	Premise 925 1029	The likes of Beyoncé and Jay-Z have challenged their fans “to move towards a more plant-based lifestyle”
+T8	Premise 1034 1103	more people are talking loudly and proudly about cutting down on meat
+T9	Claim 1117 1182	changes in attitude haven’t yet translated to changes in behavior
+A3	Stance T9 Against
+T10	Premise 1184 1258	US consumption of meat in 2018 was the highest it has been for a long time
+T11	Premise 1264 1294	it’s a similar story in Europe
+T12	Premise 1296 1336	This is largely down to a better economy
+T13	Premise 1361 1473	the downturn in meat-eating between 2005 and 2014 was due to high prices relative to income during the recession
+T14	Claim 1479 1581	just because meat consumption in America hasn’t plummeted yet doesn’t mean it won’t in the near future
+A4	Stance T14 For
+T15	Premise 1583 1696	This is particularly true when you consider the explosion in popularity of realistic plant-based meat substitutes
+T16	Claim 2053 2108	the new breed of plant-based burgers are a game-changer
+A5	Stance T16 For
+T17	Premise 2110 2212	I even sent one back at a restaurant recently because I thought they had mistakenly given me real meat
+T18	Premise 2219 2300	my girlfriend, a committed carnivore, had a bite and wasn’t entirely sure herself
+T19	Claim 2302 2386	Fast-food chains have begun to enthusiastically embrace plant-based meat substitutes
+A6	Stance T19 For
+T20	Premise 2450 2513	Burger King started trialling the Impossible Burger in St Louis
+T21	Premise 2684 2783	the popularity of Greggs’s vegan sausage roll caused shares of the British fast-food chain to surge
+T22	Premise 2789 2862	KFC recently said it is searching for plant-based alternatives to chicken
+T23	Claim 2902 3061	As plant-based meat alternatives continue to proliferate and evolve it will become increasingly difficult for people to justify choosing the animal alternative
+A7	Stance T23 For
+T24	Premise 3063 3244	If you can easily get a meatless burger that tastes almost like the real thing – and eventually, I imagine, one tasting exactly like the real thing – why would you opt for real meat
+T25	Premise 3246 3283	Why would you make the crueler choice
+T26	Claim 3285 3398	Along with the increase in “meatless meat” we’re seeing the advent of the lab-grown, or cell-based, meat industry
+A8	Stance T26 For
+T27	Premise 3409 3479	there is still a fair way to go before we see lab-grown meat in stores
+T28	Premise 3595 3643	technology is poised to revolutionize how we eat
+T29	Premise 3645 3721	Meat that comes from animals will eventually seem old-fashioned and barbaric
+T30	Claim 3747 3847	the reason humans first started eating large quantities of meat 2.5m years was due to climate change
+A9	Stance T30 For
+T31	Premise 3849 3944	droughts made fruit and vegetables less abundant and humans were forced to go in search of meat
+T32	Claim 3946 4046	It seems inevitable that the climate crisis we now face will drastically change our diets once again
+A10	Stance T32 For
+T33	Claim 4325 4431	The climate crisis will affect the food supply in a way that means we simply won’t be able to produce meat
+A11	Stance T33 For
+T34	Premise 4440 4486	we won’t be able to produce enough food at all
+R1	supports Arg1:T6 Arg2:T5	
+R2	supports Arg1:T7 Arg2:T5	
+R3	supports Arg1:T8 Arg2:T5	
+R4	supports Arg1:T10 Arg2:T9	
+R5	supports Arg1:T11 Arg2:T9	
+R6	supports Arg1:T12 Arg2:T9	
+R7	supports Arg1:T13 Arg2:T12	
+R8	supports Arg1:T15 Arg2:T14	
+R9	supports Arg1:T17 Arg2:T16	
+R10	supports Arg1:T18 Arg2:T16	
+R11	supports Arg1:T20 Arg2:T19	
+R12	supports Arg1:T21 Arg2:T19	
+R13	supports Arg1:T22 Arg2:T19	
+R14	supports Arg1:T24 Arg2:T23	
+R15	supports Arg1:T25 Arg2:T23	
+R16	attacks Arg1:T27 Arg2:T26	
+R17	supports Arg1:T28 Arg2:T26	
+R18	supports Arg1:T29 Arg2:T23	
+R19	supports Arg1:T4 Arg2:T2	
+R20	supports Arg1:T31 Arg2:T30	
+R21	supports Arg1:T34 Arg2:T33	

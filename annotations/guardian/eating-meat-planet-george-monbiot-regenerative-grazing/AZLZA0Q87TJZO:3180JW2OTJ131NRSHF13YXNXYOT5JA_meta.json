@@ -1,0 +1,155 @@
+{
+  "uniqueid": "AZLZA0Q87TJZO:3180JW2OTJ131NRSHF13YXNXYOT5JA",
+  "assignmentid": "3180JW2OTJ131NRSHF13YXNXYOT5JA",
+  "workerid": "AZLZA0Q87TJZO",
+  "hitid": "3XJOUITW98GJLS81NZY89U96H8STQ8",
+  "ipaddress": "10.1.30.153",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-12 10:10:45.003",
+  "beginexp": "2023-05-12 10:10:46.432",
+  "endhit": "2023-05-12 10:34:59.628",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 0,
+  "open_guidelines_times": [],
+  "create_annotation_count": 46,
+  "create_annotation_times": [
+    "2023-05-12 10:22:28",
+    "2023-05-12 10:22:44",
+    "2023-05-12 10:23:25",
+    "2023-05-12 10:23:37",
+    "2023-05-12 10:23:41",
+    "2023-05-12 10:23:50",
+    "2023-05-12 10:24:02",
+    "2023-05-12 10:24:12",
+    "2023-05-12 10:24:18",
+    "2023-05-12 10:24:46",
+    "2023-05-12 10:24:57",
+    "2023-05-12 10:25:03",
+    "2023-05-12 10:25:50",
+    "2023-05-12 10:26:43",
+    "2023-05-12 10:27:01",
+    "2023-05-12 10:27:04",
+    "2023-05-12 10:27:15",
+    "2023-05-12 10:27:18",
+    "2023-05-12 10:27:51",
+    "2023-05-12 10:27:58",
+    "2023-05-12 10:28:02",
+    "2023-05-12 10:28:15",
+    "2023-05-12 10:28:23",
+    "2023-05-12 10:28:27",
+    "2023-05-12 10:28:32",
+    "2023-05-12 10:28:46",
+    "2023-05-12 10:28:56",
+    "2023-05-12 10:29:03",
+    "2023-05-12 10:29:05",
+    "2023-05-12 10:30:22",
+    "2023-05-12 10:31:10",
+    "2023-05-12 10:31:27",
+    "2023-05-12 10:31:30",
+    "2023-05-12 10:31:47",
+    "2023-05-12 10:32:25",
+    "2023-05-12 10:32:32",
+    "2023-05-12 10:32:45",
+    "2023-05-12 10:32:48",
+    "2023-05-12 10:33:11",
+    "2023-05-12 10:33:25",
+    "2023-05-12 10:33:28",
+    "2023-05-12 10:33:37",
+    "2023-05-12 10:33:44",
+    "2023-05-12 10:33:53",
+    "2023-05-12 10:34:04",
+    "2023-05-12 10:34:07"
+  ],
+  "create_annotation_invalid": 0,
+  "delete_annotation_count": 1,
+  "delete_annotation_times": [
+    "2023-05-12 10:24:04"
+  ],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 1,
+  "update_annotation_times": [
+    "2023-05-12 10:28:53"
+  ],
+  "update_annotation_invalid": 0,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "4",
+    "task-interest": "5",
+    "ui-intuitiveness": "5",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1683886247041,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        767
+      ],
+      "timestamp": 1683886247042,
+      "interval": 1
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683886257131,
+      "interval": 10089
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683886635448,
+      "interval": 378317
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683886640433,
+      "interval": 4985
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683886643323,
+      "interval": 2890
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683886838628,
+      "interval": 195305
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683886860461,
+      "interval": 21833
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "guardian",
+    "article": "eating-meat-planet-george-monbiot-regenerative-grazing",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

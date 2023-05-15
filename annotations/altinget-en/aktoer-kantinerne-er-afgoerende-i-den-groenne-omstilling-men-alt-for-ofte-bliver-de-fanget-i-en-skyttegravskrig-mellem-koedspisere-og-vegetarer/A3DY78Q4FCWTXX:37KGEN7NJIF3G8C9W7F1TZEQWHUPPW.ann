@@ -1,0 +1,79 @@
+T1	Premise 101 173	Professional kitchens are in the process of reducing their CO2 footprint
+T2	Premise 175 241	But employees often find that they pay a high price for the change
+T3	MajorClaim 247 342	if the companies themselves develop a clear sustainability strategy, that problem can be solved
+T4	Premise 370 410	Meat is an employee right in the canteen
+T5	Premise 490 603	we saw that when the state tried to introduce an extra vegetarian day as part of the quest for a green transition
+T6	Claim 605 743	The canteen is, in particular, the place where companies can minimize CO2 emissions and make a proper contribution to the green transition
+A1	Stance T6 For
+T7	Premise 745 887	Several companies have already found out – but many are reluctant to avoid conflicts with employee groups who want to keep their 'old canteen'
+T8	Claim 889 931	The only option is to cut back on the meat
+A2	Stance T8 For
+T9	Premise 932 1100	I've been remodeling professional kitchens for ten years, and I'd be lying if I said you can't tell the difference on the plate once the remodeling is fully implemented
+T10	Premise 1102 1131	The food becomes much greener
+T11	Premise 1133 1255	There will be less meat over the course of the week, the ingredients will be more Nordic and the dishes much more seasonal
+T12	Claim 1257 1419	This is the recipe for the green conversion, regardless of whether you want to convert to 60 percent organic within the same budget as the public kitchens by 2030
+A3	Stance T12 For
+T13	Claim 1421 1552	Or if you want to improve the canteen's CO2 account, which the vast majority of companies would like, and which many is in progress
+A4	Stance T13 For
+T14	Premise 1554 1704	Meat is – unsurprisingly – the big animal in the CO2 accounts, of which we have eaten accelerating amounts in the Western world over the last 50 years
+T15	Claim 1706 1782	Therefore, there is no other quick fix than cutting down on that consumption
+A5	Stance T15 For
+T16	Claim 1806 1984	the new, less meat-heavy lunch can actually create an infinite amount of joy if the canteen staff are properly dressed for the task and they have a clear mandate from the company
+A6	Stance T16 For
+T17	Claim 1986 2074	But it can create even more commotion if the support is lukewarm and the goal is unclear
+A7	Stance T17 Against
+T18	Premise 2111 2199	Companies in particular have traditionally been afraid to change too much in the canteen
+T19	Premise 2201 2252	It is our common, daily break that is almost sacred
+T20	Premise 2268 2337	the canteen is typically the staff benefit that has the most opinions
+T21	Premise 2339 2436	I have seen several attempts to change the canteen's profile drown in the local canteen committee
+T22	Premise 2438 2620	That selection almost everywhere consists of three types: Someone who wants meat toppings in a sandwich, someone who wants more salad, and someone who wants a gluten-free alternative
+T23	Premise 2622 2778	It ends up with a bit of everything, which no one really has ownership over, which creates a lot of food waste and a far too high CO2 footprint per employee
+T24	MajorClaim 2780 2968	If the restructuring is to be successful, the company must first of all take on the host and, based on a sustainability strategy, have a clear attitude to what it serves and why it does it
+T25	MajorClaim 2970 3086	They must devote the resources it takes to change a food tradition, which is one of the strongest traditions we have
+T26	Claim 3088 3178	If you only do it half way, the canteen staff lose the spirit and the employees lose faith
+A8	Stance T26 Against
+T27	Claim 3180 3247	And if you use the classic method, you quickly encounter resistance
+A9	Stance T27 Against
+T28	Premise 3305 3353	The very word 'vegetarian' is a red rag for many
+T29	Premise 3382 3495	it triggered an outcry when the state announced demands for an additional weekly vegetarian day in their canteens
+T30	Claim 3497 3635	Fewer people would have thought about it if they had simply announced that there would be 20 percent less meat over the course of the week
+A10	Stance T30 For
+T31	Premise 3637 3725	It was also not wise to advertise with 'vegetarian leek pie' or 'leek pie without bacon'
+T32	Premise 3727 3797	And you don't need to be reminded that the chili is 'sin carne' either
+T33	Claim 3799 3919	If we don't call it anything, but simply change the ratio between meat and vegetables, few people will notice the change
+A11	Stance T33 For
+T34	Premise 3921 4034	Few people actually think that the food is vegetarian, if only they experience it as delicious, filling and tasty
+T35	Claim 4079 4267	if you leave the practical responsibility to the canteen, ensure that they are professionally prepared for the task, and release them from the constraints, much better food comes out of it
+A12	Stance T35 For
+T36	Premise 4282 4491	I have experienced how the new freedoms within clear sustainability goals make the canteen a more attractive workplace for the new generation of chefs who originally dreamed of working in a Michelin restaurant
+T37	Premise 4493 4615	I have even experienced several canteens where they went all the way and cut the large buffet down to one fixed daily menu
+T38	Claim 4655 4768	But, contrary to expectations, the canteen gained more employees as customers - and much more satisfied customers
+A13	Stance T38 For
+T39	Claim 4770 4910	Suddenly there was a community about the lunch, which was now cherished, and which tasted good and almost gave a feeling of going out to eat
+A14	Stance T39 For
+T40	Premise 4912 5110	Gone were vegetarian days, an unambitious salad bar, a small obligatory gluten-free bowl and charcuterie platter, which was mostly eaten because it was easily decipherable and looked like it at home
+T41	Claim 5135 5171	gone was the trench warfare for meat
+A15	Stance T41 For
+R1	attacks Arg1:T2 Arg2:T1	
+R2	supports Arg1:T5 Arg2:T4	
+R3	attacks Arg1:T7 Arg2:T6	
+R4	supports Arg1:T10 Arg2:T9	
+R5	supports Arg1:T11 Arg2:T10	
+R6	supports Arg1:T1 Arg2:T6	
+R7	supports Arg1:T14 Arg2:T15	
+R8	supports Arg1:T19 Arg2:T18	
+R9	supports Arg1:T18 Arg2:T17	
+R10	supports Arg1:T21 Arg2:T20	
+R11	supports Arg1:T22 Arg2:T21	
+R12	supports Arg1:T23 Arg2:T22	
+R13	supports Arg1:T29 Arg2:T28	
+R14	supports Arg1:T28 Arg2:T30	
+R15	supports Arg1:T31 Arg2:T33	
+R16	supports Arg1:T32 Arg2:T33	
+R17	supports Arg1:T34 Arg2:T33	
+R18	supports Arg1:T36 Arg2:T35	
+R19	supports Arg1:T37 Arg2:T38	
+R20	supports Arg1:T40 Arg2:T39	
+R21	supports Arg1:T9 Arg2:T8	
+R22	attacks Arg1:T4 Arg2:T8	
+R23	supports Arg1:T20 Arg2:T19	

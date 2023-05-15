@@ -1,0 +1,110 @@
+T1	Claim 85 185	Brands are launching vegan burgers left, right, and center - maybe it's time they got some new ideas
+A1	Stance T1 For
+T2	Premise 186 295	Heinz has just announced its entry into the plant-based meat space with the launch of vegan burgers and mince
+T3	Premise 311 404	This is great from an industry standpoint, and sees one of the heavyweights entering the fray
+T4	Premise 406 612	Heinz is a company with the distribution network to secure significant physical availability, and a gigantic advertising budget to secure what we in the brand and marketing world call “mental availability.”
+T5	MajorClaim 665 719	we do not need another burger product in this category
+T6	Premise 851 955	Type “beef burger” into Ocado’s search, and it returns only 32 products… some of which are vegan burgers
+T7	Premise 1018 1107	there are a staggering number of vegan burgers, and this space is massively oversaturated
+T8	Claim 1120 1170	A saturated market is a dangerous space to play in
+A2	Stance T8 For
+T9	Premise 1172 1277	Generally, there are only two ways to compete – grow the market itself, or steal market share from others
+T10	MajorClaim 1279 1345	The present over-saturation of the vegan burger space is a problem
+T11	Claim 1368 1408	The biggest advertising budgets will win
+A3	Stance T11 For
+T12	Premise 1409 1443	There is little product innovation
+T13	Premise 1445 1512	How does a brand best compete when it’s entering a cluttered space?
+T14	Premise 1513 1543	ESOV, or Excess Share of Voice
+T15	Premise 1545 1567	That means advertising
+T16	Premise 1569 1602	Above the line and below the line
+T17	Premise 1604 1655	And that’s expensive, especially for smaller brands
+T18	Premise 1657 1784	I have no doubt Heinz can pony up the bills required to support its new product, but it benefits from brand recognizability too
+T19	Premise 1796 1837	the smaller brands are going to be culled
+T20	Claim 1842 1894	It could support the “decline of veganism” narrative
+A4	Stance T20 For
+T21	Premise 1895 2022	As those smaller brands collapse, the media will jump on this and continue its narrative around the plant-based space dying out
+T22	Premise 2024 2057	Momentum has stopped, they’ll say
+T23	Premise 2059 2079	Growth is in decline
+T24	Premise 2115 2169	there’s a lot of room to grow veganism and plant-based
+T25	Premise 2176 2245	shoppers aren’t prepared to buy 17 different vegan burgers every week
+T26	Claim 2250 2273	Market growth stagnates
+A5	Stance T26 For
+T27	Premise 2274 2355	Brands are scrapping over the same small space, and failing to create new markets
+T28	Premise 2390 2465	it’s unwise to compete over market share when you can command market growth
+T29	Premise 2467 2609	We know that consumer values that turn people toward more plant-based eating are only rising – health, sustainability concerns, animal welfare
+T30	Premise 2615 2681	brands are often doing little to help people to “Cross the Chasm.”
+T31	Premise 2682 2775	Consumers want to see products that help them transition, but people don’t solely eat burgers
+T32	Claim 2800 2913	The single best thing FMCG brands can be doing right now is to make it easier for people to try plant-based foods
+A6	Stance T32 For
+T33	Premise 2915 3009	That means enticing customers with new products, and making them as easy to obtain as possible
+T34	Claim 3030 3053	Create something unique
+A7	Stance T34 For
+T35	Claim 3055 3068	Build a space
+A8	Stance T35 For
+T36	Claim 3070 3097	Be the plant-based pancetta
+A9	Stance T36 For
+T37	Claim 3099 3116	The vegan venison
+A10	Stance T37 For
+T38	Claim 3118 3139	The meatless mackerel
+A11	Stance T38 For
+T39	Claim 3141 3160	The herbivore’s ham
+A12	Stance T39 For
+T40	Claim 3162 3206	Aim for excellence within your product space
+A13	Stance T40 For
+T41	Claim 3208 3267	Reverse engineer what meats and animal products people love
+A14	Stance T41 For
+T42	Claim 3303 3335	don’t do another bleeding burger
+A15	Stance T42 For
+T43	Premise 3337 3353	We’ve got enough
+T44	Claim 3355 3371	Build your brand
+A16	Stance T44 For
+T45	Claim 3372 3480	Create emotion and feeling around what you do, and carve out mental availability in the mind of the consumer
+A17	Stance T45 For
+T46	Premise 3482 3583	The faster your logo triggers recognition in the consumer, the sooner they will purchase your product
+T47	Premise 3585 3625	Shoppers often make decisions in seconds
+T48	Premise 3627 3727	You must be more than simply a product on a shelf to stand out – the space is too saturated for that
+T49	Claim 3729 3751	Grow your distribution
+A18	Stance T49 For
+T50	Premise 3752 3802	This is the concept of physical availability again
+T51	Premise 3804 3971	Even with the best marketing in the world, food brands are tangible products which need to be picked up in store, enjoyed in a restaurant, or ordered for home delivery
+T52	Premise 3973 4117	The simpler it is for a consumer to add your product to their weekly shopping basket, and not go out of their way, the more your brand will grow
+T53	Premise 4119 4182	Much of this is the classic marketing theory of differentiation
+T54	Premise 4221 4291	Ten years ago, a vegan burger was a delightfully differentiated option
+T55	Claim 4293 4366	Today, it’s the vegan burger brands that need to differentiate themselves
+A19	Stance T55 For
+T56	Claim 5721 5818	But if your idea of innovation is another burger than please, please go back to the drawing board
+A20	Stance T56 For
+R1	supports Arg1:T4 Arg2:T3	
+R2	supports Arg1:T3 Arg2:T2	
+R3	supports Arg1:T9 Arg2:T8	
+R4	supports Arg1:T6 Arg2:T7	
+R5	supports Arg1:T7 Arg2:T8	
+R6	supports Arg1:T17 Arg2:T16	
+R7	supports Arg1:T16 Arg2:T15	
+R8	supports Arg1:T15 Arg2:T14	
+R9	supports Arg1:T14 Arg2:T13	
+R10	supports Arg1:T13 Arg2:T12	
+R11	supports Arg1:T12 Arg2:T11	
+R12	supports Arg1:T19 Arg2:T18	
+R13	supports Arg1:T18 Arg2:T17	
+R14	supports Arg1:T22 Arg2:T21	
+R15	supports Arg1:T21 Arg2:T20	
+R16	supports Arg1:T23 Arg2:T22	
+R17	attacks Arg1:T24 Arg2:T23	
+R18	attacks Arg1:T25 Arg2:T24	
+R19	supports Arg1:T27 Arg2:T26	
+R20	supports Arg1:T28 Arg2:T27	
+R21	supports Arg1:T31 Arg2:T30	
+R22	supports Arg1:T30 Arg2:T29	
+R23	supports Arg1:T33 Arg2:T32	
+R24	supports Arg1:T43 Arg2:T42	
+R25	supports Arg1:T48 Arg2:T47	
+R26	supports Arg1:T47 Arg2:T46	
+R27	supports Arg1:T46 Arg2:T45	
+R28	supports Arg1:T52 Arg2:T51	
+R29	supports Arg1:T51 Arg2:T50	
+R30	supports Arg1:T50 Arg2:T49	
+R31	supports Arg1:T53 Arg2:T52	
+R32	supports Arg1:T54 Arg2:T55	
+R33	supports Arg1:T2 Arg2:T1	
+R34	supports Arg1:T29 Arg2:T32	

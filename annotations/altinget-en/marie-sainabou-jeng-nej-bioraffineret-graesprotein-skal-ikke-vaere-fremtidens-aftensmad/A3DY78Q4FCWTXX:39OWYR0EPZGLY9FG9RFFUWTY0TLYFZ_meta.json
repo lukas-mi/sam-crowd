@@ -1,0 +1,259 @@
+{
+  "uniqueid": "A3DY78Q4FCWTXX:39OWYR0EPZGLY9FG9RFFUWTY0TLYFZ",
+  "assignmentid": "39OWYR0EPZGLY9FG9RFFUWTY0TLYFZ",
+  "workerid": "A3DY78Q4FCWTXX",
+  "hitid": "3QTFNPMJDK7U4748DZV9ROFIXTQNZU",
+  "ipaddress": "10.1.12.190",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-11 22:08:09.328",
+  "beginexp": "2023-05-11 22:08:09.911",
+  "endhit": "2023-05-12 11:59:33.268",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 1,
+  "open_guidelines_times": [
+    "2023-05-11 22:31:01"
+  ],
+  "create_annotation_count": 42,
+  "create_annotation_times": [
+    "2023-05-11 22:12:10",
+    "2023-05-11 22:12:33",
+    "2023-05-11 22:12:55",
+    "2023-05-11 22:14:39",
+    "2023-05-11 22:16:02",
+    "2023-05-11 22:16:20",
+    "2023-05-11 22:18:10",
+    "2023-05-11 22:18:47",
+    "2023-05-11 22:30:29",
+    "2023-05-11 22:30:57",
+    "2023-05-11 22:38:12",
+    "2023-05-11 22:38:19",
+    "2023-05-11 22:39:20",
+    "2023-05-11 22:40:56",
+    "2023-05-11 22:42:04",
+    "2023-05-11 22:45:17",
+    "2023-05-11 22:56:38",
+    "2023-05-11 22:58:27",
+    "2023-05-11 23:00:15",
+    "2023-05-11 23:00:19",
+    "2023-05-11 23:00:55",
+    "2023-05-11 23:01:41",
+    "2023-05-11 23:02:04",
+    "2023-05-11 23:02:09",
+    "2023-05-11 23:02:32",
+    "2023-05-11 23:03:45",
+    "2023-05-11 23:04:06",
+    "2023-05-11 23:04:12",
+    "2023-05-11 23:04:26",
+    "2023-05-11 23:04:30",
+    "2023-05-11 23:04:58",
+    "2023-05-11 23:05:26",
+    "2023-05-11 23:05:32",
+    "2023-05-11 23:05:54",
+    "2023-05-11 23:06:14",
+    "2023-05-11 23:07:45",
+    "2023-05-11 23:08:06",
+    "2023-05-11 23:08:13",
+    "2023-05-12 11:58:06",
+    "2023-05-12 11:58:36",
+    "2023-05-12 11:58:48",
+    "2023-05-12 11:59:04"
+  ],
+  "create_annotation_invalid": 0,
+  "delete_annotation_count": 2,
+  "delete_annotation_times": [
+    "2023-05-11 23:06:04",
+    "2023-05-12 11:58:59"
+  ],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 1,
+  "update_annotation_times": [
+    "2023-05-11 22:59:42"
+  ],
+  "update_annotation_invalid": 0,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "5",
+    "task-interest": "3",
+    "ui-intuitiveness": "4",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1683842889217,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        819,
+        614
+      ],
+      "timestamp": 1683842889217,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        2048,
+        1071
+      ],
+      "timestamp": 1683842891553,
+      "interval": 2336
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683842912893,
+      "interval": 21340
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683843121424,
+      "interval": 208531
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683843850999,
+      "interval": 729575
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683844197230,
+      "interval": 346231
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683844261361,
+      "interval": 64131
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683844538617,
+      "interval": 277256
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683844580915,
+      "interval": 42298
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683844683347,
+      "interval": 102432
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683844717279,
+      "interval": 33932
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683844748644,
+      "interval": 31365
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683845447997,
+      "interval": 699353
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683845750555,
+      "interval": 302558
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683845860844,
+      "interval": 110289
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683845905890,
+      "interval": 45046
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683846804803,
+      "interval": 898913
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683892452585,
+      "interval": 45647782
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683892457113,
+      "interval": 4528
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683892457238,
+      "interval": 125
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683892458165,
+      "interval": 927
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683892553667,
+      "interval": 95502
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683892760500,
+      "interval": 206833
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683892772784,
+      "interval": 12284
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "altinget-en",
+    "article": "marie-sainabou-jeng-nej-bioraffineret-graesprotein-skal-ikke-vaere-fremtidens-aftensmad",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

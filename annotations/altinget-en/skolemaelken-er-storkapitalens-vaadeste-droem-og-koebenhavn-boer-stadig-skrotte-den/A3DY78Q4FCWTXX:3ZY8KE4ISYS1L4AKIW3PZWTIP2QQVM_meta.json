@@ -1,0 +1,157 @@
+{
+  "uniqueid": "A3DY78Q4FCWTXX:3ZY8KE4ISYS1L4AKIW3PZWTIP2QQVM",
+  "assignmentid": "3ZY8KE4ISYS1L4AKIW3PZWTIP2QQVM",
+  "workerid": "A3DY78Q4FCWTXX",
+  "hitid": "33NOQL7TA2O910H47X6Q9RPN8WEZ81",
+  "ipaddress": "10.1.32.241",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-11 01:00:34.052",
+  "beginexp": "2023-05-11 01:00:34.532",
+  "endhit": "2023-05-11 01:23:56.448",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 0,
+  "open_guidelines_times": [],
+  "create_annotation_count": 41,
+  "create_annotation_times": [
+    "2023-05-11 01:03:12",
+    "2023-05-11 01:03:36",
+    "2023-05-11 01:03:46",
+    "2023-05-11 01:04:15",
+    "2023-05-11 01:04:26",
+    "2023-05-11 01:04:44",
+    "2023-05-11 01:05:02",
+    "2023-05-11 01:05:35",
+    "2023-05-11 01:05:59",
+    "2023-05-11 01:06:25",
+    "2023-05-11 01:07:25",
+    "2023-05-11 01:07:34",
+    "2023-05-11 01:08:19",
+    "2023-05-11 01:08:33",
+    "2023-05-11 01:08:48",
+    "2023-05-11 01:08:59",
+    "2023-05-11 01:09:21",
+    "2023-05-11 01:09:42",
+    "2023-05-11 01:09:49",
+    "2023-05-11 01:11:02",
+    "2023-05-11 01:11:10",
+    "2023-05-11 01:11:28",
+    "2023-05-11 01:11:38",
+    "2023-05-11 01:11:58",
+    "2023-05-11 01:13:22",
+    "2023-05-11 01:13:51",
+    "2023-05-11 01:14:04",
+    "2023-05-11 01:14:41",
+    "2023-05-11 01:14:58",
+    "2023-05-11 01:15:47",
+    "2023-05-11 01:16:12",
+    "2023-05-11 01:19:42",
+    "2023-05-11 01:19:57",
+    "2023-05-11 01:20:01",
+    "2023-05-11 01:20:09",
+    "2023-05-11 01:20:36",
+    "2023-05-11 01:20:47",
+    "2023-05-11 01:21:03",
+    "2023-05-11 01:21:11",
+    "2023-05-11 01:21:19",
+    "2023-05-11 01:21:57"
+  ],
+  "create_annotation_invalid": 0,
+  "delete_annotation_count": 1,
+  "delete_annotation_times": [
+    "2023-05-11 01:10:01"
+  ],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 2,
+  "update_annotation_times": [
+    "2023-05-11 01:18:22",
+    "2023-05-11 01:23:10"
+  ],
+  "update_annotation_invalid": 0,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "5",
+    "task-interest": "4",
+    "ui-intuitiveness": "4",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1683766833457,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        819,
+        614
+      ],
+      "timestamp": 1683766833457,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        2048,
+        1071
+      ],
+      "timestamp": 1683766835260,
+      "interval": 1803
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683767144851,
+      "interval": 309591
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683767145360,
+      "interval": 509
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683767550290,
+      "interval": 404930
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683767578071,
+      "interval": 27781
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        819,
+        614
+      ],
+      "timestamp": 1683768233662,
+      "interval": 655591
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "altinget-en",
+    "article": "skolemaelken-er-storkapitalens-vaadeste-droem-og-koebenhavn-boer-stadig-skrotte-den",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

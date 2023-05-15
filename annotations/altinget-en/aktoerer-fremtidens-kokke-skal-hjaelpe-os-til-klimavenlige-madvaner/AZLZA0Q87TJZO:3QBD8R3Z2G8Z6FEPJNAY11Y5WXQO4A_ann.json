@@ -1,0 +1,977 @@
+{
+  "phase": "survey",
+  "event": "submit_annotations",
+  "components": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Cook teachers and natural scientists must experiment together with tasty and green cooking"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1,
+            "end": 91
+          }
+        ]
+      },
+      "id": "#dc556434-004c-4d9b-a02e-2ed66137bb09"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It is crucial to ensure that Danes have more climate-friendly eating habits"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 93,
+            "end": 168
+          }
+        ]
+      },
+      "id": "#52789d40-c15a-4670-91bf-b8f5a62b72fe"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The current food systems are not sustainable"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 192,
+            "end": 236
+          }
+        ]
+      },
+      "id": "#c9bafa1f-e1cd-42cd-9754-b4cc6c3b3567"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Our food production, large food waste and meat-centric food culture constitute a significant C02 load"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 238,
+            "end": 339
+          }
+        ]
+      },
+      "id": "#cb12eec9-fba7-4aa4-a0c3-81e9e846f378"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The demand for climate-friendly alternatives to meat is increasing"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 341,
+            "end": 407
+          }
+        ]
+      },
+      "id": "#15dfb34a-dede-4623-a1a6-74249963ea4c"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "we all need to adopt new, sustainable eating habits"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 413,
+            "end": 464
+          }
+        ]
+      },
+      "id": "#f36f7bbf-61fb-48f0-8866-1c44751d0e07"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "everyday climate-friendly choices must be easy to make"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 537,
+            "end": 591
+          }
+        ]
+      },
+      "id": "#da2bcd5a-1621-4e34-b4fb-ea222f0e01f6"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The food must taste so good that you want to eat the climate-friendly dish again"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 593,
+            "end": 673
+          }
+        ]
+      },
+      "id": "#5918cf46-8f77-401c-b8da-65a9064bfbfe"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "research indicates that good taste is the most effective way to ensure that the new eating habits last"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 842,
+            "end": 944
+          }
+        ]
+      },
+      "id": "#19b0424a-d04a-404a-90a0-296f4e999171"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "These kinds of challenges call for gastronomic innovation, and newly trained chefs are our greatest hope"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 946,
+            "end": 1050
+          }
+        ]
+      },
+      "id": "#99405902-aa13-471c-a51d-89fadd6f6e7b"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "As leading men and women for a greener gastronomy, they can make us think new things in our own kitchen"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1052,
+            "end": 1155
+          }
+        ]
+      },
+      "id": "#478e1e7e-798d-4611-b7f9-762f63649b0c"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It is chefs who inspire us when they make meal boxes, food in the canteens at our work, food in the media and food in restaurants and cafes"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1157,
+            "end": 1296
+          }
+        ]
+      },
+      "id": "#c219c13f-0bbb-402e-b891-7e2750724456"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Young chefs must therefore learn more about food's climate footprint and be able to find innovative answers to the question of how to actually approach it if you want to eat climate-friendly in your everyday life"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1349,
+            "end": 1561
+          }
+        ]
+      },
+      "id": "#d05191f3-b347-4448-a21a-5cb8dd54d123"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "both they and their teachers need extra science knowledge in the chef's hat to be able to create sustainable, practical and tasty solutions"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1567,
+            "end": 1706
+          }
+        ]
+      },
+      "id": "#c3db0655-f602-4a6f-bc82-f704e214aa26"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "That is why we and a number of partners at the UCL Business Academy and Professionsh\u00f8jskole, Techcollege, Kold College, College360, the Hotel and Restaurant School, the University of Copenhagen and the University of Southern Denmark, with support from the VILLUM FONDEN, are establishing a new, nationwide network of gastronomy and science teachers, food researchers and science didactics"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1708,
+            "end": 2096
+          }
+        ]
+      },
+      "id": "#f74b1e74-47a2-435c-8315-2c317ea94f23"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "In Denmark, we are in such a good position to have both leading subject teachers and researchers"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2127,
+            "end": 2223
+          }
+        ]
+      },
+      "id": "#07e7df94-9a04-4627-a193-ed7f4fcde690"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The Danish gastronomy education is famous abroad for delivering some of the world's best newly trained chefs"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2225,
+            "end": 2333
+          }
+        ]
+      },
+      "id": "#ea79cd06-d010-4ad6-8544-c2e2bbacdde1"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Their teachers possess unique craftsmanship skills"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2335,
+            "end": 2385
+          }
+        ]
+      },
+      "id": "#40b7bc4a-4a46-4442-aa38-0d9f42f329e9"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "they know what works in the kitchen"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2387,
+            "end": 2422
+          }
+        ]
+      },
+      "id": "#e21888e7-8ee7-4d5c-b2cc-821501bc4813"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "they have a sense for creating good taste"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2427,
+            "end": 2468
+          }
+        ]
+      },
+      "id": "#9def5194-df4a-4998-b7c6-aaedb92830ed"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Danish researchers in sensorics and gastrophysics continuously offer new suggestions on how we can make our food more sustainable and tasty"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2470,
+            "end": 2609
+          }
+        ]
+      },
+      "id": "#cd656474-0cd3-47a2-9171-eec14774f0f5"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "They have experience in translating that research into practice through collaboration with chefs"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2611,
+            "end": 2707
+          }
+        ]
+      },
+      "id": "#cb6ff6c1-4d20-4925-ad40-dff105681715"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "If we bring them together, we can train future chefs, gastronomists and other food professionals to be at the forefront of the green transition"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2816,
+            "end": 2959
+          }
+        ]
+      },
+      "id": "#25bfafa9-4931-4a85-996b-32b784873f0f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Over the next 2.5 years, both teachers and students here will become smarter about reducing food's climate impact by understanding the origin of food and innovating on raw materials, preparation techniques and the dishes we all eat"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3011,
+            "end": 3242
+          }
+        ]
+      },
+      "id": "#db221a41-4671-41e0-b98c-0bd9295651c3"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "There will be a focus on how the production of food affects our climate, and how the components of climate-friendly raw materials and the food preparation processes provide the taste that we all demand, regardless of climate considerations"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3244,
+            "end": 3483
+          }
+        ]
+      },
+      "id": "#db69d028-9c3b-4dfc-acec-b6e9b3dc0191"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "we humans like the sweet and umami, the creamy and crunchy, the things that stimulate all our senses"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3493,
+            "end": 3593
+          }
+        ]
+      },
+      "id": "#28ac0352-9f46-4c90-ad9c-8e663e96261d"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "that's how climate-friendly food should also taste"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3600,
+            "end": 3650
+          }
+        ]
+      },
+      "id": "#e91a50ee-9369-4a8c-a5b1-74669c509f1e"
+    }
+  ],
+  "relations": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#9642ef1e-27e2-4201-abba-3c2bac985e63",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#cb12eec9-fba7-4aa4-a0c3-81e9e846f378"
+        },
+        {
+          "id": "#c9bafa1f-e1cd-42cd-9754-b4cc6c3b3567"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#375bf4f3-5c5c-4960-811d-a1fa2b6a89a1",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#15dfb34a-dede-4623-a1a6-74249963ea4c"
+        },
+        {
+          "id": "#c9bafa1f-e1cd-42cd-9754-b4cc6c3b3567"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#e9d61a56-d4f8-4e22-96dc-a140e10b7218",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#5918cf46-8f77-401c-b8da-65a9064bfbfe"
+        },
+        {
+          "id": "#da2bcd5a-1621-4e34-b4fb-ea222f0e01f6"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#0715ea8a-9bf6-405d-879d-c04cb52a459d",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#19b0424a-d04a-404a-90a0-296f4e999171"
+        },
+        {
+          "id": "#5918cf46-8f77-401c-b8da-65a9064bfbfe"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#812aad9b-31a3-4ac0-a56d-efde81c7003f",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#c3db0655-f602-4a6f-bc82-f704e214aa26"
+        },
+        {
+          "id": "#f74b1e74-47a2-435c-8315-2c317ea94f23"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#dd017fda-c4cc-4191-b52a-9aa05e06513c",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#40b7bc4a-4a46-4442-aa38-0d9f42f329e9"
+        },
+        {
+          "id": "#ea79cd06-d010-4ad6-8544-c2e2bbacdde1"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#e7bbb15e-e8dc-40cf-8d70-0b9c3eb8a7bc",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#e21888e7-8ee7-4d5c-b2cc-821501bc4813"
+        },
+        {
+          "id": "#ea79cd06-d010-4ad6-8544-c2e2bbacdde1"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#77b1959a-41a2-428c-87eb-b960180fba90",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#9def5194-df4a-4998-b7c6-aaedb92830ed"
+        },
+        {
+          "id": "#ea79cd06-d010-4ad6-8544-c2e2bbacdde1"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#6b8a17a6-f6ea-4866-8825-7d33b23a2746",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#cb6ff6c1-4d20-4925-ad40-dff105681715"
+        },
+        {
+          "id": "#cd656474-0cd3-47a2-9171-eec14774f0f5"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#a3364ea1-649e-492f-8d3f-4b5aed49386d",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#ea79cd06-d010-4ad6-8544-c2e2bbacdde1"
+        },
+        {
+          "id": "#07e7df94-9a04-4627-a193-ed7f4fcde690"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#72799f43-67c4-4e3a-89a5-201e91c2dcb6",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#28ac0352-9f46-4c90-ad9c-8e663e96261d"
+        },
+        {
+          "id": "#db69d028-9c3b-4dfc-acec-b6e9b3dc0191"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#7eeafa23-1adb-4ddf-ad43-1d74cb36164a",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#e91a50ee-9369-4a8c-a5b1-74669c509f1e"
+        },
+        {
+          "id": "#db69d028-9c3b-4dfc-acec-b6e9b3dc0191"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#58db57b7-93ee-4b69-8b51-17f18e8607f8",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#478e1e7e-798d-4611-b7f9-762f63649b0c"
+        },
+        {
+          "id": "#99405902-aa13-471c-a51d-89fadd6f6e7b"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#ac67b09c-53d9-4846-9658-ccd0fce6bee6",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#c219c13f-0bbb-402e-b891-7e2750724456"
+        },
+        {
+          "id": "#99405902-aa13-471c-a51d-89fadd6f6e7b"
+        }
+      ],
+      "motivation": "linking"
+    }
+  ]
+}

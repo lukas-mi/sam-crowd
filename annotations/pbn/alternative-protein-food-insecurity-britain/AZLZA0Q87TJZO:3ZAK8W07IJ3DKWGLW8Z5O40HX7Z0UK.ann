@@ -1,0 +1,62 @@
+T1	MajorClaim 77 186	Changes to our food and farming sectors could help Britain find and keep its footing in these uncertain times
+T2	Claim 403 475	the true scale of Europe’s reliance on Russian oil and gas becomes clear
+A1	Stance T2 For
+T3	Claim 554 646	Britain’s intensive animal protein sector is, perhaps surprisingly, tied to Russian industry
+A2	Stance T3 For
+T4	Premise 648 853	In rearing cattle and producing animal-based proteins like eggs and milk, British farmers currently rely on Russian and Belarussian exports for a high percentage of the fertilizers and animal feed additive
+T5	Premise 1077 1295	According to the government’s Food Security Report, we import around half of our ammonium nitrate, “with 75 percent of imports for fertilizer use coming from the EU and the remaining 25 percent from Georgia and Russia.
+T6	Premise 1297 1400	The UN estimates that the UK imports over a third of its nitrogenous fertilizer from Russia and Belarus
+T7	Premise 1402 1541	And the International Food Policy Research Institute estimates we rely on these countries for almost two thirds of our potassium fertilizer
+T8	Claim 1543 1595	We also depend on Russia and Belarus for animal feed
+A3	Stance T8 For
+T9	Premise 1597 1676	currently they account for 33 percent of all global potassium hydroxide exports
+T10	Claim 1743 1792	a quarter of the food Brits eat comes from Europe
+A4	Stance T10 For
+T11	Premise 1794 1877	Europe’s reliance on Russia for energy is having knock-on effects on UK food prices
+T12	Claim 1900 1947	There is a solution to this food security issue
+A5	Stance T12 For
+T13	Claim 1953 2016	a growing number of British consumers are starting to choose it
+A6	Stance T13 For
+T14	Premise 2134 2221	more and more people are consuming protein-rich ingredients sourced from plants instead
+T15	Premise 2223 2380	A recent science journal study found the number of Brits eating plant-based alternative foods nearly doubled from 6.7 percent in 2008 to 13.1 percent in 2019
+T16	Claim 2382 2492	It’s better for our planet, our health, our animals, and can provide long-term opportunity for British farmers
+A7	Stance T16 For
+T17	Claim 2703 2757	They rely on what British agriculture does best: crops
+A8	Stance T17 For
+T18	Premise 2759 2871	Britain is the second largest pea producer in Europe, and so self-sufficient in wheat that we are a net exporter
+T19	Premise 2873 3089	According to the Food Security Report, “the UK is a net importer of dairy and beef” but is “largely self-sufficient in production of grains” (producing 100 percent of its own oats and barley, and 90 percent of wheat)
+T20	Premise 3096 3161	it “produces over 50 percent of vegetables consumed domestically.
+T21	Premise 3163 3263	Supporting alternative proteins means backing more British produce and greater food security at home
+T22	Claim 3573 3648	we need a world leading regulatory framework and forward-looking investment
+A9	Stance T22 For
+T23	Claim 3742 3869	Supporting the alternative protein sector is urgent if we want Britain to secure a world-leading position in a long-term market
+A10	Stance T23 For
+T24	Premise 4034 4162	we can produce the same amount of food on 93 percent less land, using 95 percent less water and with far less Russian fertilizer
+T25	Claim 4241 4257	it’s greener too
+A11	Stance T25 For
+T26	Premise 4259 4362	alternative proteins produce an average of 88 percent lessgreenhouse gas emissions than animal proteins
+T27	Claim 4474 4573	this could reduce the cost of living through lower food prices and create tens of thousands of jobs
+A12	Stance T27 For
+T28	Premise 4575 4726	Henry Dimbleby’s National Food Strategy estimates that UK alternative protein manufacturing could create 10,000 new factory jobs and 6,500 farming jobs
+T29	Premise 4732 4936	the Department for International Trade has identified that “companies in the North East will be in a prime position to take advantage of the growing demand for plant-based and alternative protein products
+T30	Premise 5155 5229	it’s our sincere hope that alternative proteins are put right at its heart
+T31	Claim 5231 5370	That’s why British businesses, academics, scientists, investors, and NGOs have joined forces to create the Alternative Proteins Association
+A13	Stance T31 For
+T32	MajorClaim 5414 5581	Let’s support our homegrown industries, back British farmers, go green, lower food prices, create thousands of jobs, and most of all, safeguard Britain’s food security
+R1	supports Arg1:T5 Arg2:T3	
+R2	supports Arg1:T4 Arg2:T3	
+R3	supports Arg1:T6 Arg2:T3	
+R4	supports Arg1:T7 Arg2:T3	
+R5	supports Arg1:T9 Arg2:T8	
+R6	supports Arg1:T11 Arg2:T2	
+R7	supports Arg1:T15 Arg2:T14	
+R8	supports Arg1:T19 Arg2:T18	
+R9	supports Arg1:T20 Arg2:T17	
+R10	supports Arg1:T28 Arg2:T27	
+R11	supports Arg1:T29 Arg2:T27	
+R12	supports Arg1:T30 Arg2:T31	
+R13	supports Arg1:T24 Arg2:T27	
+R14	supports Arg1:T18 Arg2:T17	
+R15	supports Arg1:T26 Arg2:T25	
+R16	supports Arg1:T14 Arg2:T13	
+R17	supports Arg1:T21 Arg2:T16	

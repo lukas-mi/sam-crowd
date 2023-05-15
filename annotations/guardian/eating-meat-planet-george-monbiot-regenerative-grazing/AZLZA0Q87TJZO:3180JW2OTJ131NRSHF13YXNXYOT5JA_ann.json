@@ -1,0 +1,1027 @@
+{
+  "phase": "survey",
+  "event": "submit_annotations",
+  "components": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "alternative, lab-grown foods, could have terrible consequences"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 97,
+            "end": 159
+          }
+        ]
+      },
+      "id": "#ed94330c-6bfc-4178-91b2-8ac79f4dd4d3"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the farming \u201crevolution\u201d of the 1950s, with its widespread use of ammonia fertilisers and herbicides, pesticides and fungicides, has waged war on nature"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 636,
+            "end": 788
+          }
+        ]
+      },
+      "id": "#0ce37465-f634-474a-b9d5-bf1ec3eac251"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "These intensive, monocultural ways of producing food are not only contaminating our land and waterways, but are heating up our planet and contributing to a crisis in human health"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 790,
+            "end": 968
+          }
+        ]
+      },
+      "id": "#a3d33c3c-1d18-4692-9fe8-7cdcdbb6fdbe"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "more people die of diet-related disease globally than smoking, according to a study published in the Lancet"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 970,
+            "end": 1077
+          }
+        ]
+      },
+      "id": "#b6a24115-3651-4788-9fb0-d648130acdd4"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "without the earthworm, beetle and bee, life as we know it could cease"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1192,
+            "end": 1261
+          }
+        ]
+      },
+      "id": "#05fd9685-6b7b-4c64-9dbb-62599325e86a"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Topsoils, which we use to grow 95% of the world\u2019s food, are depleting at an astonishing rate"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1263,
+            "end": 1355
+          }
+        ]
+      },
+      "id": "#6aa14989-f45b-4f22-8710-1aec03d3d1c6"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimAgainst"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "organic, pasture-fed beef and lamb are the \u201cworld\u2019s most damaging farm products"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1507,
+            "end": 1586
+          }
+        ]
+      },
+      "id": "#2c14b471-3d07-4106-93c8-eda03e50b291"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The methods that regenerative farmers such as the writer Gabe Brown propose have shown how non-intensive livestock, when managed well, can increase topsoil more than previously thought, which can then accumulate biomass (carbon) and retain precious rainwater"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2191,
+            "end": 2449
+          }
+        ]
+      },
+      "id": "#bf38544f-aea7-4064-84fa-cfbf4ba24e9d"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The argument put forward by Monbiot that it is not possible to produce enough food this way is often used to decry better food systems"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2451,
+            "end": 2585
+          }
+        ]
+      },
+      "id": "#7c5e8ece-7bb9-449e-b15d-7c4a900f4fdf"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "according to the Food and Agriculture Organization of the UN, small-scale farmers currently produce about a third of our food"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2591,
+            "end": 2716
+          }
+        ]
+      },
+      "id": "#5d771e52-bc1a-49f1-8ae2-ac3bdd923918"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Precision fermentation claims to get us off our destructive addiction to cheap meat, but not without potential downsides"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2972,
+            "end": 3092
+          }
+        ]
+      },
+      "id": "#418e20b3-724a-4bd5-9902-3d72dc36a4ba"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "These inventions are heavily patented, pushing the future of our food supply further into the hands of an increasingly small and powerful collection of multinational food players"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3094,
+            "end": 3272
+          }
+        ]
+      },
+      "id": "#85ebc7c0-729f-4748-b55b-536e4236baa4"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "There is very little transparency about the amount of energy and materials needed to build the system of factories that would be needed to adopt these foods to the degree that their proponents would like"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3275,
+            "end": 3478
+          }
+        ]
+      },
+      "id": "#ca313105-f3db-4b9a-82cb-28c7f302f5a8"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "How fossil-fuel dependent are they"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3480,
+            "end": 3514
+          }
+        ]
+      },
+      "id": "#25111b51-18b0-4739-adc2-ff44237259bb"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "How many other chemicals and compounds are needed to make them"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3516,
+            "end": 3578
+          }
+        ]
+      },
+      "id": "#6118f5c4-8185-40d7-95fb-8eab48b77a85"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "where will we get them from and how"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3584,
+            "end": 3619
+          }
+        ]
+      },
+      "id": "#040d48f7-64e2-4791-b172-fb51942b4cc2"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Ultra-processed foods make up half of the UK\u2019s calories"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3763,
+            "end": 3818
+          }
+        ]
+      },
+      "id": "#ab74222b-d7a4-4356-be51-80a803e09d86"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "their health impact gets very little attention from the government or in medical schools"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3824,
+            "end": 3912
+          }
+        ]
+      },
+      "id": "#a115b298-eea7-4da8-b2dc-116b91de48d1"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "We know that other ultra-processed foods \u2013 even some plant-based meat alternatives \u2013 are high in protein but can also be very high in salt and fat"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3914,
+            "end": 4060
+          }
+        ]
+      },
+      "id": "#b09a632f-8ba8-4376-9e5b-9c6a471f76b0"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "In these types of farms, small herds of cattle or sheep graze diverse cover crops, boosting the biodiversity on their land"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4359,
+            "end": 4481
+          }
+        ]
+      },
+      "id": "#52c5867d-f895-40d3-baa7-bb0351ea7b8a"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The cover crops build back goodness in the soil and remove the need to use pesticides"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4536,
+            "end": 4621
+          }
+        ]
+      },
+      "id": "#d0649372-135c-46db-ba67-b9a374265f56"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The presence of livestock adds nutrients through their muck and saliva"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4623,
+            "end": 4693
+          }
+        ]
+      },
+      "id": "#69b6e1df-8022-431e-b025-4df0f894bb36"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "They also add the nutrients to our diets"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4695,
+            "end": 4735
+          }
+        ]
+      },
+      "id": "#00862cc0-a6f6-4efc-86b5-95a737126fe3"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "animal fats from grass-fed animals are hard to replace in human diets"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4737,
+            "end": 4806
+          }
+        ]
+      },
+      "id": "#11b0b041-a78d-4c6c-9653-4befa896fa85"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "it is possible to feed people food that is high in fibre and in flavour"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4985,
+            "end": 5056
+          }
+        ]
+      },
+      "id": "#95343927-2a21-4a5d-9050-ed83e6934e94"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "that costs less than the ultra-processed food children were being fed before"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5062,
+            "end": 5138
+          }
+        ]
+      },
+      "id": "#e949bf42-6fe5-4ae0-bcca-0e303a94cdf5"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "If we continue to go down the ultra-processed route then food may well continue to make people sick, which, according to Henry Dimbleby\u2019s National Food Plan, costs the economy an estimated \u00a374bn"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5416,
+            "end": 5610
+          }
+        ]
+      },
+      "id": "#02d6ff7d-6258-4631-8298-73fceb99fb0b"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "We need better funding for soil science and for feeding proper food to people on lower incomes"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5895,
+            "end": 5989
+          }
+        ]
+      },
+      "id": "#8b590f68-4b06-4dc7-bf9e-339206c1884d"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "when we replace nature\u2019s complex biology with a tunnel-visioned look at certain aspects of chemistry and ignore others, it has profoundly negative and often unforeseen consequences"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 6115,
+            "end": 6295
+          }
+        ]
+      },
+      "id": "#50c7c63d-a22d-4aa4-a858-43624e05a912"
+    }
+  ],
+  "relations": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#8ba5f583-31a7-44a5-a997-642cfe723a91",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#a3d33c3c-1d18-4692-9fe8-7cdcdbb6fdbe"
+        },
+        {
+          "id": "#0ce37465-f634-474a-b9d5-bf1ec3eac251"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#c68e955b-63e5-4e55-bb0c-3b1d92d5fb3c",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#b6a24115-3651-4788-9fb0-d648130acdd4"
+        },
+        {
+          "id": "#a3d33c3c-1d18-4692-9fe8-7cdcdbb6fdbe"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#ea20c308-3643-4690-9dbf-4265a0e4c335",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#6aa14989-f45b-4f22-8710-1aec03d3d1c6"
+        },
+        {
+          "id": "#05fd9685-6b7b-4c64-9dbb-62599325e86a"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#3604a9e1-a692-4da9-9b6a-e1f6200a7b2e",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#7c5e8ece-7bb9-449e-b15d-7c4a900f4fdf"
+        },
+        {
+          "id": "#bf38544f-aea7-4064-84fa-cfbf4ba24e9d"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#fa7add59-e644-4974-86f9-a33f181d1d7e",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#5d771e52-bc1a-49f1-8ae2-ac3bdd923918"
+        },
+        {
+          "id": "#7c5e8ece-7bb9-449e-b15d-7c4a900f4fdf"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#4834457b-a71b-4d87-bcef-93d0760ceaa2",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#85ebc7c0-729f-4748-b55b-536e4236baa4"
+        },
+        {
+          "id": "#418e20b3-724a-4bd5-9902-3d72dc36a4ba"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#ef5e5192-9830-417c-ac67-fb866c165e6c",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#25111b51-18b0-4739-adc2-ff44237259bb"
+        },
+        {
+          "id": "#ca313105-f3db-4b9a-82cb-28c7f302f5a8"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#76d1606a-2fa7-4fd4-8c89-a81a21a77b91",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#6118f5c4-8185-40d7-95fb-8eab48b77a85"
+        },
+        {
+          "id": "#ca313105-f3db-4b9a-82cb-28c7f302f5a8"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#1a753d85-eb6a-45e1-b301-885bdae7719a",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#040d48f7-64e2-4791-b172-fb51942b4cc2"
+        },
+        {
+          "id": "#ca313105-f3db-4b9a-82cb-28c7f302f5a8"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#9c7f4542-6838-41be-aff1-b4f5d3f95cda",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#02d6ff7d-6258-4631-8298-73fceb99fb0b"
+        },
+        {
+          "id": "#8b590f68-4b06-4dc7-bf9e-339206c1884d"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#44e2af57-4a7b-47bb-8c20-d1947a7857fe",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#b09a632f-8ba8-4376-9e5b-9c6a471f76b0"
+        },
+        {
+          "id": "#a115b298-eea7-4da8-b2dc-116b91de48d1"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#39cf5549-763a-42ce-ba92-a480afec5471",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#d0649372-135c-46db-ba67-b9a374265f56"
+        },
+        {
+          "id": "#52c5867d-f895-40d3-baa7-bb0351ea7b8a"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#1f5e03fb-436e-495d-99f4-d7105c7919f2",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#69b6e1df-8022-431e-b025-4df0f894bb36"
+        },
+        {
+          "id": "#52c5867d-f895-40d3-baa7-bb0351ea7b8a"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#b882c474-787a-4a46-89df-761107b5d35b",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#11b0b041-a78d-4c6c-9653-4befa896fa85"
+        },
+        {
+          "id": "#00862cc0-a6f6-4efc-86b5-95a737126fe3"
+        }
+      ],
+      "motivation": "linking"
+    }
+  ]
+}

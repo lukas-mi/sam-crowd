@@ -1,0 +1,51 @@
+T1	Claim 78 351	When we mechanically refer to the food of the future as "plant proteins for human consumption" and "climate food that must not cost the joy of life", we alienate ourselves from our food and manage to neither show the way nor inspire real, sustainable change in food systems
+A1	Stance T1 For
+T2	Premise 888 984	the minister began with admonishing words that "plant-based foods must not cost the joy of life"
+T3	Claim 986 1108	But if a menu description with biorefined grass protein doesn't suck the joy out of you, then we soon don't know what will
+A2	Stance T3 For
+T4	MajorClaim 1110 1201	There is no doubt about the need to rethink our food system in a more sustainable direction
+T5	Claim 1471 1592	why should "plant-based foods" be synonymous with products processed beyond recognition to imitate something they are not
+A3	Stance T5 For
+T6	Premise 1594 1708	That plant-based food is much more than meat substitutes is such a trite point that it shouldn't need to be raised
+T7	Premise 1714 1890	it's as if we've forgotten how simple food can be, and we need to remember that if we want to make real change in our supply chains, not just replace old problems with new ones
+T8	Claim 1892 1955	Industry is driving the "protein switch" – and that's a problem
+A4	Stance T8 For
+T9	Premise 1956 2161	As the University of Copenhagen's conference title testified, both large parts of the research environment and the market-dominant forces in industry have embraced the meat substitute paradigm in a big way
+T10	Premise 2641 2850	Yes, the very same industrial conglomerates that dominate the market today and have been instrumental in creating our current food system based on an increasingly fragile, large-scale industrial monoculture do
+T11	Premise 2852 2998	In the report The Politics of Protein, IPES-Food warns against single-track agendas that do not take into account how complex our food systems are
+T12	Claim 3000 3153	The so-called protein transition simply cannot be boiled down to the popular but simplistic balancing of protein content against greenhouse gas emissions
+A5	Stance T12 For
+T13	Premise 3222 3482	According to the researchers, the black-and-white view ignores "critical sustainability challenges" such as loss of biodiversity, chemical pollution, deterioration of soil fertility and living conditions for small farmers, hunger and micronutrient deficiencies
+T14	Claim 3484 3570	Are these not just as important challenges to bear in mind as the infamous CO2 account
+A6	Stance T14 For
+T15	Premise 3572 3815	When we plant hectare after hectare of monoculture agriculture in pursuit of pea protein for our plant steaks instead of embracing the diversity – and deliciousness – the plant kingdom offers, we are of course limiting greenhouse gas emissions
+T16	Premise 3817 3949	But at the same time we are strengthening the fragile food system, which is the whole reason for the food crisis the world is facing
+T17	Premise 3951 4091	From monoculture and mass production to large-scale use of artificial fertilizers and energy-intensive hyper-processing of our raw materials
+T18	Premise 4093 4194	According to the FAO, 75 percent of the world's food comes from just 12 plant and five animal species
+T19	Premise 4196 4289	It is cheap, effective – and extremely unhealthy for both us humans and the planet we live on
+T20	Claim 4302 4412	we cannot continue to design the food system of the future on the premises of large industry and market forces
+A7	Stance T20 For
+T21	Premise 4527 4703	"Because it's not the companies that are the cause of the environmental impacts, who clean up afterwards. It's the states, it's society and it's the planet that foots the bill"
+T22	Claim 4705 4814	We do not need a narrow protein transition in a food industry that is otherwise allowed to rumble on as usual
+A8	Stance T22 For
+T23	Claim 4816 4867	We need a real, holistic rethinking of food systems
+A9	Stance T23 For
+T24	Claim 4869 5071	The Norwegian word for sustainable is sustainable, and it very well describes the aim we should have: A food system that has the strength to carry us all – and the many closely linked challenges we face
+A10	Stance T24 For
+T25	Premise 5614 5709	The food crises are waiting, and we are left with more and more destroyed farmland in our hands
+T26	Claim 5822 5916	instead of plowing the same fragile tracks deeper, shouldn't we start new and more robust ones
+A11	Stance T26 For
+R1	supports Arg1:T2 Arg2:T3	
+R2	supports Arg1:T7 Arg2:T6	
+R3	supports Arg1:T6 Arg2:T5	
+R4	supports Arg1:T10 Arg2:T9	
+R5	supports Arg1:T9 Arg2:T8	
+R6	supports Arg1:T11 Arg2:T12	
+R7	attacks Arg1:T16 Arg2:T15	
+R8	supports Arg1:T17 Arg2:T16	
+R9	supports Arg1:T19 Arg2:T18	
+R10	supports Arg1:T18 Arg2:T20	
+R11	supports Arg1:T21 Arg2:T22	
+R12	supports Arg1:T25 Arg2:T26	
+R13	supports Arg1:T13 Arg2:T14	
+R14	supports Arg1:T15 Arg2:T14	

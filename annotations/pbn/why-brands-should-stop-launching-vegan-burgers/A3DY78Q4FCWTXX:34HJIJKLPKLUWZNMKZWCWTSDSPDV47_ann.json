@@ -1,0 +1,2122 @@
+{
+  "phase": "survey",
+  "event": "submit_annotations",
+  "components": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Brands are launching vegan burgers left, right, and center - maybe it's time they got some new ideas"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1,
+            "end": 101
+          }
+        ]
+      },
+      "id": "#56771c38-c68e-47c1-a35f-b8462b269223"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Heinz has just announced its entry into the plant-based meat space with the launch of vegan burgers and mince"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 102,
+            "end": 211
+          }
+        ]
+      },
+      "id": "#c0cc5105-7da4-47c5-a77b-c25f66345ec4"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "This is great from an industry standpoint, and sees one of the heavyweights entering the fray"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 227,
+            "end": 320
+          }
+        ]
+      },
+      "id": "#cf202a45-a0cc-4301-a469-e1d32240b5cc"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Heinz is a company with the distribution network to secure significant physical availability, and a gigantic advertising budget to secure what we in the brand and marketing world call \u201cmental availability.\u201d"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 322,
+            "end": 528
+          }
+        ]
+      },
+      "id": "#ad09f71f-c1bb-4926-bc9a-f7f47349f09e"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "we do not need another burger product in this category"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 581,
+            "end": 635
+          }
+        ]
+      },
+      "id": "#f7f7fc52-b9cd-4d87-8ad8-403043c01f5b"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Type \u201cbeef burger\u201d into Ocado\u2019s search, and it returns only 32 products\u2026 some of which are vegan burgers"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 767,
+            "end": 871
+          }
+        ]
+      },
+      "id": "#8e7bff35-6187-4491-bed3-bfa7e4f42bce"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "there are a staggering number of vegan burgers, and this space is massively oversaturated"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 934,
+            "end": 1023
+          }
+        ]
+      },
+      "id": "#0013c1e3-1dd9-41b5-a78c-4b788376593c"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "A saturated market is a dangerous space to play in"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1036,
+            "end": 1086
+          }
+        ]
+      },
+      "id": "#4b1471f9-28dd-4580-9321-9ed0624310d1"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Generally, there are only two ways to compete \u2013 grow the market itself, or steal market share from others"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1088,
+            "end": 1193
+          }
+        ]
+      },
+      "id": "#a91e5ebe-9870-494e-b20c-492162c90df3"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The present over-saturation of the vegan burger space is a problem"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1195,
+            "end": 1261
+          }
+        ]
+      },
+      "id": "#03c66dd9-0c69-48d3-bb3a-a8f9159394e7"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The biggest advertising budgets will win"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1284,
+            "end": 1324
+          }
+        ]
+      },
+      "id": "#69b4aacd-16b5-4d03-b261-ce301950fb46"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "There is little product innovation"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1325,
+            "end": 1359
+          }
+        ]
+      },
+      "id": "#4960fdbd-18c6-41c2-bccc-511d19000b9a"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "How does a brand best compete when it\u2019s entering a cluttered space?"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1361,
+            "end": 1428
+          }
+        ]
+      },
+      "id": "#8c063c05-a5eb-449e-bbbd-9dc315a9792c"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "ESOV, or Excess Share of Voice"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1429,
+            "end": 1459
+          }
+        ]
+      },
+      "id": "#f5547c26-4c8d-407e-8845-3a640a0e6f2b"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "That means advertising"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1461,
+            "end": 1483
+          }
+        ]
+      },
+      "id": "#6a386ac5-7a7a-4a74-8cf3-74de3e570851"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Above the line and below the line"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1485,
+            "end": 1518
+          }
+        ]
+      },
+      "id": "#0d06db0c-5d65-4b11-8f21-ce77c1d1e665"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "And that\u2019s expensive, especially for smaller brands"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1520,
+            "end": 1571
+          }
+        ]
+      },
+      "id": "#4b97f883-2bcd-4577-a7cb-c5184aca8252"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "I have no doubt Heinz can pony up the bills required to support its new product, but it benefits from brand recognizability too"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1573,
+            "end": 1700
+          }
+        ]
+      },
+      "id": "#fb8e0f60-051c-49f8-bec2-c041f0852a29"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the smaller brands are going to be culled"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1712,
+            "end": 1753
+          }
+        ]
+      },
+      "id": "#9e9eb94b-1a17-40c8-8fa1-f32f35c6c3c1"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It could support the \u201cdecline of veganism\u201d narrative"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1758,
+            "end": 1810
+          }
+        ]
+      },
+      "id": "#bcb237df-8835-44a6-8e4f-fac8c2dc7953"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "As those smaller brands collapse, the media will jump on this and continue its narrative around the plant-based space dying out"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1811,
+            "end": 1938
+          }
+        ]
+      },
+      "id": "#aea73bb4-559c-49e4-b2d2-61adbcb1688a"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Momentum has stopped, they\u2019ll say"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1940,
+            "end": 1973
+          }
+        ]
+      },
+      "id": "#1328394a-8e97-4b86-aaee-d95f70c53320"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Growth is in decline"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1975,
+            "end": 1995
+          }
+        ]
+      },
+      "id": "#3acbfe14-5ccc-43f7-b409-9233e6dd0244"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "there\u2019s a lot of room to grow veganism and plant-based"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2031,
+            "end": 2085
+          }
+        ]
+      },
+      "id": "#d12015a6-cf7e-4c4a-b51b-eb8caa467b9b"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "shoppers aren\u2019t prepared to buy 17 different vegan burgers every week"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2092,
+            "end": 2161
+          }
+        ]
+      },
+      "id": "#cca2076f-2442-4ee4-b46d-863ad6f499c5"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Market growth stagnates"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2166,
+            "end": 2189
+          }
+        ]
+      },
+      "id": "#e34cb03d-0817-486b-88a1-3a729b364878"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Brands are scrapping over the same small space, and failing to create new markets"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2190,
+            "end": 2271
+          }
+        ]
+      },
+      "id": "#7caac7e2-04d9-42a1-b03b-eee71dd33324"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "it\u2019s unwise to compete over market share when you can command market growth"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2306,
+            "end": 2381
+          }
+        ]
+      },
+      "id": "#c7dd1439-3cd9-4bd3-a222-ee686b290cbe"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "We know that consumer values that turn people toward more plant-based eating are only rising \u2013 health, sustainability concerns, animal welfare"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2383,
+            "end": 2525
+          }
+        ]
+      },
+      "id": "#f07e65b4-6684-4cc6-9299-f622eb727d84"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "brands are often doing little to help people to \u201cCross the Chasm.\u201d"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2531,
+            "end": 2597
+          }
+        ]
+      },
+      "id": "#b8d8d744-6c66-4f1c-a534-36da92f90751"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Consumers want to see products that help them transition, but people don\u2019t solely eat burgers"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2598,
+            "end": 2691
+          }
+        ]
+      },
+      "id": "#105fdccc-733d-4b2b-a443-e52205ebaf9f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The single best thing FMCG brands can be doing right now is to make it easier for people to try plant-based foods"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2716,
+            "end": 2829
+          }
+        ]
+      },
+      "id": "#91e6d376-2376-482f-a20e-80b886239ca8"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "That means enticing customers with new products, and making them as easy to obtain as possible"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2831,
+            "end": 2925
+          }
+        ]
+      },
+      "id": "#632b4a73-8d9f-4b2e-8350-42bde569c1a3"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Create something unique"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2946,
+            "end": 2969
+          }
+        ]
+      },
+      "id": "#c320917f-7aa9-4d54-aafe-9b29ff47ccd6"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Build a space"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2971,
+            "end": 2984
+          }
+        ]
+      },
+      "id": "#d0408f4b-51ca-4254-85c5-511a27073b86"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Be the plant-based pancetta"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2986,
+            "end": 3013
+          }
+        ]
+      },
+      "id": "#04c4dd06-f75b-4ac1-a7b5-193e6a43b2df"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The vegan venison"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3015,
+            "end": 3032
+          }
+        ]
+      },
+      "id": "#550adca9-414d-4d16-963c-28d09b2f11fc"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The meatless mackerel"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3034,
+            "end": 3055
+          }
+        ]
+      },
+      "id": "#5d672108-2dd5-4344-98c5-beb04b8fe433"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The herbivore\u2019s ham"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3057,
+            "end": 3076
+          }
+        ]
+      },
+      "id": "#8b1a12ba-54c3-4503-a864-eac9b278b123"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Aim for excellence within your product space"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3078,
+            "end": 3122
+          }
+        ]
+      },
+      "id": "#89e5cbf8-0e72-41e5-b78f-10c65fc13af1"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Reverse engineer what meats and animal products people love"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3124,
+            "end": 3183
+          }
+        ]
+      },
+      "id": "#d551e931-3ca8-4021-a329-afb3582abf50"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "don\u2019t do another bleeding burger"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3219,
+            "end": 3251
+          }
+        ]
+      },
+      "id": "#d01bb8af-70ba-474c-97b4-8d983e46dd08"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "We\u2019ve got enough"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3253,
+            "end": 3269
+          }
+        ]
+      },
+      "id": "#b82b3f98-adeb-4ba9-84be-c830fef0304f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Build your brand"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3271,
+            "end": 3287
+          }
+        ]
+      },
+      "id": "#68373a29-016e-449d-a684-3ae0b7567288"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Create emotion and feeling around what you do, and carve out mental availability in the mind of the consumer"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3288,
+            "end": 3396
+          }
+        ]
+      },
+      "id": "#67d9bc96-9e81-4067-b37d-5bd40766c074"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The faster your logo triggers recognition in the consumer, the sooner they will purchase your product"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3398,
+            "end": 3499
+          }
+        ]
+      },
+      "id": "#d32af68a-27f1-47cc-83f8-1be3359d750e"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Shoppers often make decisions in seconds"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3501,
+            "end": 3541
+          }
+        ]
+      },
+      "id": "#efff31e6-388b-4f51-acfe-07efa1b0b99b"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "You must be more than simply a product on a shelf to stand out \u2013 the space is too saturated for that"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3543,
+            "end": 3643
+          }
+        ]
+      },
+      "id": "#a0ab0c35-6439-4280-82ce-ee2ccacee0b4"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Grow your distribution"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3645,
+            "end": 3667
+          }
+        ]
+      },
+      "id": "#31551993-f521-4584-aae0-26131c052d93"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "This is the concept of physical availability again"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3668,
+            "end": 3718
+          }
+        ]
+      },
+      "id": "#cdf961b1-1531-4f65-9e56-96bb31d3d2fc"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Even with the best marketing in the world, food brands are tangible products which need to be picked up in store, enjoyed in a restaurant, or ordered for home delivery"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3720,
+            "end": 3887
+          }
+        ]
+      },
+      "id": "#9a1a3b78-01d9-4183-b521-9b5ff601d775"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The simpler it is for a consumer to add your product to their weekly shopping basket, and not go out of their way, the more your brand will grow"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3889,
+            "end": 4033
+          }
+        ]
+      },
+      "id": "#61ac7d0f-ebd3-4145-ba20-228468a1e6f4"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Much of this is the classic marketing theory of differentiation"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4035,
+            "end": 4098
+          }
+        ]
+      },
+      "id": "#50e4d552-7d3a-4d00-b1c2-dc9c19a1f226"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Ten years ago, a vegan burger was a delightfully differentiated option"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4137,
+            "end": 4207
+          }
+        ]
+      },
+      "id": "#268b1d3e-326e-4b8b-a9f0-bae0cbf1a56a"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Today, it\u2019s the vegan burger brands that need to differentiate themselves"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4209,
+            "end": 4282
+          }
+        ]
+      },
+      "id": "#b0e4c9ec-7bc3-4edf-8a2f-d46b02844174"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "But if your idea of innovation is another burger than please, please go back to the drawing board"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5637,
+            "end": 5734
+          }
+        ]
+      },
+      "id": "#e52472d0-0d56-44e2-82d3-c645c37d6da7"
+    }
+  ],
+  "relations": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#2395cb91-2b60-448e-8e3e-25db5b682a21",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#ad09f71f-c1bb-4926-bc9a-f7f47349f09e"
+        },
+        {
+          "id": "#cf202a45-a0cc-4301-a469-e1d32240b5cc"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#04c60b7f-94fb-4b7f-a9a5-deb246805038",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#cf202a45-a0cc-4301-a469-e1d32240b5cc"
+        },
+        {
+          "id": "#c0cc5105-7da4-47c5-a77b-c25f66345ec4"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#5ee4d30e-c92a-4841-84b9-68af446bc3a8",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#a91e5ebe-9870-494e-b20c-492162c90df3"
+        },
+        {
+          "id": "#4b1471f9-28dd-4580-9321-9ed0624310d1"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#b1b786ec-6781-4115-ad52-5a26b814b29b",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#8e7bff35-6187-4491-bed3-bfa7e4f42bce"
+        },
+        {
+          "id": "#0013c1e3-1dd9-41b5-a78c-4b788376593c"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#f81ed662-d2f1-4c4e-b43d-77566738a4c5",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#0013c1e3-1dd9-41b5-a78c-4b788376593c"
+        },
+        {
+          "id": "#4b1471f9-28dd-4580-9321-9ed0624310d1"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#c4e928d3-6631-4f36-8d8d-893359cb35c2",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#4b97f883-2bcd-4577-a7cb-c5184aca8252"
+        },
+        {
+          "id": "#0d06db0c-5d65-4b11-8f21-ce77c1d1e665"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#352033e0-fe41-4b6f-86d0-063a6e204a95",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#0d06db0c-5d65-4b11-8f21-ce77c1d1e665"
+        },
+        {
+          "id": "#6a386ac5-7a7a-4a74-8cf3-74de3e570851"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#ff79f408-6ced-4285-891e-9d3ef7a3ddc6",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#6a386ac5-7a7a-4a74-8cf3-74de3e570851"
+        },
+        {
+          "id": "#f5547c26-4c8d-407e-8845-3a640a0e6f2b"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#c36e7b31-752c-4c60-847d-883a5c2584c0",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#f5547c26-4c8d-407e-8845-3a640a0e6f2b"
+        },
+        {
+          "id": "#8c063c05-a5eb-449e-bbbd-9dc315a9792c"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#61599df6-42f6-4e98-95ae-f1f1335f8970",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#8c063c05-a5eb-449e-bbbd-9dc315a9792c"
+        },
+        {
+          "id": "#4960fdbd-18c6-41c2-bccc-511d19000b9a"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#7ff4901f-52a5-4a56-914c-ed040b305a13",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#4960fdbd-18c6-41c2-bccc-511d19000b9a"
+        },
+        {
+          "id": "#69b4aacd-16b5-4d03-b261-ce301950fb46"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#08d33c52-862c-45d0-b9c1-26cb4d9a7260",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#9e9eb94b-1a17-40c8-8fa1-f32f35c6c3c1"
+        },
+        {
+          "id": "#fb8e0f60-051c-49f8-bec2-c041f0852a29"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#e2d95ce5-0268-421d-a064-be6780413fcf",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#fb8e0f60-051c-49f8-bec2-c041f0852a29"
+        },
+        {
+          "id": "#4b97f883-2bcd-4577-a7cb-c5184aca8252"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#5f141559-8991-4d94-94fa-5a5b2ba1ec92",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#1328394a-8e97-4b86-aaee-d95f70c53320"
+        },
+        {
+          "id": "#aea73bb4-559c-49e4-b2d2-61adbcb1688a"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#b1500454-858f-45eb-9486-666b43100e6c",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#aea73bb4-559c-49e4-b2d2-61adbcb1688a"
+        },
+        {
+          "id": "#bcb237df-8835-44a6-8e4f-fac8c2dc7953"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#750efd2c-ccea-4cdc-9303-783e4fd7c18d",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#3acbfe14-5ccc-43f7-b409-9233e6dd0244"
+        },
+        {
+          "id": "#1328394a-8e97-4b86-aaee-d95f70c53320"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#c454f04b-50eb-4b53-8ea3-58e66a251df2",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#d12015a6-cf7e-4c4a-b51b-eb8caa467b9b"
+        },
+        {
+          "id": "#3acbfe14-5ccc-43f7-b409-9233e6dd0244"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#8eac238e-079b-44bd-ad2c-9e24b905b484",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#cca2076f-2442-4ee4-b46d-863ad6f499c5"
+        },
+        {
+          "id": "#d12015a6-cf7e-4c4a-b51b-eb8caa467b9b"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#238c34c9-9398-47c3-9381-1b7ac925a37c",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#7caac7e2-04d9-42a1-b03b-eee71dd33324"
+        },
+        {
+          "id": "#e34cb03d-0817-486b-88a1-3a729b364878"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#7022076d-30e2-49b9-901b-b810180c5328",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#c7dd1439-3cd9-4bd3-a222-ee686b290cbe"
+        },
+        {
+          "id": "#7caac7e2-04d9-42a1-b03b-eee71dd33324"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#fb058d15-4e05-4ce7-9a28-a15a99626b60",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#105fdccc-733d-4b2b-a443-e52205ebaf9f"
+        },
+        {
+          "id": "#b8d8d744-6c66-4f1c-a534-36da92f90751"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#5a675ddf-fc3c-46d7-a1ec-63e0d29c6e67",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#b8d8d744-6c66-4f1c-a534-36da92f90751"
+        },
+        {
+          "id": "#f07e65b4-6684-4cc6-9299-f622eb727d84"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#f0c5cbd5-0893-4081-99fe-27f4016ccb13",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#632b4a73-8d9f-4b2e-8350-42bde569c1a3"
+        },
+        {
+          "id": "#91e6d376-2376-482f-a20e-80b886239ca8"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#ce9c1037-4fe7-4b49-8428-881559e6bef0",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#b82b3f98-adeb-4ba9-84be-c830fef0304f"
+        },
+        {
+          "id": "#d01bb8af-70ba-474c-97b4-8d983e46dd08"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#eb905a7e-0b57-43b4-b9ea-8151ecf09601",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#a0ab0c35-6439-4280-82ce-ee2ccacee0b4"
+        },
+        {
+          "id": "#efff31e6-388b-4f51-acfe-07efa1b0b99b"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#db755530-ab75-4ef7-a1b0-e0d427a39530",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#efff31e6-388b-4f51-acfe-07efa1b0b99b"
+        },
+        {
+          "id": "#d32af68a-27f1-47cc-83f8-1be3359d750e"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#6c6facab-71f8-4c5a-9ee3-d66938ff8173",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#d32af68a-27f1-47cc-83f8-1be3359d750e"
+        },
+        {
+          "id": "#67d9bc96-9e81-4067-b37d-5bd40766c074"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#834f570d-21b6-4984-9e7e-6b687f6e2ed9",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#61ac7d0f-ebd3-4145-ba20-228468a1e6f4"
+        },
+        {
+          "id": "#9a1a3b78-01d9-4183-b521-9b5ff601d775"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#6c750dcf-fa32-4315-9193-addc283da94a",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#9a1a3b78-01d9-4183-b521-9b5ff601d775"
+        },
+        {
+          "id": "#cdf961b1-1531-4f65-9e56-96bb31d3d2fc"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#5164881b-9913-44c8-9d63-4f6918a69627",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#cdf961b1-1531-4f65-9e56-96bb31d3d2fc"
+        },
+        {
+          "id": "#31551993-f521-4584-aae0-26131c052d93"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#cf91c6d5-f06e-4e8e-89c6-b291f4d79526",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#50e4d552-7d3a-4d00-b1c2-dc9c19a1f226"
+        },
+        {
+          "id": "#61ac7d0f-ebd3-4145-ba20-228468a1e6f4"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#7fe12c6a-7802-4ea8-9530-466cb574c638",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#268b1d3e-326e-4b8b-a9f0-bae0cbf1a56a"
+        },
+        {
+          "id": "#b0e4c9ec-7bc3-4edf-8a2f-d46b02844174"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#622dd0dd-8784-4ccf-b292-90b477d10905",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#c0cc5105-7da4-47c5-a77b-c25f66345ec4"
+        },
+        {
+          "id": "#56771c38-c68e-47c1-a35f-b8462b269223"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#951b6842-860f-4c58-a835-9a0b19ac0e3c",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#f07e65b4-6684-4cc6-9299-f622eb727d84"
+        },
+        {
+          "id": "#91e6d376-2376-482f-a20e-80b886239ca8"
+        }
+      ],
+      "motivation": "linking"
+    }
+  ]
+}

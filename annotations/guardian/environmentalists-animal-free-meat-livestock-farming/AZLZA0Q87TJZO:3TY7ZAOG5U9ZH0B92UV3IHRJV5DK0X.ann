@@ -1,0 +1,51 @@
+T1	Claim 431 531	the new products – plant-based, microbial and cell-cultured meat and dairy – are not aimed at vegans
+A1	Stance T1 For
+T2	Premise 1106 1213	Global average meat consumption per person is 43kg a year, but swiftly heading towards the UK level of 82kg
+T3	Claim 1215 1347	The re ason is Bennett’s Law: as people become richer, they eat more protein and fat, especially the flesh and secretions of animals
+A2	Stance T3 For
+T4	Premise 1739 1800	Indians continue to be vegetarians even when they become rich
+T5	Premise 1802 1861	Food cultures are shaped by cultural and ecological values.
+T6	Premise 1867 1940	meat-eating in India is rising rapidly, though many people do it secretly
+T7	Claim 2265 2309	livestock farming attacks every Earth system
+A3	Stance T7 For
+T8	Premise 2311 2374	It’s the primary agent of habitat destruction and wildlife loss
+T9	Premise 2376 2420	It’s causing rivercide and dead zones at sea
+T10	Premise 2422 2495	It generates more greenhouse gas emissions than all the world’s transport
+T11	Premise 2497 2600	It sprawls across vast tracts of the planet, inflicting massive carbon and ecological opportunity costs
+T12	Premise 2635 2764	livestock farming is probably the world’s most powerful agent of colonial land grabbing and the displacement of Indigenous people
+T13	Claim 2766 2794	Meat is consuming the planet
+A4	Stance T13 For
+T14	Claim 2796 2858	Substitutes for animal products can greatly reduce this damage
+A5	Stance T14 For
+T15	Claim 3063 3133	the taste and texture of plant-based alternatives has greatly improved
+A6	Stance T15 For
+T16	Premise 3135 3222	I’ve recently eaten three products that are almost indistinguishable from the originals
+T17	Premise 3791 3943	By lobbying successfully for the prohibition of alcohol, the Southern Baptists opened the door to gangsters trading in stronger and more dangerous drink
+T18	Claim 3945 4022	True environmentalists have a duty to break this ultra-conservative consensus
+A7	Stance T18 For
+T19	Claim 4465 4620	As governments are pressurised by Big Meat, they will raise the kind of obstacles that, in the UK and US, have delayed the rollout of renewable electricity
+A8	Stance T19 For
+T20	Premise 4622 4741	The UK government, for example, is reported to be considering a ban on calling plant-based products “milk” and “butter”
+T21	Premise 4815 4902	No VAT is charged on meat and milk here, but most plant-based alternatives must pay 20%
+T22	Claim 4904 4976	The regulators that might approve the new products are often overwhelmed
+A9	Stance T22 For
+T23	Premise 4978 5048	Brexit has dumped a massive workload on the UK’s Food Standards Agency
+T24	Premise 5116 5184	it has been flooded with applications for CBD (cannabidiol) products
+T25	Premise 5186 5245	it could be years before it can assess alternative proteins
+T26	MajorClaim 5314 5563	Environmental campaigners should be working not to destroy the green alternatives but to ensure they are regulated properly and, through effective anti-trust laws, do not become as concentrated in the hands of a few corporations as the meat trade is
+R1	supports Arg1:T2 Arg2:T3	
+R2	attacks Arg1:T4 Arg2:T3	
+R3	attacks Arg1:T5 Arg2:T3	
+R4	attacks Arg1:T6 Arg2:T4	
+R5	supports Arg1:T8 Arg2:T7	
+R6	supports Arg1:T9 Arg2:T7	
+R7	supports Arg1:T10 Arg2:T7	
+R8	supports Arg1:T11 Arg2:T13	
+R9	supports Arg1:T12 Arg2:T13	
+R10	supports Arg1:T16 Arg2:T15	
+R11	supports Arg1:T17 Arg2:T18	
+R12	supports Arg1:T20 Arg2:T19	
+R13	supports Arg1:T21 Arg2:T19	
+R14	supports Arg1:T23 Arg2:T22	
+R15	supports Arg1:T24 Arg2:T22	
+R16	supports Arg1:T25 Arg2:T22	

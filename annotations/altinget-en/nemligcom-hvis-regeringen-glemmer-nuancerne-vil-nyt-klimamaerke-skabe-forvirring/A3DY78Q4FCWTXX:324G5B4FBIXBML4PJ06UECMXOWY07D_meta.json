@@ -1,0 +1,170 @@
+{
+  "uniqueid": "A3DY78Q4FCWTXX:324G5B4FBIXBML4PJ06UECMXOWY07D",
+  "assignmentid": "324G5B4FBIXBML4PJ06UECMXOWY07D",
+  "workerid": "A3DY78Q4FCWTXX",
+  "hitid": "3KWGG5KP7XRBEW8Y9KW13BPXJELCMX",
+  "ipaddress": "10.1.88.152",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-04 11:09:54.376",
+  "beginexp": "2023-05-04 11:09:55.035",
+  "endhit": "2023-05-04 11:36:59.093",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 0,
+  "open_guidelines_times": [],
+  "create_annotation_count": 61,
+  "create_annotation_times": [
+    "2023-05-04 11:11:16",
+    "2023-05-04 11:11:51",
+    "2023-05-04 11:12:37",
+    "2023-05-04 11:12:49",
+    "2023-05-04 11:13:08",
+    "2023-05-04 11:13:11",
+    "2023-05-04 11:14:07",
+    "2023-05-04 11:14:21",
+    "2023-05-04 11:14:45",
+    "2023-05-04 11:14:50",
+    "2023-05-04 11:15:08",
+    "2023-05-04 11:15:42",
+    "2023-05-04 11:16:01",
+    "2023-05-04 11:16:10",
+    "2023-05-04 11:16:58",
+    "2023-05-04 11:17:42",
+    "2023-05-04 11:17:53",
+    "2023-05-04 11:18:21",
+    "2023-05-04 11:19:50",
+    "2023-05-04 11:20:09",
+    "2023-05-04 11:21:00",
+    "2023-05-04 11:22:34",
+    "2023-05-04 11:22:53",
+    "2023-05-04 11:23:05",
+    "2023-05-04 11:23:46",
+    "2023-05-04 11:24:49",
+    "2023-05-04 11:24:59",
+    "2023-05-04 11:25:07",
+    "2023-05-04 11:25:24",
+    "2023-05-04 11:25:39",
+    "2023-05-04 11:26:04",
+    "2023-05-04 11:26:19",
+    "2023-05-04 11:26:23",
+    "2023-05-04 11:26:57",
+    "2023-05-04 11:28:03",
+    "2023-05-04 11:28:43",
+    "2023-05-04 11:28:54",
+    "2023-05-04 11:29:09",
+    "2023-05-04 11:29:15",
+    "2023-05-04 11:29:26",
+    "2023-05-04 11:29:36",
+    "2023-05-04 11:29:55",
+    "2023-05-04 11:31:09",
+    "2023-05-04 11:31:22",
+    "2023-05-04 11:31:41",
+    "2023-05-04 11:31:47",
+    "2023-05-04 11:32:31",
+    "2023-05-04 11:32:38",
+    "2023-05-04 11:32:43",
+    "2023-05-04 11:32:54",
+    "2023-05-04 11:32:58",
+    "2023-05-04 11:33:10",
+    "2023-05-04 11:33:32",
+    "2023-05-04 11:33:45",
+    "2023-05-04 11:33:50",
+    "2023-05-04 11:34:04",
+    "2023-05-04 11:34:23",
+    "2023-05-04 11:34:26",
+    "2023-05-04 11:34:51",
+    "2023-05-04 11:34:56",
+    "2023-05-04 11:35:11"
+  ],
+  "create_annotation_invalid": 1,
+  "delete_annotation_count": 5,
+  "delete_annotation_times": [
+    "2023-05-04 11:13:26",
+    "2023-05-04 11:13:33",
+    "2023-05-04 11:18:25",
+    "2023-05-04 11:25:21",
+    "2023-05-04 11:35:05"
+  ],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 3,
+  "update_annotation_times": [
+    "2023-05-04 11:11:42",
+    "2023-05-04 11:26:45",
+    "2023-05-04 11:35:24"
+  ],
+  "update_annotation_invalid": 0,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "4",
+    "task-interest": "3",
+    "ui-intuitiveness": "4",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1683198594208,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        683,
+        512
+      ],
+      "timestamp": 1683198594208,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1707,
+        892
+      ],
+      "timestamp": 1683198602899,
+      "interval": 8691
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683199101990,
+      "interval": 499091
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683199101990,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        683,
+        512
+      ],
+      "timestamp": 1683200166903,
+      "interval": 1064913
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "altinget-en",
+    "article": "nemligcom-hvis-regeringen-glemmer-nuancerne-vil-nyt-klimamaerke-skabe-forvirring",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

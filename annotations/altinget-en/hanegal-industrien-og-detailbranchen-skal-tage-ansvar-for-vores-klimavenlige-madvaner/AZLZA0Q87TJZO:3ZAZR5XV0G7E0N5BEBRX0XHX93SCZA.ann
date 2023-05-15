@@ -1,0 +1,40 @@
+T1	MajorClaim 187 292	Industry and the retail sector must take greater responsibility for Danes' climate-friendly eating habits
+T2	Premise 485 806	when the kids are picked up from kindergarten and the shopping needs to be done, while the last e-mails are being answered on the phone hanging over the fridge, and the kids are complaining about mix-your-own sweets and cheese pops, the Danish Food and Veterinary Authority's climate food advice slips into the background
+T3	Premise 812 927	the good intentions of more climate-friendly eating habits are left in the store along with the pulses and couscous
+T4	Premise 938 1000	two out of three Danes would like to eat more climate-friendly
+T5	Claim 1002 1134	it is difficult to rediscover the good intentions in what we put in the shopping basket when we are stressing around the supermarket
+A1	Stance T5 For
+T6	Premise 1156 1339	Denmark takes last place in an EU-supported study of the ability of five European populations to exploit the potential of climate-friendly "superfoods" such as peas, beans and lentils
+T7	Premise 1341 1442	According to the researchers behind the study, this is due to ignorance and a lack of food traditions
+T8	Premise 1444 1550	The Danish ignorance means that an average Dane emits just over three tonnes of CO2 through the diet alone
+T9	Claim 1563 1662	there are also quite good opportunities to reduce our CO2 emissions if we eat more climate-friendly
+A2	Stance T9 For
+T10	Premise 1664 1897	If we followed the Danish Food and Veterinary Authority's climate food advice to eat less meat, more vegetables, more legumes and more whole grains, we could easily lower the CO2 footprint associated with our diet by 30 to 45 percent
+T11	Premise 1986 2081	Why is it so infinitely slow to reap the climate benefits when it comes to our food consumption
+T12	Premise 2083 2252	Why don't we just change our diet a bit and reap the climate benefits that are right at hand, when we now know that the Danes actually want to live more climate-friendly
+T13	Claim 2303 2345	it's hard as hell to get new eating habits
+A3	Stance T13 For
+T14	Premise 2347 2387	It requires energy, imagination and time
+T15	Premise 2401 2543	it also requires a period of sullen children and spouses when the legumes occupy the dinner plates in the place where the red meat used to lie
+T16	Premise 2583 2710	the plant-based alternatives may not have been of a quality or at a price where they were a real alternative to the meat either
+T17	Claim 2712 2782	A more climate-friendly diet has thus been associated with deprivation
+A4	Stance T17 For
+T18	Claim 3180 3286	The Danes must be spoiled with even more delicious sustainable products with less meat and more vegetables
+A5	Stance T18 For
+T19	MajorClaim 3369 3514	Industry and retail have a responsibility to develop more climate-friendly foods and sell them at prices that make them interesting for consumers
+T20	Premise 3516 3809	In January, the Danish Vegetarian Association, together with a number of retail chains and food manufacturers, carried out the 'Green January' campaign with the aim of making plant-based foods visible in the first month of the year and giving them a little more space in the minds of consumers
+T21	Claim 4022 4222	the selection of plant-based foods will have reached a level within the coming years where consumers will largely choose the plant-based foods because they are of a quality that makes interesting ones
+A6	Stance T21 For
+R1	supports Arg1:T14 Arg2:T13	
+R2	supports Arg1:T15 Arg2:T13	
+R3	attacks Arg1:T4 Arg2:T5	
+R4	attacks Arg1:T8 Arg2:T4	
+R5	attacks Arg1:T6 Arg2:T4	
+R6	supports Arg1:T7 Arg2:T6	
+R7	supports Arg1:T10 Arg2:T9	
+R8	attacks Arg1:T11 Arg2:T10	
+R9	attacks Arg1:T12 Arg2:T10	
+R10	supports Arg1:T2 Arg2:T5	
+R11	supports Arg1:T3 Arg2:T5	
+R12	supports Arg1:T20 Arg2:T18	
+R13	supports Arg1:T16 Arg2:T17	

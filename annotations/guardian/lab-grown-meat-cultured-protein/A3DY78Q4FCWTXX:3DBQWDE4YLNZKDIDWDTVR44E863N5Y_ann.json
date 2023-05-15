@@ -1,0 +1,647 @@
+{
+  "phase": "survey",
+  "event": "submit_annotations",
+  "components": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The corporate race for cultured protein rests on a view of human beings as greedy and incapable of change"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1,
+            "end": 106
+          }
+        ]
+      },
+      "id": "#d2ee43ee-773d-48e5-9887-effb92d9f1d1"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Eat Just, Inc \u2013 and the dozens of other cultured meat startups racing each other to get lab-grown meat on to the menu across the globe \u2013 are selling the promise that carnivores will be able to eat meat with a clean conscience"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 735,
+            "end": 960
+          }
+        ]
+      },
+      "id": "#e057785a-dda5-496c-98ed-ec698f02583f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Flesh without the blood, meat without murder and the beginning of the end of the environmental damage caused by intensive animal agriculture"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 962,
+            "end": 1102
+          }
+        ]
+      },
+      "id": "#4cbe03d5-9ec8-4ba2-808c-c7aaaf38912f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The news was met with a sigh of relief from meat eaters across the world, and with good reason: it will allow us to carry on as before, eating what we like while clever technology sidesteps the problems caused by our appetites"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1104,
+            "end": 1330
+          }
+        ]
+      },
+      "id": "#7158e611-7ff9-49b3-b017-72ba1a2d7522"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "even if they have managed to create something indistinguishable from a chicken nugget that comes from a dead bird, the circumstances in which the chicken was approved by regulators should give us pause"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2481,
+            "end": 2682
+          }
+        ]
+      },
+      "id": "#5c539644-265c-4fc2-ab95-53e4e507513e"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Why would a US company seek regulatory approval in an island city-state in Asia"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2684,
+            "end": 2763
+          }
+        ]
+      },
+      "id": "#2c9ca762-efa7-49b0-b2cd-6f558a1bd708"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Back in 2018, Eat Just\u2019s CEO, Josh Tetrick, said the company was aiming to have its cultured meat approved in a number of countries outside the US because the Food and Drug Administration was behind the times"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2765,
+            "end": 2973
+          }
+        ]
+      },
+      "id": "#c1cd08a5-090b-4b0a-918f-e3ae143eeb43"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "\u201cThe regulatory [system] is not ready in the US,\u201d"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2975,
+            "end": 3024
+          }
+        ]
+      },
+      "id": "#a4c20324-9a89-4bca-aac7-33230eb72bd4"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Instead of waiting for it to be ready, the company found a country with more amenable standards to give it the green light to put its product on sale"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3037,
+            "end": 3186
+          }
+        ]
+      },
+      "id": "#3586909a-9fff-4aad-b321-47addf90cc15"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "That\u2019s problematic for the entire cultured meat industry: consumers care more about the provenance of food now than ever before, and any producer of a new food needs to be seen to take regulatory standards seriously"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3188,
+            "end": 3403
+          }
+        ]
+      },
+      "id": "#ede0b6b2-2ca5-499f-9be0-58c793a256bf"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "This product has far to go when it comes to winning consumer acceptance"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3405,
+            "end": 3476
+          }
+        ]
+      },
+      "id": "#72ac9b45-7d01-48a3-9cc5-ea6bd091941e"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the \u201cick factor\u201d is a serious problem when it comes to meat grown in a lab"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3478,
+            "end": 3552
+          }
+        ]
+      },
+      "id": "#09951160-de71-4754-93d3-3a15b98a0013"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "it is also an over-engineered solution to a problem that we can solve by changing our diets"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4181,
+            "end": 4272
+          }
+        ]
+      },
+      "id": "#a1c4db83-0988-4b5f-b1e5-57eabaeb9699"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "If we simply stopped eating meat, or ate it far less often, then there would be no need for either harmful intensive animal agriculture or meat grown in a lab"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4274,
+            "end": 4432
+          }
+        ]
+      },
+      "id": "#dee9e168-58dd-4e09-8f77-38901347291b"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The cultured meat industry rests on a view of human beings as greedy and incapable of change"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4434,
+            "end": 4526
+          }
+        ]
+      },
+      "id": "#22069ce4-efeb-4d21-9e81-ed5418f95de2"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the coronavirus pandemic has shown that, globally, we are able to make enormous changes to our behaviour when faced with existential crisis"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4532,
+            "end": 4671
+          }
+        ]
+      },
+      "id": "#e9d6d248-e150-450d-a689-3c139188e6ef"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "If we move into a world where eating meat remains normal but killing animals is taboo, we will become ever more dependent on remote corporations with highly specialised technology to meet our basic needs"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4954,
+            "end": 5157
+          }
+        ]
+      },
+      "id": "#3249860d-0766-4b58-a0d0-18adaaed28e8"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "We can just choose to eat less meat"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5181,
+            "end": 5216
+          }
+        ]
+      },
+      "id": "#adfa7598-a654-4b99-b11e-63de9b81f88e"
+    }
+  ],
+  "relations": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#da6807df-de71-4216-9229-cef8e624af72",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#e9d6d248-e150-450d-a689-3c139188e6ef"
+        },
+        {
+          "id": "#22069ce4-efeb-4d21-9e81-ed5418f95de2"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#a7b5c5e2-1de9-498e-b874-072f977d0705",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#4cbe03d5-9ec8-4ba2-808c-c7aaaf38912f"
+        },
+        {
+          "id": "#e057785a-dda5-496c-98ed-ec698f02583f"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#44276733-a312-407f-b23f-1d0a863c348d",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#e057785a-dda5-496c-98ed-ec698f02583f"
+        },
+        {
+          "id": "#7158e611-7ff9-49b3-b017-72ba1a2d7522"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#b3aca605-107e-4f69-a2cd-f4f1b393dc72",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#5c539644-265c-4fc2-ab95-53e4e507513e"
+        },
+        {
+          "id": "#2c9ca762-efa7-49b0-b2cd-6f558a1bd708"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#f0691c3c-73c6-4992-9a7e-3106bb2eddb9",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#7158e611-7ff9-49b3-b017-72ba1a2d7522"
+        },
+        {
+          "id": "#d2ee43ee-773d-48e5-9887-effb92d9f1d1"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#aa0951ec-7503-4642-a4c6-7a8f1c9cab4b",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#09951160-de71-4754-93d3-3a15b98a0013"
+        },
+        {
+          "id": "#72ac9b45-7d01-48a3-9cc5-ea6bd091941e"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#e888ed19-9748-483a-9c1f-d54f9f2664a5",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#a4c20324-9a89-4bca-aac7-33230eb72bd4"
+        },
+        {
+          "id": "#c1cd08a5-090b-4b0a-918f-e3ae143eeb43"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#5557a6c4-492b-40c0-aedf-90cd69c25d90",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#3586909a-9fff-4aad-b321-47addf90cc15"
+        },
+        {
+          "id": "#a4c20324-9a89-4bca-aac7-33230eb72bd4"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#9a709785-1689-4e46-8282-10562392fcd1",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#c1cd08a5-090b-4b0a-918f-e3ae143eeb43"
+        },
+        {
+          "id": "#ede0b6b2-2ca5-499f-9be0-58c793a256bf"
+        }
+      ],
+      "motivation": "linking"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "uniqueid": "AZLZA0Q87TJZO:3ZAK8W07IJ3DKWGLW8Z5O40HX7Z0UK",
+  "assignmentid": "3ZAK8W07IJ3DKWGLW8Z5O40HX7Z0UK",
+  "workerid": "AZLZA0Q87TJZO",
+  "hitid": "3SMIWMMK7FU352JCZDNO6FDUOL2WUO",
+  "ipaddress": "10.1.41.116",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-10 13:32:09.133",
+  "beginexp": "2023-05-10 13:32:10.501",
+  "endhit": "2023-05-10 13:53:49.538",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 0,
+  "open_guidelines_times": [],
+  "create_annotation_count": 49,
+  "create_annotation_times": [
+    "2023-05-10 13:33:22",
+    "2023-05-10 13:33:34",
+    "2023-05-10 13:33:40",
+    "2023-05-10 13:37:48",
+    "2023-05-10 13:38:12",
+    "2023-05-10 13:38:16",
+    "2023-05-10 13:38:32",
+    "2023-05-10 13:38:38",
+    "2023-05-10 13:38:51",
+    "2023-05-10 13:38:56",
+    "2023-05-10 13:39:05",
+    "2023-05-10 13:39:13",
+    "2023-05-10 13:39:17",
+    "2023-05-10 13:39:34",
+    "2023-05-10 13:40:14",
+    "2023-05-10 13:40:21",
+    "2023-05-10 13:40:28",
+    "2023-05-10 13:40:45",
+    "2023-05-10 13:41:07",
+    "2023-05-10 13:41:16",
+    "2023-05-10 13:41:19",
+    "2023-05-10 13:42:02",
+    "2023-05-10 13:43:30",
+    "2023-05-10 13:43:34",
+    "2023-05-10 13:43:58",
+    "2023-05-10 13:44:07",
+    "2023-05-10 13:44:14",
+    "2023-05-10 13:44:54",
+    "2023-05-10 13:45:19",
+    "2023-05-10 13:46:11",
+    "2023-05-10 13:46:19",
+    "2023-05-10 13:46:23",
+    "2023-05-10 13:46:49",
+    "2023-05-10 13:46:54",
+    "2023-05-10 13:47:12",
+    "2023-05-10 13:48:14",
+    "2023-05-10 13:48:27",
+    "2023-05-10 13:48:31",
+    "2023-05-10 13:48:58",
+    "2023-05-10 13:49:06",
+    "2023-05-10 13:50:20",
+    "2023-05-10 13:50:52",
+    "2023-05-10 13:50:59",
+    "2023-05-10 13:51:03",
+    "2023-05-10 13:51:37",
+    "2023-05-10 13:51:50",
+    "2023-05-10 13:52:09",
+    "2023-05-10 13:53:18",
+    "2023-05-10 13:53:22"
+  ],
+  "create_annotation_invalid": 0,
+  "delete_annotation_count": 0,
+  "delete_annotation_times": [],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 2,
+  "update_annotation_times": [
+    "2023-05-10 13:50:15",
+    "2023-05-10 13:51:46"
+  ],
+  "update_annotation_invalid": 0,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "3",
+    "task-interest": "4",
+    "ui-intuitiveness": "5",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1683725531489,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        767
+      ],
+      "timestamp": 1683725531489,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683725536080,
+      "interval": 4591
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683725541629,
+      "interval": 5549
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683725557643,
+      "interval": 16014
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683725559566,
+      "interval": 1923
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683725572433,
+      "interval": 12867
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683725597761,
+      "interval": 25328
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683725621790,
+      "interval": 24029
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683725857443,
+      "interval": 235653
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683726159673,
+      "interval": 302230
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683726185676,
+      "interval": 26003
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683726217889,
+      "interval": 32213
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683726221720,
+      "interval": 3831
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683726449487,
+      "interval": 227767
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683726472995,
+      "interval": 23508
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "pbn",
+    "article": "alternative-protein-food-insecurity-britain",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

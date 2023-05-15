@@ -1,0 +1,48 @@
+T1	Premise 100 203	A political majority in the Danish Parliament wants to introduce plant-based lunches in public kitchens
+T2	MajorClaim 205 330	But we must remember the bill and ensure the skills on the kitchen floors, so that it does not go beyond quality or nutrition
+T3	Premise 364 523	In Aalborg Municipality, citizens who get their meals from public kitchens will in future have the option of a plant-based dish every time they sit down to eat
+T4	Premise 525 795	This happens after the city council in Aalborg has decided that guidelines must be drawn up for the municipal institutions' food schemes and canteens, "so that citizens who use municipal canteens and food schemes always have the opportunity to choose a plant-based meal"
+T5	Premise 797 964	At the same time, a political majority wants the government to investigate the possibility of introducing plant-based options in public kitchens throughout the country
+T6	Claim 1057 1096	Our public kitchens must become greener
+A1	Stance T6 For
+T7	Premise 1126 1164	there is no such thing as a free lunch
+T8	Premise 1166 1188	Not a green one either
+T9	MajorClaim 1190 1464	Therefore, we encourage the city council in Aalborg - and other municipalities that are considering making the menus in the public kitchens even more plant-based - to carefully consider how to ensure that plant-based options do not compromise nutrition, quality or resources
+T10	Claim 1466 1494	It has to be done right here
+A2	Stance T10 For
+T11	Premise 1496 1620	Not least because those who eat public meals are often sick, elderly, vulnerable or very small citizens at the start of life
+T12	Premise 1622 1813	Firstly, public kitchens work based on the Food and Drug Administration's Food Council for Meals, where there is still a lack of guidance on how food can be organized and produced plant-based
+T13	Claim 1841 1930	I may be concerned that the meals are rearranged without the right nutritional guidelines
+A3	Stance T13 Against
+T14	Claim 1932 1977	Because we must never compromise on nutrition
+A4	Stance T14 For
+T15	Claim 1979 2201	We must always take into account the various dietary considerations that the Diet and Nutrition Association's members work from every day, and which are carefully organized according to the nutritional needs of the citizen
+A5	Stance T15 For
+T16	Claim 2213 2317	plant-based meals must not go beyond the quality of the food and the culinary experience of the citizens
+A6	Stance T16 For
+T17	Premise 2319 2516	Although plant-based food is gaining more and more traction in our dietary culture, we must state that skills in the professional production of plant-based food have not received the same attention
+T18	Claim 2518 2689	There is therefore a need for new knowledge and skills on the kitchen floors if you want to ensure that the plant-based meals do not compromise either quality or nutrition
+A7	Stance T18 For
+T19	Claim 2691 2848	We take pride in doing our job well, so you cannot introduce plant-based meals blindfolded and without ensuring that the skills for the new tasks are present
+A8	Stance T19 For
+T20	Premise 2885 2955	it requires more working hours to have a plant-based offer on the menu
+T21	Premise 2957 2985	Plants are cheaper than meat
+T22	Premise 2991 3211	they require much more handling in relation to washing, preparation, preparation, flavoring and storage, while at the same time meals with meat adapted to the many different target groups and needs must still be produced
+T23	Premise 3229 3267	plants require more professional hands
+T24	Claim 3280 3364	we must remember the bill when we invite to greener lunches from the public kitchens
+A9	Stance T24 For
+T25	Claim 3366 3586	The Diet and Nutrition Association's members are ready to take up the challenge, but new skills are not free, just as the expertise and resources must be taken care of if we are to succeed in this in a responsible manner
+A10	Stance T25 For
+R1	supports Arg1:T3 Arg2:T1	
+R2	supports Arg1:T4 Arg2:T3	
+R3	supports Arg1:T5 Arg2:T4	
+R4	supports Arg1:T1 Arg2:T6	
+R5	supports Arg1:T11 Arg2:T10	
+R6	supports Arg1:T12 Arg2:T13	
+R7	supports Arg1:T17 Arg2:T16	
+R8	supports Arg1:T7 Arg2:T25	
+R9	supports Arg1:T20 Arg2:T19	
+R10	attacks Arg1:T21 Arg2:T22	
+R11	supports Arg1:T23 Arg2:T22	
+R12	supports Arg1:T22 Arg2:T20	
+R13	supports Arg1:T8 Arg2:T7	

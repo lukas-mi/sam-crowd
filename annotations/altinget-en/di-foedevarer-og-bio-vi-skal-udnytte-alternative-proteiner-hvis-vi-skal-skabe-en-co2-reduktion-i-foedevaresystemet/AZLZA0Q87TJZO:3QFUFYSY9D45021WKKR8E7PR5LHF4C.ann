@@ -1,0 +1,42 @@
+T1	MajorClaim 110 257	If we are to make significant CO2 reductions in our food system, we must become better at developing and utilizing the biosolutions we already know
+T2	Premise 345 370	The temperature is rising
+T3	Premise 372 397	ecosystems are challenged
+T4	Premise 399 440	the Horn of Africa is affected by drought
+T5	Premise 445 483	in Pakistan the rivers are overflowing
+T6	Premise 485 571	Global food systems are under unprecedented pressure from war, inflation and pandemics
+T7	Claim 583 654	we find ourselves in an abundance of crises and imbalances on the globe
+A1	Stance T7 For
+T8	Claim 1072 1203	One of these solutions is the development of climate-efficient proteins that can replace and supplement the current animal proteins
+A2	Stance T8 For
+T9	Premise 1205 1369	The proteins come from, among other things, beans and quinoa, mushrooms and seaweed, which, when fermented, become just as tasty in your smashburger as a beef steak
+T10	Claim 1385 1474	technology allows us to cultivate new, amazing tastes and can add future food experiences
+A3	Stance T10 For
+T11	Claim 1812 1965	The development of new alternative proteins will not only mean that our protein consumption will require significantly less use of the globe's land areas
+A4	Stance T11 For
+T12	Claim 1967 2057	It will also lead to CO2 reductions and feed more mouths with the same amount of resources
+A5	Stance T12 For
+T13	Premise 2141 2233	The biosolutions we know today alone can globally reduce CO2 by 4,300 million tonnes by 2030
+T14	Premise 2312 2554	biosolutions both lead to more efficient production processes, for example in the form of milk proteins created in fermentation tanks, just as good bacteria can shorten cheese ripening processes and extend the shelf life of many types of food
+T15	Premise 2941 3020	in relation to modern alternative foods, consumers have been somewhat skeptical
+T16	Claim 3038 3114	many companies have been reluctant to invest in the technologies behind them
+A6	Stance T16 Against
+T17	Claim 3322 3379	we are running out of room for an ever-growing population
+A7	Stance T17 For
+T18	Premise 3394 3515	Danish companies within the biosolutions sector are jumping ahead to deliver the solutions of the future already tomorrow
+T19	Claim 3581 3634	we must make it easier to get new foods on the market
+A8	Stance T19 For
+T20	Claim 3959 4052	we have the tools from the Danish biosolutions industry to deliver significant CO2 reductions
+A9	Stance T20 For
+T21	Claim 4060 4139	biosolutions also contribute to the solution of the other sustainability crises
+A10	Stance T21 For
+T22	MajorClaim 4162 4222	biosolutions are an indispensable tool in the crisis toolbox
+R1	supports Arg1:T2 Arg2:T7	
+R2	supports Arg1:T3 Arg2:T7	
+R3	supports Arg1:T4 Arg2:T7	
+R4	supports Arg1:T5 Arg2:T7	
+R5	supports Arg1:T6 Arg2:T7	
+R6	supports Arg1:T13 Arg2:T12	
+R7	supports Arg1:T14 Arg2:T13	
+R8	supports Arg1:T15 Arg2:T16	
+R9	supports Arg1:T9 Arg2:T10	
+R10	supports Arg1:T18 Arg2:T20	

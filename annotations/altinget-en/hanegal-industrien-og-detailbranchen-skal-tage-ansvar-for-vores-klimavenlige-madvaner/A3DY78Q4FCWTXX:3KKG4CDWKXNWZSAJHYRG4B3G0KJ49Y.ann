@@ -1,0 +1,58 @@
+T1	MajorClaim 187 292	Industry and the retail sector must take greater responsibility for Danes' climate-friendly eating habits
+T2	Claim 354 377	We must eat more greens
+A1	Stance T2 For
+T3	Claim 379 388	Less meat
+A2	Stance T3 For
+T4	Claim 390 424	More whole grains and more legumes
+A3	Stance T4 For
+T5	Premise 481 927	But when the kids are picked up from kindergarten and the shopping needs to be done, while the last e-mails are being answered on the phone hanging over the fridge, and the kids are complaining about mix-your-own sweets and cheese pops, the Danish Food and Veterinary Authority's climate food advice slips into the background, and the good intentions of more climate-friendly eating habits are left in the store along with the pulses and couscous
+T6	Premise 929 1000	Although two out of three Danes would like to eat more climate-friendly
+T7	Premise 1002 1134	it is difficult to rediscover the good intentions in what we put in the shopping basket when we are stressing around the supermarket
+T8	Premise 1156 1339	Denmark takes last place in an EU-supported study of the ability of five European populations to exploit the potential of climate-friendly "superfoods" such as peas, beans and lentils
+T9	Premise 1341 1442	According to the researchers behind the study, this is due to ignorance and a lack of food traditions
+T10	Premise 1444 1550	The Danish ignorance means that an average Dane emits just over three tonnes of CO2 through the diet alone
+T11	Claim 1552 1662	Therefore, there are also quite good opportunities to reduce our CO2 emissions if we eat more climate-friendly
+A4	Stance T11 For
+T12	Claim 1664 1897	If we followed the Danish Food and Veterinary Authority's climate food advice to eat less meat, more vegetables, more legumes and more whole grains, we could easily lower the CO2 footprint associated with our diet by 30 to 45 percent
+A5	Stance T12 For
+T13	Premise 1903 1929	quite a considerable share
+T14	Premise 1986 2081	Why is it so infinitely slow to reap the climate benefits when it comes to our food consumption
+T15	Premise 2083 2252	Why don't we just change our diet a bit and reap the climate benefits that are right at hand, when we now know that the Danes actually want to live more climate-friendly
+T16	Premise 2254 2345	The truth is that we are creatures of habit, and it's hard as hell to get new eating habits
+T17	Premise 2347 2387	It requires energy, imagination and time
+T18	Premise 2389 2543	And perhaps it also requires a period of sullen children and spouses when the legumes occupy the dinner plates in the place where the red meat used to lie
+T19	Premise 2583 2710	the plant-based alternatives may not have been of a quality or at a price where they were a real alternative to the meat either
+T20	Premise 2712 2782	A more climate-friendly diet has thus been associated with deprivation
+T21	Premise 2784 2866	And if there's one thing we don't like when it comes to our diet, it's deprivation
+T22	Claim 2868 2906	The food industry has a responsibility
+A6	Stance T22 For
+T23	Premise 2994 3178	If we are to have pushed the Danes' eating habits in a more climate-friendly direction, it requires solid legwork and an even greater focus in the food industry and in the retail trade
+T24	Claim 3180 3286	The Danes must be spoiled with even more delicious sustainable products with less meat and more vegetables
+A7	Stance T24 For
+T25	Premise 3288 3367	A more sustainable diet should not taste of deprivation and smell of inadequacy
+T26	MajorClaim 3369 3514	Industry and retail have a responsibility to develop more climate-friendly foods and sell them at prices that make them interesting for consumers
+T27	Premise 3516 3809	In January, the Danish Vegetarian Association, together with a number of retail chains and food manufacturers, carried out the 'Green January' campaign with the aim of making plant-based foods visible in the first month of the year and giving them a little more space in the minds of consumers
+T28	Claim 3811 3951	This is the kind of display window that is needed if consumers are to get to know the new foods and prioritize them in their daily purchases
+A8	Stance T28 For
+T29	Claim 4002 4222	I am convinced that the selection of plant-based foods will have reached a level within the coming years where consumers will largely choose the plant-based foods because they are of a quality that makes interesting ones
+A9	Stance T29 For
+T30	Claim 4224 4335	Only when plant-based foods have reached that level will the market really move in a more sustainable direction
+A10	Stance T30 For
+R1	attacks Arg1:T7 Arg2:T6	
+R2	supports Arg1:T6 Arg2:T5	
+R3	supports Arg1:T9 Arg2:T8	
+R4	supports Arg1:T8 Arg2:T10	
+R5	supports Arg1:T27 Arg2:T28	
+R6	supports Arg1:T10 Arg2:T12	
+R7	supports Arg1:T13 Arg2:T12	
+R8	supports Arg1:T14 Arg2:T15	
+R9	supports Arg1:T15 Arg2:T16	
+R10	supports Arg1:T16 Arg2:T17	
+R11	supports Arg1:T17 Arg2:T18	
+R12	attacks Arg1:T19 Arg2:T15	
+R13	supports Arg1:T21 Arg2:T20	
+R14	supports Arg1:T20 Arg2:T18	
+R15	supports Arg1:T25 Arg2:T24	
+R16	supports Arg1:T23 Arg2:T22	
+R17	supports Arg1:T5 Arg2:T12	
+R18	supports Arg1:T18 Arg2:T24	

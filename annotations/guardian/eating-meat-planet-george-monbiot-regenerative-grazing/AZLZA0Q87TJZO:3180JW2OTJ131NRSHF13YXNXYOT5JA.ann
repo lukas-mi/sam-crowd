@@ -1,0 +1,56 @@
+T1	MajorClaim 163 225	alternative, lab-grown foods, could have terrible consequences
+T2	Claim 702 854	the farming “revolution” of the 1950s, with its widespread use of ammonia fertilisers and herbicides, pesticides and fungicides, has waged war on nature
+A1	Stance T2 For
+T3	Premise 856 1034	These intensive, monocultural ways of producing food are not only contaminating our land and waterways, but are heating up our planet and contributing to a crisis in human health
+T4	Premise 1036 1143	more people die of diet-related disease globally than smoking, according to a study published in the Lancet
+T5	Claim 1258 1327	without the earthworm, beetle and bee, life as we know it could cease
+A2	Stance T5 For
+T6	Premise 1329 1421	Topsoils, which we use to grow 95% of the world’s food, are depleting at an astonishing rate
+T7	Claim 1573 1652	organic, pasture-fed beef and lamb are the “world’s most damaging farm products
+A3	Stance T7 Against
+T8	Claim 2257 2515	The methods that regenerative farmers such as the writer Gabe Brown propose have shown how non-intensive livestock, when managed well, can increase topsoil more than previously thought, which can then accumulate biomass (carbon) and retain precious rainwater
+A4	Stance T8 For
+T9	Premise 2517 2651	The argument put forward by Monbiot that it is not possible to produce enough food this way is often used to decry better food systems
+T10	Premise 2657 2782	according to the Food and Agriculture Organization of the UN, small-scale farmers currently produce about a third of our food
+T11	Claim 3038 3158	Precision fermentation claims to get us off our destructive addiction to cheap meat, but not without potential downsides
+A5	Stance T11 For
+T12	Premise 3160 3338	These inventions are heavily patented, pushing the future of our food supply further into the hands of an increasingly small and powerful collection of multinational food players
+T13	Claim 3341 3544	There is very little transparency about the amount of energy and materials needed to build the system of factories that would be needed to adopt these foods to the degree that their proponents would like
+A6	Stance T13 For
+T14	Premise 3546 3580	How fossil-fuel dependent are they
+T15	Premise 3582 3644	How many other chemicals and compounds are needed to make them
+T16	Premise 3650 3685	where will we get them from and how
+T17	Claim 3829 3884	Ultra-processed foods make up half of the UK’s calories
+A7	Stance T17 For
+T18	Claim 3890 3978	their health impact gets very little attention from the government or in medical schools
+A8	Stance T18 For
+T19	Premise 3980 4126	We know that other ultra-processed foods – even some plant-based meat alternatives – are high in protein but can also be very high in salt and fat
+T20	Claim 4425 4547	In these types of farms, small herds of cattle or sheep graze diverse cover crops, boosting the biodiversity on their land
+A9	Stance T20 For
+T21	Premise 4602 4687	The cover crops build back goodness in the soil and remove the need to use pesticides
+T22	Premise 4689 4759	The presence of livestock adds nutrients through their muck and saliva
+T23	Claim 4761 4801	They also add the nutrients to our diets
+A10	Stance T23 For
+T24	Premise 4803 4872	animal fats from grass-fed animals are hard to replace in human diets
+T25	Claim 5051 5122	it is possible to feed people food that is high in fibre and in flavour
+A11	Stance T25 For
+T26	Claim 5128 5204	that costs less than the ultra-processed food children were being fed before
+A12	Stance T26 For
+T27	Premise 5482 5676	If we continue to go down the ultra-processed route then food may well continue to make people sick, which, according to Henry Dimbleby’s National Food Plan, costs the economy an estimated £74bn
+T28	Claim 5961 6055	We need better funding for soil science and for feeding proper food to people on lower incomes
+A13	Stance T28 For
+T29	MajorClaim 6181 6361	when we replace nature’s complex biology with a tunnel-visioned look at certain aspects of chemistry and ignore others, it has profoundly negative and often unforeseen consequences
+R1	supports Arg1:T3 Arg2:T2	
+R2	supports Arg1:T4 Arg2:T3	
+R3	supports Arg1:T6 Arg2:T5	
+R4	attacks Arg1:T9 Arg2:T8	
+R5	attacks Arg1:T10 Arg2:T9	
+R6	supports Arg1:T12 Arg2:T11	
+R7	supports Arg1:T14 Arg2:T13	
+R8	supports Arg1:T15 Arg2:T13	
+R9	supports Arg1:T16 Arg2:T13	
+R10	supports Arg1:T27 Arg2:T28	
+R11	supports Arg1:T19 Arg2:T18	
+R12	supports Arg1:T21 Arg2:T20	
+R13	supports Arg1:T22 Arg2:T20	
+R14	supports Arg1:T24 Arg2:T23	

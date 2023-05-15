@@ -1,0 +1,46 @@
+T1	MajorClaim 76 181	The corporate race for cultured protein rests on a view of human beings as greedy and incapable of change
+T2	Premise 346 498	The Singapore Food Agency has given regulatory approval to Eat Just’s “chicken bites”, grown from the cells of a chicken that’s still flapping its wings
+T3	Claim 769 808	cultured meat can be sold to the public
+A1	Stance T3 For
+T4	Claim 810 1035	Eat Just, Inc – and the dozens of other cultured meat startups racing each other to get lab-grown meat on to the menu across the globe – are selling the promise that carnivores will be able to eat meat with a clean conscience
+A2	Stance T4 For
+T5	Premise 1179 1405	The news was met with a sigh of relief from meat eaters across the world, and with good reason: it will allow us to carry on as before, eating what we like while clever technology sidesteps the problems caused by our appetites
+T6	Claim 2552 2757	But even if they have managed to create something indistinguishable from a chicken nugget that comes from a dead bird, the circumstances in which the chicken was approved by regulators should give us pause
+A3	Stance T6 For
+T7	Premise 2889 3048	the company was aiming to have its cultured meat approved in a number of countries outside the US because the Food and Drug Administration was behind the times
+T8	Premise 3112 3261	Instead of waiting for it to be ready, the company found a country with more amenable standards to give it the green light to put its product on sale
+T9	Premise 3263 3319	That’s problematic for the entire cultured meat industry
+T10	Premise 3321 3390	consumers care more about the provenance of food now than ever before
+T11	Premise 3396 3478	any producer of a new food needs to be seen to take regulatory standards seriously
+T12	Claim 3480 3551	This product has far to go when it comes to winning consumer acceptance
+A4	Stance T12 Against
+T13	Premise 3553 3627	the “ick factor” is a serious problem when it comes to meat grown in a lab
+T14	Claim 3633 3735	in the rush to get a regulatory thumbs up, some of the mission behind cultured meat may have been lost
+A5	Stance T14 Against
+T15	Premise 3737 3837	The Eat Just chicken bites approved in Singapore were grown in a medium of foetal bovine serum (FBS)
+T16	Premise 3966 4030	This was largely removed before consumption of the chicken bites
+T17	Premise 4036 4119	Just Eat said it now had a plant-based medium to use in subsequent production lines
+T18	Claim 4256 4347	it is also an over-engineered solution to a problem that we can solve by changing our diets
+A6	Stance T18 Against
+T19	Premise 4349 4507	If we simply stopped eating meat, or ate it far less often, then there would be no need for either harmful intensive animal agriculture or meat grown in a lab
+T20	MajorClaim 4509 4601	The cultured meat industry rests on a view of human beings as greedy and incapable of change
+T21	Premise 4607 4746	the coronavirus pandemic has shown that, globally, we are able to make enormous changes to our behaviour when faced with existential crisis
+T22	Claim 5029 5232	If we move into a world where eating meat remains normal but killing animals is taboo, we will become ever more dependent on remote corporations with highly specialised technology to meet our basic needs
+A7	Stance T22 For
+T23	Premise 5238 5254	we don’t have to
+T24	Premise 5256 5291	We can just choose to eat less meat
+R1	supports Arg1:T5 Arg2:T4	
+R2	supports Arg1:T7 Arg2:T6	
+R3	supports Arg1:T8 Arg2:T6	
+R4	supports Arg1:T9 Arg2:T6	
+R5	supports Arg1:T10 Arg2:T9	
+R6	supports Arg1:T11 Arg2:T6	
+R7	supports Arg1:T13 Arg2:T12	
+R8	supports Arg1:T15 Arg2:T14	
+R9	attacks Arg1:T16 Arg2:T15	
+R10	attacks Arg1:T17 Arg2:T15	
+R11	supports Arg1:T19 Arg2:T18	
+R12	supports Arg1:T2 Arg2:T3	
+R13	attacks Arg1:T24 Arg2:T22	
+R14	attacks Arg1:T23 Arg2:T22	
+R15	supports Arg1:T21 Arg2:T18	

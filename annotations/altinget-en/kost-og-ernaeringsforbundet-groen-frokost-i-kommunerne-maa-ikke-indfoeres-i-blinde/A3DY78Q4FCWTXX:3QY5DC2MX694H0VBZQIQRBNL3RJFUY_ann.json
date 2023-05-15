@@ -1,0 +1,906 @@
+{
+  "phase": "survey",
+  "event": "submit_annotations",
+  "components": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "A political majority in the Danish Parliament wants to introduce plant-based lunches in public kitchens"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1,
+            "end": 104
+          }
+        ]
+      },
+      "id": "#354a1f75-347e-41ab-ae7f-812f9a6e3046"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "But we must remember the bill and ensure the skills on the kitchen floors, so that it does not go beyond quality or nutrition"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 106,
+            "end": 231
+          }
+        ]
+      },
+      "id": "#6bdac6a9-f88a-40ae-8a5e-5d9e96db27dc"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "In Aalborg Municipality, citizens who get their meals from public kitchens will in future have the option of a plant-based dish every time they sit down to eat"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 265,
+            "end": 424
+          }
+        ]
+      },
+      "id": "#3129b2c9-6885-4192-81a6-c4fa9340f9e8"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "This happens after the city council in Aalborg has decided that guidelines must be drawn up for the municipal institutions' food schemes and canteens, \"so that citizens who use municipal canteens and food schemes always have the opportunity to choose a plant-based meal\""
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 426,
+            "end": 696
+          }
+        ]
+      },
+      "id": "#50bbcc79-4c2b-4da6-9db9-d3648dfbb06e"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "At the same time, a political majority wants the government to investigate the possibility of introducing plant-based options in public kitchens throughout the country"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 698,
+            "end": 865
+          }
+        ]
+      },
+      "id": "#ec9709ba-58be-466b-bd15-fe7cf4dee7ad"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Our public kitchens must become greener"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 958,
+            "end": 997
+          }
+        ]
+      },
+      "id": "#b963d2c8-b9e4-43ab-8013-617ee1c48404"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "there is no such thing as a free lunch"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1027,
+            "end": 1065
+          }
+        ]
+      },
+      "id": "#10d3d043-9181-46ef-85b7-8172d303e656"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Not a green one either"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1067,
+            "end": 1089
+          }
+        ]
+      },
+      "id": "#dc3170f5-68ce-4c36-bfab-50bcfc26e383"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Therefore, we encourage the city council in Aalborg - and other municipalities that are considering making the menus in the public kitchens even more plant-based - to carefully consider how to ensure that plant-based options do not compromise nutrition, quality or resources"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1091,
+            "end": 1365
+          }
+        ]
+      },
+      "id": "#a77be2d1-a41d-4ca3-af01-0acb1f73bd97"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It has to be done right here"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1367,
+            "end": 1395
+          }
+        ]
+      },
+      "id": "#6654231f-77a9-4edd-ab1d-f75257aa2f54"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Not least because those who eat public meals are often sick, elderly, vulnerable or very small citizens at the start of life"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1397,
+            "end": 1521
+          }
+        ]
+      },
+      "id": "#46a5f590-0fd8-4b80-8fc2-d5f30a714831"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Firstly, public kitchens work based on the Food and Drug Administration's Food Council for Meals, where there is still a lack of guidance on how food can be organized and produced plant-based"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1523,
+            "end": 1714
+          }
+        ]
+      },
+      "id": "#36ba2dec-0646-4b5b-9fdf-37901a97ad8a"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimAgainst"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "I may be concerned that the meals are rearranged without the right nutritional guidelines"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1742,
+            "end": 1831
+          }
+        ]
+      },
+      "id": "#043fd4db-abcb-4935-816c-e5dd140a5227"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Because we must never compromise on nutrition"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1833,
+            "end": 1878
+          }
+        ]
+      },
+      "id": "#a65e6243-1545-49b2-a184-264bc6062930"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "We must always take into account the various dietary considerations that the Diet and Nutrition Association's members work from every day, and which are carefully organized according to the nutritional needs of the citizen"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1880,
+            "end": 2102
+          }
+        ]
+      },
+      "id": "#9b852296-9b3a-4ff3-8020-ae892906ede6"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "plant-based meals must not go beyond the quality of the food and the culinary experience of the citizens"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2114,
+            "end": 2218
+          }
+        ]
+      },
+      "id": "#2e5c5018-ece2-4bb1-9538-15598c14f567"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Although plant-based food is gaining more and more traction in our dietary culture, we must state that skills in the professional production of plant-based food have not received the same attention"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2220,
+            "end": 2417
+          }
+        ]
+      },
+      "id": "#dc5b3e61-9a53-4d7a-bb7d-583ea5587147"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "There is therefore a need for new knowledge and skills on the kitchen floors if you want to ensure that the plant-based meals do not compromise either quality or nutrition"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2419,
+            "end": 2590
+          }
+        ]
+      },
+      "id": "#7b22832f-547a-4238-99f7-c4cfb55d7db3"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "We take pride in doing our job well, so you cannot introduce plant-based meals blindfolded and without ensuring that the skills for the new tasks are present"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2592,
+            "end": 2749
+          }
+        ]
+      },
+      "id": "#288f8b81-631c-4ea8-a457-26c75a2e52b3"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "it requires more working hours to have a plant-based offer on the menu"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2786,
+            "end": 2856
+          }
+        ]
+      },
+      "id": "#6f976b21-9329-4ab2-875b-63fdc066ec86"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Plants are cheaper than meat"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2858,
+            "end": 2886
+          }
+        ]
+      },
+      "id": "#5cfdf031-6951-4b43-9f61-214b1ef5b8be"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "they require much more handling in relation to washing, preparation, preparation, flavoring and storage, while at the same time meals with meat adapted to the many different target groups and needs must still be produced"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2892,
+            "end": 3112
+          }
+        ]
+      },
+      "id": "#e8ff8750-0784-4e58-8978-88907613ef1c"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "plants require more professional hands"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3130,
+            "end": 3168
+          }
+        ]
+      },
+      "id": "#674c596a-3054-4f56-803e-f7e47d84b8a6"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "we must remember the bill when we invite to greener lunches from the public kitchens"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3181,
+            "end": 3265
+          }
+        ]
+      },
+      "id": "#ee661936-66d8-4dc2-a38c-5d146a227e38"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The Diet and Nutrition Association's members are ready to take up the challenge, but new skills are not free, just as the expertise and resources must be taken care of if we are to succeed in this in a responsible manner"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3267,
+            "end": 3487
+          }
+        ]
+      },
+      "id": "#cd4179e2-f5e1-474d-a0f1-6a9f16980011"
+    }
+  ],
+  "relations": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#e6cce339-e0a3-4721-a7f8-5222b9d57b40",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#3129b2c9-6885-4192-81a6-c4fa9340f9e8"
+        },
+        {
+          "id": "#354a1f75-347e-41ab-ae7f-812f9a6e3046"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#e46cd344-0722-46c8-ae6a-924bcc332ef8",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#50bbcc79-4c2b-4da6-9db9-d3648dfbb06e"
+        },
+        {
+          "id": "#3129b2c9-6885-4192-81a6-c4fa9340f9e8"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#c7f83483-d1f9-4fb0-b355-81243afc0bc1",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#ec9709ba-58be-466b-bd15-fe7cf4dee7ad"
+        },
+        {
+          "id": "#50bbcc79-4c2b-4da6-9db9-d3648dfbb06e"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#f7a0edab-1e82-428a-8bca-83abbf4d5cf4",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#354a1f75-347e-41ab-ae7f-812f9a6e3046"
+        },
+        {
+          "id": "#b963d2c8-b9e4-43ab-8013-617ee1c48404"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#6f89af9b-c6dd-4874-8e53-61f0d89f4d91",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#46a5f590-0fd8-4b80-8fc2-d5f30a714831"
+        },
+        {
+          "id": "#6654231f-77a9-4edd-ab1d-f75257aa2f54"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#fa480f19-cd31-4966-926f-8f96e09e3ae4",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#36ba2dec-0646-4b5b-9fdf-37901a97ad8a"
+        },
+        {
+          "id": "#043fd4db-abcb-4935-816c-e5dd140a5227"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#b5abf501-5857-4304-b894-cff2e3e61f5b",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#dc5b3e61-9a53-4d7a-bb7d-583ea5587147"
+        },
+        {
+          "id": "#2e5c5018-ece2-4bb1-9538-15598c14f567"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#c9f448b3-ee17-467b-a066-d653957b70f4",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#10d3d043-9181-46ef-85b7-8172d303e656"
+        },
+        {
+          "id": "#cd4179e2-f5e1-474d-a0f1-6a9f16980011"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#fc792543-55b8-43e8-8eb0-87a103acd5d3",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#6f976b21-9329-4ab2-875b-63fdc066ec86"
+        },
+        {
+          "id": "#288f8b81-631c-4ea8-a457-26c75a2e52b3"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#381d4e4e-319f-4695-ba69-2178059952ad",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#5cfdf031-6951-4b43-9f61-214b1ef5b8be"
+        },
+        {
+          "id": "#e8ff8750-0784-4e58-8978-88907613ef1c"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#07e4e609-2b7f-46d9-b544-112816623336",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#674c596a-3054-4f56-803e-f7e47d84b8a6"
+        },
+        {
+          "id": "#e8ff8750-0784-4e58-8978-88907613ef1c"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#6de4ac2f-3223-495d-a264-ce0da76bcb54",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#e8ff8750-0784-4e58-8978-88907613ef1c"
+        },
+        {
+          "id": "#6f976b21-9329-4ab2-875b-63fdc066ec86"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#73f29b57-bb26-44f5-a34f-958602852587",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#dc3170f5-68ce-4c36-bfab-50bcfc26e383"
+        },
+        {
+          "id": "#10d3d043-9181-46ef-85b7-8172d303e656"
+        }
+      ],
+      "motivation": "linking"
+    }
+  ]
+}

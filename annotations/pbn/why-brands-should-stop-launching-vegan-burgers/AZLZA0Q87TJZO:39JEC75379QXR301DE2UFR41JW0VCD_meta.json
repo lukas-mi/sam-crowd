@@ -1,0 +1,136 @@
+{
+  "uniqueid": "AZLZA0Q87TJZO:39JEC75379QXR301DE2UFR41JW0VCD",
+  "assignmentid": "39JEC75379QXR301DE2UFR41JW0VCD",
+  "workerid": "AZLZA0Q87TJZO",
+  "hitid": "3TKSOBLOIZ5WL0CV4VAXEB8LPUSBBB",
+  "ipaddress": "10.1.92.64",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-04 00:29:27.199",
+  "beginexp": "2023-05-04 00:29:28.501",
+  "endhit": "2023-05-04 00:43:01.630",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 0,
+  "open_guidelines_times": [],
+  "create_annotation_count": 29,
+  "create_annotation_times": [
+    "2023-05-04 00:30:18",
+    "2023-05-04 00:30:39",
+    "2023-05-04 00:31:01",
+    "2023-05-04 00:31:09",
+    "2023-05-04 00:31:13",
+    "2023-05-04 00:31:38",
+    "2023-05-04 00:31:43",
+    "2023-05-04 00:32:05",
+    "2023-05-04 00:32:09",
+    "2023-05-04 00:32:27",
+    "2023-05-04 00:32:33",
+    "2023-05-04 00:32:47",
+    "2023-05-04 00:32:53",
+    "2023-05-04 00:32:58",
+    "2023-05-04 00:34:00",
+    "2023-05-04 00:34:38",
+    "2023-05-04 00:34:42",
+    "2023-05-04 00:36:12",
+    "2023-05-04 00:36:43",
+    "2023-05-04 00:37:28",
+    "2023-05-04 00:37:33",
+    "2023-05-04 00:37:41",
+    "2023-05-04 00:37:45",
+    "2023-05-04 00:38:30",
+    "2023-05-04 00:38:36",
+    "2023-05-04 00:39:20",
+    "2023-05-04 00:39:26",
+    "2023-05-04 00:40:55",
+    "2023-05-04 00:41:14"
+  ],
+  "create_annotation_invalid": 1,
+  "delete_annotation_count": 1,
+  "delete_annotation_times": [
+    "2023-05-04 00:30:30"
+  ],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 0,
+  "update_annotation_times": [],
+  "update_annotation_invalid": 0,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "4",
+    "task-interest": "4",
+    "ui-intuitiveness": "5",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1683160171258,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        767
+      ],
+      "timestamp": 1683160171258,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683160177247,
+      "interval": 5989
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683160187577,
+      "interval": 10330
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683160367138,
+      "interval": 179561
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683160367138,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683160818307,
+      "interval": 451169
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683160822425,
+      "interval": 4118
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "pbn",
+    "article": "why-brands-should-stop-launching-vegan-burgers",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

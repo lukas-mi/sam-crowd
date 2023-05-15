@@ -1,0 +1,321 @@
+{
+  "phase": "survey",
+  "event": "submit_annotations",
+  "components": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "we must remember the bill and ensure the skills on the kitchen floors, so that it does not go beyond quality or nutrition"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 110,
+            "end": 231
+          }
+        ]
+      },
+      "id": "#d81ed927-cf64-40b4-941f-501cbc015f78"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "consider how to ensure that plant-based options do not compromise nutrition, quality or resources"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1268,
+            "end": 1365
+          }
+        ]
+      },
+      "id": "#5d1bfd81-00df-4762-868a-aaec8bfa2ede"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "public kitchens work based on the Food and Drug Administration's Food Council for Meals, where there is still a lack of guidance on how food can be organized and produced plant-based"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1532,
+            "end": 1714
+          }
+        ]
+      },
+      "id": "#cbcc2991-a33d-4345-a356-81082961909c"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimAgainst"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the meals are rearranged without the right nutritional guidelines"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1766,
+            "end": 1831
+          }
+        ]
+      },
+      "id": "#fe1e215a-ebbf-46e8-b58b-311decac52c1"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "plant-based food is gaining more and more traction in our dietary culture"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2229,
+            "end": 2302
+          }
+        ]
+      },
+      "id": "#e1144421-6206-4b0e-b12d-4b682a8b0fea"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimAgainst"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "skills in the professional production of plant-based food have not received the same attention"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2323,
+            "end": 2417
+          }
+        ]
+      },
+      "id": "#ed45b31c-35df-4b72-8d0c-fa32ff51b615"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "There is therefore a need for new knowledge and skills on the kitchen floors if you want to ensure that the plant-based meals do not compromise either quality or nutrition"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2419,
+            "end": 2590
+          }
+        ]
+      },
+      "id": "#dec128ca-bfe4-4826-b5e8-d96e96f7d26b"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimAgainst"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "it requires more working hours to have a plant-based offer on the menu"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2786,
+            "end": 2856
+          }
+        ]
+      },
+      "id": "#351906e1-6f82-477f-87eb-48108acf51ba"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "they require much more handling in relation to washing, preparation, preparation, flavoring and storage, while at the same time meals with meat adapted to the many different target groups and needs must still be produced"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2892,
+            "end": 3112
+          }
+        ]
+      },
+      "id": "#49724ab6-fca8-4c74-940a-8c6c2e8fe698"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "plants require more professional hands"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3130,
+            "end": 3168
+          }
+        ]
+      },
+      "id": "#8743ccab-3138-4b9c-8376-3b037fbe3647"
+    }
+  ],
+  "relations": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#cd14c719-42a5-4714-b340-e28bdfa89fef",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#cbcc2991-a33d-4345-a356-81082961909c"
+        },
+        {
+          "id": "#fe1e215a-ebbf-46e8-b58b-311decac52c1"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#384e6455-9216-4798-b3e4-8761ac4db82b",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#49724ab6-fca8-4c74-940a-8c6c2e8fe698"
+        },
+        {
+          "id": "#351906e1-6f82-477f-87eb-48108acf51ba"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#e9caab4d-0911-4a8f-a0af-35d50c665a0f",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#8743ccab-3138-4b9c-8376-3b037fbe3647"
+        },
+        {
+          "id": "#49724ab6-fca8-4c74-940a-8c6c2e8fe698"
+        }
+      ],
+      "motivation": "linking"
+    }
+  ]
+}

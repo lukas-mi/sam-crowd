@@ -1,0 +1,64 @@
+T1	Claim 77 186	Changes to our food and farming sectors could help Britain find and keep its footing in these uncertain times
+A1	Stance T1 For
+T2	Premise 187 366	As the world looks on in horror at the events continuing to unfold in Ukraine, countries around the world, including Britain, are beginning to reassess their own domestic security
+T3	Premise 554 646	Britain’s intensive animal protein sector is, perhaps surprisingly, tied to Russian industry
+T4	Premise 648 918	In rearing cattle and producing animal-based proteins like eggs and milk, British farmers currently rely on Russian and Belarussian exports for a high percentage of the fertilizers and animal feed additives, which are essential components of intensive animal agriculture
+T5	Premise 920 981	A third of all crops grown in the UK are used to feed animals
+T6	Premise 983 1075	Farmers use fertilizers, including ammonium nitrate and potassium, to produce greater yields
+T7	Premise 1077 1296	According to the government’s Food Security Report, we import around half of our ammonium nitrate, “with 75 percent of imports for fertilizer use coming from the EU and the remaining 25 percent from Georgia and Russia.”
+T8	Premise 1297 1400	The UN estimates that the UK imports over a third of its nitrogenous fertilizer from Russia and Belarus
+T9	Premise 1402 1541	And the International Food Policy Research Institute estimates we rely on these countries for almost two thirds of our potassium fertilizer
+T10	Premise 1543 1730	We also depend on Russia and Belarus for animal feed; currently they account for 33 percent of all global potassium hydroxide exports, which are used to boost the nutrients in animal feed
+T11	Premise 1732 1877	And whilst a quarter of the food Brits eat comes from Europe, Europe’s reliance on Russia for energy is having knock-on effects on UK food prices
+T12	Claim 1900 2016	There is a solution to this food security issue, and a growing number of British consumers are starting to choose it
+A2	Stance T12 For
+T13	Claim 2018 2221	Indeed, instead of depending on intensively reared animals for food, which rely on these fertilizers and additives, more and more people are consuming protein-rich ingredients sourced from plants instead
+A3	Stance T13 For
+T14	Premise 2223 2380	A recent science journal study found the number of Brits eating plant-based alternative foods nearly doubled from 6.7 percent in 2008 to 13.1 percent in 2019
+T15	Claim 2382 2492	It’s better for our planet, our health, our animals, and can provide long-term opportunity for British farmers
+A4	Stance T15 For
+T16	Premise 2532 2701	Alternative proteins are foodstuffs made from plants, fungi, or tissue culture that provide a genuine different choice to conventional intensively farmed animal proteins
+T17	Premise 2703 2757	They rely on what British agriculture does best: crops
+T18	Premise 2759 2871	Britain is the second largest pea producer in Europe, and so self-sufficient in wheat that we are a net exporter
+T19	Premise 2873 3089	According to the Food Security Report, “the UK is a net importer of dairy and beef” but is “largely self-sufficient in production of grains” (producing 100 percent of its own oats and barley, and 90 percent of wheat)
+T20	Premise 3091 3162	And, it “produces over 50 percent of vegetables consumed domestically.”
+T21	MajorClaim 3163 3263	Supporting alternative proteins means backing more British produce and greater food security at home
+T22	Premise 3265 3381	By 2025, one in four of us could be vegetarian or vegan, according to a recent Global Food Security Programme report
+T23	Premise 3383 3503	And if we include flexitarians – those who follow a primarily plant-based diet – it could be as many as one in two of us
+T24	Claim 3505 3740	Dietary change is coming, British consumers are leading the way and we need a world leading regulatory framework and forward-looking investment so that British industry can lead and guarantee UK food security long into the 21st century
+A5	Stance T24 For
+T25	Claim 3742 3965	Supporting the alternative protein sector is urgent if we want Britain to secure a world-leading position in a long-term market that AT Kearney research predicts could take up to 60 percent of the global meat market by 2040
+A6	Stance T25 For
+T26	Claim 3967 4235	Instead of using vast amounts of land to produce food for animals, we can produce the same amount of food on 93 percent less land, using 95 percent less water and with far less Russian fertilizer – safeguarding British farming through more efficient use of arable land
+A7	Stance T26 For
+T27	Claim 4237 4257	And it’s greener too
+A8	Stance T27 For
+T28	Premise 4259 4405	alternative proteins produce an average of 88 percent lessgreenhouse gas emissions than animal proteins, helping us on our way to Net Zero by 2050
+T29	Claim 4434 4573	And as well as giving us food security, this could reduce the cost of living through lower food prices and create tens of thousands of jobs
+A9	Stance T29 For
+T30	Premise 4575 4726	Henry Dimbleby’s National Food Strategy estimates that UK alternative protein manufacturing could create 10,000 new factory jobs and 6,500 farming jobs
+T31	Premise 4728 5029	And the Department for International Trade has identified that “companies in the North East will be in a prime position to take advantage of the growing demand for plant-based and alternative protein products” as a result of their world-class universities, abundance of land, and manufacturing cluster
+T32	Claim 5031 5098	What a great way to deliver on the government’s leveling up agenda!
+A10	Stance T32 For
+T33	MajorClaim 5414 5581	Let’s support our homegrown industries, back British farmers, go green, lower food prices, create thousands of jobs, and most of all, safeguard Britain’s food security
+R1	supports Arg1:T30 Arg2:T29	
+R2	supports Arg1:T31 Arg2:T32	
+R3	supports Arg1:T4 Arg2:T3	
+R4	supports Arg1:T5 Arg2:T4	
+R5	supports Arg1:T6 Arg2:T5	
+R6	supports Arg1:T7 Arg2:T6	
+R7	supports Arg1:T11 Arg2:T10	
+R8	supports Arg1:T3 Arg2:T2	
+R9	supports Arg1:T2 Arg2:T13	
+R10	supports Arg1:T8 Arg2:T7	
+R11	supports Arg1:T9 Arg2:T8	
+R12	supports Arg1:T10 Arg2:T13	
+R13	supports Arg1:T14 Arg2:T15	
+R14	supports Arg1:T16 Arg2:T17	
+R15	supports Arg1:T17 Arg2:T18	
+R16	supports Arg1:T18 Arg2:T19	
+R17	supports Arg1:T19 Arg2:T20	
+R18	supports Arg1:T20 Arg2:T26	
+R19	supports Arg1:T22 Arg2:T23	
+R20	supports Arg1:T23 Arg2:T24	
+R21	supports Arg1:T28 Arg2:T27	

@@ -1,0 +1,1675 @@
+{
+  "phase": "survey",
+  "event": "submit_annotations",
+  "components": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It is soon only the force of habit and the inertia of our food culture that holds us back"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1,
+            "end": 90
+          }
+        ]
+      },
+      "id": "#2f2c22ad-3755-4049-8579-6c8764775c8d"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "these are powerful forces that are difficult to overcome alone"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 107,
+            "end": 169
+          }
+        ]
+      },
+      "id": "#76279e8b-c1cf-4bcd-bb6b-c29aee7c33c3"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "we need a push from some of those who have power over our meals"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 182,
+            "end": 245
+          }
+        ]
+      },
+      "id": "#bf357109-a8be-4c69-878b-18a841ea51e7"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "\"Is the crisis scratching in your kitchen? So cook a kilo of chickpeas or add lentils to your meat sauce.\""
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 267,
+            "end": 373
+          }
+        ]
+      },
+      "id": "#873bcf10-c932-4db2-81d8-71c0c7adda17"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Such a household council could make several ends meet when we want to take care of the climate, the body and the dwindling balance of the credit card"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 374,
+            "end": 523
+          }
+        ]
+      },
+      "id": "#74086a81-e19d-4543-8d34-41c015cac8bb"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimAgainst"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Yet it's advice few of us are inclined to follow in practice"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 525,
+            "end": 585
+          }
+        ]
+      },
+      "id": "#55f98494-645e-4e47-a251-e6676fba1b7b"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Madkulturen's figures show this time and time again: Only one in four evening meals contains legumes"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 587,
+            "end": 687
+          }
+        ]
+      },
+      "id": "#7f08a6ed-3b41-4e1e-b3e3-5e2c2441ada6"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Half of us rarely or never eat them"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 689,
+            "end": 724
+          }
+        ]
+      },
+      "id": "#d65c1dda-29c7-4d14-bf29-c82ecb36f3d2"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "And the recommendation of 100 grams a day is miles away from a reality where we only reach 2.4 grams, according to the Danish Food and Food Administration"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 726,
+            "end": 880
+          }
+        ]
+      },
+      "id": "#a4e4a3da-554e-4b51-a500-a4a6b52ac7dd"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "We are all creatures of habit who do as we usually do"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 989,
+            "end": 1042
+          }
+        ]
+      },
+      "id": "#24aa0043-a7ea-49a9-8fed-926cb871fcb6"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "And usually favors canonized Danish meat dishes over, for example, well-seasoned overseas classics with lentils and chickpeas in the main role"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1044,
+            "end": 1186
+          }
+        ]
+      },
+      "id": "#40014678-a8c9-4777-a2bb-3b18fb5ec08b"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "In Denmark, we used to have the pea as the national leguminous fruit, which was part of countless ordinary dishes"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1522,
+            "end": 1635
+          }
+        ]
+      },
+      "id": "#40f1ee6a-0f23-4431-80e8-0a77c272edd3"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "During the war of 1864, for example, dried peas were a regular part of the field ration, which certainly did not make the common soldier either jump or frown"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1637,
+            "end": 1794
+          }
+        ]
+      },
+      "id": "#3c0559ef-69b0-465c-a789-70db5dc2d5cb"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "But today there are no real legume dishes on the Danes' top ten"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1796,
+            "end": 1859
+          }
+        ]
+      },
+      "id": "#42cb0a8e-1ac6-4784-8061-f5424764a891"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "First, quite a bit further down the ranking comes chili con carne, which in its typical Danish version consists of meat with a cosmetic sidekick of kidney beans"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1861,
+            "end": 2021
+          }
+        ]
+      },
+      "id": "#7e74185f-f133-4a80-9ccd-3deb718ed738"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Thus, the dish becomes the exception that confirms the rule of a food culture where legumes shine by their sad absence"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2023,
+            "end": 2141
+          }
+        ]
+      },
+      "id": "#a98940aa-3344-4910-8099-105b1501f987"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "We simply have to do something about it"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2143,
+            "end": 2182
+          }
+        ]
+      },
+      "id": "#15b0cc75-f32e-4520-ae60-e0688533b487"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The soup needs new beans"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2184,
+            "end": 2208
+          }
+        ]
+      },
+      "id": "#b657cb31-17f8-4596-93fc-3c7de196d821"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "For years we have been soaking in climate food advice and good arguments for more pulses"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2235,
+            "end": 2323
+          }
+        ]
+      },
+      "id": "#9b6b7451-af87-48c8-a356-557fcb3b4277"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "We have access to all kinds of good recipes"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2325,
+            "end": 2368
+          }
+        ]
+      },
+      "id": "#d95258fa-3c0b-437a-9e76-370d92dad067"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "And gradually it is possible to get your hands on beans, lentils and peas of all kinds - including Danish ones of good quality"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2370,
+            "end": 2496
+          }
+        ]
+      },
+      "id": "#3007bc6e-43cf-4e30-83dd-6322811ac609"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "So has there been no development - if nothing else in our attitude and readiness to accept pulses as part of everyday food"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2498,
+            "end": 2620
+          }
+        ]
+      },
+      "id": "#c3764198-b45a-4fe7-9b43-e19004f8a459"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "A recent study from the University of Copenhagen showed that Danes' knowledge of pulses is relatively high compared to other countries - despite the low consumption"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2663,
+            "end": 2827
+          }
+        ]
+      },
+      "id": "#61bb4a35-f5c2-4ee8-81e5-0c9fa4b7dab2"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "And in a fresh survey from Madkulturen, half of us answer that we would like to eat more pulses, while only one in eight rejects it"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2829,
+            "end": 2960
+          }
+        ]
+      },
+      "id": "#40856d62-19d2-4e64-8a05-6ba510117a30"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Half of us think that legumes fit well into the dishes we already eat"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2962,
+            "end": 3031
+          }
+        ]
+      },
+      "id": "#183d820d-cbe3-47a2-8d8b-6042653d2bc8"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "And very few people find it a problem to offer pulses to others"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3033,
+            "end": 3096
+          }
+        ]
+      },
+      "id": "#0b743cb4-888b-412a-9b0c-0a1dff72a21d"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It is soon only the force of habit and the inertia of our food culture that holds us back"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3114,
+            "end": 3203
+          }
+        ]
+      },
+      "id": "#5b2e6a03-b968-4b16-884c-93ab0a267d61"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "these are powerful forces that are difficult to overcome alone"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3220,
+            "end": 3282
+          }
+        ]
+      },
+      "id": "#c29b05b6-2614-44c4-86ae-db952fa4497d"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "we need a push from some of those who have power over our meals"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3295,
+            "end": 3358
+          }
+        ]
+      },
+      "id": "#df4db8be-00dd-406f-aaa4-09806a5026ff"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "A great many of us get a daily lunch made by others \u2013 650,000 from public kitchens alone, to which are added the private canteens"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3405,
+            "end": 3534
+          }
+        ]
+      },
+      "id": "#323ba296-bbe0-45e7-a431-81461247e494"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Furthermore, on a normal evening, one in four eats takeaway, restaurant food or ready meals"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3536,
+            "end": 3627
+          }
+        ]
+      },
+      "id": "#3ed2c7d9-ff00-4002-825d-a6b08646e3aa"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "By contracting out the cooking, we open a flank for someone to change our habits and introduce the vegetarian dishes that will soon become the new normal"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3629,
+            "end": 3782
+          }
+        ]
+      },
+      "id": "#07fde6ca-4b60-44fa-a737-419099f7dcc0"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "That step is easier to take for food professionals than for the rest of us, who mostly plan and shop at the last minute, and for two-thirds of whom find it difficult to come up with good legume dishes"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3784,
+            "end": 3984
+          }
+        ]
+      },
+      "id": "#a1f8ba2c-bb85-4b81-8bfc-2d7f5f6925c3"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "For progressive canteen workers, chefs and kitchen staff, it is good news that we are no longer really afraid of pulses"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3986,
+            "end": 4105
+          }
+        ]
+      },
+      "id": "#0aad5f69-54c9-4e3f-9573-7cd79da41bb2"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It is no longer necessary to list lentils in the meat pots or apologize for introducing a weekly vegetarian day"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4107,
+            "end": 4218
+          }
+        ]
+      },
+      "id": "#437fd203-8b06-449c-a100-48c2d3cfefe9"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Something that more and more people are open to, and that some even expect"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4220,
+            "end": 4294
+          }
+        ]
+      },
+      "id": "#83ea5988-4f28-4b90-a068-1b7eefd2986e"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "this kind of initiative can pave the way for the necessary introduction of legumes into our own cooking at home"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4306,
+            "end": 4417
+          }
+        ]
+      },
+      "id": "#eef5f873-8fa3-4c63-bf99-1399b7579234"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "A good one-sixth of Danes are already so familiar with pulses that they eat them at least a few times a week"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4459,
+            "end": 4567
+          }
+        ]
+      },
+      "id": "#2f7f5932-903e-4212-8486-b1508c1142ad"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "They constitute a leguminous elite who can lead the way and drag others along"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4569,
+            "end": 4646
+          }
+        ]
+      },
+      "id": "#faa2a39a-2b9f-40a3-9098-8f678a4145cd"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "My appeal to them is: Don't hold back - the future is yours"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4648,
+            "end": 4707
+          }
+        ]
+      },
+      "id": "#011ea4fc-b452-474f-bc7a-c8bdf0e0efc2"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The same could of course be said for the new generations who will shape the food culture in the coming decades"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4709,
+            "end": 4819
+          }
+        ]
+      },
+      "id": "#3168a83e-6377-4057-9614-e97ba9be4a92"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "But we as a society have a special responsibility towards them"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4821,
+            "end": 4883
+          }
+        ]
+      },
+      "id": "#2434176d-1d35-4d67-9254-181269d62184"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "A responsibility to not just reproduce food culture as we know it, but to introduce a new world of possibilities"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4885,
+            "end": 4997
+          }
+        ]
+      },
+      "id": "#c88b2f03-4872-437d-bb7c-e7da60d24708"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Not least for good food with beans, lentils and peas"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4999,
+            "end": 5051
+          }
+        ]
+      },
+      "id": "#ca036060-03e6-4d1b-9191-ed53c1be2f3b"
+    }
+  ],
+  "relations": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#5da396be-5ccd-4c95-8a68-6dd3cc1efdb8",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#40014678-a8c9-4777-a2bb-3b18fb5ec08b"
+        },
+        {
+          "id": "#24aa0043-a7ea-49a9-8fed-926cb871fcb6"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#46a72e90-e29f-485a-9464-bb580436b85c",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#76279e8b-c1cf-4bcd-bb6b-c29aee7c33c3"
+        },
+        {
+          "id": "#bf357109-a8be-4c69-878b-18a841ea51e7"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#b27d7b2b-ffc1-4fc3-9525-67fef613abe0",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#d65c1dda-29c7-4d14-bf29-c82ecb36f3d2"
+        },
+        {
+          "id": "#7f08a6ed-3b41-4e1e-b3e3-5e2c2441ada6"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#fa5cbc6c-a223-46f4-8dca-f32994e74386",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#a4e4a3da-554e-4b51-a500-a4a6b52ac7dd"
+        },
+        {
+          "id": "#d65c1dda-29c7-4d14-bf29-c82ecb36f3d2"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#51bde11a-7703-4460-b5ee-c2186070b4ee",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#7f08a6ed-3b41-4e1e-b3e3-5e2c2441ada6"
+        },
+        {
+          "id": "#55f98494-645e-4e47-a251-e6676fba1b7b"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#e34c3890-dc8b-4685-9498-3cef875d2a61",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#3c0559ef-69b0-465c-a789-70db5dc2d5cb"
+        },
+        {
+          "id": "#40f1ee6a-0f23-4431-80e8-0a77c272edd3"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#73f695c0-83d3-45c7-9488-bcc6780a0179",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#a98940aa-3344-4910-8099-105b1501f987"
+        },
+        {
+          "id": "#7e74185f-f133-4a80-9ccd-3deb718ed738"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#fa7a7f3a-e9e2-4407-8747-7d9458136b44",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#7e74185f-f133-4a80-9ccd-3deb718ed738"
+        },
+        {
+          "id": "#42cb0a8e-1ac6-4784-8061-f5424764a891"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#38b9252e-b34a-4785-b7aa-6eefefae1a53",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#42cb0a8e-1ac6-4784-8061-f5424764a891"
+        },
+        {
+          "id": "#3c0559ef-69b0-465c-a789-70db5dc2d5cb"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#f3a1b99b-bb34-416a-8509-6da1547de1ef",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#40f1ee6a-0f23-4431-80e8-0a77c272edd3"
+        },
+        {
+          "id": "#15b0cc75-f32e-4520-ae60-e0688533b487"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#30c43411-650c-4ff3-a140-f24968f0fd53",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#d95258fa-3c0b-437a-9e76-370d92dad067"
+        },
+        {
+          "id": "#9b6b7451-af87-48c8-a356-557fcb3b4277"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#5aed42e9-c740-4e2c-907e-0ca1f2a8be19",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#3007bc6e-43cf-4e30-83dd-6322811ac609"
+        },
+        {
+          "id": "#d95258fa-3c0b-437a-9e76-370d92dad067"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#455fc1bc-e6cb-4000-80c1-04f43711a3fd",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#9b6b7451-af87-48c8-a356-557fcb3b4277"
+        },
+        {
+          "id": "#b657cb31-17f8-4596-93fc-3c7de196d821"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#5c1b0466-50fc-4e5f-840b-b35f462ff31a",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#61bb4a35-f5c2-4ee8-81e5-0c9fa4b7dab2"
+        },
+        {
+          "id": "#c3764198-b45a-4fe7-9b43-e19004f8a459"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#7929ee9b-790e-4e17-b9ba-d6101ee7f4bd",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#0b743cb4-888b-412a-9b0c-0a1dff72a21d"
+        },
+        {
+          "id": "#183d820d-cbe3-47a2-8d8b-6042653d2bc8"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#0bf46af1-3ea7-43bb-ba5e-e2ee25b07f63",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#183d820d-cbe3-47a2-8d8b-6042653d2bc8"
+        },
+        {
+          "id": "#40856d62-19d2-4e64-8a05-6ba510117a30"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#5c582583-f920-410b-8537-017659dde8fa",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#40856d62-19d2-4e64-8a05-6ba510117a30"
+        },
+        {
+          "id": "#61bb4a35-f5c2-4ee8-81e5-0c9fa4b7dab2"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#113ee3f1-2d62-4f78-813e-f50af0957eb0",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#c29b05b6-2614-44c4-86ae-db952fa4497d"
+        },
+        {
+          "id": "#df4db8be-00dd-406f-aaa4-09806a5026ff"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#61a2bad5-88cb-42d0-b7aa-0865ef89c079",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#3ed2c7d9-ff00-4002-825d-a6b08646e3aa"
+        },
+        {
+          "id": "#323ba296-bbe0-45e7-a431-81461247e494"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#19b79746-d357-44f8-a523-8376c0d97361",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#323ba296-bbe0-45e7-a431-81461247e494"
+        },
+        {
+          "id": "#07fde6ca-4b60-44fa-a737-419099f7dcc0"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#82fa2b43-bd1b-4e2b-a409-e0f4f693805a",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#a1f8ba2c-bb85-4b81-8bfc-2d7f5f6925c3"
+        },
+        {
+          "id": "#07fde6ca-4b60-44fa-a737-419099f7dcc0"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#98bab74f-20a6-4c88-85a4-5238cf864ac6",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#437fd203-8b06-449c-a100-48c2d3cfefe9"
+        },
+        {
+          "id": "#0aad5f69-54c9-4e3f-9573-7cd79da41bb2"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#e02a5c3d-fd52-4c6d-916c-668912e050cd",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#83ea5988-4f28-4b90-a068-1b7eefd2986e"
+        },
+        {
+          "id": "#437fd203-8b06-449c-a100-48c2d3cfefe9"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#5c8b0564-a63c-43b5-b751-3da3172e313d",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#2f7f5932-903e-4212-8486-b1508c1142ad"
+        },
+        {
+          "id": "#faa2a39a-2b9f-40a3-9098-8f678a4145cd"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#d28f40a0-3afd-4aa5-a8d4-94c901bff50d",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#faa2a39a-2b9f-40a3-9098-8f678a4145cd"
+        },
+        {
+          "id": "#011ea4fc-b452-474f-bc7a-c8bdf0e0efc2"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#0ee2dc93-2d99-4485-a378-ce269c2032f0",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#2434176d-1d35-4d67-9254-181269d62184"
+        },
+        {
+          "id": "#c88b2f03-4872-437d-bb7c-e7da60d24708"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#cf48c9a6-e060-43fd-b087-162a02a1a509",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#24aa0043-a7ea-49a9-8fed-926cb871fcb6"
+        },
+        {
+          "id": "#55f98494-645e-4e47-a251-e6676fba1b7b"
+        }
+      ],
+      "motivation": "linking"
+    }
+  ]
+}

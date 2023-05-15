@@ -1,0 +1,48 @@
+T1	MajorClaim 61 188	Blending lentils or vegetables into meat products could have huge benefits for the environment, animal welfare and human health
+T2	Claim 189 243	Our current level of meat consumption is unsustainable
+A1	Stance T2 For
+T3	Premise 245 322	Animal farming is a major driver of global heating and tropical deforestation
+T4	Premise 324 394	The meat industry keeps most animals in intensive, inhumane conditions
+T5	Premise 400 492	red meat is linked to multiple health problems including heart disease and colorectal cancer
+T6	Claim 494 535	The food industry has committed to change
+A2	Stance T6 For
+T7	Premise 538 702	chains such as McDonald’s and Burger King have signed up to net zero greenhouse gas emissions by 2050, to zero deforestation by 2030, and to multiple health targets
+T8	Claim 962 1031	Meat alternatives are helping some convert to a plant-based lifestyle
+A3	Stance T8 For
+T9	Premise 1033 1194	They have grown rapidly in recent years and, on the face of it, offer a good taste at a fraction of the environmental impact of meat and without animal slaughter
+T10	Premise 1205 1286	the pace of growth has not been fast enough to achieve the scale of change needed
+T11	Premise 1288 1380	In the US, for example, plant-based meat alternatives represented just 1.4% of sales in 2021
+T12	Premise 1382 1441	McDonald’s recently launched the McPlant plant-based burger
+T13	Claim 1521 1568	There is another way to reduce meat consumption
+A4	Stance T13 For
+T14	Premise 1683 1827	The meat in burgers or similar foods could be blended with plant-based meat alternatives, or with fresh ingredients such as mushrooms or lentils
+T15	Claim 2660 2725	total agricultural area is actually declining at the global level
+A5	Stance T15 For
+T16	Claim 2727 2811	it is unlikely that new farmland would simply take the place of former grazing areas
+A6	Stance T16 For
+T17	Premise 2879 2919	the land would probably revert to nature
+T18	Claim 3206 3345	Cows also create substantial greenhouse gas emissions related to their feed, their excreta and from methane-producing bacteria in their gut
+A7	Stance T18 For
+T19	Premise 3347 3503	Substituting 50% of the beef in these fast-food chain burgers for plants would reduce these greenhouse gas emissions by 34m tonnes of CO2 equivalents a year
+T20	Premise 3505 3632	Combined, this is a reduction of 51m tonnes of CO2 equivalent, and more than 80% of the way to both companies’ net zero targets
+T21	Premise 3783 3943	even small substitutions of processed red meat for plant-based meat alternatives are associated with reductions in heart disease, diabetes and overall mortality
+T22	Claim 4126 4153	You may well even prefer it
+A8	Stance T22 For
+T23	Premise 4156 4277	in blind taste tests, a recent study found that consumers actually ranked the taste of blended burgers above beef burgers
+T24	Premise 4312 4400	preferences for blended burgers increased when the consumers were told they were blended
+T25	MajorClaim 5013 5095	these products are better for health, the environment and animal welfare than meat
+R1	supports Arg1:T3 Arg2:T2	
+R2	supports Arg1:T4 Arg2:T2	
+R3	supports Arg1:T5 Arg2:T2	
+R4	supports Arg1:T9 Arg2:T8	
+R5	attacks Arg1:T10 Arg2:T9	
+R6	supports Arg1:T11 Arg2:T10	
+R7	supports Arg1:T19 Arg2:T18	
+R8	supports Arg1:T20 Arg2:T19	
+R9	supports Arg1:T23 Arg2:T22	
+R10	supports Arg1:T7 Arg2:T6	
+R11	supports Arg1:T12 Arg2:T6	
+R12	supports Arg1:T17 Arg2:T16	
+R13	supports Arg1:T24 Arg2:T22	
+R14	supports Arg1:T14 Arg2:T13	
+R15	supports Arg1:T21 Arg2:T5	

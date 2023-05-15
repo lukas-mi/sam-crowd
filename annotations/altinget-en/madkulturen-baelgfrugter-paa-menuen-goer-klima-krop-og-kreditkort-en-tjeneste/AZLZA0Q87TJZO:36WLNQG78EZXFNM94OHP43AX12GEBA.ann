@@ -1,0 +1,64 @@
+T1	MajorClaim 279 342	we need a push from some of those who have power over our meals
+T2	Claim 737 784	Only one in four evening meals contains legumes
+A1	Stance T2 For
+T3	Premise 786 821	Half of us rarely or never eat them
+T4	Claim 1086 1139	We are all creatures of habit who do as we usually do
+A2	Stance T4 For
+T5	Claim 1285 1314	A bean for every food culture
+A3	Stance T5 For
+T6	Premise 1315 1390	In the Middle East, it is difficult to imagine everyday life without hummus
+T7	Premise 1392 1451	In Mexico, frijoles are on the menu morning, noon and night
+T8	Premise 1453 1477	In Inden, dahl dominates
+T9	Premise 1483 1617	in England, baked beans are so naturally part of the diet that they are referred to as a raw material on a par with typical vegetables
+T10	Premise 1619 1732	In Denmark, we used to have the pea as the national leguminous fruit, which was part of countless ordinary dishes
+T11	Premise 1771 1821	dried peas were a regular part of the field ration
+T12	Premise 1897 1956	today there are no real legume dishes on the Danes' top ten
+T13	Premise 1965 2023	quite a bit further down the ranking comes chili con carne
+T14	Claim 2332 2420	For years we have been soaking in climate food advice and good arguments for more pulses
+A4	Stance T14 For
+T15	Premise 2422 2465	We have access to all kinds of good recipes
+T16	Claim 2595 2717	So has there been no development - if nothing else in our attitude and readiness to accept pulses as part of everyday food
+A5	Stance T16 Against
+T17	Premise 2760 2894	A recent study from the University of Copenhagen showed that Danes' knowledge of pulses is relatively high compared to other countries
+T18	Premise 2930 3021	in a fresh survey from Madkulturen, half of us answer that we would like to eat more pulses
+T19	Premise 3029 3057	only one in eight rejects it
+T20	Premise 3059 3128	Half of us think that legumes fit well into the dishes we already eat
+T21	Premise 3134 3193	very few people find it a problem to offer pulses to others
+T22	Claim 3211 3300	It is soon only the force of habit and the inertia of our food culture that holds us back
+A6	Stance T22 For
+T23	Claim 3317 3379	these are powerful forces that are difficult to overcome alone
+A7	Stance T23 For
+T24	Premise 3392 3455	we need a push from some of those who have power over our meals
+T25	Claim 3502 3553	A great many of us get a daily lunch made by others
+A8	Stance T25 For
+T26	Claim 3646 3724	on a normal evening, one in four eats takeaway, restaurant food or ready meals
+A9	Stance T26 For
+T27	Claim 3726 3879	By contracting out the cooking, we open a flank for someone to change our habits and introduce the vegetarian dishes that will soon become the new normal
+A10	Stance T27 For
+T28	Claim 3881 3955	That step is easier to take for food professionals than for the rest of us
+A11	Stance T28 For
+T29	Claim 4083 4202	For progressive canteen workers, chefs and kitchen staff, it is good news that we are no longer really afraid of pulses
+A12	Stance T29 For
+T30	Premise 4204 4315	It is no longer necessary to list lentils in the meat pots or apologize for introducing a weekly vegetarian day
+T31	Premise 4403 4514	this kind of initiative can pave the way for the necessary introduction of legumes into our own cooking at home
+T32	MajorClaim 4666 4743	They constitute a leguminous elite who can lead the way and drag others along
+T33	Claim 4806 4916	The same could of course be said for the new generations who will shape the food culture in the coming decades
+A13	Stance T33 For
+R1	supports Arg1:T6 Arg2:T5	
+R2	supports Arg1:T7 Arg2:T5	
+R3	supports Arg1:T8 Arg2:T5	
+R4	supports Arg1:T9 Arg2:T5	
+R5	supports Arg1:T10 Arg2:T5	
+R6	supports Arg1:T11 Arg2:T10	
+R7	attacks Arg1:T12 Arg2:T10	
+R8	supports Arg1:T13 Arg2:T12	
+R9	supports Arg1:T3 Arg2:T2	
+R10	supports Arg1:T15 Arg2:T14	
+R11	supports Arg1:T18 Arg2:T22	
+R12	attacks Arg1:T19 Arg2:T22	
+R13	supports Arg1:T20 Arg2:T22	
+R14	supports Arg1:T21 Arg2:T22	
+R15	supports Arg1:T24 Arg2:T23	
+R16	supports Arg1:T30 Arg2:T29	
+R17	supports Arg1:T31 Arg2:T29	
+R18	attacks Arg1:T17 Arg2:T16	

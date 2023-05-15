@@ -1,0 +1,189 @@
+{
+  "uniqueid": "A3DY78Q4FCWTXX:3QY5DC2MX694H0VBZQIQRBNL3RJFUY",
+  "assignmentid": "3QY5DC2MX694H0VBZQIQRBNL3RJFUY",
+  "workerid": "A3DY78Q4FCWTXX",
+  "hitid": "3XU9MCX6W21PDUTOHZ3CDXALDDZR2P",
+  "ipaddress": "10.1.29.124",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-07 11:53:56.470",
+  "beginexp": "2023-05-07 11:53:57.070",
+  "endhit": "2023-05-07 12:21:23.495",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 0,
+  "open_guidelines_times": [],
+  "create_annotation_count": 43,
+  "create_annotation_times": [
+    "2023-05-07 11:54:52",
+    "2023-05-07 11:58:02",
+    "2023-05-07 11:58:25",
+    "2023-05-07 11:59:07",
+    "2023-05-07 11:59:19",
+    "2023-05-07 12:00:08",
+    "2023-05-07 12:01:16",
+    "2023-05-07 12:01:29",
+    "2023-05-07 12:01:42",
+    "2023-05-07 12:01:55",
+    "2023-05-07 12:02:07",
+    "2023-05-07 12:03:56",
+    "2023-05-07 12:04:04",
+    "2023-05-07 12:04:31",
+    "2023-05-07 12:04:39",
+    "2023-05-07 12:04:48",
+    "2023-05-07 12:05:03",
+    "2023-05-07 12:05:28",
+    "2023-05-07 12:05:44",
+    "2023-05-07 12:05:55",
+    "2023-05-07 12:06:07",
+    "2023-05-07 12:08:30",
+    "2023-05-07 12:09:20",
+    "2023-05-07 12:09:37",
+    "2023-05-07 12:10:45",
+    "2023-05-07 12:11:14",
+    "2023-05-07 12:11:22",
+    "2023-05-07 12:12:20",
+    "2023-05-07 12:13:09",
+    "2023-05-07 12:13:21",
+    "2023-05-07 12:14:08",
+    "2023-05-07 12:15:06",
+    "2023-05-07 12:15:17",
+    "2023-05-07 12:16:15",
+    "2023-05-07 12:17:03",
+    "2023-05-07 12:17:24",
+    "2023-05-07 12:17:29",
+    "2023-05-07 12:18:39",
+    "2023-05-07 12:19:50",
+    "2023-05-07 12:20:01",
+    "2023-05-07 12:20:22",
+    "2023-05-07 12:20:35",
+    "2023-05-07 12:20:47"
+  ],
+  "create_annotation_invalid": 3,
+  "delete_annotation_count": 2,
+  "delete_annotation_times": [
+    "2023-05-07 12:12:02",
+    "2023-05-07 12:20:09"
+  ],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 1,
+  "update_annotation_times": [
+    "2023-05-07 12:08:06"
+  ],
+  "update_annotation_invalid": 0,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "4",
+    "task-interest": "3",
+    "ui-intuitiveness": "4",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1683460436405,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        767
+      ],
+      "timestamp": 1683460436405,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        2560,
+        1339
+      ],
+      "timestamp": 1683460441410,
+      "interval": 5005
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1707,
+        893
+      ],
+      "timestamp": 1683460444529,
+      "interval": 3119
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        2327,
+        1217
+      ],
+      "timestamp": 1683460514590,
+      "interval": 70061
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        2048,
+        1071
+      ],
+      "timestamp": 1683460515532,
+      "interval": 942
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683461482756,
+      "interval": 967224
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683461482756,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683462022565,
+      "interval": 539809
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683462022565,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683462035389,
+      "interval": 12824
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683462035389,
+      "interval": 0
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "altinget-en",
+    "article": "kost-og-ernaeringsforbundet-groen-frokost-i-kommunerne-maa-ikke-indfoeres-i-blinde",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

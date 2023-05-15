@@ -1,0 +1,321 @@
+{
+  "uniqueid": "A3DY78Q4FCWTXX:30ZX6P7VFNKB2Q85ZWZ50QKLFZ9J21",
+  "assignmentid": "30ZX6P7VFNKB2Q85ZWZ50QKLFZ9J21",
+  "workerid": "A3DY78Q4FCWTXX",
+  "hitid": "3FO95NVK6QPIITAMBEII4FNPBBFSRI",
+  "ipaddress": "10.1.92.192",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-12 12:00:37.906",
+  "beginexp": "2023-05-12 12:00:38.815",
+  "endhit": "2023-05-13 03:37:24.882",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 0,
+  "open_guidelines_times": [],
+  "create_annotation_count": 62,
+  "create_annotation_times": [
+    "2023-05-12 12:03:13",
+    "2023-05-12 12:06:36",
+    "2023-05-12 12:06:48",
+    "2023-05-12 12:06:58",
+    "2023-05-12 12:07:13",
+    "2023-05-12 12:07:50",
+    "2023-05-12 12:07:59",
+    "2023-05-12 12:08:14",
+    "2023-05-12 12:08:19",
+    "2023-05-12 12:08:34",
+    "2023-05-12 12:08:47",
+    "2023-05-12 12:08:53",
+    "2023-05-12 12:09:27",
+    "2023-05-12 12:09:35",
+    "2023-05-12 12:09:46",
+    "2023-05-12 12:10:34",
+    "2023-05-12 12:10:50",
+    "2023-05-12 12:10:56",
+    "2023-05-12 12:11:08",
+    "2023-05-12 12:11:50",
+    "2023-05-12 12:12:03",
+    "2023-05-12 12:12:18",
+    "2023-05-12 12:12:35",
+    "2023-05-12 12:12:48",
+    "2023-05-12 12:13:00",
+    "2023-05-12 12:13:14",
+    "2023-05-12 12:16:19",
+    "2023-05-12 12:17:02",
+    "2023-05-12 12:17:44",
+    "2023-05-12 12:17:52",
+    "2023-05-12 12:17:57",
+    "2023-05-12 12:18:28",
+    "2023-05-12 12:18:34",
+    "2023-05-12 12:18:50",
+    "2023-05-12 12:18:58",
+    "2023-05-12 12:19:18",
+    "2023-05-12 12:19:44",
+    "2023-05-12 12:20:08",
+    "2023-05-12 12:20:19",
+    "2023-05-12 12:20:29",
+    "2023-05-12 12:20:59",
+    "2023-05-12 12:21:11",
+    "2023-05-12 12:21:20",
+    "2023-05-12 12:21:43",
+    "2023-05-12 12:22:02",
+    "2023-05-12 12:22:30",
+    "2023-05-12 12:24:17",
+    "2023-05-12 12:24:29",
+    "2023-05-12 12:24:33",
+    "2023-05-12 12:25:12",
+    "2023-05-12 12:27:31",
+    "2023-05-12 12:29:07",
+    "2023-05-12 12:30:31",
+    "2023-05-12 12:31:37",
+    "2023-05-13 03:27:26",
+    "2023-05-13 03:27:53",
+    "2023-05-13 03:28:36",
+    "2023-05-13 03:28:51",
+    "2023-05-13 03:28:56",
+    "2023-05-13 03:29:11",
+    "2023-05-13 03:34:26",
+    "2023-05-13 03:36:25"
+  ],
+  "create_annotation_invalid": 1,
+  "delete_annotation_count": 7,
+  "delete_annotation_times": [
+    "2023-05-12 12:20:04",
+    "2023-05-12 12:21:35",
+    "2023-05-12 12:25:07",
+    "2023-05-13 03:28:14",
+    "2023-05-13 03:28:17",
+    "2023-05-13 03:28:19",
+    "2023-05-13 03:28:20"
+  ],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 16,
+  "update_annotation_times": [
+    "2023-05-12 12:27:03",
+    "2023-05-12 12:27:18",
+    "2023-05-12 12:28:02",
+    "2023-05-12 12:28:36",
+    "2023-05-12 12:28:58",
+    "2023-05-12 12:30:26",
+    "2023-05-13 03:27:09",
+    "2023-05-13 03:30:31",
+    "2023-05-13 03:31:37",
+    "2023-05-13 03:32:04",
+    "2023-05-13 03:32:18",
+    "2023-05-13 03:34:10",
+    "2023-05-13 03:34:19",
+    "2023-05-13 03:35:46",
+    "2023-05-13 03:35:53",
+    "2023-05-13 03:36:43"
+  ],
+  "update_annotation_invalid": 0,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "5",
+    "task-interest": "3",
+    "ui-intuitiveness": "4",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1683892838314,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        819,
+        614
+      ],
+      "timestamp": 1683892838314,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        2048,
+        1071
+      ],
+      "timestamp": 1683892840209,
+      "interval": 1895
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683892854841,
+      "interval": 14632
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683892988641,
+      "interval": 133800
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683893651052,
+      "interval": 662411
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683893773157,
+      "interval": 122105
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683894438317,
+      "interval": 665160
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683894438317,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683894482253,
+      "interval": 43936
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683894482253,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683894516559,
+      "interval": 34306
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683894516559,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683894579920,
+      "interval": 63361
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683894615404,
+      "interval": 35484
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683894626032,
+      "interval": 10628
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683894626032,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683894998003,
+      "interval": 371971
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683948280490,
+      "interval": 53282487
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683948291940,
+      "interval": 11450
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683948360003,
+      "interval": 68063
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683948473412,
+      "interval": 113409
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683948473412,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683948631719,
+      "interval": 158307
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683948631719,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683948946487,
+      "interval": 314768
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683948946487,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683949034838,
+      "interval": 88351
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683949044571,
+      "interval": 9733
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "guardian",
+    "article": "eating-meat-future-socially-unacceptable-obsolete",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

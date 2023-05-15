@@ -1,0 +1,63 @@
+T1	MajorClaim 175 257	we must become better at developing and utilizing the biosolutions we already know
+T2	Claim 583 654	we find ourselves in an abundance of crises and imbalances on the globe
+A1	Stance T2 For
+T3	Premise 753 958	Whether it concerns climate change, loss of biodiversity or the food crisis, we can be sure that there are countless researchers at both companies and universities working around the clock on the solutions
+T4	Premise 977 1070	there are many of them today who can make a significant difference to the world's populations
+T5	Claim 1072 1203	One of these solutions is the development of climate-efficient proteins that can replace and supplement the current animal proteins
+A2	Stance T5 For
+T6	Claim 1205 1369	The proteins come from, among other things, beans and quinoa, mushrooms and seaweed, which, when fermented, become just as tasty in your smashburger as a beef steak
+A3	Stance T6 For
+T7	Premise 1385 1474	technology allows us to cultivate new, amazing tastes and can add future food experiences
+T8	Premise 1476 1615	Fermentation is, on an equal footing with biorefining, one of the core technologies within biological solutions, also known as biosolutions
+T9	Premise 1618 1767	t's fermentation that brews the enzymes in your toothpaste, that turns milk into cheese and yogurt, and that can turn beans into juicy burger patties
+T10	Claim 1812 1965	The development of new alternative proteins will not only mean that our protein consumption will require significantly less use of the globe's land areas
+A4	Stance T10 For
+T11	Claim 1967 2057	It will also lead to CO2 reductions and feed more mouths with the same amount of resources
+A5	Stance T11 For
+T12	Premise 2059 2139	A recent report from Copenhagen Economics showed the potential of CO2 reductions
+T13	Premise 2141 2233	The biosolutions we know today alone can globally reduce CO2 by 4,300 million tonnes by 2030
+T14	Premise 2235 2294	This corresponds to eight percent of global emissions today
+T15	Premise 2296 2554	This is because biosolutions both lead to more efficient production processes, for example in the form of milk proteins created in fermentation tanks, just as good bacteria can shorten cheese ripening processes and extend the shelf life of many types of food
+T16	Premise 2556 2689	All these examples are developed from fermentation, which is the same technology that is also used in developing alternative proteins
+T17	Premise 2691 2809	Alternative proteins are a tool that we have known for a long time, but which has often been overlooked in the toolbox
+T18	Premise 2820 2930	fermentation technology dates back thousands of years to when we first made cheese and fermented milk products
+T19	Premise 2941 3020	in relation to modern alternative foods, consumers have been somewhat skeptical
+T20	Premise 3026 3114	as a result many companies have been reluctant to invest in the technologies behind them
+T21	Claim 3116 3168	We would like to change that, as time is running out
+A6	Stance T21 For
+T22	Premise 3196 3310	On top of December's global biodiversity conference (COP15), it is clear that the global food system is challenged
+T23	Premise 3322 3379	we are running out of room for an ever-growing population
+T24	Claim 3581 3634	we must make it easier to get new foods on the market
+A7	Stance T24 For
+T25	Claim 3637 3779	o support the development of new, fermented foods and secure the foundation for us to grow proteins in steel tanks with precision fermentation
+A8	Stance T25 For
+T26	Claim 3781 3913	To design our EU legislation to include an innovation principle when we assess biosolutions that can deliver on our green objectives
+A9	Stance T26 For
+T27	Premise 3959 4052	we have the tools from the Danish biosolutions industry to deliver significant CO2 reductions
+T28	Claim 4060 4139	biosolutions also contribute to the solution of the other sustainability crises
+A10	Stance T28 For
+T29	Premise 4162 4222	biosolutions are an indispensable tool in the crisis toolbox
+T30	Claim 4233 4303	a tool that can only utilize its full potential if EU regulation helps
+A11	Stance T30 For
+T31	Claim 4309 4402	it is urgent to make it happen, because the imbalances will only get worse the longer we wait
+A12	Stance T31 For
+T32	Claim 4404 4485	The green transition requires the use of all tools to deal with the global crises
+A13	Stance T32 For
+R1	supports Arg1:T4 Arg2:T3	
+R2	supports Arg1:T3 Arg2:T5	
+R3	supports Arg1:T9 Arg2:T8	
+R4	supports Arg1:T8 Arg2:T7	
+R5	supports Arg1:T7 Arg2:T6	
+R6	supports Arg1:T13 Arg2:T12	
+R7	supports Arg1:T12 Arg2:T11	
+R8	supports Arg1:T14 Arg2:T13	
+R9	supports Arg1:T17 Arg2:T16	
+R10	supports Arg1:T16 Arg2:T15	
+R11	supports Arg1:T15 Arg2:T13	
+R12	supports Arg1:T18 Arg2:T17	
+R13	supports Arg1:T20 Arg2:T19	
+R14	supports Arg1:T19 Arg2:T21	
+R15	supports Arg1:T23 Arg2:T22	
+R16	supports Arg1:T22 Arg2:T24	
+R17	supports Arg1:T29 Arg2:T32	
+R18	supports Arg1:T27 Arg2:T29	

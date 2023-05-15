@@ -1,0 +1,170 @@
+{
+  "uniqueid": "AZLZA0Q87TJZO:3QFUFYSY9D45021WKKR8E7PR5LHF4C",
+  "assignmentid": "3QFUFYSY9D45021WKKR8E7PR5LHF4C",
+  "workerid": "AZLZA0Q87TJZO",
+  "hitid": "31ANT7FQOMR4NXY83DTGX0BRAIAH59",
+  "ipaddress": "10.1.28.236",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-12 02:11:23.232",
+  "beginexp": "2023-05-12 02:11:24.808",
+  "endhit": "2023-05-12 02:38:13.139",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 0,
+  "open_guidelines_times": [],
+  "create_annotation_count": 36,
+  "create_annotation_times": [
+    "2023-05-12 02:18:41",
+    "2023-05-12 02:18:56",
+    "2023-05-12 02:19:21",
+    "2023-05-12 02:19:27",
+    "2023-05-12 02:19:32",
+    "2023-05-12 02:19:38",
+    "2023-05-12 02:19:45",
+    "2023-05-12 02:19:52",
+    "2023-05-12 02:19:56",
+    "2023-05-12 02:20:10",
+    "2023-05-12 02:20:14",
+    "2023-05-12 02:20:22",
+    "2023-05-12 02:20:28",
+    "2023-05-12 02:20:47",
+    "2023-05-12 02:21:19",
+    "2023-05-12 02:21:29",
+    "2023-05-12 02:22:03",
+    "2023-05-12 02:22:14",
+    "2023-05-12 02:22:40",
+    "2023-05-12 02:22:45",
+    "2023-05-12 02:23:33",
+    "2023-05-12 02:25:36",
+    "2023-05-12 02:25:51",
+    "2023-05-12 02:26:04",
+    "2023-05-12 02:26:09",
+    "2023-05-12 02:26:21",
+    "2023-05-12 02:26:30",
+    "2023-05-12 02:28:20",
+    "2023-05-12 02:28:29",
+    "2023-05-12 02:28:37",
+    "2023-05-12 02:28:44",
+    "2023-05-12 02:30:18",
+    "2023-05-12 02:30:26",
+    "2023-05-12 02:32:25",
+    "2023-05-12 02:37:42",
+    "2023-05-12 02:37:48"
+  ],
+  "create_annotation_invalid": 1,
+  "delete_annotation_count": 2,
+  "delete_annotation_times": [
+    "2023-05-12 02:25:56",
+    "2023-05-12 02:26:14"
+  ],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 1,
+  "update_annotation_times": [
+    "2023-05-12 02:26:26"
+  ],
+  "update_annotation_invalid": 0,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "4",
+    "task-interest": "4",
+    "ui-intuitiveness": "5",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1683857488889,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        767
+      ],
+      "timestamp": 1683857488889,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683857794625,
+      "interval": 305736
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683857802026,
+      "interval": 7401
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683858215197,
+      "interval": 413171
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683858260317,
+      "interval": 45120
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683858500095,
+      "interval": 239778
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683858500095,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683858693533,
+      "interval": 193438
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683858731917,
+      "interval": 38384
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683858933389,
+      "interval": 201472
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683859053777,
+      "interval": 120388
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "altinget-en",
+    "article": "di-foedevarer-og-bio-vi-skal-udnytte-alternative-proteiner-hvis-vi-skal-skabe-en-co2-reduktion-i-foedevaresystemet",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

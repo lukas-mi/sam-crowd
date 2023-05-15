@@ -1,0 +1,142 @@
+{
+  "uniqueid": "AZLZA0Q87TJZO:3MYYFCXHJIWBE2XRV4XQWSP37Y1G4T",
+  "assignmentid": "3MYYFCXHJIWBE2XRV4XQWSP37Y1G4T",
+  "workerid": "AZLZA0Q87TJZO",
+  "hitid": "3YZ7A3YHSJITD6COE75F1EITJVTS5B",
+  "ipaddress": "10.1.95.134",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-14 00:57:18.276",
+  "beginexp": "2023-05-14 00:57:21.740",
+  "endhit": "2023-05-14 13:05:40.107",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 0,
+  "open_guidelines_times": [],
+  "create_annotation_count": 45,
+  "create_annotation_times": [
+    "2023-05-14 00:57:52",
+    "2023-05-14 00:58:40",
+    "2023-05-14 00:58:48",
+    "2023-05-14 00:58:51",
+    "2023-05-14 00:59:01",
+    "2023-05-14 00:59:04",
+    "2023-05-14 00:59:56",
+    "2023-05-14 01:00:42",
+    "2023-05-14 01:00:53",
+    "2023-05-14 01:00:55",
+    "2023-05-14 01:01:17",
+    "2023-05-14 01:01:22",
+    "2023-05-14 01:01:42",
+    "2023-05-14 01:01:44",
+    "2023-05-14 01:02:05",
+    "2023-05-14 01:02:20",
+    "2023-05-14 01:02:45",
+    "2023-05-14 01:02:59",
+    "2023-05-14 12:55:13",
+    "2023-05-14 12:55:33",
+    "2023-05-14 12:56:00",
+    "2023-05-14 12:56:06",
+    "2023-05-14 12:56:30",
+    "2023-05-14 12:56:47",
+    "2023-05-14 12:56:50",
+    "2023-05-14 12:57:16",
+    "2023-05-14 12:57:45",
+    "2023-05-14 12:57:48",
+    "2023-05-14 12:57:58",
+    "2023-05-14 12:58:02",
+    "2023-05-14 12:58:13",
+    "2023-05-14 12:58:16",
+    "2023-05-14 12:58:29",
+    "2023-05-14 12:58:31",
+    "2023-05-14 12:58:52",
+    "2023-05-14 12:59:01",
+    "2023-05-14 12:59:03",
+    "2023-05-14 12:59:16",
+    "2023-05-14 13:00:31",
+    "2023-05-14 13:00:41",
+    "2023-05-14 13:00:44",
+    "2023-05-14 13:01:04",
+    "2023-05-14 13:01:08",
+    "2023-05-14 13:05:11",
+    "2023-05-14 13:05:33"
+  ],
+  "create_annotation_invalid": 0,
+  "delete_annotation_count": 3,
+  "delete_annotation_times": [
+    "2023-05-14 01:00:35",
+    "2023-05-14 12:59:21",
+    "2023-05-14 13:05:26"
+  ],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 0,
+  "update_annotation_times": [],
+  "update_annotation_invalid": 0,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "4",
+    "task-interest": "5",
+    "ui-intuitiveness": "5",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1684025841700,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        767
+      ],
+      "timestamp": 1684025841700,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1684026190542,
+      "interval": 348842
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1684068865693,
+      "interval": 42675151
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1684069335792,
+      "interval": 470099
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1684069402424,
+      "interval": 66632
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "pbn",
+    "article": "should-meat-eaters-pay-more-tax",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

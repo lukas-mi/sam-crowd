@@ -1,0 +1,169 @@
+{
+  "uniqueid": "AZLZA0Q87TJZO:333U7HK6IO4Y506LWLJMW9BPAWHDJX",
+  "assignmentid": "333U7HK6IO4Y506LWLJMW9BPAWHDJX",
+  "workerid": "AZLZA0Q87TJZO",
+  "hitid": "31KPKEKW5O2V1D9L6FD8UUC2YU50BW",
+  "ipaddress": "10.1.89.71",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-07 23:01:47.256",
+  "beginexp": "2023-05-07 23:01:48.024",
+  "endhit": "2023-05-07 23:27:19.317",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 0,
+  "open_guidelines_times": [],
+  "create_annotation_count": 44,
+  "create_annotation_times": [
+    "2023-05-07 23:04:40",
+    "2023-05-07 23:04:53",
+    "2023-05-07 23:05:21",
+    "2023-05-07 23:05:30",
+    "2023-05-07 23:05:33",
+    "2023-05-07 23:05:49",
+    "2023-05-07 23:06:24",
+    "2023-05-07 23:06:47",
+    "2023-05-07 23:06:53",
+    "2023-05-07 23:08:03",
+    "2023-05-07 23:11:03",
+    "2023-05-07 23:11:11",
+    "2023-05-07 23:11:27",
+    "2023-05-07 23:11:45",
+    "2023-05-07 23:11:49",
+    "2023-05-07 23:12:07",
+    "2023-05-07 23:12:12",
+    "2023-05-07 23:12:33",
+    "2023-05-07 23:12:40",
+    "2023-05-07 23:12:47",
+    "2023-05-07 23:12:51",
+    "2023-05-07 23:13:10",
+    "2023-05-07 23:13:15",
+    "2023-05-07 23:13:55",
+    "2023-05-07 23:14:12",
+    "2023-05-07 23:14:16",
+    "2023-05-07 23:15:05",
+    "2023-05-07 23:15:15",
+    "2023-05-07 23:15:19",
+    "2023-05-07 23:15:36",
+    "2023-05-07 23:15:39",
+    "2023-05-07 23:15:47",
+    "2023-05-07 23:15:51",
+    "2023-05-07 23:16:24",
+    "2023-05-07 23:16:32",
+    "2023-05-07 23:16:36",
+    "2023-05-07 23:24:25",
+    "2023-05-07 23:24:36",
+    "2023-05-07 23:24:42",
+    "2023-05-07 23:25:38",
+    "2023-05-07 23:25:42",
+    "2023-05-07 23:25:55",
+    "2023-05-07 23:25:59",
+    "2023-05-07 23:27:09"
+  ],
+  "create_annotation_invalid": 0,
+  "delete_annotation_count": 4,
+  "delete_annotation_times": [
+    "2023-05-07 23:04:45",
+    "2023-05-07 23:10:34",
+    "2023-05-07 23:10:52",
+    "2023-05-07 23:10:55"
+  ],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 2,
+  "update_annotation_times": [
+    "2023-05-07 23:14:37",
+    "2023-05-07 23:27:03"
+  ],
+  "update_annotation_invalid": 0,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "4",
+    "task-interest": "5",
+    "ui-intuitiveness": "5",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1683500511425,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        767
+      ],
+      "timestamp": 1683500511425,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683500637246,
+      "interval": 125821
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683500643539,
+      "interval": 6293
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683501196008,
+      "interval": 552469
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683501199406,
+      "interval": 3398
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683501439190,
+      "interval": 239784
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683501820807,
+      "interval": 381617
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683502005487,
+      "interval": 184680
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683502008587,
+      "interval": 3100
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "guardian",
+    "article": "lab-grown-meat-cultured-protein",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

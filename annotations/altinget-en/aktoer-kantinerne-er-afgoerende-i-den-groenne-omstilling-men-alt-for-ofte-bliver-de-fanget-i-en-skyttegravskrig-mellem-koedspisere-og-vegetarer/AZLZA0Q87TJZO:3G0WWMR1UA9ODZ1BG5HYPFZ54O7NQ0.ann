@@ -1,0 +1,45 @@
+T1	Claim 179 241	employees often find that they pay a high price for the change
+A1	Stance T1 Against
+T2	Premise 247 342	if the companies themselves develop a clear sustainability strategy, that problem can be solved
+T3	Claim 370 410	Meat is an employee right in the canteen
+A2	Stance T3 For
+T4	MajorClaim 605 743	The canteen is, in particular, the place where companies can minimize CO2 emissions and make a proper contribution to the green transition
+T5	Claim 994 1100	I'd be lying if I said you can't tell the difference on the plate once the remodeling is fully implemented
+A3	Stance T5 For
+T6	Premise 1102 1131	The food becomes much greener
+T7	Premise 1133 1184	There will be less meat over the course of the week
+T8	Premise 1186 1255	the ingredients will be more Nordic and the dishes much more seasonal
+T9	Premise 1554 1615	Meat is – unsurprisingly – the big animal in the CO2 accounts
+T10	Claim 1717 1782	there is no other quick fix than cutting down on that consumption
+A4	Stance T10 For
+T11	Claim 1806 1984	the new, less meat-heavy lunch can actually create an infinite amount of joy if the canteen staff are properly dressed for the task and they have a clear mandate from the company
+A5	Stance T11 For
+T12	Claim 2111 2199	Companies in particular have traditionally been afraid to change too much in the canteen
+A6	Stance T12 Against
+T13	Premise 2201 2252	It is our common, daily break that is almost sacred
+T14	Premise 2268 2337	the canteen is typically the staff benefit that has the most opinions
+T15	Claim 2339 2436	I have seen several attempts to change the canteen's profile drown in the local canteen committee
+A7	Stance T15 Against
+T16	Premise 2622 2778	It ends up with a bit of everything, which no one really has ownership over, which creates a lot of food waste and a far too high CO2 footprint per employee
+T17	Claim 2970 3036	They must devote the resources it takes to change a food tradition
+A8	Stance T17 For
+T18	Claim 3305 3353	The very word 'vegetarian' is a red rag for many
+A9	Stance T18 For
+T19	Premise 3382 3495	it triggered an outcry when the state announced demands for an additional weekly vegetarian day in their canteens
+T20	Premise 3497 3635	Fewer people would have thought about it if they had simply announced that there would be 20 percent less meat over the course of the week
+T21	Claim 3799 3919	If we don't call it anything, but simply change the ratio between meat and vegetables, few people will notice the change
+A10	Stance T21 For
+T22	Premise 3921 4034	Few people actually think that the food is vegetarian, if only they experience it as delicious, filling and tasty
+T23	Claim 4079 4267	if you leave the practical responsibility to the canteen, ensure that they are professionally prepared for the task, and release them from the constraints, much better food comes out of it
+A11	Stance T23 For
+R1	supports Arg1:T19 Arg2:T18	
+R2	supports Arg1:T6 Arg2:T5	
+R3	supports Arg1:T7 Arg2:T5	
+R4	supports Arg1:T8 Arg2:T5	
+R5	supports Arg1:T9 Arg2:T10	
+R6	supports Arg1:T13 Arg2:T12	
+R7	supports Arg1:T14 Arg2:T12	
+R8	supports Arg1:T16 Arg2:T15	
+R9	attacks Arg1:T2 Arg2:T1	
+R10	supports Arg1:T20 Arg2:T18	
+R11	supports Arg1:T22 Arg2:T21	

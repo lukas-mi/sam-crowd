@@ -1,0 +1,2081 @@
+{
+  "phase": "survey",
+  "event": "submit_annotations",
+  "components": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Our insatiable appetite for meat is destroying the planet"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1,
+            "end": 58
+          }
+        ]
+      },
+      "id": "#336d09f6-9102-4240-88b3-77ed64d460b8"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "But the alternative is looking (and tasting) better by the day"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 60,
+            "end": 122
+          }
+        ]
+      },
+      "id": "#860b603a-de6d-4917-b0d6-bacc9df90ad4"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimAgainst"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Do you hate the idea of animal-free meat"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 123,
+            "end": 163
+          }
+        ]
+      },
+      "id": "#5e059cf5-f2eb-4c92-bd12-d00755483875"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Many people do"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 165,
+            "end": 179
+          }
+        ]
+      },
+      "id": "#a62fff1a-67da-4b58-ae73-9554985a738f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Unsurprisingly, livestock farmers are often furiously opposed"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 181,
+            "end": 242
+          }
+        ]
+      },
+      "id": "#20ae1fb9-8184-4447-a8ee-78962f4d131f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "More surprisingly, so are some vegans: \u201cWhy can\u2019t people eat tofu and lentils, like me?\u201d"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 244,
+            "end": 332
+          }
+        ]
+      },
+      "id": "#7d093bc3-e40d-4adf-9f97-13b349dd93d8"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Well, the new products \u2013 plant-based, microbial and cell-cultured meat and dairy \u2013 are not aimed at vegans, but at the far greater number who like the taste and texture of animals"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 333,
+            "end": 512
+          }
+        ]
+      },
+      "id": "#7ba13a77-b0a1-4d75-9285-cfe3eb54d579"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Many others instinctively recoil from the idea of food that seems familiar, but isn\u2019t"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 514,
+            "end": 599
+          }
+        ]
+      },
+      "id": "#80547552-d338-46e7-8770-a3f63b56df9b"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "What do you intend to do about the soaring global demand for animal products, and its devastating impacts"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 644,
+            "end": 749
+          }
+        ]
+      },
+      "id": "#3394ab88-0196-489f-82fd-7081eff19edb"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Global average meat consumption per person is 43kg a year, but swiftly heading towards the UK level of 82kg"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1014,
+            "end": 1121
+          }
+        ]
+      },
+      "id": "#07cf033a-15f4-4b08-ab8a-20c40d5d34e3"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The re ason is Bennett\u2019s Law: as people become richer, they eat more protein and fat, especially the flesh and secretions of animals"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1123,
+            "end": 1255
+          }
+        ]
+      },
+      "id": "#3997c097-5292-40d1-a298-ae7fd4d46e22"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "if you don\u2019t like the new technologies, what solution do you propose"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1261,
+            "end": 1329
+          }
+        ]
+      },
+      "id": "#38a10c04-fe51-4da2-a23f-c4af24e57ead"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "\u201cIt\u2019s the wrong question!\u201d \u201cWho\u2019s paying you?\u201d \u201cDo you want us to eat slime?\u201d"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1393,
+            "end": 1470
+          }
+        ]
+      },
+      "id": "#43d4ebf3-4ddb-4ec8-99d7-e6f31844d95b"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "You blindly echo the myth that as people get richer they eat more meat"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1575,
+            "end": 1645
+          }
+        ]
+      },
+      "id": "#3fd56c0a-a745-4d20-8e9c-747416f5f593"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Indians continue to be vegetarians even when they become rich"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1647,
+            "end": 1708
+          }
+        ]
+      },
+      "id": "#7c2bac72-a95c-4fa2-a621-3d2dad7f513f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Food cultures are shaped by cultural and ecological values."
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1710,
+            "end": 1769
+          }
+        ]
+      },
+      "id": "#60b0a948-b7fa-4599-b3c1-32a264c78393"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "But meat-eating in India is rising rapidly, though many people do it secretly"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1771,
+            "end": 1848
+          }
+        ]
+      },
+      "id": "#5fb7cfcd-55db-46f8-b078-bbd7c9c9b85a"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "despite religious proscriptions, enforced with vigilantism and, in some cases, murder, Bennett\u2019s Law still applies"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1866,
+            "end": 1980
+          }
+        ]
+      },
+      "id": "#cb9f9cb0-f015-408d-b499-8c7988f93043"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It\u2019s as if we were urging people to burn less fossil fuel without offering a replacement: no solar, wind, geothermal or nuclear power"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1982,
+            "end": 2115
+          }
+        ]
+      },
+      "id": "#de9d44d1-4a03-4134-9a0d-16607344ad7b"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "This issue is just as urgent, arguably even more so"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2117,
+            "end": 2168
+          }
+        ]
+      },
+      "id": "#ada904dd-5158-4fb9-bf68-a6dc9eb406c5"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "livestock farming attacks every Earth system"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2173,
+            "end": 2217
+          }
+        ]
+      },
+      "id": "#8530681e-d740-4201-954c-9e908e0b6b1a"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It\u2019s the primary agent of habitat destruction and wildlife loss"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2219,
+            "end": 2282
+          }
+        ]
+      },
+      "id": "#34df4473-2036-47ef-b976-71ca5f2cc9dd"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It\u2019s causing rivercide and dead zones at sea"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2284,
+            "end": 2328
+          }
+        ]
+      },
+      "id": "#78fc5aec-310f-44b4-9d16-d274dce2e6c7"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It generates more greenhouse gas emissions than all the world\u2019s transport"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2330,
+            "end": 2403
+          }
+        ]
+      },
+      "id": "#3b9400c0-7641-46ae-9222-b939f4072ea9"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It sprawls across vast tracts of the planet, inflicting massive carbon and ecological opportunity costs"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2405,
+            "end": 2508
+          }
+        ]
+      },
+      "id": "#d69277a5-06ba-46b3-8503-0d03902d2f91"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Both historically and currently, livestock farming is probably the world\u2019s most powerful agent of colonial land grabbing and the displacement of Indigenous people"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2510,
+            "end": 2672
+          }
+        ]
+      },
+      "id": "#daf421c4-e56b-480b-b428-10f995850084"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Meat is consuming the planet"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2674,
+            "end": 2702
+          }
+        ]
+      },
+      "id": "#83afc6be-cc52-48e5-b9dd-8a570c39f6c3"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Substitutes for animal products can greatly reduce this damage"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2704,
+            "end": 2766
+          }
+        ]
+      },
+      "id": "#f8d343ea-00d7-4a35-b6f0-5c732309b7f9"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "They can allow vast areas to be returned to dispossessed people and the ecosystems they defended"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2768,
+            "end": 2864
+          }
+        ]
+      },
+      "id": "#2fafa9e9-0c23-4578-bfa8-928c55adf401"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the taste and texture of plant-based alternatives has greatly improved"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2971,
+            "end": 3041
+          }
+        ]
+      },
+      "id": "#39935241-3251-4d04-9505-bf28cea27fc7"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "I\u2019ve recently eaten three products that are almost indistinguishable from the originals: a steak made by a Slovenian company called Juicy Marbles, a \u201clamb\u201d fillet from the Israeli company Redefine Meat, and sushi and tempura \u201cseafood\u201d at the London restaurant 123V"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3043,
+            "end": 3307
+          }
+        ]
+      },
+      "id": "#e8989893-130b-4fe7-af35-e7b0ed97cd4d"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "In response, Big Meat has ramped up its campaign of demonisation"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3309,
+            "end": 3373
+          }
+        ]
+      },
+      "id": "#a0a08729-0326-4461-9818-80e089647691"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Less so is the support the animal industry receives from people who claim to be green, but happily recite its misleading propaganda"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3398,
+            "end": 3529
+          }
+        ]
+      },
+      "id": "#9d065497-daad-405f-a497-e8a01cd317b2"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The professor of food and agricultural policy Robert Paarlberg compares this alliance to the inadvertent coalition of Baptists and bootleggers in the US a century ago"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3531,
+            "end": 3697
+          }
+        ]
+      },
+      "id": "#1565b9bd-8921-4d3c-8fc8-48371ae38b4d"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "By lobbying successfully for the prohibition of alcohol, the Southern Baptists opened the door to gangsters trading in stronger and more dangerous drink"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3699,
+            "end": 3851
+          }
+        ]
+      },
+      "id": "#080a72f9-bf20-4bf3-8bd8-b6b5c52cdb66"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "True environmentalists have a duty to break this ultra-conservative consensus"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3853,
+            "end": 3930
+          }
+        ]
+      },
+      "id": "#5be94f72-e679-42c8-bf96-c8774ad11045"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Adoption of the new technologies is likely to follow an S-curve: slow, then sudden"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3932,
+            "end": 4014
+          }
+        ]
+      },
+      "id": "#a1c787b9-218d-4565-acf4-eaa9803e1556"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "At first, uptake will be low and will suffer repeated setbacks"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4016,
+            "end": 4078
+          }
+        ]
+      },
+      "id": "#cf26fe09-3a24-4bbc-bd82-0f41b62be4a0"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "But as scale rises and prices fall, market penetration is likely to reach 10% or more"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4080,
+            "end": 4165
+          }
+        ]
+      },
+      "id": "#22f77675-e75f-46e3-9a36-ca4d7f347232"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "That\u2019s the point at which linear growth suddenly switches to exponential growth"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4167,
+            "end": 4246
+          }
+        ]
+      },
+      "id": "#8e62498d-7b93-4c0f-9d7a-91a87a1e645e"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It\u2019s a trend we\u2019ve seen in dozens of technologies, from refrigerators to smartphones"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4248,
+            "end": 4332
+          }
+        ]
+      },
+      "id": "#5a3513ba-74fb-427e-83bd-72be7f9c5537"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The biggest hurdles will be political"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4334,
+            "end": 4371
+          }
+        ]
+      },
+      "id": "#40b06a14-b530-4e20-905f-724bd47b6576"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "As governments are pressurised by Big Meat, they will raise the kind of obstacles that, in the UK and US, have delayed the rollout of renewable electricity"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4373,
+            "end": 4528
+          }
+        ]
+      },
+      "id": "#769f615e-1b27-4276-914f-5e252be477dd"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The UK government, for example, is reported to be considering a ban on calling plant-based products \u201cmilk\u201d and \u201cbutter\u201d"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4530,
+            "end": 4649
+          }
+        ]
+      },
+      "id": "#908a5f73-cfdb-417f-88b2-1ffd5fe9d5b8"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "No VAT is charged on meat and milk here, but most plant-based alternatives must pay 20%"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4723,
+            "end": 4810
+          }
+        ]
+      },
+      "id": "#0eeb2b2e-38ea-434b-b3de-93c6f79a258f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The regulators that might approve the new products are often overwhelmed"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4812,
+            "end": 4884
+          }
+        ]
+      },
+      "id": "#755e73c7-6472-4e8b-a324-4e240868f126"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Brexit has dumped a massive workload on the UK\u2019s Food Standards Agency and its budget falls far short of what it needs"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4886,
+            "end": 5004
+          }
+        ]
+      },
+      "id": "#d43764b8-1a1d-4e97-b44e-a855ec4e79e3"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "At the same time, it has been flooded with applications for CBD (cannabidiol) products: it could be years before it can assess alternative proteins"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5006,
+            "end": 5153
+          }
+        ]
+      },
+      "id": "#db355f75-a9f8-46f1-ac1d-76f8845b311e"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "None of these questions should be left to industry and government"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5155,
+            "end": 5220
+          }
+        ]
+      },
+      "id": "#67e187ea-9dc2-4fa9-b750-a358dae053da"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Environmental campaigners should be working not to destroy the green alternatives but to ensure they are regulated properly and, through effective anti-trust laws, do not become as concentrated in the hands of a few corporations as the meat trade is"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5222,
+            "end": 5471
+          }
+        ]
+      },
+      "id": "#a2ddcedf-0a48-4e57-8e20-80a176e25f27"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "As always, this will be a political struggle as much as a technological one"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5473,
+            "end": 5548
+          }
+        ]
+      },
+      "id": "#61724dfc-02c6-480f-9ead-6c1c20230d6e"
+    }
+  ],
+  "relations": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#d470c458-d2a9-4c74-8259-f9408bd384d6",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#a62fff1a-67da-4b58-ae73-9554985a738f"
+        },
+        {
+          "id": "#5e059cf5-f2eb-4c92-bd12-d00755483875"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#df208b69-9035-4a5b-8c64-8bfbfb5dbba0",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#20ae1fb9-8184-4447-a8ee-78962f4d131f"
+        },
+        {
+          "id": "#a62fff1a-67da-4b58-ae73-9554985a738f"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#059e2f7f-5a43-48b6-92f4-fa004992db53",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#7d093bc3-e40d-4adf-9f97-13b349dd93d8"
+        },
+        {
+          "id": "#a62fff1a-67da-4b58-ae73-9554985a738f"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#610d0061-a2c7-4533-86f6-1873a9b347f7",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#80547552-d338-46e7-8770-a3f63b56df9b"
+        },
+        {
+          "id": "#7ba13a77-b0a1-4d75-9285-cfe3eb54d579"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#7c9d8663-bd16-4dc6-a4c1-5a1dec989770",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#3997c097-5292-40d1-a298-ae7fd4d46e22"
+        },
+        {
+          "id": "#07cf033a-15f4-4b08-ab8a-20c40d5d34e3"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#5cc32ea0-e3a8-4a0f-879f-878c06605979",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#34df4473-2036-47ef-b976-71ca5f2cc9dd"
+        },
+        {
+          "id": "#8530681e-d740-4201-954c-9e908e0b6b1a"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#760f0856-a4a1-47dd-aee0-29103d866945",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#78fc5aec-310f-44b4-9d16-d274dce2e6c7"
+        },
+        {
+          "id": "#8530681e-d740-4201-954c-9e908e0b6b1a"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#3bf16b87-8712-44a7-b78c-7d18ee3db2ab",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#3b9400c0-7641-46ae-9222-b939f4072ea9"
+        },
+        {
+          "id": "#8530681e-d740-4201-954c-9e908e0b6b1a"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#08ebfa19-4718-4349-8522-27348a453c1a",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#d69277a5-06ba-46b3-8503-0d03902d2f91"
+        },
+        {
+          "id": "#8530681e-d740-4201-954c-9e908e0b6b1a"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#fa2a2478-9f2e-43b4-bc58-3d8f02b7ea27",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#83afc6be-cc52-48e5-b9dd-8a570c39f6c3"
+        },
+        {
+          "id": "#daf421c4-e56b-480b-b428-10f995850084"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#fc8482b0-ad68-440f-ad8b-ffab19b7589e",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#a0a08729-0326-4461-9818-80e089647691"
+        },
+        {
+          "id": "#39935241-3251-4d04-9505-bf28cea27fc7"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#51c8002b-b18e-412d-be01-9ade34ba80b2",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#769f615e-1b27-4276-914f-5e252be477dd"
+        },
+        {
+          "id": "#40b06a14-b530-4e20-905f-724bd47b6576"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#c8ae1f5f-3dfd-40e9-baa3-da29ac15f871",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#908a5f73-cfdb-417f-88b2-1ffd5fe9d5b8"
+        },
+        {
+          "id": "#769f615e-1b27-4276-914f-5e252be477dd"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#b913d291-c101-4ba0-8a57-3785c5520a54",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#0eeb2b2e-38ea-434b-b3de-93c6f79a258f"
+        },
+        {
+          "id": "#908a5f73-cfdb-417f-88b2-1ffd5fe9d5b8"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#43769eec-2086-44fb-904b-888ccd841d01",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#d43764b8-1a1d-4e97-b44e-a855ec4e79e3"
+        },
+        {
+          "id": "#755e73c7-6472-4e8b-a324-4e240868f126"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#7e5067d8-53a5-43b7-9fe7-243633017fc8",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#61724dfc-02c6-480f-9ead-6c1c20230d6e"
+        },
+        {
+          "id": "#67e187ea-9dc2-4fa9-b750-a358dae053da"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#fcd65e76-cf04-4307-8a9e-9e31ffde2cbb",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#3fd56c0a-a745-4d20-8e9c-747416f5f593"
+        },
+        {
+          "id": "#3997c097-5292-40d1-a298-ae7fd4d46e22"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#ccebdfbf-1334-4137-bb70-351a6ce09c25",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#7c2bac72-a95c-4fa2-a621-3d2dad7f513f"
+        },
+        {
+          "id": "#3fd56c0a-a745-4d20-8e9c-747416f5f593"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#3a4f75c2-02f6-45cd-93fc-13eb4f887138",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#60b0a948-b7fa-4599-b3c1-32a264c78393"
+        },
+        {
+          "id": "#7c2bac72-a95c-4fa2-a621-3d2dad7f513f"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#f848fbe5-046c-469e-914f-ab9c806d7f1f",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#5fb7cfcd-55db-46f8-b078-bbd7c9c9b85a"
+        },
+        {
+          "id": "#3fd56c0a-a745-4d20-8e9c-747416f5f593"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#d9c63ac8-9723-4acc-9b1d-a822261a205c",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#cb9f9cb0-f015-408d-b499-8c7988f93043"
+        },
+        {
+          "id": "#5fb7cfcd-55db-46f8-b078-bbd7c9c9b85a"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#b92316cb-f34f-445a-92b7-1dbd5a5374a4",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#336d09f6-9102-4240-88b3-77ed64d460b8"
+        },
+        {
+          "id": "#860b603a-de6d-4917-b0d6-bacc9df90ad4"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#08c09b7a-2bdd-42eb-8bc8-928a653777e4",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#43d4ebf3-4ddb-4ec8-99d7-e6f31844d95b"
+        },
+        {
+          "id": "#38a10c04-fe51-4da2-a23f-c4af24e57ead"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#6b313e28-a43d-42f8-b224-62c3e7fc95ad",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#9d065497-daad-405f-a497-e8a01cd317b2"
+        },
+        {
+          "id": "#1565b9bd-8921-4d3c-8fc8-48371ae38b4d"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#6d2fa6d0-bd6d-4980-bf3c-cab02ff6c613",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#080a72f9-bf20-4bf3-8bd8-b6b5c52cdb66"
+        },
+        {
+          "id": "#1565b9bd-8921-4d3c-8fc8-48371ae38b4d"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#30850757-dfd8-464b-b430-3f4ed7eb55c7",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#cf26fe09-3a24-4bbc-bd82-0f41b62be4a0"
+        },
+        {
+          "id": "#a1c787b9-218d-4565-acf4-eaa9803e1556"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#3367cf44-b4b5-4921-9a8c-87cf1551880f",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#8e62498d-7b93-4c0f-9d7a-91a87a1e645e"
+        },
+        {
+          "id": "#22f77675-e75f-46e3-9a36-ca4d7f347232"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#cecaaf14-0ab3-444b-b912-7bac091cd739",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#5a3513ba-74fb-427e-83bd-72be7f9c5537"
+        },
+        {
+          "id": "#8e62498d-7b93-4c0f-9d7a-91a87a1e645e"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#d732ab75-2ce7-4cdd-a9ca-6333cf71d140",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#db355f75-a9f8-46f1-ac1d-76f8845b311e"
+        },
+        {
+          "id": "#d43764b8-1a1d-4e97-b44e-a855ec4e79e3"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#0cfdc1b1-569c-47ab-9486-3e4fae4e14c9",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#07cf033a-15f4-4b08-ab8a-20c40d5d34e3"
+        },
+        {
+          "id": "#7ba13a77-b0a1-4d75-9285-cfe3eb54d579"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#c7133a07-4c6c-469a-bf11-257b0cb3cb9a",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#8530681e-d740-4201-954c-9e908e0b6b1a"
+        },
+        {
+          "id": "#ada904dd-5158-4fb9-bf68-a6dc9eb406c5"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#d84a07e3-4164-4765-9487-3ae42fe1db49",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#e8989893-130b-4fe7-af35-e7b0ed97cd4d"
+        },
+        {
+          "id": "#39935241-3251-4d04-9505-bf28cea27fc7"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#9ad81594-d783-4c91-b5cf-1f0c7327dce5",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#de9d44d1-4a03-4134-9a0d-16607344ad7b"
+        },
+        {
+          "id": "#38a10c04-fe51-4da2-a23f-c4af24e57ead"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#16067e60-565e-4dc0-9d22-4b57bdd69e02",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#1565b9bd-8921-4d3c-8fc8-48371ae38b4d"
+        },
+        {
+          "id": "#5be94f72-e679-42c8-bf96-c8774ad11045"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#7a6e362c-87d3-4bb2-b8e1-dda29b92ce97",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#a1c787b9-218d-4565-acf4-eaa9803e1556"
+        },
+        {
+          "id": "#5be94f72-e679-42c8-bf96-c8774ad11045"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#3a5ff27c-68b2-415b-b6c2-18ad5c05ab4d",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#22f77675-e75f-46e3-9a36-ca4d7f347232"
+        },
+        {
+          "id": "#cf26fe09-3a24-4bbc-bd82-0f41b62be4a0"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#60a7bf5d-9828-4760-a666-c0d6aff7bf86",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#40b06a14-b530-4e20-905f-724bd47b6576"
+        },
+        {
+          "id": "#5be94f72-e679-42c8-bf96-c8774ad11045"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#5ff98552-dc51-414a-a62f-1af430ee54b9",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#755e73c7-6472-4e8b-a324-4e240868f126"
+        },
+        {
+          "id": "#40b06a14-b530-4e20-905f-724bd47b6576"
+        }
+      ],
+      "motivation": "linking"
+    }
+  ]
+}

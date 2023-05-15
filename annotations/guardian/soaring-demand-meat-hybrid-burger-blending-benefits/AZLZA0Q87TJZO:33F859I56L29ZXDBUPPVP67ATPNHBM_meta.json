@@ -1,0 +1,182 @@
+{
+  "uniqueid": "AZLZA0Q87TJZO:33F859I56L29ZXDBUPPVP67ATPNHBM",
+  "assignmentid": "33F859I56L29ZXDBUPPVP67ATPNHBM",
+  "workerid": "AZLZA0Q87TJZO",
+  "hitid": "39WICJI5B7HN03BYVGBUIAHCS5B3ZS",
+  "ipaddress": "10.1.10.126",
+  "browser": "chrome",
+  "platform": "windows",
+  "language": "en-US",
+  "cond": 0,
+  "counterbalance": 0,
+  "codeversion": "0.0.1",
+  "beginhit": "2023-05-03 01:23:15.842",
+  "beginexp": "2023-05-03 01:23:16.823",
+  "endhit": "2023-05-03 01:49:17.159",
+  "bonus": 0.0,
+  "status": 4,
+  "mode": "live",
+  "task_done": true,
+  "quiz_done": true,
+  "open_guidelines_count": 0,
+  "open_guidelines_times": [],
+  "create_annotation_count": 48,
+  "create_annotation_times": [
+    "2023-05-03 01:23:58",
+    "2023-05-03 01:24:35",
+    "2023-05-03 01:25:24",
+    "2023-05-03 01:25:30",
+    "2023-05-03 01:25:34",
+    "2023-05-03 01:25:44",
+    "2023-05-03 01:25:50",
+    "2023-05-03 01:25:59",
+    "2023-05-03 01:26:10",
+    "2023-05-03 01:26:53",
+    "2023-05-03 01:27:07",
+    "2023-05-03 01:27:11",
+    "2023-05-03 01:27:20",
+    "2023-05-03 01:27:28",
+    "2023-05-03 01:27:52",
+    "2023-05-03 01:27:58",
+    "2023-05-03 01:28:50",
+    "2023-05-03 01:30:45",
+    "2023-05-03 01:31:18",
+    "2023-05-03 01:31:38",
+    "2023-05-03 01:31:44",
+    "2023-05-03 01:32:02",
+    "2023-05-03 01:33:35",
+    "2023-05-03 01:33:41",
+    "2023-05-03 01:34:49",
+    "2023-05-03 01:34:58",
+    "2023-05-03 01:35:06",
+    "2023-05-03 01:35:27",
+    "2023-05-03 01:35:31",
+    "2023-05-03 01:35:47",
+    "2023-05-03 01:36:02",
+    "2023-05-03 01:36:43",
+    "2023-05-03 01:37:05",
+    "2023-05-03 01:37:15",
+    "2023-05-03 01:37:19",
+    "2023-05-03 01:37:41",
+    "2023-05-03 01:37:59",
+    "2023-05-03 01:39:33",
+    "2023-05-03 01:39:50",
+    "2023-05-03 01:40:10",
+    "2023-05-03 01:40:14",
+    "2023-05-03 01:40:45",
+    "2023-05-03 01:40:49",
+    "2023-05-03 01:42:04",
+    "2023-05-03 01:42:18",
+    "2023-05-03 01:42:22",
+    "2023-05-03 01:44:35",
+    "2023-05-03 01:45:02"
+  ],
+  "create_annotation_invalid": 3,
+  "delete_annotation_count": 4,
+  "delete_annotation_times": [
+    "2023-05-03 01:24:47",
+    "2023-05-03 01:30:54",
+    "2023-05-03 01:36:04",
+    "2023-05-03 01:43:54"
+  ],
+  "delete_annotation_invalid": 0,
+  "update_annotation_count": 0,
+  "update_annotation_times": [],
+  "update_annotation_invalid": 0,
+  "quiz": {
+    "other-feedback": "",
+    "task-difficulty": "4",
+    "task-interest": "4",
+    "ui-intuitiveness": "5",
+    "guidelines-clarity": "5"
+  },
+  "events": [
+    {
+      "eventtype": "initialized",
+      "value": null,
+      "timestamp": 1683077003596,
+      "interval": 0
+    },
+    {
+      "eventtype": "window_resize",
+      "value": [
+        1024,
+        767
+      ],
+      "timestamp": 1683077003596,
+      "interval": 0
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683077615596,
+      "interval": 612000
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683077615597,
+      "interval": 1
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683077689966,
+      "interval": 74369
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683077689967,
+      "interval": 1
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683077698527,
+      "interval": 8560
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683077698528,
+      "interval": 1
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683078159039,
+      "interval": 460511
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683078199883,
+      "interval": 40844
+    },
+    {
+      "eventtype": "focus",
+      "value": "off",
+      "timestamp": 1683078519776,
+      "interval": 319893
+    },
+    {
+      "eventtype": "focus",
+      "value": "on",
+      "timestamp": 1683078525606,
+      "interval": 5830
+    }
+  ],
+  "content_metadata": {
+    "phase": "survey",
+    "event": "log_metadata",
+    "annotation_mode": "full",
+    "publisher": "guardian",
+    "article": "soaring-demand-meat-hybrid-burger-blending-benefits",
+    "excerpt": "full",
+    "major_claim": {
+      "assignment_id": "",
+      "occurrences": []
+    }
+  }
+}

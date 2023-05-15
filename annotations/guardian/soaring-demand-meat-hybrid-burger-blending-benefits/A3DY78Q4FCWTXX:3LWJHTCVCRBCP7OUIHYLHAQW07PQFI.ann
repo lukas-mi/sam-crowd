@@ -1,0 +1,70 @@
+T1	MajorClaim 61 188	Blending lentils or vegetables into meat products could have huge benefits for the environment, animal welfare and human health
+T2	Claim 189 243	Our current level of meat consumption is unsustainable
+A1	Stance T2 For
+T3	Premise 245 322	Animal farming is a major driver of global heating and tropical deforestation
+T4	Premise 324 394	The meat industry keeps most animals in intensive, inhumane conditions
+T5	Premise 400 492	red meat is linked to multiple health problems including heart disease and colorectal cancer
+T6	Premise 494 706	The food industry has committed to change – chains such as McDonald’s and Burger King have signed up to net zero greenhouse gas emissions by 2050, to zero deforestation by 2030, and to multiple health targets too
+T7	Claim 708 880	But how can these giant companies, and indeed the whole food sector, possibly follow through when we consume 340bn kilos of meat a year globally, and demand is still rising
+A2	Stance T7 For
+T8	Claim 882 960	Do we just hope that consumers will go vegan or vegetarian of their own accord
+A3	Stance T8 Against
+T9	Premise 962 1031	Meat alternatives are helping some convert to a plant-based lifestyle
+T10	Premise 1033 1194	They have grown rapidly in recent years and, on the face of it, offer a good taste at a fraction of the environmental impact of meat and without animal slaughter
+T11	Premise 1196 1286	However, the pace of growth has not been fast enough to achieve the scale of change needed
+T12	Premise 1288 1380	In the US, for example, plant-based meat alternatives represented just 1.4% of sales in 2021
+T13	Claim 1521 1568	There is another way to reduce meat consumption
+A4	Stance T13 For
+T14	Claim 1570 1636	It uses a change in how food is produced to change what we consume
+A5	Stance T14 For
+T15	Claim 1638 1681	It can be deployed immediately and at scale
+A6	Stance T15 For
+T16	Claim 1683 1827	The meat in burgers or similar foods could be blended with plant-based meat alternatives, or with fresh ingredients such as mushrooms or lentils
+A7	Stance T16 For
+T17	Premise 1829 2026	Discussions about the benefits of blended products have been circulating for a few years: in 2015, the James Beard Foundation started running a competition for chefs to make tastier blended burgers
+T18	Claim 2028 2260	The difference now is that, given the small market share of meat alternatives, and the need to cut meat consumption, blended products might be essential to achieve international sustainability targets at the scale and speed required
+A8	Stance T18 For
+T19	Premise 2262 2531	Using data on the environmental impacts of food, I estimated what would happen if two food companies which represent 2-3% of global beef purchases – Burger King and McDonald’s – swapped out 50% of the beef in their burgers for plant-based meat to create blended burgers
+T20	Claim 2533 2616	Demand for global agricultural land would reduce by about 8.5m hectares (21m acres)
+A9	Stance T20 For
+T21	Premise 2654 2811	Given total agricultural area is actually declining at the global level, it is unlikely that new farmland would simply take the place of former grazing areas
+T22	Premise 2813 2919	Instead, as happened when wool demand collapsed during the 1990s, the land would probably revert to nature
+T23	Premise 2921 3080	As well as the benefits for wildlife and biodiversity, this land could remove 17m tonnes of CO2 from the air each year for 100 years on average as trees regrow
+T24	Claim 3082 3204	The process could even be sped up by engaging landowners to replant trees, as the “grain for green” programme did in China
+A10	Stance T24 For
+T25	Premise 3206 3345	Cows also create substantial greenhouse gas emissions related to their feed, their excreta and from methane-producing bacteria in their gut
+T26	Claim 3347 3503	Substituting 50% of the beef in these fast-food chain burgers for plants would reduce these greenhouse gas emissions by 34m tonnes of CO2 equivalents a year
+A11	Stance T26 For
+T27	Premise 3505 3632	Combined, this is a reduction of 51m tonnes of CO2 equivalent, and more than 80% of the way to both companies’ net zero targets
+T28	Claim 3634 3748	From an animal welfare perspective, this change would lead to 4m fewer cows being reared and slaughtered each year
+A12	Stance T28 For
+T29	Premise 3750 3943	Further, research has found that even small substitutions of processed red meat for plant-based meat alternatives are associated with reductions in heart disease, diabetes and overall mortality
+T30	Premise 3945 4124	If you eat meat, this is something you can try yourself – next time you use mince in a bolognese, burger, or chilli, substitute 50% of the volume with lentils or chopped mushrooms
+T31	Claim 4126 4278	You may well even prefer it – in blind taste tests, a recent study found that consumers actually ranked the taste of blended burgers above beef burgers.
+A13	Stance T31 For
+T32	Premise 4312 4475	preferences for blended burgers increased when the consumers were told they were blended, possibly because people valued their environmental and health credentials
+T33	Claim 4539 4627	some large companies have had only limited success trying to launch new blended products
+A14	Stance T33 Against
+T34	Premise 4629 4769	Here they were trying to create a new product category, and like pure plant-based products, faced challenges in communicating their benefits
+T35	Claim 4771 4999	To achieve near-term benefits, we probably just need to blend plants into existing meat products – in the UK, a “beef burger” is legally defined as having at least 62% beef, and ingredient lists make it clear what is in products
+A15	Stance T35 For
+T36	MajorClaim 5013 5121	these products are better for health, the environment and animal welfare than meat, and can taste better too
+R1	supports Arg1:T3 Arg2:T2	
+R2	supports Arg1:T4 Arg2:T2	
+R3	supports Arg1:T5 Arg2:T2	
+R4	attacks Arg1:T11 Arg2:T10	
+R5	supports Arg1:T10 Arg2:T9	
+R6	supports Arg1:T12 Arg2:T11	
+R7	supports Arg1:T6 Arg2:T7	
+R8	attacks Arg1:T9 Arg2:T8	
+R9	supports Arg1:T17 Arg2:T18	
+R10	supports Arg1:T19 Arg2:T20	
+R11	supports Arg1:T30 Arg2:T31	
+R12	supports Arg1:T32 Arg2:T31	
+R13	supports Arg1:T34 Arg2:T33	
+R14	supports Arg1:T23 Arg2:T24	
+R15	supports Arg1:T25 Arg2:T26	
+R16	supports Arg1:T27 Arg2:T26	
+R17	supports Arg1:T29 Arg2:T28	
+R18	supports Arg1:T21 Arg2:T20	
+R19	supports Arg1:T22 Arg2:T21	

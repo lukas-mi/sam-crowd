@@ -1,0 +1,1516 @@
+{
+  "phase": "survey",
+  "event": "submit_annotations",
+  "components": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Professional kitchens are in the process of reducing their CO2 footprint"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1,
+            "end": 73
+          }
+        ]
+      },
+      "id": "#caa5c556-fe07-4ffe-9d89-7f4410957f03"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "But employees often find that they pay a high price for the change"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 75,
+            "end": 141
+          }
+        ]
+      },
+      "id": "#71f0e835-bc1b-46c3-b30a-9f68314cea0c"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "if the companies themselves develop a clear sustainability strategy, that problem can be solved"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 147,
+            "end": 242
+          }
+        ]
+      },
+      "id": "#1fef73b6-8f9e-445c-9244-41cd56a4716e"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Meat is an employee right in the canteen"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 270,
+            "end": 310
+          }
+        ]
+      },
+      "id": "#4c811266-ccc6-4c4d-b6c3-5686e70b7e39"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "we saw that when the state tried to introduce an extra vegetarian day as part of the quest for a green transition"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 390,
+            "end": 503
+          }
+        ]
+      },
+      "id": "#79589206-4413-4934-a430-6dc855bfd8d4"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The canteen is, in particular, the place where companies can minimize CO2 emissions and make a proper contribution to the green transition"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 505,
+            "end": 643
+          }
+        ]
+      },
+      "id": "#7068c363-9b64-4d79-9582-7e87604411ec"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Several companies have already found out \u2013 but many are reluctant to avoid conflicts with employee groups who want to keep their 'old canteen'"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 645,
+            "end": 787
+          }
+        ]
+      },
+      "id": "#e009f222-897c-4348-805f-bb87c861acc0"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The only option is to cut back on the meat"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 789,
+            "end": 831
+          }
+        ]
+      },
+      "id": "#443d5fac-9fdc-45d4-9ab0-64f3e56392c0"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "I've been remodeling professional kitchens for ten years, and I'd be lying if I said you can't tell the difference on the plate once the remodeling is fully implemented"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 832,
+            "end": 1000
+          }
+        ]
+      },
+      "id": "#e7d33a3b-e3d5-4e65-babf-43e621444ef4"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The food becomes much greener"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1002,
+            "end": 1031
+          }
+        ]
+      },
+      "id": "#6772b0a9-91cf-46ba-a921-8ea74463ea29"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "There will be less meat over the course of the week, the ingredients will be more Nordic and the dishes much more seasonal"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1033,
+            "end": 1155
+          }
+        ]
+      },
+      "id": "#bb1c50df-0bb9-405b-a7b8-6bc9f4215092"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "This is the recipe for the green conversion, regardless of whether you want to convert to 60 percent organic within the same budget as the public kitchens by 2030"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1157,
+            "end": 1319
+          }
+        ]
+      },
+      "id": "#187efd76-bed3-44a1-9649-bf8521eb3c53"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Or if you want to improve the canteen's CO2 account, which the vast majority of companies would like, and which many is in progress"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1321,
+            "end": 1452
+          }
+        ]
+      },
+      "id": "#906742e2-92cd-4c5f-abd6-240779a7b6db"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Meat is \u2013 unsurprisingly \u2013 the big animal in the CO2 accounts, of which we have eaten accelerating amounts in the Western world over the last 50 years"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1454,
+            "end": 1604
+          }
+        ]
+      },
+      "id": "#934762bf-1251-4203-823f-1744f5681f00"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Therefore, there is no other quick fix than cutting down on that consumption"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1606,
+            "end": 1682
+          }
+        ]
+      },
+      "id": "#c07c4518-133d-4a84-8d6b-66b854bb9e82"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the new, less meat-heavy lunch can actually create an infinite amount of joy if the canteen staff are properly dressed for the task and they have a clear mandate from the company"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1706,
+            "end": 1884
+          }
+        ]
+      },
+      "id": "#182787dd-3f31-469f-bb36-7b8312dff9dc"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimAgainst"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "But it can create even more commotion if the support is lukewarm and the goal is unclear"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 1886,
+            "end": 1974
+          }
+        ]
+      },
+      "id": "#c2d512f1-7db0-4efc-ac56-30fa58edd471"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Companies in particular have traditionally been afraid to change too much in the canteen"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2011,
+            "end": 2099
+          }
+        ]
+      },
+      "id": "#46a50bf8-adda-4da2-854f-e4fd20923bdd"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It is our common, daily break that is almost sacred"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2101,
+            "end": 2152
+          }
+        ]
+      },
+      "id": "#919e8cf6-f30e-4f26-a5fa-09110ed7bbd2"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "the canteen is typically the staff benefit that has the most opinions"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2168,
+            "end": 2237
+          }
+        ]
+      },
+      "id": "#13a792ac-3c2f-4d40-8c4a-13df328b1db3"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "I have seen several attempts to change the canteen's profile drown in the local canteen committee"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2239,
+            "end": 2336
+          }
+        ]
+      },
+      "id": "#d2f22a04-2a62-4ce6-bdd3-009a198b090f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "That selection almost everywhere consists of three types: Someone who wants meat toppings in a sandwich, someone who wants more salad, and someone who wants a gluten-free alternative"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2338,
+            "end": 2520
+          }
+        ]
+      },
+      "id": "#02b51b86-1609-4198-b17c-49d40f15bd78"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It ends up with a bit of everything, which no one really has ownership over, which creates a lot of food waste and a far too high CO2 footprint per employee"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2522,
+            "end": 2678
+          }
+        ]
+      },
+      "id": "#e3c65028-1a7e-4e6d-8d5f-e72638467015"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "If the restructuring is to be successful, the company must first of all take on the host and, based on a sustainability strategy, have a clear attitude to what it serves and why it does it"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2680,
+            "end": 2868
+          }
+        ]
+      },
+      "id": "#ea299280-b454-47e9-b43f-1ff334909e42"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "MajorClaim"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "They must devote the resources it takes to change a food tradition, which is one of the strongest traditions we have"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2870,
+            "end": 2986
+          }
+        ]
+      },
+      "id": "#19136bcf-b1b4-494b-90ee-360ea502795b"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimAgainst"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "If you only do it half way, the canteen staff lose the spirit and the employees lose faith"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 2988,
+            "end": 3078
+          }
+        ]
+      },
+      "id": "#66e951c4-00c5-4fe8-91ea-f897f8bed1ea"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimAgainst"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "And if you use the classic method, you quickly encounter resistance"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3080,
+            "end": 3147
+          }
+        ]
+      },
+      "id": "#1eb703ca-5a27-4784-a489-f135eef64d6c"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "The very word 'vegetarian' is a red rag for many"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3205,
+            "end": 3253
+          }
+        ]
+      },
+      "id": "#41545d29-90cf-4d74-b67d-a7ee6fde478e"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "it triggered an outcry when the state announced demands for an additional weekly vegetarian day in their canteens"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3282,
+            "end": 3395
+          }
+        ]
+      },
+      "id": "#183ed4f3-ac90-4dfa-b0c6-18a78c04ec28"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Fewer people would have thought about it if they had simply announced that there would be 20 percent less meat over the course of the week"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3397,
+            "end": 3535
+          }
+        ]
+      },
+      "id": "#fd106f6b-ac3b-4d9a-9e4d-361624adca8b"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "It was also not wise to advertise with 'vegetarian leek pie' or 'leek pie without bacon'"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3537,
+            "end": 3625
+          }
+        ]
+      },
+      "id": "#5f9af022-75ec-4f04-be87-afbd7f714754"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "And you don't need to be reminded that the chili is 'sin carne' either"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3627,
+            "end": 3697
+          }
+        ]
+      },
+      "id": "#a40413f5-9fab-4406-8ddc-a8281faa0609"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "If we don't call it anything, but simply change the ratio between meat and vegetables, few people will notice the change"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3699,
+            "end": 3819
+          }
+        ]
+      },
+      "id": "#e7fb89b7-70b7-4040-9a9c-c87e112407bc"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Few people actually think that the food is vegetarian, if only they experience it as delicious, filling and tasty"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3821,
+            "end": 3934
+          }
+        ]
+      },
+      "id": "#9d1cec81-08a2-4602-b34a-b2c5e0175783"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "if you leave the practical responsibility to the canteen, ensure that they are professionally prepared for the task, and release them from the constraints, much better food comes out of it"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 3979,
+            "end": 4167
+          }
+        ]
+      },
+      "id": "#fd6515af-8f60-4930-9e8b-5e6a856ec7d2"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "I have experienced how the new freedoms within clear sustainability goals make the canteen a more attractive workplace for the new generation of chefs who originally dreamed of working in a Michelin restaurant"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4182,
+            "end": 4391
+          }
+        ]
+      },
+      "id": "#b17fecef-1089-4090-b3be-5e347fa7069f"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "I have even experienced several canteens where they went all the way and cut the large buffet down to one fixed daily menu"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4393,
+            "end": 4515
+          }
+        ]
+      },
+      "id": "#b25e42b6-3a32-4a34-afc1-d79171a66d77"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "But, contrary to expectations, the canteen gained more employees as customers - and much more satisfied customers"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4555,
+            "end": 4668
+          }
+        ]
+      },
+      "id": "#eb2a25ef-d681-472a-90b0-0f0456a5901b"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Suddenly there was a community about the lunch, which was now cherished, and which tasted good and almost gave a feeling of going out to eat"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4670,
+            "end": 4810
+          }
+        ]
+      },
+      "id": "#791c3b65-8e1f-4175-a08f-9c44b416392b"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "Premise"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "Gone were vegetarian days, an unambitious salad bar, a small obligatory gluten-free bowl and charcuterie platter, which was mostly eaten because it was easily decipherable and looked like it at home"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 4812,
+            "end": 5010
+          }
+        ]
+      },
+      "id": "#a85742d7-a27f-4444-acd4-4999b16baab7"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "body": [
+        {
+          "type": "TextualBody",
+          "purpose": "tagging",
+          "value": "ClaimFor"
+        }
+      ],
+      "target": {
+        "selector": [
+          {
+            "type": "TextQuoteSelector",
+            "exact": "gone was the trench warfare for meat"
+          },
+          {
+            "type": "TextPositionSelector",
+            "start": 5035,
+            "end": 5071
+          }
+        ]
+      },
+      "id": "#84d5d72c-00ae-45bb-a0e6-8df0565f6fe2"
+    }
+  ],
+  "relations": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#fec33b45-94b8-4925-a189-80b3df5b614e",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#71f0e835-bc1b-46c3-b30a-9f68314cea0c"
+        },
+        {
+          "id": "#caa5c556-fe07-4ffe-9d89-7f4410957f03"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#7ad54e30-34bb-4e14-ada0-77815072ece7",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#79589206-4413-4934-a430-6dc855bfd8d4"
+        },
+        {
+          "id": "#4c811266-ccc6-4c4d-b6c3-5686e70b7e39"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#16fa084b-1486-4d80-a39d-f6fc55e4a231",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#e009f222-897c-4348-805f-bb87c861acc0"
+        },
+        {
+          "id": "#7068c363-9b64-4d79-9582-7e87604411ec"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#068656c3-2d57-4b7c-bd34-2096c3809eef",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#6772b0a9-91cf-46ba-a921-8ea74463ea29"
+        },
+        {
+          "id": "#e7d33a3b-e3d5-4e65-babf-43e621444ef4"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#c1ff10e1-5a76-48cb-9e4a-e6894655b8f6",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#bb1c50df-0bb9-405b-a7b8-6bc9f4215092"
+        },
+        {
+          "id": "#6772b0a9-91cf-46ba-a921-8ea74463ea29"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#e3d6d64f-f085-42e7-9623-353c3b9db751",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#caa5c556-fe07-4ffe-9d89-7f4410957f03"
+        },
+        {
+          "id": "#7068c363-9b64-4d79-9582-7e87604411ec"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#7bfc1d4a-5c0a-4ec6-927e-820d30243f5f",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#934762bf-1251-4203-823f-1744f5681f00"
+        },
+        {
+          "id": "#c07c4518-133d-4a84-8d6b-66b854bb9e82"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#0b79b399-c260-4f7d-8fd5-a74c0bb1d722",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#919e8cf6-f30e-4f26-a5fa-09110ed7bbd2"
+        },
+        {
+          "id": "#46a50bf8-adda-4da2-854f-e4fd20923bdd"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#48b34c66-fbc0-4a18-8cd4-31ba8e1b36d9",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#46a50bf8-adda-4da2-854f-e4fd20923bdd"
+        },
+        {
+          "id": "#c2d512f1-7db0-4efc-ac56-30fa58edd471"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#47664d5a-351d-452b-9e62-b50cb2dca5de",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#d2f22a04-2a62-4ce6-bdd3-009a198b090f"
+        },
+        {
+          "id": "#13a792ac-3c2f-4d40-8c4a-13df328b1db3"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#21fe1318-44c3-4e50-89aa-1952762ec2a3",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#02b51b86-1609-4198-b17c-49d40f15bd78"
+        },
+        {
+          "id": "#d2f22a04-2a62-4ce6-bdd3-009a198b090f"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#0373d504-1e6a-45d0-b0b3-fe661a732898",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#e3c65028-1a7e-4e6d-8d5f-e72638467015"
+        },
+        {
+          "id": "#02b51b86-1609-4198-b17c-49d40f15bd78"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#5c187ffe-6ad6-4ba3-9149-779d455694c0",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#183ed4f3-ac90-4dfa-b0c6-18a78c04ec28"
+        },
+        {
+          "id": "#41545d29-90cf-4d74-b67d-a7ee6fde478e"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#757c3dcc-b502-4a30-bff5-46fdd2743cd2",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#41545d29-90cf-4d74-b67d-a7ee6fde478e"
+        },
+        {
+          "id": "#fd106f6b-ac3b-4d9a-9e4d-361624adca8b"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#28211134-4fb9-491b-b734-4ba3a4948c25",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#5f9af022-75ec-4f04-be87-afbd7f714754"
+        },
+        {
+          "id": "#e7fb89b7-70b7-4040-9a9c-c87e112407bc"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#68230103-5363-4a37-b6b3-2adf0dbb99c2",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#a40413f5-9fab-4406-8ddc-a8281faa0609"
+        },
+        {
+          "id": "#e7fb89b7-70b7-4040-9a9c-c87e112407bc"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#469ee1ee-f03b-4d6a-97dc-21407935b08e",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#9d1cec81-08a2-4602-b34a-b2c5e0175783"
+        },
+        {
+          "id": "#e7fb89b7-70b7-4040-9a9c-c87e112407bc"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#9030b8bf-b9db-4c75-bbcd-69698f94c4c7",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#b17fecef-1089-4090-b3be-5e347fa7069f"
+        },
+        {
+          "id": "#fd6515af-8f60-4930-9e8b-5e6a856ec7d2"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#04491652-529e-4a75-8f61-7e12758fd829",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#b25e42b6-3a32-4a34-afc1-d79171a66d77"
+        },
+        {
+          "id": "#eb2a25ef-d681-472a-90b0-0f0456a5901b"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#795c73cf-91ae-49f1-9036-b42e96e324d9",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#a85742d7-a27f-4444-acd4-4999b16baab7"
+        },
+        {
+          "id": "#791c3b65-8e1f-4175-a08f-9c44b416392b"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#dea33f6b-1453-4732-8c7c-5258e64d2d99",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#e7d33a3b-e3d5-4e65-babf-43e621444ef4"
+        },
+        {
+          "id": "#443d5fac-9fdc-45d4-9ab0-64f3e56392c0"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#446a1846-419e-4919-b74b-0779b9d78561",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Attack",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#4c811266-ccc6-4c4d-b6c3-5686e70b7e39"
+        },
+        {
+          "id": "#443d5fac-9fdc-45d4-9ab0-64f3e56392c0"
+        }
+      ],
+      "motivation": "linking"
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "type": "Annotation",
+      "id": "#a4a73349-5c14-48ea-a754-9d82a521e857",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Support",
+          "purpose": "tagging"
+        }
+      ],
+      "target": [
+        {
+          "id": "#13a792ac-3c2f-4d40-8c4a-13df328b1db3"
+        },
+        {
+          "id": "#919e8cf6-f30e-4f26-a5fa-09110ed7bbd2"
+        }
+      ],
+      "motivation": "linking"
+    }
+  ]
+}

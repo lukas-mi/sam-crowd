@@ -1,0 +1,46 @@
+T1	Claim 110 200	Cook teachers and natural scientists must experiment together with tasty and green cooking
+A1	Stance T1 For
+T2	MajorClaim 202 277	It is crucial to ensure that Danes have more climate-friendly eating habits
+T3	Claim 301 345	The current food systems are not sustainable
+A2	Stance T3 For
+T4	Premise 347 448	Our food production, large food waste and meat-centric food culture constitute a significant C02 load
+T5	Premise 450 516	The demand for climate-friendly alternatives to meat is increasing
+T6	Claim 522 573	we all need to adopt new, sustainable eating habits
+A3	Stance T6 For
+T7	MajorClaim 579 700	if climate considerations are to be something we take for granted, everyday climate-friendly choices must be easy to make
+T8	Claim 702 936	The food must taste so good that you want to eat the climate-friendly dish again - and again - and again - and again, until it has become a new everyday classic that can compare with sure hits such as spaghetti bolognese and meatballs
+A4	Stance T8 For
+T9	Premise 951 1053	research indicates that good taste is the most effective way to ensure that the new eating habits last
+T10	Claim 1055 1159	These kinds of challenges call for gastronomic innovation, and newly trained chefs are our greatest hope
+A5	Stance T10 For
+T11	Premise 1161 1264	As leading men and women for a greener gastronomy, they can make us think new things in our own kitchen
+T12	Premise 1266 1405	It is chefs who inspire us when they make meal boxes, food in the canteens at our work, food in the media and food in restaurants and cafes
+T13	Claim 1458 1670	Young chefs must therefore learn more about food's climate footprint and be able to find innovative answers to the question of how to actually approach it if you want to eat climate-friendly in your everyday life
+A6	Stance T13 For
+T14	Premise 1672 1815	But both they and their teachers need extra science knowledge in the chef's hat to be able to create sustainable, practical and tasty solutions
+T15	Premise 2236 2332	In Denmark, we are in such a good position to have both leading subject teachers and researchers
+T16	Premise 2334 2442	The Danish gastronomy education is famous abroad for delivering some of the world's best newly trained chefs
+T17	Premise 2444 2577	Their teachers possess unique craftsmanship skills, they know what works in the kitchen and they have a sense for creating good taste
+T18	Premise 2579 2718	Danish researchers in sensorics and gastrophysics continuously offer new suggestions on how we can make our food more sustainable and tasty
+T19	Premise 2720 2923	They have experience in translating that research into practice through collaboration with chefs, for example in the now closed Nordic Food Lab and in the research and dissemination center Smag for Lifet
+T20	Claim 2925 3068	If we bring them together, we can train future chefs, gastronomists and other food professionals to be at the forefront of the green transition
+A7	Stance T20 For
+T21	Premise 3120 3351	Over the next 2.5 years, both teachers and students here will become smarter about reducing food's climate impact by understanding the origin of food and innovating on raw materials, preparation techniques and the dishes we all eat
+T22	Premise 3353 3592	There will be a focus on how the production of food affects our climate, and how the components of climate-friendly raw materials and the food preparation processes provide the taste that we all demand, regardless of climate considerations
+T23	Claim 3594 3759	Because we humans like the sweet and umami, the creamy and crunchy, the things that stimulate all our senses - and that's how climate-friendly food should also taste
+A8	Stance T23 For
+T24	Claim 3761 3884	This is how we can ensure that the food tastes good, and thus that the new and more climate-friendly eating habits continue
+A9	Stance T24 For
+R1	supports Arg1:T4 Arg2:T3	
+R2	supports Arg1:T5 Arg2:T6	
+R3	supports Arg1:T9 Arg2:T8	
+R4	supports Arg1:T12 Arg2:T11	
+R5	supports Arg1:T11 Arg2:T10	
+R6	supports Arg1:T14 Arg2:T13	
+R7	supports Arg1:T16 Arg2:T15	
+R8	supports Arg1:T17 Arg2:T16	
+R9	supports Arg1:T15 Arg2:T20	
+R10	supports Arg1:T21 Arg2:T20	
+R11	supports Arg1:T22 Arg2:T23	
+R12	supports Arg1:T19 Arg2:T18	
+R13	supports Arg1:T18 Arg2:T20	

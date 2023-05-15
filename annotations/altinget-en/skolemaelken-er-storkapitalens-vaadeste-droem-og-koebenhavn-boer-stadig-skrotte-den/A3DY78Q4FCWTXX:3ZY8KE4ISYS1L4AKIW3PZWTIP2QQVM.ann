@@ -1,0 +1,54 @@
+T1	Claim 1250 1304	school milk is most of all big capital's wettest dream
+A1	Stance T1 For
+T2	MajorClaim 1306 1469	It is also the unrestrained commercial entry of one industry - at the expense of other industries - into the primary school without special, weighty health reasons
+T3	Claim 1487 1524	school milk is also a climate emitter
+A2	Stance T3 For
+T4	Premise 1837 1914	the CO2 emission from milk production is higher than the emission from cement
+T5	Premise 1916 2145	Milk production also contributes to the cultivation of a colossal area of land that could have been untouched nature for the sake of biodiversity, when we compare with what almond milk, rice milk and soy milk use in terms of area
+T6	Premise 2178 2255	the Dane's milk consumption on average emits around 250 kilos of CO2 per year
+T7	Premise 2267 2417	more than 600 liters of water must be used on average – equivalent to an entire rubbish container in your backyard – to produce just one liter of milk
+T8	Claim 2479 2784	does anyone think that the Dairy Association supports the school milk for purely altruistic reasons, or are the unreasonable number of Facebook ads for the school milk connected to the fact that there is great profit in establishing a high milk consumption among children at the age when habits are formed
+A3	Stance T8 For
+T9	Claim 2786 2991	The different colored plastic lids and collectable stickers that belong to the school milk scream of the advertising industry's unrestrained entry into the most sacred halls we have - namely our classrooms
+A4	Stance T9 For
+T10	Claim 2996 3144	the school milk advocates have fallen in love with the Dairy Association's message that children should have more than 250 milliliters of milk a day
+A5	Stance T10 Against
+T11	Premise 3233 3292	Danes are not in a milk deficit from an average perspective
+T12	Premise 3304 3415	only 24 percent of the children in Copenhagen use the scheme according to the Children and Youth Administration
+T13	Claim 3438 3584	the user payment element means that it is unlikely that children from vulnerable areas use the school milk more than children from housing estates
+A6	Stance T13 For
+T14	Premise 3630 3671	we are in deficit of a sea of other foods
+T15	Premise 3673 3823	According to the Danish Health Authority, 92 percent of Danish men and 87 percent of Danish women, for example, do not get enough fruit and vegetables
+T16	Premise 3855 3969	the emphasis in the new dietary guidelines is that we must eat more climate-friendly, including a plant-based diet
+T17	Claim 3971 4172	You could choose to politically support this instead, as there is – to a certain extent – the possibility of converting EU support for school milk so that it becomes EU support for fruit and vegetables
+A7	Stance T17 For
+T18	Premise 4174 4276	The technical staff who distribute school milk today could, after all, distribute fruit and vegetables
+T19	Premise 4313 4395	no one questions the Danish Food and Food Administration's recommendations on milk
+T20	Premise 4397 4502	Depending on age, we should drink 250 milliliters of milk and eat between 15 and 20 grams of cheese a day
+T21	Claim 4513 4667	as the Danish Veterinary and Food Administration has just confirmed, there are no recommendations for when the milk should be drunk or who should serve it
+A8	Stance T21 For
+T22	Claim 5001 5136	the debate about school milk is embodied an important question about what we should do with the children's food education in the future
+A9	Stance T22 For
+T23	Claim 5202 5387	it has much more perspective for the children's food education when we as a municipality support sustainable, climate-friendly diet and of course the many diverse purposes that food has
+A10	Stance T23 For
+T24	Claim 5389 5489	Food can be a boost for the community and the taste buds - far more than that commercial school milk
+A11	Stance T24 For
+T25	MajorClaim 5705 5835	school milk is in reality neither a green nor a liberal project, but rather one branch's special commercial access to the children
+T26	Claim 5837 5934	Without heavy health-related justifications and directly against our Copenhagen climate ambitions
+A12	Stance T26 For
+T27	Claim 5936 6065	In the name of the climate, biodiversity and free competition, I therefore say: Slaughter the sacred cow and drop the school milk
+A13	Stance T27 For
+T28	Claim 6071 6154	let's instead support the children's green eating and drinking habits going forward
+A14	Stance T28 For
+R1	attacks Arg1:T11 Arg2:T10	
+R2	supports Arg1:T12 Arg2:T13	
+R3	supports Arg1:T7 Arg2:T6	
+R4	supports Arg1:T6 Arg2:T5	
+R5	supports Arg1:T5 Arg2:T4	
+R6	supports Arg1:T4 Arg2:T3	
+R7	supports Arg1:T15 Arg2:T14	
+R8	attacks Arg1:T16 Arg2:T15	
+R9	supports Arg1:T14 Arg2:T17	
+R10	supports Arg1:T18 Arg2:T17	
+R11	supports Arg1:T20 Arg2:T19	
+R12	supports Arg1:T19 Arg2:T21	
