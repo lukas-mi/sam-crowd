@@ -7,7 +7,7 @@ import scoring_utils as sutils
 
 
 def main(multi_ann_path):
-    mrps = sutils._read_mrp(multi_ann_path)
+    mrps = sutils.read_mrp(multi_ann_path)
 
     mrps_by_articles = defaultdict(list)
     for mrp in mrps:

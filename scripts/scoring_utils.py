@@ -47,7 +47,7 @@ class Scorer:
         }
 
 
-def _read_mrp(fp: str):
+def read_mrp(fp: str):
     with open(fp, 'r') as f:
         jds = [json.loads(l) for l in f.readlines() if l]
     return jds
