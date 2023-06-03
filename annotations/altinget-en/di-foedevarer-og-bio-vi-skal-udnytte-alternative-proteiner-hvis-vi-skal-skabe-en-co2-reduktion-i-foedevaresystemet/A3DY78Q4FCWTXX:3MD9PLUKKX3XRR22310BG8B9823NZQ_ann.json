@@ -216,11 +216,11 @@
         "selector": [
           {
             "type": "TextQuoteSelector",
-            "exact": "t's fermentation that brews the enzymes in your toothpaste, that turns milk into cheese and yogurt, and that can turn beans into juicy burger patties"
+            "exact": "It's fermentation that brews the enzymes in your toothpaste, that turns milk into cheese and yogurt, and that can turn beans into juicy burger patties"
           },
           {
             "type": "TextPositionSelector",
-            "start": 1509,
+            "start": 1508,
             "end": 1658
           }
         ]
@@ -616,11 +616,11 @@
         "selector": [
           {
             "type": "TextQuoteSelector",
-            "exact": "o support the development of new, fermented foods and secure the foundation for us to grow proteins in steel tanks with precision fermentation"
+            "exact": "To support the development of new, fermented foods and secure the foundation for us to grow proteins in steel tanks with precision fermentation"
           },
           {
             "type": "TextPositionSelector",
-            "start": 3528,
+            "start": 3527,
             "end": 3670
           }
         ]

@@ -191,11 +191,11 @@
         "selector": [
           {
             "type": "TextQuoteSelector",
-            "exact": "t is not only experiences such as the horrific testimonies about working conditions and sexist culture mentioned in Politiken that make more skilled chefs nervous, but also the great focus on climate-sinning lost hare, chops and meatballs, which deters young people from attending the training"
+            "exact": "It is not only experiences such as the horrific testimonies about working conditions and sexist culture mentioned in Politiken that make more skilled chefs nervous, but also the great focus on climate-sinning lost hare, chops and meatballs, which deters young people from attending the training"
           },
           {
             "type": "TextPositionSelector",
-            "start": 1239,
+            "start": 1238,
             "end": 1532
           }
         ]
@@ -316,11 +316,11 @@
         "selector": [
           {
             "type": "TextQuoteSelector",
-            "exact": "he book defines the content of the education, academic goals, description of the goals of the internship and which recipes the students can come up with for the apprentice test"
+            "exact": "The book defines the content of the education, academic goals, description of the goals of the internship and which recipes the students can come up with for the apprentice test"
           },
           {
             "type": "TextPositionSelector",
-            "start": 2032,
+            "start": 2031,
             "end": 2208
           }
         ]

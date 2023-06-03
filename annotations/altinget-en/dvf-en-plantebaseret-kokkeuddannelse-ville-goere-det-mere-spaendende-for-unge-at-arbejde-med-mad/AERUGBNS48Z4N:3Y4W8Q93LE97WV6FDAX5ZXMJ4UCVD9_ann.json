@@ -216,12 +216,12 @@
         "selector": [
           {
             "type": "TextQuoteSelector",
-            "exact": "It is not only experiences such as the horrific testimonies about working conditions and sexist culture mentioned in Politiken that make more skilled chefs nervous, but also the great focus on climate-sinning lost hare, chops and meatballs, which deters young people from attending the training."
+            "exact": "It is not only experiences such as the horrific testimonies about working conditions and sexist culture mentioned in Politiken that make more skilled chefs nervous, but also the great focus on climate-sinning lost hare, chops and meatballs, which deters young people from attending the training"
           },
           {
             "type": "TextPositionSelector",
             "start": 1238,
-            "end": 1533
+            "end": 1532
           }
         ]
       },

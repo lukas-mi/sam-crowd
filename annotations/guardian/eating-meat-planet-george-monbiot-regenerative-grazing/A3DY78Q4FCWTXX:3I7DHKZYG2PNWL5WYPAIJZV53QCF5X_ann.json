@@ -141,11 +141,11 @@
         "selector": [
           {
             "type": "TextQuoteSelector",
-            "exact": "opsoils, which we use to grow 95% of the world\u2019s food, are depleting at an astonishing rate"
+            "exact": "Topsoils, which we use to grow 95% of the world\u2019s food, are depleting at an astonishing rate"
           },
           {
             "type": "TextPositionSelector",
-            "start": 1264,
+            "start": 1263,
             "end": 1355
           }
         ]

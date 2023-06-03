@@ -8,7 +8,7 @@ T6	Premise 824 1007	In a debate at the Alting on 9 May, Kasper Fogh Hansen, chai
 T7	Premise 1018 1112	the number of students on the cookery course has fallen by a third in the last couple of years
 T8	Claim 1132 1335	we know that there is actually a large crowd of vegetarians, vegans and climate-conscious young people out there who would consider a chef's degree if it were up-to-date, visionary, green and plant-based
 A2	Stance T8 For
-T9	Claim 1337 1632	It is not only experiences such as the horrific testimonies about working conditions and sexist culture mentioned in Politiken that make more skilled chefs nervous, but also the great focus on climate-sinning lost hare, chops and meatballs, which deters young people from attending the training.
+T9	Claim 1337 1631	It is not only experiences such as the horrific testimonies about working conditions and sexist culture mentioned in Politiken that make more skilled chefs nervous, but also the great focus on climate-sinning lost hare, chops and meatballs, which deters young people from attending the training
 A3	Stance T9 For
 T10	MajorClaim 1633 1839	Therefore, the government and the supporting parties should prioritize funding the development of plant-based cooking education, which can secure Denmark's place on the gastronomically sustainable world map
 T11	Claim 1841 1920	Because young people are climate-conscious and prioritize climate-friendly food

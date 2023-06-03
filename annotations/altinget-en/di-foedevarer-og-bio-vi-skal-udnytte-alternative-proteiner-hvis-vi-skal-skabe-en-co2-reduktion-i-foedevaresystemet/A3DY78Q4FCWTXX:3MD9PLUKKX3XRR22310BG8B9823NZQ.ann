@@ -9,7 +9,7 @@ T6	Claim 1205 1369	The proteins come from, among other things, beans and quinoa,
 A3	Stance T6 For
 T7	Premise 1385 1474	technology allows us to cultivate new, amazing tastes and can add future food experiences
 T8	Premise 1476 1615	Fermentation is, on an equal footing with biorefining, one of the core technologies within biological solutions, also known as biosolutions
-T9	Premise 1618 1767	t's fermentation that brews the enzymes in your toothpaste, that turns milk into cheese and yogurt, and that can turn beans into juicy burger patties
+T9	Premise 1617 1767	It's fermentation that brews the enzymes in your toothpaste, that turns milk into cheese and yogurt, and that can turn beans into juicy burger patties
 T10	Claim 1812 1965	The development of new alternative proteins will not only mean that our protein consumption will require significantly less use of the globe's land areas
 A4	Stance T10 For
 T11	Claim 1967 2057	It will also lead to CO2 reductions and feed more mouths with the same amount of resources
@@ -29,7 +29,7 @@ T22	Premise 3196 3310	On top of December's global biodiversity conference (COP15
 T23	Premise 3322 3379	we are running out of room for an ever-growing population
 T24	Claim 3581 3634	we must make it easier to get new foods on the market
 A7	Stance T24 For
-T25	Claim 3637 3779	o support the development of new, fermented foods and secure the foundation for us to grow proteins in steel tanks with precision fermentation
+T25	Claim 3636 3779	To support the development of new, fermented foods and secure the foundation for us to grow proteins in steel tanks with precision fermentation
 A8	Stance T25 For
 T26	Claim 3781 3913	To design our EU legislation to include an innovation principle when we assess biosolutions that can deliver on our green objectives
 A9	Stance T26 For

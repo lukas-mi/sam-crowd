@@ -716,11 +716,11 @@
         "selector": [
           {
             "type": "TextQuoteSelector",
-            "exact": "his kind of initiative can pave the way for the necessary introduction of legumes into our own cooking at home"
+            "exact": "this kind of initiative can pave the way for the necessary introduction of legumes into our own cooking at home"
           },
           {
             "type": "TextPositionSelector",
-            "start": 4307,
+            "start": 4306,
             "end": 4417
           }
         ]

@@ -91,12 +91,12 @@
         "selector": [
           {
             "type": "TextQuoteSelector",
-            "exact": "it seems that Venstre, as a classic Danish agricultural party, will support that cours"
+            "exact": "it seems that Venstre, as a classic Danish agricultural party, will support that course"
           },
           {
             "type": "TextPositionSelector",
             "start": 760,
-            "end": 846
+            "end": 847
           }
         ]
       },
