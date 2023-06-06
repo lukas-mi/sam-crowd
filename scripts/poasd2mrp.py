@@ -35,7 +35,7 @@ def convert(article_path, annotations_path):
         with open(ann_fp, 'r') as f:
             ann_lines = f.readlines()
 
-        mrp = parsing_utils.read_brat(ann_id, ann_lines, txt, 'aaec', 'AAEC_')
+        mrp = parsing_utils.read_brat(ann_id, ann_lines, txt, 'aaec_essay', 'AAEC_')
         mrp = parsing_utils.reverse_edge(mrp=mrp)
         mrp = parsing_utils.sort_mrp_elements(mrp=mrp)
         mrps.append(mrp)
