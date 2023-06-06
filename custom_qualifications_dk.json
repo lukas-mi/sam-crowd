@@ -7,11 +7,7 @@
         ]
     },
     {
-        "QualificationTypeId": "39G8RJBX09KE2RRLBV0601U6RCDSFZ",
-        "Comparator": "DoesNotExist"
-    },
-    {
-        "QualificationTypeId": "3CB2DOZURAVZYSRHUAJJXN3MT0UVAU",
-        "Comparator": "DoesNotExist"
+        "QualificationTypeId": "<CHANGE TO A VALID QUALIFICATION ID>",
+        "Comparator": "Exists"
     }
 ]
