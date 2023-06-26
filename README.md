@@ -1,4 +1,4 @@
-# Structured Argument Mining Crowdsourcing
+# Structured Argument Annotation via Crowdsourcing
 This is a code repository for structured argument mining experiment, including the corpus and the service used for data collection:
 - [The Corpus](#the-corpus-persuasive-online-articles-on-sustainable-diets-poasd)
 - [The Service](#the-service)
